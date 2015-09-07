@@ -33,7 +33,7 @@ CXXFLAGS = $(CXXOPT) $(CXXDEBUG) $(CXXWARNINGS) $(CXXSTUFF)
 LDLIBS = -lm $(LDLIBS_ADDITIONAL) #-ltrie -lg -lc_p #-lstdc++ 
 
 # optimizations for this architecture
-ARCHOPTIM = -march=pentium4 #-D__USE_MALLOC
+ARCHOPTIM = #-D__USE_MALLOC
 
 #See if we're using pmake
 #ifdef .PMAKE
