@@ -879,7 +879,7 @@ void applyBestRule (const Rule &bestRule)
 
 	int min_pos = std::max(-PredicateTemplate::MaxBackwardLookup, 
 			       static_cast<int>(j+PredicateTemplate::MaxBackwardLookup)),
-	  max_pos = std::min(corpus[i].size()-1-PredicateTemplate::MaxForwardLookup, 
+	  max_pos = std::min(static_cast<unsigned int>(corpus[i].size()-1-PredicateTemplate::MaxForwardLookup),
 			     static_cast<unsigned int>(j+PredicateTemplate::MaxForwardLookup));
 
 	for(int k=min_pos ; k<=max_pos ; ++k) {
