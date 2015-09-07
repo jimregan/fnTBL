@@ -30,7 +30,7 @@ TBL_SOURCES = ${INCDIR}/AtomicPredicate.h ${INCDIR}/Constraint.h ${INCDIR}/Conta
 CXXFLAGS = $(CXXOPT) $(CXXDEBUG) $(CXXWARNINGS) $(CXXSTUFF)
 
 # math library
-LDLIBS = -lm -static $(LDLIBS_ADDITIONAL) #-ltrie -lg -lc_p #-lstdc++ 
+LDLIBS = -lm $(LDLIBS_ADDITIONAL) #-ltrie -lg -lc_p #-lstdc++ 
 
 # optimizations for this architecture
 ARCHOPTIM = -march=pentium4 #-D__USE_MALLOC
