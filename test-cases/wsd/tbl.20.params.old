@@ -1,0 +1,20 @@
+MAIN      = .;
+
+FILE_TEMPLATE         =  ${MAIN}/file.20.templ;
+RULE_TEMPLATES   =  ${MAIN}/rule.20.templ;
+REASONABLE_SPLIT      = 10;
+REASONABLE_DT_SPLIT	  = 5;
+EMPTY_LINES_ARE_SEPARATORS = 0;
+ELIMINATION_THRESHOLD = 0;
+MINIMUM_ENTROPY_GAIN  = 0.01;
+NULL_FEATURES          = -;
+TRUTH_SEPARATOR        = |;
+
+# Ordering the rules based on size: 
+#  0 = more atomic predicates go first 
+#  1 = less atomic predicates go first
+#  2 = the template first in the rule template list first
+ORDER_BASED_ON_SIZE    = 2;
+
+#CONSTRAINTS_FILE = constraint.100.templ;
+DONT_COLLAPSE_SAMPLES = 1;

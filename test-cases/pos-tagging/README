@@ -1,0 +1,28 @@
+2. Testing
+
+  To test POS tagging (the only task provided so far), change to the
+directory $BASE_DIR/test-case/pos-tagging, and run the following
+command:
+
+ ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params \
+	-r 0.4 -R lexical.rls,context.rls -S 11.part1,11.part2 \
+	-t NN,NNP -T 2,2 -f 5 -v -D my_pos_dir 11
+
+ (omit the -v flag if you don't want to see things flying on the
+screen :) - or you could possibly redirect the stderr to a file, for
+later examination).  When the command finishes (if it finishes
+correctly), you can run the following command:
+
+ ../../exec/pos-apply.prl -D my_pos_dir -v 22
+   
+The results obtained (22.res and the 2 rule files lexical.rls and
+context.rls) should be similar (but not necessarily identical, because
+of the randomness involved in creating the files) to the corresponding
+"official" ones 22.official.res, lexical.official.rls and
+context.official.rls - if they are significantly different, probably
+something went wrong. If the flag -S is used (as in the previous
+command) and the files 11.part1 and 11.part2 are identical to the ones
+in the distribution, then the output rule files should be identical to
+the ones provided (the "official" ones); same with the output file
+(22.res).
+

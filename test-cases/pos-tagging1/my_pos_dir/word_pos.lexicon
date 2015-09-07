@@ -1,0 +1,14424 @@
+#pattern: 0=>1
+1-grams: -----
+! .
+# #
+$ $
+% NN JJ
+& CC SYM
+' POS ''
+'' ''
+'30s CD
+'40s CD
+'50s CD
+'80s CD
+'82 CD
+'86 CD
+'S VBZ
+'d MD VBD
+'ll MD
+'m VBP
+'re VBP
+'s POS VBZ PRP
+'ve VBP
+( (
+) )
+, ,
+- :
+-- :
+. .
+... :
+0.02 CD
+0.05 CD
+0.1 CD
+0.16 CD
+0.17 CD
+0.19 CD
+0.2 CD
+0.25 CD
+0.28 CD
+0.3 CD
+0.4 CD
+0.5 CD
+0.50 CD
+0.54 CD
+0.55 CD
+0.6 CD
+0.60 CD
+0.7 CD
+0.82 CD
+0.84 CD
+0.9 CD
+0.94 CD
+0.99 CD
+1 CD LS
+1,000 CD
+1,001 CD
+1,050,000 CD
+1,100 CD
+1,111 CD
+1,200 CD
+1,214 CD
+1,250 CD
+1,298 CD
+1,400 CD
+1,460 CD
+1,500 CD
+1,570 CD
+1,620 CD
+1,640 CD
+1,800 CD
+1,880 CD
+1.1 CD
+1.11 CD
+1.12 CD
+1.125 CD
+1.14 CD
+1.1650 CD
+1.17 CD
+1.175 CD
+1.18 CD
+1.19 CD
+1.2 CD
+1.20 CD
+1.24 CD
+1.25 CD
+1.26 CD
+1.3 CD
+1.31 CD
+1.34 CD
+1.35 CD
+1.37 CD
+1.4 CD
+1.45 CD
+1.457 CD
+1.49 CD
+1.5 CD
+1.50 CD
+1.55 CD
+1.5805 CD
+1.5820 CD
+1.6 CD
+1.61 CD
+1.637 CD
+1.64 CD
+1.65 CD
+1.7 CD
+1.75 CD
+1.76 CD
+1.7600 CD
+1.78 CD
+1.8 CD
+1.80 CD
+1.82 CD
+1.8340 CD
+1.8415 CD
+1.8690 CD
+1.87 CD
+1.88 CD
+1.9 CD
+1.9000 CD
+1.916 CD
+1.92 CD
+10 CD
+10,000 CD
+10-day JJ
+10-lap JJ
+10-year JJ
+10.05 CD
+10.19 CD
+10.2 CD
+10.48 CD
+10.5 CD
+10.59 CD
+10.7 CD
+100 CD
+100,000 CD
+100-megabyte JJ
+100-share JJ
+101 CD
+101,250 CD
+101.225 CD
+102 CD
+103 CD
+105 CD
+106 CD
+107 CD
+107.03 CD
+107.9 CD
+108 CD
+108.8 CD
+109 CD
+109.73 CD
+109.85 CD
+1099 CD
+10th JJ
+11 CD
+11,000 CD
+11,390,000 CD
+11,450 CD
+11,762 CD
+11-member JJ
+11-month-old JJ
+11-week JJ
+11.08 CD
+11.1 CD
+11.10 CD
+11.6 CD
+11.72 CD
+11.80 CD
+11.95 CD
+110 CD
+111 CD
+112.9 CD
+113.2 CD
+114 CD
+114.3 CD
+114.63 CD
+115 CD
+116.3 CD
+116.4 CD
+116.7 CD
+116.9 CD
+118 CD
+119 CD
+11\/16 CD
+11th JJ
+12 CD
+12,252 CD
+12,275 CD
+12,345 CD
+12-inches NNS
+12-member JJ
+12-point JJ
+12-story-high JJ
+12.09 CD
+12.3 CD
+12.5 CD
+12.52 CD
+12.68 CD
+12.75 CD
+12.82 CD
+12.97 CD
+120 CD
+120,000 CD
+120-a-share JJ
+120-day JJ
+120.7 CD
+1206.26 CD
+121.6 CD
+122 CD
+124,875 CD
+125 CD
+126.15 CD
+128 CD
+129.91 CD
+12\/32 CD
+13 CD
+13,056 CD
+13,249 CD
+13.1 CD
+13.15 CD
+13.5 CD
+13.50 CD
+13.625 CD
+13.65 CD
+13.7 CD
+13.8 CD
+13.90 CD
+130 CD
+130.6 CD
+130.7 CD
+131.01 CD
+132,000 CD
+132.00 CD
+132.9 CD
+133 CD
+135 CD
+136,800 CD
+138 CD
+139.75 CD
+13\/16 CD
+14 CD
+14,821 CD
+14-hour JJ
+14-judge JJ
+14. CD
+14.00 CD
+14.13 CD
+14.25 CD
+14.26 CD
+14.43 CD
+14.5 CD
+14.50 CD
+14.75 CD
+140 CD
+141.9 CD
+141.90 CD
+142.15 CD
+142.80 CD
+142.84 CD
+142.85 CD
+142.95 CD
+143,800 CD
+144 CD
+145 CD
+1466.29 CD
+1472.76 CD
+148 CD
+148.9 CD
+149 CD
+149.9 CD
+14\/32 CD
+15 CD
+15,000 CD
+15-day JJ
+150 CD
+150,000 CD
+150-member JJ
+150.00 CD
+151 CD
+152,000 CD
+153 CD
+153.3 CD
+154,240,000 CD
+154.2 CD
+155 CD
+156 CD
+157 CD
+159.7 CD
+15\/16 CD
+16 CD
+16,000 CD
+16,072 CD
+16-year-olds NNS
+16.05 CD
+16.09 CD
+16.2 CD
+16.3 CD
+16.5 CD
+16.68 CD
+16.7 CD
+16.9 CD
+160 CD
+1614 CD
+1637 CD
+166 CD
+169.9 CD
+16\/32 CD
+16th-century JJ
+17 CD
+17,699 CD
+17-year-old JJ
+17.25 CD
+17.3 CD
+17.4 CD
+17.5 CD
+17.95 CD
+17.97 CD
+170 CD
+170,262 CD
+172.5 CD
+1721.4 CD
+1738.1 CD
+175 CD
+176 CD
+176.1 CD
+177 CD
+1787 CD
+179 CD
+18 CD
+18,000 CD
+18,444 CD
+18-a-share JJ
+18.3 CD
+18.6 CD
+18.69 CD
+18.8 CD
+18.95 CD
+180 CD
+182-day JJ
+184 CD
+185.9 CD
+1850 CD
+188 CD
+188.84 CD
+189.8 CD
+19 CD
+19,000 CD
+19-month-old JJ
+19-year-olds NNS
+19.6 CD
+19.7 CD
+19.95 CD
+190 CD
+190,000 CD
+190-point JJ
+1900s NNS
+1901 CD
+1903 CD
+1917 CD
+1920s CD NNS
+1925 CD
+1928-33 CD
+1929 CD
+193 CD
+1933 CD
+1934 CD
+1937-40 CD
+1940s CD
+1948 CD
+195 CD
+1950s CD
+1953 CD
+1954 CD
+1955 CD
+1956 CD
+1960s CD NNS
+1961 CD
+1963 CD
+1965 CD
+1966 CD
+1967 CD
+1968 CD
+1969 CD
+1970 CD
+1970s NNS CD
+1971 CD
+1972 CD
+1973 CD
+1973-75 CD
+1974 CD
+1975 CD
+1976 CD
+1977 CD
+1978 CD
+1979 CD
+1980 CD
+1980s CD NNS
+1981 CD
+1982 CD
+1983 CD
+1983-85 CD
+1984 CD
+1985 CD
+1986 CD
+1986-87 CD
+1987 CD
+1987-88 CD
+1988 CD
+1988-89 CD
+1988-return JJ
+1989 CD
+1989-90 CD
+1990 CD
+1990-91 CD
+1990s NNS
+1991 CD
+1991-1999 CD
+1992 CD
+1992-1999 CD
+1993 CD
+1994 CD
+1995 CD
+1996 CD
+1997 CD
+1999 CD
+19th-century JJ
+1:30 CD
+1\/10th NN
+1\/2 CD
+1\/4 CD
+1\/8 CD
+1st CD
+2 CD LS
+2%-3 JJ
+2,000 CD
+2,050-passenger JJ
+2,099 CD
+2,303,328 CD
+2,410 CD
+2,500 CD
+2,700 CD
+2,750 CD
+2-3 CD
+2-for-1 JJ
+2-to-1 JJ
+2.07 CD
+2.1 CD
+2.19 CD
+2.2 CD
+2.20 CD
+2.25 CD
+2.29 CD
+2.3 CD
+2.30 CD
+2.35 CD
+2.375 CD
+2.4 CD
+2.44 CD
+2.45 CD
+2.47 CD
+2.5 CD
+2.50 CD
+2.53 CD
+2.6 CD
+2.62 CD
+2.65 CD
+2.68 CD
+2.7 CD
+2.75 CD
+2.8 CD
+2.80 CD
+2.87 CD
+2.875 CD
+2.9 CD
+20 CD
+20,000 CD
+20-point JJ
+20-stock JJ
+20-year JJ
+20.07 CD
+20.39 CD
+200 CD
+200,000 CD
+2000 CD
+2001 CD
+2003\/2007 CD
+2004 CD
+2005 CD
+2008-2009 CD
+2009 CD
+200th JJ
+2017 CD
+2019 CD
+2029 CD
+203 CD
+204.3 CD
+208 CD
+20s CD
+20th JJ
+21 CD
+21-month JJ
+21.1 CD
+21.18 CD
+21.44 CD
+21.9 CD
+210,000 CD
+212 CD
+2120.5 CD
+2142.6 CD
+216 CD
+2160.1 CD
+2163.2 CD
+2170 CD
+22 CD
+22.61 CD
+22.75 CD
+22.8 CD
+220.45 CD
+221.4 CD
+2210 CD
+225 CD
+225,000 CD
+226,570,380 CD
+228 CD
+22\/32 CD
+23 CD
+23,403 CD
+23.25 CD
+23.4 CD
+23.5 CD
+230 CD
+230-215 CD
+232.4 CD
+234.4 CD
+235 CD
+236.74 CD
+236.79 CD
+237-seat JJ
+238,000-circulation JJ
+24 CD
+24,000 CD
+24.95 CD
+240 CD
+240,000 CD
+240-page JJ
+240SX NNP
+241 CD
+242 CD
+244,000 CD
+245 CD
+25 CD
+25,000 CD
+25-year-old JJ
+25.5 CD
+25.6 CD
+25.7 CD
+250 CD
+250,000 CD
+251 CD
+251.2 CD
+257 CD
+257.8 CD
+26 CD
+26,000 CD
+26.2 CD
+26.8 CD
+260 CD
+263.07 CD
+2645.08 CD
+2645.90 CD
+266 CD
+267 CD
+2680 CD
+2692.65 CD
+27 CD
+27,500 CD
+27-year JJ
+27.1 CD
+27.125 CD
+27.4 CD
+27.6 CD
+27.875 CD
+270 CD
+271,124 CD
+271-147 CD
+273 CD
+274 CD
+278.7 CD
+28 CD
+28.25 CD
+28.36 CD
+28.5 CD
+28.53 CD
+282 CD
+283-132 JJ
+283.9 CD
+286 CD
+288 CD
+29 CD
+29.4 CD
+29.9 CD
+292.32 CD
+2\/32 CD
+3 CD LS
+3,040,000 CD
+3,250,000 CD
+3,288,453 CD
+3,500 CD
+3,600 CD
+3.04 CD
+3.1 CD
+3.10 CD
+3.14 CD
+3.16 CD
+3.18 CD
+3.19 CD
+3.2 CD
+3.20 CD
+3.253 CD
+3.28 CD
+3.3 CD
+3.35 CD
+3.375 CD
+3.4 CD
+3.40 CD
+3.42 CD
+3.45 CD
+3.5 CD
+3.53 CD
+3.55 CD
+3.59 CD
+3.6 CD
+3.61 CD
+3.625 CD
+3.7 CD
+3.75 CD
+3.8 CD
+3.89 CD
+3.9 CD
+30 CD
+30,000 CD
+30,180 CD
+30,537 CD
+30,841 CD
+30-day JJ
+30-point JJ
+30-share JJ
+30-year JJ
+30-year-old JJ
+30.2 CD
+30.4 CD
+30.6 CD
+30.7 CD
+300 CD
+300-113 CD
+300-a-share JJ
+300-day JJ
+300ZX NNP
+301 CD
+3057 CD
+306 CD
+30s CD NNS
+31 CD
+31-year-old JJ
+31.2 CD
+31.25 CD
+310 CD
+313 CD
+313.2 CD
+319.75 CD
+32 CD
+32.5 CD
+320 CD
+321,000 CD
+325,000 CD
+326 CD
+33 CD
+33,000 CD
+330 CD
+331,000 CD
+334.5 CD
+34 CD
+34.2 CD
+34.625 CD
+340,000 CD
+341.20 CD
+343 CD
+3436.58 CD
+35 CD
+350 CD
+350,000 CD
+352 CD
+352-mile JJ
+352.7 CD
+352.9 CD
+35500.64 CD
+35549.44 CD
+36-day JJ
+36-minute JJ
+36-store JJ
+36-year-old JJ
+36.6 CD
+36.9 CD
+361,376 CD
+361.8 CD
+362 CD
+3642.90 CD
+3648.82 CD
+368.3 CD
+37 CD
+37-a-share JJ
+37-year-old JJ
+37.3 CD
+37.5 CD
+37.75 CD
+370 CD
+372.9 CD
+374.70 CD
+375 CD
+377.60 CD
+38 CD
+38,000 CD
+38-year-old JJ
+38.5 CD
+38.75 CD
+380 CD
+382-37 CD
+386 CD
+387.8 CD
+388 CD
+39 CD
+39-year-old JJ
+39.125 CD
+397 CD
+3:15 CD
+3\/32 CD
+3\/4 CD
+3\/8 CD
+4 CD LS
+4,000 CD
+4,645 CD
+4.1 CD
+4.10 CD
+4.2 CD
+4.25 CD
+4.26 CD
+4.27 CD
+4.3 CD
+4.4 CD
+4.5 CD
+4.55 CD
+4.6 CD
+4.67 CD
+4.7 CD
+4.75 CD
+4.8 CD
+4.875 CD
+4.898 CD
+4.9 CD
+40 CD
+40,000 CD
+40,800 CD
+40-year-old JJ
+40.21 CD
+40.9 CD
+400 CD
+400,000 CD
+405 CD
+41 CD
+41,900 CD
+41.60 CD
+410,000 CD
+415 CD
+415.6 CD
+415.8 CD
+42 CD
+42,455 CD
+42-year JJ
+42.1 CD
+420 CD
+422.5 CD
+423 CD
+425,000 CD
+429.9 CD
+43 CD
+43.875 CD
+430 CD
+432.78 CD
+434.4 CD
+44 CD
+445 CD
+445.23 CD
+447.76 CD
+45 CD
+45,000 CD
+45-a-share JJ
+45-year-old JJ
+45.2 CD
+45.75 CD
+450 CD
+451 CD
+454 CD
+455.63 CD
+458 CD
+46 CD
+46.5 CD
+46.80 CD
+46.9 CD
+467 CD
+47 CD
+47-year-old JJ
+47.1 CD
+47.125 CD
+47.5 CD
+47.6 CD
+472 CD
+475 CD
+48 CD
+48-year-old JJ
+489.9 CD
+49 CD
+49.9 CD
+490 CD
+492 CD
+494.50 CD
+497.34 CD
+5 CD
+5,000 CD
+5,600 CD
+5,699 CD
+5-10 JJ
+5.1 CD
+5.16 CD
+5.2180 CD
+5.276 CD
+5.28 CD
+5.29 CD
+5.3 CD
+5.39 CD
+5.4 CD
+5.5 CD
+5.6 CD
+5.63 CD
+5.7 CD
+5.70 CD
+5.82 CD
+5.92 CD
+50 CD
+50,000 CD
+50-50 CD
+50-a-share JJ
+50-state JJ
+50.1 CD
+50.38 CD
+50.45 CD
+50.46 CD
+50.875 CD
+50.9 CD
+500 CD
+500,000 CD
+500,004 CD
+500-Stock NNP
+500-stock JJ
+501 CD
+50\/50 CD
+51 CD
+51.25 CD
+51.6 CD
+515 CD
+519 CD
+52 CD
+52.4 CD
+53 CD
+53-year-old JJ
+534 CD
+534,000 CD
+53rd CD
+54 CD
+54.5 CD
+54.9 CD
+542 CD
+545.3 CD
+55 CD
+55,500 CD
+55-year-old NN
+55.1 CD
+550 CD
+550,000 CD
+551 CD
+56 CD
+56.9 CD
+566.54 CD
+57 CD
+57.4 CD
+57.50 CD
+57.7 CD
+570 CD
+576 CD
+58 CD
+58-a-share JJ
+58-year-old JJ
+58.64 CD
+582 CD
+59 CD
+59-dealer JJ
+59-year-old JJ
+59.6 CD
+59.9 CD
+598 CD
+5\/16 CD
+5\/32 CD
+5\/8 CD
+6 CD
+6,000 CD
+6,500 CD
+6,799 CD
+6.03 CD
+6.056 CD
+6.1 CD
+6.2 CD
+6.20 CD
+6.25 CD
+6.4 CD
+6.40 CD
+6.44 CD
+6.5 CD
+6.50 CD
+6.6 CD
+6.7 CD
+6.70 CD
+6.79 CD
+6.84 CD
+6.9 CD
+60 CD
+60,000 CD
+60-year-old JJ
+600 CD
+600,000 CD
+605 CD
+608,413 CD
+609 CD
+61 CD
+61%-owned JJ
+610 CD
+618,000 CD
+618.1 CD
+62 CD
+62%-owned JJ
+62-year-old JJ
+62.1 CD
+62.25 CD
+62.5 CD
+62.625 CD
+620 CD
+63 CD
+63-year-old JJ
+63.6 CD
+63.79 CD
+630.9 CD
+64 CD
+64-year-old JJ
+64.2 CD
+644 CD
+645,000 CD
+65 CD
+65,200 CD
+65.7 CD
+66 CD
+67 CD
+67-year-old JJ
+67.40 CD
+670 CD
+672 CD
+68 CD
+68.5 CD
+69-point JJ
+692 CD
+693.4 CD
+6\/2 CD
+7 CD
+7,400 CD
+7,500 CD
+7.08 CD
+7.0808 CD
+7.0826 CD
+7.1 CD
+7.15 CD
+7.160 CD
+7.2 CD
+7.25 CD
+7.272 CD
+7.3 CD
+7.4 CD
+7.40 CD
+7.45 CD
+7.458 CD
+7.5 CD
+7.50 CD
+7.55 CD
+7.62 CD
+7.63 CD
+7.65 CD
+7.7 CD
+7.74 CD
+7.77 CD
+7.78 CD
+7.8 CD
+7.80 CD
+7.875 CD
+7.88 CD
+7.90 CD
+7.91 CD
+7.92 CD
+7.93 CD
+7.94 CD
+7.95 CD
+7.96 CD
+7.962 CD
+7.98 CD
+70 CD
+70-a-share JJ
+70.7 CD
+70.9 CD
+700 CD
+700,000 CD
+701 CD
+705.6 CD
+71 CD
+71,309 CD
+71.7 CD
+719,000 CD
+72 CD
+72-game JJ
+72.7 CD
+720,000 CD
+721 CD
+73 CD
+73.8 CD
+730 CD
+734.9 CD
+746 CD
+749 CD
+75 CD
+75-cent JJ
+75-cents-an-hour NNS
+75-year-old CD
+75.1 CD
+750 CD
+750,000 CD
+753 CD
+757-200s NNS
+767 CD
+77 CD
+77.3 CD
+77.6 CD
+777 CD
+778 CD
+779.8 CD
+78,600 CD
+78.64 CD
+79 CD
+79.18 CD
+790.2 CD
+7\/16 CD
+7\/8 CD
+8 CD
+8.0087 CD
+8.019 CD
+8.03 CD
+8.04 CD
+8.05 CD
+8.06 CD
+8.07 CD
+8.09 CD
+8.1 CD
+8.12 CD
+8.14 CD
+8.15 CD
+8.19 CD
+8.2 CD
+8.22 CD
+8.25 CD
+8.27 CD
+8.30 CD
+8.33 CD
+8.337 CD
+8.35 CD
+8.38 CD
+8.3875 CD
+8.395 CD
+8.40 CD
+8.44 CD
+8.45 CD
+8.467 CD
+8.47 CD
+8.48 CD
+8.49 CD
+8.5 CD
+8.50 CD
+8.53 CD
+8.55 CD
+8.56 CD
+8.575 CD
+8.61 CD
+8.62 CD
+8.63 CD
+8.64 CD
+8.65 CD
+8.70 CD
+8.75 CD
+8.9 CD
+8.95 CD
+80 CD
+80-page JJ
+80-plus JJ
+80.50 CD
+80.8 CD
+800 CD
+800,000 CD
+81 CD
+811.9 CD
+82 CD
+82,389 CD
+83 CD
+83.4 CD
+84-month JJ
+84-year-old JJ
+84.29 CD
+84.9 CD
+843 CD
+846 CD
+847 CD
+85 CD
+85.1 CD
+85.7 CD
+850 CD
+86.12 CD
+868 CD
+869 CD
+87-store JJ
+872 CD
+879 CD
+88 CD
+88.32 CD
+889,000 CD
+89 CD
+89.7 CD
+89.9 CD
+9 CD
+9,118 CD
+9.19 CD
+9.192 CD
+9.3 CD
+9.35 CD
+9.37 CD
+9.45 CD
+9.5 CD
+9.625 CD
+9.7 CD
+9.75 CD
+9.78 CD
+9.8 CD
+9.82 CD
+9.9 CD
+90 CD
+90,000 CD
+90-cent-an-hour JJ
+90-day JJ
+90.20 CD
+90.5 CD
+900 CD
+91 CD
+91-day JJ
+913 CD
+917 CD
+92 CD
+92.9 CD
+93 CD
+93.3 CD
+93.9 CD
+94,425,000 CD
+94.2 CD
+94.8 CD
+944 CD
+95 CD
+95,142 CD
+95.2 CD
+96 CD
+96.4 CD
+960 CD
+963 CD
+967,809 CD
+98 CD
+98.3 CD
+99 CD
+99.1 CD
+99.1875 CD
+99.3 CD
+99.75 CD
+992,000 CD
+9\/16 CD
+9\/32 CD
+: :
+; :
+? .
+A DT NN NNP
+A-D NNP
+A. NNP NN
+A.G. NNP
+A.L. NNP
+ABA NNP
+AC-130U NN
+ACCEPTANCES NNS
+ADRs NNPS NNS
+AFL-CIO NNP
+AG NNP
+AIDS NNP
+AMERICAN NNP
+AMR NNP
+AN DT
+AND CC NNP
+APPEARS VBZ
+ASEAN NNP
+ASLACTON NNP
+ASSETS NNPS
+ASSOCIATION NNP
+AT&T NNP
+AUDITS NNS
+AUTO NNP
+Abbey NNP
+Abbot NNP
+Aberdeen NNP
+About IN RB
+Above IN
+Abramson NNP
+Abrupt JJ
+Absorbed VBN
+Academically RB
+Acceptance NNP
+Accepted JJ
+Accord NNP
+According VBG
+Account NNP
+Accounting NNP NN
+Achenbaum NNP
+Achievement NNP
+Ackerman NNP
+Acquisition NNP
+Act NNP NN
+Action NNP
+Activity NN
+Actually RB
+Ad NN
+Adam NNP
+Adams NNP
+Added VBD
+Addison NNP
+Additionally RB
+Adds VBZ
+Administration NNP
+Advance NNP
+Advanced NNP
+Advancing VBG
+Advice NNP
+Advocates NNS
+Aerospace NN
+Affairs NNP NNPS
+Africa NNP
+African JJ NNP
+After IN RB
+Aga NNP
+Against IN
+Age NNP
+Agency NNP
+Agnelli NNP
+Agnelli-related JJ
+Agnellis NNPS
+Agnew NNP
+Agreement NN
+Agriculture NNP
+Aiken NNP
+Ailes NNP
+Air NNP NN
+Airlines NNPS
+Airport NNP
+Airways NNPS
+Akerfeldt NNP
+Akio NNP
+Al NNP
+Ala NNP
+Alabama NNP
+Alamos NNP
+Alan NNP
+Alaska NNP
+Albert NNP
+Albuquerque NNP
+Alex NNP
+Alexander NNP
+Alfred NNP
+Alice NNP
+Alisarda NNP
+Alisky NNP
+All DT PDT NNP
+Allan NNP
+Alleghany NNP
+Allen NNP
+Allendale NNP
+Allergan NNP
+Allied NNP
+Allies NNS
+Alltel NNP
+Almost RB
+Aloha NNP
+Along IN
+Already RB
+Also RB
+Alstyne NNP
+Although IN
+Alto NNP
+Altogether RB
+Alurralde NNP
+Alvin NNP
+Always RB
+Alysia NNP
+Alzheimer NNP
+Am VBP
+Amadou-Mahtar NNP
+Amateur JJ
+Amazing JJ
+Amendment NNP
+America NNP
+American JJ NNP NN
+American-made JJ
+American-style JJ
+Americana NNS
+Americans NNPS NNS
+Ames NNP
+Amin NNP
+Among IN
+Amsterdam NNP
+Amtran NNP
+An DT
+Ana NNP
+Analysts NNS
+Ancient NNP
+And CC
+Andean JJ
+Anderson NNP
+Andersson NNP
+Andrea NNP
+Andrew NNP
+Andrews NNP
+Andy NNP
+Angeles NNP
+Angell NNP
+Angelo NNP
+Angels NNPS
+Angier NNP
+Anglia NNP
+Angola NNP
+Animals NNS
+Anku NNP
+Ann NNP
+Anne NNP
+Annualized VBN
+Another DT
+Anthony NNP
+Antinori NNP
+Antitrust NNP
+Antonio NNP
+Anxiety NN
+Any DT
+Aoyama NNP
+Appell NNP
+Appellate NNP
+Apple NNP
+Appleyard NNP
+Applied NNP
+Appropriations NNP NNPS NNS
+April NNP
+Aquino NNP
+Arabia NNP
+Arbitrage NN
+Arbitraging VBG
+Arcata NNP
+Arco NNP
+Areas NNS
+Argentina NNP
+Argentine JJ
+Arighi NNP
+Ariz. NNP
+Arizona NNP
+Ark NNP
+Ark. NNP
+Arkansas NNP
+Arkoma NNP
+Arlington NNP
+Arm NN
+Armenia NNP
+Armenian JJ
+Armstrong NNP
+Army NNP
+Arnold NNP
+Arraignments NNS
+Arthur NNP
+Article NNP
+Articles NNPS
+Artist NNP
+Arts NNS
+As IN RB
+Asada NNP
+Asher NNP
+Ashurst NNP
+Asia NNP NN
+Asia-Pacific NNP
+Asian JJ NNP
+Asians NNPS
+Aside RB
+Asked VBN
+Aslacton NNP
+Assets NNS
+Assistant NNP
+Associates NNPS NNP NNS
+Association NNP
+Assume VB
+Assuming VBG
+At IN
+Atlanta NNP
+Atlantic NNP
+Atsushi NNP
+Attention VB
+Attorney NNP
+Auctions NNS
+Auditors NNS
+Audrey NNP
+Aug. NNP
+August NNP
+Augusta NNP
+Aurora NNP
+Austin NNP
+Australia NNP
+Australian JJ NNP
+Austrian JJ
+Author NN
+Authority NNP
+Automobile NNP
+Autry NNP
+Avena NNP
+Avenue NNP
+Average NNP JJ
+Aviation NNP
+Aviv NNP
+Avon NNP
+Azerbaijan NNP
+Azoff NNP
+B NNP
+B-1B JJ NN
+B. NNP
+B.A.T NNP
+BALANCES NNS
+BALLOT NN
+BANKERS NNS
+BELL NNP
+BILLS NNPS NNS
+BIRDS NNS
+BMP NN
+BMP-1 NN
+BNL NNP
+BRAMALEA NNP
+BRANDS NNPS
+BRITISH JJ
+BTR NNP
+Baa-1 JJ
+Babelists NNS
+Babies NNS
+Bach NNP
+Back RB
+Backer NNP
+Backseat NN
+Baer NNP
+Bailey NNP
+Bailiffs NNS
+Baim NNP
+Baja NNP NN
+Baker NNP
+Baking NNP
+Baldwin NNP
+Ballantine\/Del NNP
+Balloon NN NNP
+Ballot NN
+Baltimore NNP
+Banca NNP
+Bangkok NNP
+Bank NNP
+BankAmerica NNP
+Bankers NNP
+Banking NNP
+Bankruptcy NNP NN
+Banks NNS NNP
+Banxquote NNP
+Bar NNP
+Barbados NNP
+Barbara NNP
+Barbaresco NNP
+Barber NNP
+Barclays NNP
+Barely RB
+Barge NN
+Baris NNP
+Barnett NNP
+Barney NNP
+Barnum NNP
+Barr NNP
+Barred VBN
+Barrels NNS
+Barrett NNP
+Barron NNP
+Barth NNP
+Baseball NNP
+Basham NNP
+Basic JJ
+Basin NNP
+Baskets NNS
+Bass NNP
+Bates NNP
+Batman NNP
+Baton NNP
+Battle-tested JJ
+Baum NNP
+Beach NNP
+Beall NNP
+Bear NNP
+Bears NNS
+Beatrice NNP
+Beauty NN
+Because IN
+Bedford NNP
+Beer NNP
+Before IN
+Behind IN
+Beige NNP
+Beijing NNP
+Being VBG
+Beirut NNP
+Belgium NNP
+Bell NNP
+Bellows NNP
+Bells NNP
+Belt NNP
+Belzberg NNP
+Bendectin NNP
+Bennett NNP
+Benson NNP
+Berger NNP
+Berkeley NNP
+Berlin NNP
+Berliner NNP
+Berman NNP
+Bermuda NNP
+Bermuda-based JJ
+Bernstein NNP
+Berson NNP
+Bert NNP
+Berthold NNP
+Besides IN
+Beth NNP
+Bethlehem NNP
+Between IN
+Beverly NNP
+Bew NNP
+Bewkes NNP
+Bhutto NNP
+Bids NNS
+Biedermann NNP
+Big NNP JJ
+Bill NNP
+Biographical NNP
+Biondi-Santi NNP
+Biosource NNP
+Birmingham NNP
+Biscayne NNP
+Black NNP
+Blackstone NNP VBP
+Blair NNP
+Blanc NNP
+Blancs NNP
+Bloedel NNP
+Board NNP
+Bob NNP
+Boca NNP
+Bodner NNP
+Boeing NNP
+Boesel NNP
+Bognato NNP
+Bolduc NNP
+Bolivia NNP
+Bolton NNP
+Bon NNP
+Bond NN NNP
+Bonds NNS
+Bonfire NN
+Bonnell NNP
+Book NNP
+Boone NNP
+Boorse NNP
+Bordeaux NNP
+Borden NNP
+Borge NNP
+Borough NNP
+Bosco NNP
+Boston NNP
+Both DT
+Bougainville NNP
+Boulder NNP
+Bouygues NNP NNS
+Bowery NNP
+Bowes NNP
+Bowl NNP
+Bowman NNP
+Brace NNP
+Bradford NNP
+Bradley NNP
+Brady NNP
+Brahms NNP
+Braidwood NNP
+Bramalea NNP
+Bran NNP
+Branch NNP
+Brands NNP NNPS
+Brantford NNP
+Brauerei NNP
+Braumeisters NNPS
+Brazil NNP
+Brazilian JJ
+Breakey NNP
+Brent NNP
+Bretz NNP
+Brewing NNP
+Brezinski NNP
+Brian NNP
+Bribe NN
+Bricklayers NNPS
+Bridge NNP
+Bridgers NNP
+Bridges NNPS
+Bridgeville NNP
+Brigham NNP
+Bright JJ
+Brisk JJ
+Brissette NNP
+Britain NNP
+British JJ NNP NNPS
+British-owned JJ
+Broadcasting NNP
+Broberg NNP
+Broiler NN
+Broken NNP
+Bromley NNP
+Bronfman NNP
+Bronx NNP
+Brooke NNP
+Brooklyn NNP
+Bros. NNPS
+Brothers NNPS NNP
+Brown NNP
+Brownell NNP
+Brownstein NNP
+Bruce NNP
+Brunei NNP
+Brunello NNP
+Brunswick NNP
+Brussels NNP
+Bucking VBG
+Budget NNP
+Buick NNP
+Builders NNPS
+Building NNP
+Built VBN
+Bull NNP
+Bund NN
+Bundesbank NNP
+Burbank NNP
+Bureau NNP
+Burgess NNP
+Burgundies NNPS
+Burgundy NNP
+Burnham NNP
+Burton NNP
+Bush NNP
+Business NNP NN
+Buster NNP
+But CC IN
+Butler NNP
+Buy VB
+Buyers NNS
+Buying VBG
+By IN
+Byron NNP
+C$ $
+C'mon VB
+C. NNP
+C.D.s NNPS NNS
+C.J.B. NNP
+CALL JJ NNP
+CAT NNP
+CBS NNP
+CD NN
+CDC NNP
+CDs NNS
+CEO NNP
+CEOs NNS
+CERTIFICATES NNS
+CHANGED VBD
+CIA NNP
+CNW NNP
+COLLECTING NN
+COMMERCIAL JJ
+COMMUNICATIONS NNP
+COMPUTERS NNS
+COPPER NNP
+CORP NNP
+CORP. NNP
+CRAF-Cassini NNP
+CS NNP
+CSV NNP
+CTB NNP
+CTBS NNP
+CVN NNP
+Cab NNP
+Cabbage NNP
+Cabernet NNP
+Cabernets NNPS
+Cablevision NNP
+Caitlin NNP
+Calder NNP
+Caldor NNP
+Calif NNP
+Calif. NNP
+California NNP
+Californian NN
+Called VBN
+Cambodia NNP
+Cambodian JJ
+Cambria NNP
+Cambridge NNP
+Camille NNP
+Camilli NNP
+Camp NNP
+Campaign NN NNP
+Campaneris NNP
+Campbell NNP
+Campeau NNP
+Camry NNP
+Canada NNP
+Canadian JJ NNP
+Canberra NNP
+Cancer NNP
+Candela NNP
+Candlestick NNP
+Candu NNP
+Canepa NNP
+Cannell NNP
+Canner NNP
+Cannon NNP
+Canonie NNP
+Canter NNP
+Capel NNP
+Capital NNP NN
+Capitol NNP
+Cara NNP
+Carballo NNP
+Card NN NNP
+Cardiff NNP
+Cardinals NNPS
+Care NNP
+Caribbean NNP
+Carl NNP
+Carla NNP
+Carlos NNP
+Carlton NNP
+Carmen NNP
+Carnegie-Mellon NNP
+Carney NNP
+Carnival NNP NN
+Carolina NNP
+Carrier NN
+Carson NNP
+Carstens NNP
+Carter NNP
+Cartons NNS
+Cask NNP
+Castro NNP
+Cataracts NNS
+Catastrophic NNP
+Catch-22 NN
+Cathedral NNP
+Catholic NNP
+Cathryn NNP
+Cattrall NNP
+Caygill NNP
+Cecelia NNP
+Cedric NNP
+Celimene NNP
+Cellar NNP
+Centennial NNP
+Center NNP
+Central NNP
+Century NNP
+Cerf NNP
+Certainly RB
+Chabrol NNP
+Chafic NNP
+Chairman NNP
+Chamber NNP
+Chambers NNPS
+Champagne NNP NN
+Champagnes NNS
+Champion NNP
+Chancellor NNP
+Chandler NNP
+Change-ringing NN
+Chaplin NNP
+Chapman NNP
+Chapter NN
+Chardon NNP
+Chardonnay NNP
+Chardonnays NNPS
+Charities NNPS NNS
+Charles NNP
+Charlie NNP
+Charlotte NNP
+Charter NNP
+Chase NNP
+Chateau NNP
+Cheese NNP
+Cheetham NNP
+Cheez NNP
+Chemical NNP
+Chevrolet NNP
+Chevy NNP
+Chez NNP
+Chiappa NNP
+Chicago NNP
+Chicago-area JJ
+Chicago-based JJ
+Chicago-style JJ
+Chilean JJ
+Chilver NNP
+China NNP
+Chinchon NNP
+Chinese JJ NNPS NN NNP
+Chinese-American NNP
+Chiodo NNP
+Chisholm NNP
+Chivas NNP
+Chong-sik NNP
+Choose VB
+Christian NNP
+Christina NNP
+Christmas NNP
+Christopher NNP
+Chrysler NNP
+Chugai NNP
+Chugoku NNP
+Church NNP
+Cichan NNP
+Cigna NNP
+Cincinnati NNP
+Cinzano NNP
+Circuit NNP
+Circulation NNP
+Citadel NNP
+Citation NNP
+Citibank NNP
+Citicorp NNP
+Citing VBG
+Citizen NNP
+City NNP
+Civic NNP
+Civil NNP JJ
+Civilized JJ
+Claire NNP
+Clairton NNP
+Clarence NNP
+Clarinet NN
+Clark NNP
+Class NNP
+Classics NNS
+Claude NNP
+Clays NNP
+Clean NNP
+Clearly RB
+Clemens NNP
+Cleveland NNP
+Clients NNS
+Clifford NNP
+Clinic NNP
+Clinton NNP
+Clive NNP
+Closes VBZ
+Club NNP
+Cluff NNP
+Clyde NNP
+Co NNP
+Co. NNP
+Coast NNP
+Coca-Cola NNP
+Coche-Dury NNP
+Cockburn NNP
+Coconut NNP
+Coda NNP
+Code NNP
+Coincident JJ
+Coke NNP NN
+Cole NNP
+Coleco NNP
+Coleman NNP
+Collector NNP
+College NNP
+Colleges NNS
+Collins NNP
+Colo. NNP
+Colonsville NNP
+Colony NNP
+Color NNP
+Colorado NNP
+Columbia NNP
+Comfort NN
+Commerce NNP
+Commercial JJ
+Commission NNP
+Commissions NNS
+Committee NNP NN
+Commodities NNS
+Commodity NNP NN
+Commodore NNP
+Common JJ NNP
+Commons NNPS
+Commonwealth NNP
+Communication NNP
+Communications NNPS NNP
+Communist NNP
+Communists NNS
+Community NNP
+Companies NNS
+Company NNP
+Competes VBZ
+Complete JJ
+Compliance NNP
+Components NNP
+Composer NN
+Composite NNP
+Compound NN
+Compounding VBG
+Comprehensive NNP
+Compromises NNS
+Computer NNP
+Computers NNPS
+Comtes NNP
+Concerned VBN
+Concerns NNS
+Concocts VBZ
+Concurrent JJ
+Conduits NNS
+Confederation NNP
+Conference NNP
+Confidence NNP
+Confronted VBN
+Congress NNP
+Congressional NNP JJ
+Coniston NNP
+Conn NNP
+Conn. NNP
+Conn.-based JJ
+Conn.based JJ
+Connecticut NNP
+Connections NNP
+Connoisseur NNP
+Conrail NNP
+Consent NNP
+Consequence NN
+Conservative JJ
+Consider VB
+Consolidated NNP
+Constitution NNP
+Constitutional NNP
+Consulting NNP
+Consumer NN NNP
+Containers NNPS NNP
+Contel NNP
+Continental NNP
+Continued VBN
+Continuing VBG
+Contracts NNS
+Contras NNPS
+Contributing VBG
+Control NNP
+Controls NNP
+Convention NNP
+Cook NNP
+Copperweld NNP NN
+Corazon NNP
+Corn NN NNP
+Corolla NNP
+Corp NNP
+Corp. NNP NN
+Corporate JJ NNP
+Corporations NNS
+Corps NNP
+Correll NNP
+Corton-Charlemagne NNP
+Cos. NNP
+Cosmopolitan NNP
+Cost-effective JJ
+Cote NNP
+Cotran NNP
+Cotton NNP NN
+Cougar NNP
+Could MD
+Council NNP
+Counterpoint NN
+Country NN
+County NNP
+Court NNP
+Courter NNP
+Courts NNS
+Coxon NNP
+Craftsmen NNPS
+Crane NNP
+Cranston NNP
+Cranston-Mitchell NNP
+Cray NNP
+Cray-3 NNP CD
+Credit NNP NN
+Creek NNP
+Crescott NNP
+Crew NNP
+Crime NN
+Crisp NNP
+Cristal NNP
+Criticism NNP
+Critics NNS
+Cross NNP
+Crown NNP
+Crozier NNP
+Cru NNP
+Crude JJ
+Cruise NN NNP
+Crum NNP
+Cuckoo NN
+Cullowhee NNP
+Cup-Tote NNP
+Current JJ
+Currently RB
+Currier NNP
+Curry NNP
+Curt NNP
+Customers NNS
+Cutrer NNP
+Czech JJ
+Czechoslovakia NNP
+D NNP
+D'Amico NNP
+D. NNP
+D.C NNP
+D.C. NNP
+DAX NNP
+DD NNP
+DEPOSIT NN
+DES NNP
+DIAPER NN
+DISCOUNT NNP
+DNA NNP
+DOT NNP
+DPC NNP
+DRUG NN
+DSM NNP
+Dabney NNP
+Daffynition NN
+Dahl NNP
+Dai-Ichi NNP
+Daily NNP
+Daiwa NNP
+Dakota NNP
+Dale NNP
+Dallara NNP
+Dallas NNP
+Dalton NNP
+Dan NNP
+Dana-Farber NNP
+Danforth NNP
+Daniel NNP
+Daniels NNP
+Danube NNP
+Danville NNP
+Danzig NNP
+Darrell NNP
+Dashiell NNP
+Data NNP
+Datapoint NNP
+Dataproducts NNPS
+Dave NNP
+David NNP
+Davis NNP
+Day NNP
+DeFazio NNP
+DeSoto NN NNP
+Dealers NNS NNPS
+Dean NNP
+Debate NN
+Debenture NNP
+Deborah NNP
+Debt NNP
+Dec. NNP
+December NNP
+Declining VBG
+Deep JJ
+Deere NNP
+Default NNP
+Defections NNS
+Defending VBG
+Defense NNP
+Del. NNP
+Delaware NNP
+Delivery NN
+Dell NNP
+Delmont NNP
+Delta NNP
+Delwin NNP
+Demand NN
+Democracy NNP
+Democrat NNP
+Democratic JJ
+Democrats NNPS NNP
+Demonstrations NNS
+Deng NNP
+Dennis NNP
+Denver NNP
+Department NNP NN
+Depending VBG
+Deposit NNP
+Depositary NNP
+Deregulation NN
+Derek NNP
+Derel NNP
+Des NNP
+Describing VBG
+Deseret NNP
+Design NN
+Designated NNP
+Desperately RB
+Despite IN
+Detached VBN
+Determining VBG
+Detroit NNP
+Deutsche FW
+Devario NNP
+Development NNP
+Devon NNP
+DiLoreto NNP
+Diamond NNP
+Diaper NNP
+Dick NNP
+Dicks NNP
+Dictionary NNP
+Diesel NNP
+Digital NNP
+Dingell NNP
+Dinkins NNP
+Director NNP
+Directorate NNP
+Dirk NNP
+Disputado NNP
+Distance NNP
+District NNP
+Dividend NN
+Division NNP
+Dixie NNP
+Do VBP VB
+Dobson NNP
+Documents NNS
+Dodge NNP
+Doerflinger NNP
+Does VBZ
+Dolan NNP
+Dole NNP
+Dollar NNP
+Dolphin NNP
+Dom NNP
+Domaine NNP
+Domenici NNP
+Domestic JJ
+Dominion NNP
+Dominus NNP
+Dompierre NNP
+Don NNP
+Donald NNP
+Donaldson NNP
+Donoghue NNP
+Donovan NNP
+Donuts NNPS
+Dorothy NNP
+Dorrance NNP
+Doubleday NNP
+Douglas NNP
+Dover NNP
+Dow NNP
+Downgraded VBN
+Dr. NNP
+Drew NNP
+Drexel NNP
+Dreyfus NNP
+Drilling NNP
+Drink NN
+Driscoll NNP
+Driskill NNP
+Drogoul NNP
+Droz NNP
+Drug NN NNP
+Du NNP
+Duchossois NNP
+Due JJ
+Duff NNP
+Duke NNP
+Duluth NNP
+Dunkin NNP
+Dunkin' NNP
+Dunn NNP
+Dunton NNP
+During IN
+Dutch JJ NNP
+Dynamics NNP
+E. NNP
+E.W. NNP
+EARNINGS NNS
+EC NNP
+ECONOMIC JJ
+EG&G NNP
+ENDED VBD
+EST NNP
+EURODOLLARS NNS
+EXCHANGE NN
+Each DT
+Eagleton NNP
+Eakle NNP
+Earl NNP
+Earlier RBR JJR
+Early RB
+Earnings NNS
+Earns VBZ
+East NNP JJ
+Eastern NNP JJ
+Eaton NNP
+Ebensburg NNP
+Economic NNP JJ
+Economics NNP
+Economists NNS
+Economy NN NNP
+Eddie NNP
+Edelman NNP
+Edelson NNP
+Edison NNP
+Editorials NNS
+Eduard NNP
+Education NNP
+Educational NNP
+Edward NNP
+Edwards NNP
+Edwin NNP
+Egg NN
+Eggers NNP
+Egnuss NNP
+Egypt NNP
+Egyptian JJ
+Eichof NNP
+Einhorn NNP
+Either DT
+El NNP
+Elanco NNP
+Elco NNP
+Elders NNPS
+Electric NNP
+Electronics NNP NNPS
+Eli NNP
+Elianti NNP
+Eliminate VB
+Elisa NNP
+Elisabeth NNP
+Elizabeth NNP
+Elliott NNP
+Elmhurst NNP
+Elsevier NNP
+Elsewhere RB
+Embassy NNP
+Emile NNP
+Employees NNPS NNS
+Employers NNS
+Employment NNP
+Encouraged JJ
+End NN
+Ends NNS
+Energy NNP
+Enfield NNP
+Engineering NNP
+Engineers NNPS
+England NNP
+English JJ NNP NNS
+English-speaking JJ
+Enright NNP
+Ensrud NNP
+Entertainment NNP
+Enzor NNP
+Epinal NNP
+Epp NNP
+Equal NNP
+Equipment NNP
+Equitable NNP
+Equity NNP
+Equus NNP
+Erbamont NN NNP
+Eric NNP
+Erik NNP
+Ernesto NNP
+Erwin NNP
+Esso NNP NN
+Estate NNP
+Estates NNP
+Estimated JJ
+Ethel NNP
+Eubank NNP
+Eugene NNP
+Eurobonds NNS
+Europe NNP
+European JJ NNP
+Europeans NNPS
+Evans NNP
+Evans-Black NNP
+Even RB
+Eventually RB
+Ever RB
+Eveready NNP
+Every DT
+Everybody NN
+Everyone NN
+Everything NN
+Evidence NN
+Examiner NNP
+Except IN
+Excerpts NNS
+Exchange NNP
+Exchequer NNP
+Excision NN
+Excluding VBG
+Exhibit NN
+Expect VB
+Experience NN
+Experts NNS
+Exploration NNP
+Explorer NNP
+Exports NNS
+Express NNP
+Express-Buick NNP
+Exxon NNP
+F NN
+F-15 NNP
+F-16 NNP
+F-series NNPS
+F. NNP
+F.H. NNP
+FALL NN
+FAMILY NN
+FBI NNP
+FEDERAL NNP JJ
+FELLED VBD
+FHA NNP
+FIRMS NNS
+FOR IN
+FOREIGN JJ NNP
+FT NNP
+FT-SE NNP
+FTC NNP
+FUNDS NNPS NNS
+Fabian NNP
+Fabric NN
+Faced VBN
+Facilities NNPS
+Factories NNS
+Factory NN NNP
+Fails VBZ
+Failure NN
+Fair NNP
+Fairlawn NNP
+Fairless NNP
+Falcon NN
+Family NNP
+Fang NNP
+Fannie NNP
+Fans NNS
+Fantasy NNP
+Far JJ NNP
+Fargo NNP
+Farm NN NNP
+Farmers NNS
+Farren NNP
+Fathers NNS
+Faulding NNP
+Fe NNP
+Fear NN
+Feb. NNP
+February NNP
+Fed NNP
+Federal NNP
+Federalist NNP
+Federico NNP
+Feeding NNP
+Fees NNS
+Fellowship NNP
+Felten NNP
+Feniger NNP
+Ferdinand NNP
+Fernando NNP
+Few JJ
+Fewer JJR
+Fiat NNP
+Fibreboard NNP
+Fidelity NNP
+Fields NNP
+Fiesta NNP
+Fifteen CD
+Fifth NNP
+Filipino JJ
+Filipinos NNPS
+Finally RB
+Finance NNP
+Financial NNP JJ
+Financially RB
+Financing NNP
+Finding VBG
+Fingers NNP
+Finland NNP
+Finmeccanica NNP
+Finnish JJ
+Fire NNP
+Firms NNS
+First NNP JJ RB LS
+Fischer NNP
+Fishman NNP
+Fitch NNP
+Five CD
+Fla. NNP
+Flood NNP
+Florence NNP
+Florida NNP
+Florio NNP
+Floyd NNP
+Foggs NNP
+Follow-up JJ
+Following VBG
+Food NNP
+Foods NNPS NNP
+Foot NNP
+For IN
+Forbes NNP
+Force NNP
+Ford NNP
+Foreign NNP
+Forget VB
+Form NN
+Forster NNP
+Fortune NNP
+Foster NNP
+Foundation NNP
+Founded VBN
+Founding VBG
+Fountain NNP
+Four CD
+Fourth JJ
+France NNP
+Frances NNP
+Francis NNP
+Francisco NNP
+Francisco-based JJ
+Frank NNP
+Frankfurt NNP
+Frankly RB
+Fraser NNP
+Fred NNP
+Freddie NNP
+Frederick NNP
+Free NNP RB
+Freedman NNP
+Freedom NN
+Freeport-McMoRan NNP
+French JJ NNPS NNP
+Frenzy NNP
+Fresca NNP
+Freshbake NNP
+Freud NNP
+FreudToy NNP
+Friday NNP
+Friedrichs NNP
+Friends NNPS NNS
+From IN
+Fudosan NNP
+Fuentes NNP
+Fuji NNP
+Fujitsu NNP
+Fulbright NNP
+Fulham NNP
+Fulton NNP
+Fund NNP
+Fundamentalists NNPS
+Funded VBN
+Funding NNP
+Funny JJ NNP
+Furillo NNP
+Further RB
+Futures NNP NNS NNPS
+G-7 NNP
+G. NNP
+G.m.b NNP
+GAO NNP
+GDP NNP
+GHS NNP
+GM NNP
+GM-Jaguar JJ
+GMAC NNP
+GNP NN
+GOP NNP
+GP NNP
+GRAB NNP
+GRAINS NNPS
+GROWTH NN
+Ga NNP
+Ga. NNP
+Gaelic JJ
+Gaithersburg NNP
+Gaja NNP
+Galbani NNP
+Galloway NNP
+Gamble NNP
+Gandhi NNP
+Ganes NNP
+Gant NNP
+Gardiner NNP
+Gardner NNP
+Garfield NNP
+Garrett NNP
+Gartner NNP
+Gary NNP
+Gas NNP
+Gasoline NN
+Gates NNP
+Gayle NNP
+Geiger NNP
+Gen-Probe NNP
+GenCorp NNP
+Gene NNP
+General NNP
+Generalized NNP
+Generally RB
+Genetic NNP
+Genetics NNP
+Geneva NNP
+Genie NNP
+George NNP
+Georgeson NNP
+Georgetown NNP
+Georgia NNP
+Georgia-Pacific NNP
+Gerald NNP
+Geraldo NNP
+Gerard NNP
+Gerhard NNP
+German JJ NNP
+Germans NNPS NNS
+Germany NNP
+Germany-based JJ
+Giant NNP
+Giants NNP NNPS
+Gideon NNP
+Gillette NNP
+Gilts NNS
+Gingl NNP
+Ginnie NNP
+Giovanni NNP
+Giraud NNP
+Giuliani NNP
+Give VB
+Given VBN
+Givens NNP
+Glamorous JJ
+Glasnost FW
+Glass NNP
+Glauber NNP
+Glaxo NNP
+Glendale NNP
+Glenham NNP
+Glenn NNP
+Glove NNP
+Gnu-Emacs NNP
+God NNP
+Gold NNP
+Golden JJ
+Goldman NNP
+Goldsmith NNP
+Gomez NNP
+Good JJ
+Goodman NNP
+Gorbachev NNP
+Gordon NNP
+Gorman NNP
+Gortari NNP
+Gotta NNP
+Gottesman NNP
+Gottlieb NNP
+Gov. NNP
+Government NN NNP
+Goya NNP
+Grace NNP NN
+Graduate NNP
+Graduates NNS
+Graeme NNP
+Graham NNP
+Grain NN
+Gramm-Rudman NNP
+Grand NNP
+Grange NNP
+Grant NNP
+Gray NNP
+Great NNP JJ
+Greece NNP
+Green NNP
+Greene NNP
+Greenville NNP
+Greenwich NNP
+Greg NNP
+Gregory NNP
+Greif NNP
+Grgich NNP
+Griffin NNP
+Grinevsky NNP
+Gringo NNP
+Gross NNP
+Groton NNP
+Group NNP
+Groupe NNP
+Groups NNS
+Grove NNP
+Grover NNP
+Growth NN NNP
+Guangdong NNP
+Guarantee NN
+Guard NNP
+Guber NNP
+Guber-Peters NNP
+Guber\/Peters NNP
+Guffey NNP
+Guigal NNP
+Guinea NNP
+Gulf NNP
+Gumbel NNP
+Guy NNP
+H. NNP NN
+H.N. NNP
+HE PRP
+HHS NNP
+HIS PRP$
+HOBBY NN
+HOME NNP
+HUD NNP
+HUGO NNP
+Haag NNP
+Hackensack NNP
+Haden NNP
+Hadson NNP
+Hahn NNP
+Hale NNP
+Half NN
+Hallett NNP
+Hallwood NNP
+Hamilton NNP
+Hammacher NNP
+Hammerschmidt NNP
+Hammersmith NNP
+Hammett NNP
+Hammond NNP
+Hampshire NNP
+Haney NNP
+Hanifen NNP
+Hannover NNP
+Hanover NNP
+Hans NNP
+Hara NNP
+Harcourt NNP
+Hardly RB
+Harold NNP
+Harper NNP
+Harris NNP
+Harrison NNP
+Harriton NNP
+Harry NNP
+Hart-Scott-Rodino NNP
+Hartford NNP
+Hartt NNP
+Haruki NNP
+Harvard NNP
+Hasbrouk NNP
+Hastings NNP
+Hatch NNP
+Haussmann NNP
+Haut-Brion NNP
+Have NNP
+Haven NNP
+Hawaii NNP
+Hawaiian JJ
+Hawke NNP
+Hayes NNP
+Hayne NNP
+Hazell NNP
+He PRP
+Health NNP
+HealthVest NNP
+Healthcare NNP
+Hearst NNP
+Heatherington NNP
+Heating NN
+Heavy NNP
+Hees NNP
+Heightened JJ
+Heights NNP
+Heinz NNP
+Heiwa NNP
+Heiwado NNP
+Helmut NNP
+Hemmer NNP
+Henry NNP
+Her PRP$
+Herald NNP
+Herald-American NNP
+Herbert NNP
+Here RB
+Heritage NNP
+Hermitage NNP
+Hess NNP
+Hewlett-Packard NNP
+High NNP JJ
+High-grade JJ
+Higher JJR
+Highway NNP
+Hill NNP
+Hills NNP
+Hime NNP
+Himself PRP
+Hippie NNP
+Hiroshi NNP
+His PRP$
+Hispanic JJ
+Hispanics NNPS
+History NN
+Hitachi NNP
+Hoffman NNP
+Hogs NNS
+Hold VB
+Holders NNS
+Holding NNP
+Holdings NNP NNPS
+Holland NNP
+Hollander NNP
+Holliger NNP
+Hollingsworth NNP
+Hollis NNP
+Hollywood NNP
+Holt NNP
+Home NNP NN
+Homebrew NNP
+Homeless JJ
+Honda NNP NN
+Hong NNP
+Hoosier NNP
+Hopkins NNP
+Hopwood NNP
+Hori NNP
+Hormats NNP
+Horses NNS
+Horsham NNP
+Horton NNP
+Hospital NNP
+Hostess NNP
+Hot JJ NNP
+Hotel NNP
+Houghton NNP
+House NNP NN
+House-Senate NNP
+Housing NNP
+Houston NNP
+How WRB
+Howard NNP
+However RB
+Hoylake NNP
+Hubbard NNP
+Huber NNP
+Hudnut NNP
+Hudson NNP
+Hugo NNP
+Human NNP
+Hummerstone NNP
+Hun NNP
+Hungary NNP
+Hunt NNP
+Hunter NNP
+Huppert NNP
+Hurricane NNP
+Husky NNP
+Hutchinson NNP
+Hutton NNP
+Hymowitz NNP
+Hyundai NNP
+I PRP NNP
+IBC NNP
+IBJ NNP
+IBM NNP
+IFI NNP
+II NNP
+III NNP
+INDUSTRIES NNP
+INTENSIVE JJ
+INTER-TEL NNP
+INTERBANK NN NNP
+IOUs NNS
+IRA NNP
+IRAs NNS
+IRS NNP
+ISRAEL NNP
+ISSUES NNS
+IT PRP
+ITC NNP
+ITEL NNP
+ITT NNP
+IX CD
+Icahn NNP
+Iceland NNP
+Ichiro NNP
+Ideas NNS
+If IN
+Ifint NNP
+Ill NNP
+Ill. NNP
+Illinois NNP
+Illuminating NNP
+Ilminster NNP
+Image NN
+Imelda NNP
+Imhoff NNP
+Imperial NNP
+Imports NNS
+Improvement NNP
+In IN RB
+Inc NNP
+Inc. NNP NN
+Including VBG
+Income NNP
+Ind. NNP
+Indeed RB
+Independence NNP
+Index NNP NN
+Index-arbitrage NN
+India NNP
+Indian JJ
+Indiana NNP
+Indianapolis NNP
+Indians NNPS
+Individuals NNS
+Indonesia NNP
+Industrial NNP JJ
+Industries NNPS NNP
+Industry NNP NN
+Infiniti NNP
+InfoCorp NNP
+Information NNP
+Injury NNP
+Inland NNP
+Inner JJ
+Inns NNPS
+Inouye NNP
+Insiders NNS
+Insight NNP
+Instead RB
+Institute NNP
+Institutes NNPS
+Institution NNP
+Institutional NNP JJ
+Institutions NNS
+Instruments NNPS
+Insurance NNP NN
+Integra NNP
+Integra-A NNP
+Intel NNP
+Intelogic NNP
+Interest NN
+Intergroup NNP
+Interleukin-3 NN
+Intermec NNP
+Intermediate NNP
+Internal NNP
+International NNP JJ
+Internatonal NNP
+Intervention NN
+Interviews NNS
+Invariably RB
+Inventor NNP
+Inventories NNS
+Investment NNP
+Investments NNPS
+Investor NNP NN
+Investors NNS NNPS
+Iowa NNP
+Iraq NNP
+Ireland NNP
+Ironically RB
+Irvine NNP
+Irving NNP
+Irwin NNP
+Is VBZ
+Isabelle NNP
+Isikoff NNP
+Islamabad NNP
+Island NNP
+Islands NNPS
+Ismaili NNP
+Israel NNP
+Israeli JJ
+Issues NNPS
+It PRP
+Italian JJ
+Italy NNP
+Itel NNP
+Itoh NNP
+Its PRP$
+J&B NNP
+J. NNP
+J.C. NNP
+J.E. NNP
+J.L. NNP
+J.P. NNP
+JCP NNP
+JERSEY NNP
+Jack NNP
+Jackson NNP
+Jacksonville NNP
+Jacob NNP
+Jacobs NNP
+Jaffray NNP
+Jaguar NNP
+Jahn NNP
+Jail NN
+Jake NNP
+Jalaalwalikraam NNP
+Jamaica NNP
+James NNP
+Jan. NNP
+January NNP
+Japan NNP
+Japan-U.S NNP
+Japanese JJ NNPS NNP NNS NN
+Jay NNP
+Jefferson NNP
+Jeffrey NNP
+Jell-O NNP
+Jenkins NNP
+Jennison NNP
+Jenrette NNP
+Jens-Uwe NNP
+Jeremy NNP
+Jerritts NNP
+Jerry NNP
+Jersey NNP
+Jersey-based JJ
+Jewelry NN
+Jews NNS
+Jihad NNP
+Jim NNP
+Jimmy NNP
+Jobs NNP
+Joe NNP
+Joel NNP
+Johanson NNP
+John NNP
+Johns NNP
+Johnson NNP
+Johnson-era NN
+Johnston NNP
+Joint-research JJ
+Jon NNP
+Jonas NNP
+Jonathan NNP
+Jones NNP
+Joni NNP
+Joseph NNP
+Jotaro NNP
+Journal NNP
+Journals NNPS
+Jovanovich NNP
+Jr NNP
+Jr. NNP
+Judah NNP
+Judge NNP
+Judges NNP
+Judging VBG
+Judie NNP
+Judith NNP
+Judy NNP
+Julia NNP
+Julian NNP
+Julius NNP
+July NNP
+June NNP
+Junk NN
+Junk-Bond NN
+Junk-bond NN
+Just RB
+Justice NNP
+K. NNP
+KGB NNP
+Kakita NNP
+Kalamazoo NNP
+Kalipharma NNP
+Kaminski NNP
+Kane NNP
+Kangyo NNP
+Kansas NNP
+Karl NNP
+Karns NNP
+Kathleen NNP
+Kathryn NNP
+Kato NNP
+Katz NNP
+Katzenstein NNP
+Kawasaki NNP
+Kean NNP
+Kearny NNP
+Keehn NNP
+Keenan NNP
+Keeping VBG
+Keio NNP
+Keith NNP
+Kemp NNP
+Kendrick NNP
+Kennedy NNP
+Kenneth NNP
+Kensetsu NNP
+Kensington NNP
+Kent NNP
+Kentucky NNP
+Kerensky NNP
+Key NNP
+Khan NNP
+Khmer NNP
+Kidder NNP
+Kiki NNP
+Killeen NNP
+Kim NNP
+Kimberly-Clark NNP
+Kimihide NNP
+King NNP
+Kingdom NNP
+Kingman NNP
+Kingsbridge NNP
+Kirchberger NNP
+Kirgizia NNP
+Kirkendall NNP
+Kirkpatrick NNP
+Kirschbaum NNP
+Kitada NNP
+Klauser NNP
+Klein NNP
+Kleinwort NNP
+Kligman NNP
+Kluge NNP
+Knapp NNP
+Knopf NNP
+Knowing VBG
+Kobe NNP
+Kodansha NNP
+Koito NNP
+Koizumi NNP
+Komatsu NNP
+Kondo NNP
+Kong NNP
+Korea NNP
+Koreagate NNP
+Korean JJ
+Kouji NNP
+Krebs NNP
+Kremlin NNP
+Krenz NNP
+Krishna NNP
+Kuala NNP
+Kuan NNP
+Kucharski NNP
+Kuehn NNP
+Kume NNP
+Kurland NNP
+L'Heureux NNP
+L. NNP
+L.A. NNP
+LATE JJ RB
+LAW NN
+LBO NNP
+LIBOR NNP
+LOAN NNP
+LONDON NNP
+LTV NNP
+LYNCH NNP
+La NNP
+La. NNP
+LaFalce NNP
+LaSalle NNP
+Labor NNP NN
+Laboratories NNPS
+Laboratorium NNP
+Laboratory NNP
+Labouisse NNP
+Ladenburg NNP
+Lafite-Rothschild NNP
+Laidig NNP
+Lake NNP
+Lakes NNPS
+Lama NNP
+Lambert NNP
+Lancaster NNP
+Land NNP
+Landis NNP
+Landonne NNP
+Landrieu NNP
+Lane NNP
+Langner NNP
+Lantos NNP
+Lanyi NNP
+Larry NNP
+Las NNP
+Laser NNP
+Last JJ
+Late RB
+Later RB RBR
+Latour NNP
+Lauderhill NNP
+Laura NNP
+Laurel NNP
+Laurence NNP
+Lavoro NNP
+Law NNP NN
+Lawful JJ
+Lawmakers NNPS NNS
+Lawrence NNP
+Lawson NNP
+Lawyers NNS
+Lazzaroni NNP
+Lead JJ
+Leader NNP
+Leap NNP
+Learning NNP
+Lease NNP
+Leche NNP
+Lecheria NNP
+Lee NNP
+Left VBN
+Legal NNP
+Legend NNP
+Legg NNP
+Legislating VBG
+Legislation NN
+Lehman NNP
+Leigh NNP
+Leighton NNP
+Leinonen NNP
+Leisure NN
+Leming NNP
+Leningrad NNP
+Lentjes NNP
+Leo NNP
+Leon NNP
+Leonard NNP
+Lerman NNP
+Leroy NNP
+Let VB
+Level NNP
+Levy NNP
+Lewis NNP
+Lexus NNP
+Li NNP
+Liberties NNPS
+Liberty NNP
+Lidgerwood NNP
+Lids NNS
+Lie NN
+Lieberman NNP
+Life NNP
+Lifland NNP
+Light NN NNP
+Lighthouse NNP
+Lighting NNP
+Lights NNP
+Like IN
+Likewise RB
+Lilly NNP
+Limited NNP
+Limiting VBG
+Linda NNP
+Linden NNP
+Lindner NNP
+Lindsey NNP
+Line NNP
+Lines NNP
+Linsey NNP
+Lipton NNP
+Little NNP JJ RB
+Lives NNS
+Lizhi NNP
+Lloyd NNP
+Loan NNP
+Lobsenz NNP
+Local NNP
+Loews NNP
+Logan NNP
+Logistics NNP
+Lomas NNP
+Lombard NNP
+London NNP
+London-based JJ
+Long NNP JJ
+Long-term JJ
+Longer JJR
+Longwood NNP
+Lonski NNP
+Lorain NNP
+Loral NNP
+Lord NNP
+Lords NNPS
+Lorenzo NNP
+Lorillard NNP NN
+Lorimar NNP
+Los NNP
+Louis NNP
+Louisiana NNP
+Louisiana-Pacific NNP
+Lower NNP
+Ltd NNP
+Ltd. NNP
+Luce NNP
+Lucille NNP
+Lufkin NNP
+Luis NNP
+Lumpur NNP
+Lure VBP
+Lurgi NNP
+Luther NNP
+Luxembourg-based JJ
+Lyn NNP
+Lynch NNP
+Lyphomed NNP
+M'Bow NNP
+M. NNP
+M.D. NNP
+M.W. NNP
+MCA NNP
+MCI NNP
+MD-80 NN
+MEDICINE NNP
+MERGER NN
+MERRILL NNP
+METALS NNPS
+MGM NNP
+MILEAGE NN
+MIPS NNP
+MITI NNP
+MONEY NN NNP
+MORTGAGE NNP
+Mac NNP
+MacDonald NNP
+MacLellan NNP
+MacMillan NNP
+Maccabee NNP
+Machine NN
+Machines NNPS
+Machinists NNS
+Macmillan NNP
+Macmillan\/McGraw NNP
+Macmillan\/McGraw-Hill NNP
+Macy NNP
+Madison NNP
+Mae NNP
+Magleby NNP
+Magna NNP
+Magnet NNP
+Magnetic JJ
+Mahatma NNP
+Maher NNP
+Mahoney NNP
+Maine NNP
+Major NNP
+Majority NNP
+Makato NNP
+Malaysia NNP
+Malcolm NNP
+Malta NNP
+Maltese JJ
+Man NN NNP
+Management NNP NN
+Managers NNS
+Manchester NNP
+Mandela NNP
+Manfred NNP
+Manhattan NNP
+Manila NNP
+Mannix NNP
+Manuel NNP
+Manufacturers NNPS NNP NNS
+Manufacturing NNP
+Manville NNP
+Many JJ
+Mara NNP
+Marc NNP
+March NNP
+Marchand NNP
+Marchese NNP
+Marcos NNP
+Marcoses NNPS
+Marcus NNP
+Marder NNP
+Marge NNP
+Maria NNP
+Marie NNP
+Marie-Louise NNP
+Marietta NNP
+Marine NNP
+Marion NNP
+Mariotta NNP
+Mark NNP
+Market NNP NN
+Marketers NNS
+Markets NNPS
+Markey NNP
+Markus NNP
+Marshall NNP
+Marston NNP
+Martex NNP
+Martha NNP
+Martin NNP
+Marty NNP
+Marunouchi NNP
+Marvin NNP
+Mary NNP
+Maryland NNP
+Mason NNP
+Mass NNP
+Mass. NNP
+Massachusetts NNP
+Master NNP
+Matagorda NNP
+Materials NNPS
+Mather NNP
+Matsushita NNP
+Matthew NNP
+Matthews NNP
+Mattress NNP
+Maughan NNP
+Maurice NNP
+Maxima NNP
+Maxwell NNP
+May NNP
+Maybe RB
+Mayland NNP
+Mayo NNP
+Mayor NNP
+Maytag NNP
+Mazda NNP
+Mazzera NNP
+McAlpine NNP
+McAuley NNP
+McCabe NNP
+McCartin NNP
+McCormick NNP
+McDonald NNP
+McDonnell NNP
+McEnaney NNP
+McFall NNP
+McFarlan NNP
+McGovern NNP
+McGraw-Hill NNP
+McGregor NNP
+McGuigan NNP
+McLaughlin NNP
+McLeod NNP
+Md. NNP
+Mead NNP NN
+Means NNPS
+Meanwhile RB
+Measurement NNP
+Medco NNP
+Medellin NNP
+Medicaid NNP
+Medical NNP
+Medicare NNP
+Medicine NNP
+Mediobanca NNP
+Mediterranean NNP
+Mehl NNP
+Mehrens NNP
+Mehta NNP
+Meinders NNP
+Melamed NNP
+Men NNS
+Menem NNP
+Merc NNP
+Mercantile NNP
+Mercedes NNPS
+Mercer NNP
+Mercury NNP
+Mergers NNPS
+Meridian NNP
+Merrick NNP
+Merrill NNP
+Mesa NNP
+Mesnil NNP
+Messiaen NNP
+Messrs. NNPS
+Metal NNP
+Metallgesellschaft NN NNP
+Metromedia NNP
+Metromedia-ITT NNP
+Metropolitan NNP
+Mexican NNP JJ
+Mexicans NNPS
+Mexico NNP
+Miami NNP
+Miami-based JJ
+Mich. NNP
+Mich.-based JJ
+Michael NNP
+Michelin NNP
+Michigan NNP
+Micronite NN
+Microsoft NNP
+Middlesex NNP
+Midland NNP
+Midmorning NN
+Midvale NNP
+Midwest NNP NN
+Midwestern JJ NNP
+Mifflin NNP
+Mignanelli NNP
+Miguel NNP
+Mikhail NNP
+Miklos NNP
+Milan NNP
+Miles NNP
+Milk NN
+Miller NNP
+Million-dollar JJ
+Milwaukee NNP
+Minato-Mirai NNP
+Mindy NNP
+Mingo NNP
+Minikes NNP
+Mining NNP
+Minister NNP
+Ministry NNP
+Minn. NNP
+Minneapolis NNP
+Minneapolis-based JJ
+Minnesota NNP
+Minpeco NNP
+Mips NNP
+Miranda NNP
+Misanthrope NN
+Miss NNP
+Miss. NNP
+Mission NNP
+Mississippi NNP
+Missouri NNP
+Mitchell NNP
+Mitre NNP
+Mitsubishi NNP NNS
+Mitsui NNP
+Mo NNP
+Mo. NNP
+Mo.-based JJ
+Mogavero NNP
+Mohandas NNP
+Moines NNP
+Moleculon NNP
+Mona NNP
+Monchecourt NNP
+Monday NNP
+Monetary NNP
+Money NN NNP
+Monopolies NNPS
+Monsanto NNP
+Mont NNP
+Monte NNP
+Montedison NNP NN
+Montgomery NNP
+Montgoris NNP
+Monticello NNP
+Montpelier NNP
+Moody NNP
+Moon NNP
+Moonie NN
+Moore NNP
+More RBR JJR
+Moreover RB
+Morgan NNP
+Morita NNP
+Morley NNP
+Morning NN
+Morris NNP
+Morrison NNP
+Mortgage NNP NN
+Mortgage-Backed NNP
+Mortimer NNP
+Mosbacher NNP
+Moscow NNP
+Moshe NNP
+Mosher NNP
+Moslem NNP
+Moslems NNPS
+Mossman NNP
+Most JJS RBS
+Mostly RB
+Motor NNP
+Motors NNPS NNP
+Mount NNP
+Mozart NNP
+Mr. NNP
+Mrs NNP
+Mrs. NNP
+Ms. NNP
+Much RB JJ
+Mulford NNP
+Mullins NNP
+Mundo NNP
+Municipal JJ
+Murakami NNP
+Muramatsu NNP
+Murphy NNP
+Murray NNP
+Muscolina NNP
+Museum NNP
+Musical JJ
+Mutchin NNP
+Muzzling JJ
+My PRP$
+Myung NNP
+N. NNP
+N.C NNP
+N.C. NNP
+N.H. NNP
+N.J NNP
+N.J. NNP
+N.J.-based JJ
+N.M NNP
+N.M. NNP
+N.V NN
+N.V. NNP
+N.Y NNP
+N.Y. NNP
+NAM NNP
+NASA NNP
+NASD NNP
+NATIONAL NNP
+NATO NNP
+NBC NNP
+NBI NNP
+NCNB NNP
+NEC NNP
+NEW NNP
+NFL NNP
+NL NNP
+NRDC NNP
+NSA NNP
+NUCLEAR NN
+NWA NNP
+NYSE NNP
+NZ$ $
+Nagymaros NNP
+Nahas NNP
+Najarian NNP
+Naji NNP
+Nakamura NNP
+Named VBN
+Namibian JJ
+Nancy NNP
+Napolitan NNP
+Nasdaq NNP
+Nasty JJ
+National NNP
+Nations NNPS
+Nationwide NNP
+Natural NNP
+Nature NNP
+Nautilus JJ
+Navigation NNP
+Navy NNP
+Nazionale NNP
+Neal NNP
+Neanderthals NNS
+Nearby JJ
+Neave NNP
+Neb. NNP
+Nebraska NNP
+Needham NNP
+Negotiable JJ
+Neither DT
+Nekoosa NNP NN
+Nelson NNP
+Nemeth NNP
+Nesconset NNP
+Nestor NNP
+Net JJ NN
+Netherlands NNPS
+Network NNP
+Neuberger NNP
+Nev. NNP
+Nevada NNP
+Nevertheless RB
+New NNP JJ
+Newgate NNP
+Newhouse NNP
+Newport NNP
+News NNP
+News-American NNP
+Newspapers NNP
+Newsprint NN
+Newsweek NNP
+Next JJ RB
+Nicaraguan JJ
+Nichol NNP
+Nicholas NNP NNS
+Nicole NNP
+Nigel NNP
+Nikkei NNP
+Nikko NNP
+Nilson NNP
+Nine CD
+Nippon NNP
+Nipponese JJ
+Nissan NNP NN
+Nissans NNPS
+Nissho-Iwai NNP
+Nixdorf NNP
+Nixon NNP
+No DT RB
+No-Smoking NNP
+No. NN NNP
+Noble NNP
+Nobody NN
+Nofzinger NNP
+Nomenklatura NN
+Nomura NNP NN
+Non-Proliferation NNP
+None NN NNP
+Nonetheless RB
+Nor CC
+Norberto NNP
+Norfolk NNP
+Noriega NNP
+Norman NNP
+Norodom NNP
+Norris NNP
+North NNP JJ
+Northeast NNP NN
+Northern NNP
+Northwest NNP
+Northy NNP
+Norwalk NNP
+Norway NNP
+Norwegians NNPS
+Norwest NNP
+Norwick NNP
+Not RB
+Note VB
+Notes NNS
+Nothing NN
+Noticias NNP
+Nov. NNP NN
+November NNP
+Now RB
+Nuclear NNP
+Numerous JJ
+Nuys NNP
+Nynex NNP
+O'Brien NNP
+O'Connor NNP
+O'Kicki NNP
+O'Loughlin NNP
+O'Neill NNP
+O. NNP
+OF IN
+OFFERED NNP VBN
+OK UH
+ORTEGA NNP
+OSHA NNP
+OTC NNP
+OVERHAUL NN
+Oak NNP
+Oakland NNP
+Oat NNP
+Oberstar NNP
+Occidental NNP
+Occupational NNP
+Ocean NNP
+Oct NNP
+Oct. NNP
+October NNP
+Odd-year JJ
+Odds NNS
+Odyssey NN
+Of IN
+Offering VBG
+Office NNP
+Officially RB
+Officials NNS NNP
+Ogilvy NNP
+Oh UH
+Ohio NNP
+Ohio-based JJ
+Oil NNP NN
+Oka NNP
+Okla. NNP
+Oklahoma NNP
+Old NNP
+Old-time JJ
+Oleg NNP
+Oliver NNP
+Olson NNP
+Olympia NNP
+Olympic NNP
+Olympics NNP
+Omnicom NNP
+On IN
+Once RB IN
+One CD PRP
+Only RB
+Ontario NNP
+Open NNP
+Operations NNPS
+Opinion NNP
+Opportunity NNP
+Optical NNP
+Options NNPS
+Opus NNP
+Or CC
+Oracle NNP
+Orange NNP
+Orchestra NNP
+Order NN NNP
+Ore. NNP
+Organization NNP
+Original NNP
+Oriole NNP
+Orioles NNP
+Orleans NNP
+Ornette NNP
+Ortega NNP
+Orville NNP
+Osaka NNP
+Oshkosh NNP
+Otero NNP
+Other JJ
+Others NNS
+Otherwise RB
+Otto NNP
+Our PRP$
+Outside JJ
+Over IN
+Overall JJ
+Owen NNP
+Owner NNP
+Oxnard NNP
+Oy NNP
+P. NNP
+PAP NNP
+PAPER NN
+PC NN
+PCs NNS
+PENALTY NN
+PENNEY NNP
+PETS NNS
+PHOTOGRAPH NN
+PLC NNP
+POP NNP
+PORTING VBG
+POTABLES NNS
+PRECIOUS NNP
+PRI NNP
+PRIME JJ NNP
+PS NNP
+PSE NNP
+Pa NNP
+Pa. NNP
+Pace NNP
+Pacific NNP
+Packages NNS
+Packaging NN
+Pact NNP
+PaineWebber NNP
+Pakistan NNP
+Palace NNP
+Palestinian NNP
+Palisades NNP
+Palm NNP
+Palo NNP
+Pamela NNP
+Pamplin NNP
+Pan NNP
+Panama NNP
+Panda NNP
+Panhandle NNP
+Panisse NNP
+Pao NNP
+Paos NNPS
+Paper NNP
+Paperboard NNP
+Papua-New NNP
+Parade NNP
+Paragon NNP
+Paragould NNP
+Paramount NNP
+Pardus NNP
+Parent NNP
+Paris NNP
+Park NNP
+Parker NNP
+Parks NNP
+Parliament NNP
+Participants NNS
+Particularly RB
+Partly RB
+Partners NNPS NNP
+Partnership NNP
+Party NNP
+Pasadena NNP
+Paschi NNP
+Paso NNP
+Pat NNP
+Patch NNP
+Patents NNP
+Patients NNS
+Patrick NNP
+Pattenden NNP
+Paul NNP
+Pauline NNP
+Payments NNS
+Payouts NNS
+Peabody NNP
+Peace NN
+Peck NNP
+Pedro NNP
+Peduzzi NNP
+Pencil NNP
+Peng NNP
+Penney NNP
+Pennsylvania NNP
+Pennzoil NNP
+Pentagon NNP
+People NNS NNPS NNP
+Peoria NNP
+Pepperdine NNP
+Pepperidge NNP
+Perch NNP
+Perella NNP
+Perestroika FW
+Performing VBG
+Perhaps RB
+Perignon NNP
+Periods NNS
+Perozo NNP
+Perpetual JJ
+Perritt NNP
+Persky NNP
+Personal JJ NNP
+Perspective NNP
+Pertschuk NNP
+Peruvian JJ
+Pet NNP
+Pete NNP
+Peter NNP
+Peters NNP
+Petersburg NNP
+Petersen NNP
+Petroleum NNP
+Petrus NNP
+Pettit NNP
+Petty JJ NNP
+Pharaoh NNP
+Pharmaceutical NNP
+Pharmaceuticals NNPS
+Phase NN
+Phelan NNP
+Phelps NNP
+Phil NNP
+Philadelphia NNP
+Philadelphia-based JJ
+Philip NNP
+Philippine JJ NNP
+Philippines NNPS NNP
+Phillips NNP
+Phineas NNP
+Phipps NNP
+Phoenix NNP
+Photograph NNP
+Photography NNP
+Pick VB
+Pickens NNP
+Pictures NNPS NNP NNS
+Pierce NNP
+Piero NNP
+Pilgrim NNP
+Pilots NNPS
+Pine NNP
+Pinkerton NNP
+Pinocchio NNP
+Piper NNP
+Pirate NNP
+Piscataway NNP
+Pitcher NNP
+Pitney NNP
+Pittsburg NNP
+Pittsburgh NNP
+Pittsburgh-based JJ
+Pittston NNP
+Place NNP
+Plaines NNP
+Plains NNP NNPS NNS
+Plan NNP
+Planning NNP
+Plans NNS
+Plant NNP NN
+Plantation NNP
+Platt NNP
+Players NNS
+Plaza NNP
+Pleasant NNP
+Please VB
+Poland NNP
+Policies NNS
+Policy NN
+Polish JJ
+Polls NNS
+Polytechnic NNP
+Pompano NNP
+Pond NNP
+Pont NNP
+Pontiac-Cadillac NNP
+Poor NNP
+Population NNP
+Porche NNP
+Porsche-like JJ
+Porter NNP
+Ports NNS
+Possible JJ
+Possibly RB
+Post NNP
+Posted VBN
+Power NNP NN
+Powers NNP
+Prater NNP
+Pratt NNP
+Pravda NNP
+Prebon NNP
+Precious JJ
+Preferences NNPS
+Preliminary JJ
+Premier NNP
+President NNP NN
+Pressed VBN
+Pressures NNS
+Preston NNP
+Pretax NN
+Pretoria NNP
+Pretty NNP
+Previously RB
+Priam NNP
+Price NNP NN
+Prices NNS
+Prime NNP
+Prime-1 JJ
+Prime-2 JJ
+Primerica NNP
+Prince NNP
+Princeton NNP
+Prior RB
+Private JJ
+Probing VBG
+Proceeds NNS
+Procter NNP
+Producers NNS
+Prof NNP
+Prof. NNP
+Professional NNP JJ
+Professors NNP
+Profit NN
+Program NN NNP
+Programs NNS
+Project NNP
+Propaganda NN
+Proper JJ
+Property\/casualty NN
+Proponents NNS
+Propper NNP
+Prosecutors NNS
+Protection NNP
+Provided VBN
+Providence NNP
+Province NNP
+Prudential-Bache NNP
+Psychiatry NNP
+Pty. NNP
+Public NNP JJ
+Publications NNPS
+Publishers NNP
+Publishing NNP NN
+Puccini NNP
+Puccio NNP
+Puerto NNP
+Purchase NNP
+Purchasing NNP
+Purdue NNP
+Purepac NNP
+Purina NNP
+Put VB VBN
+Putty NN
+Q. NNP
+Q45 NNP
+QVC NNP
+Quant NN
+Quarterly JJ
+Quartet NN
+Queen NNP
+Quoting VBG
+R. NNP
+R.D. NNP
+R.L. NNP
+R.P. NNP
+RATE NN NNP
+RATES NNPS NNS
+RBC NNP
+RC6280 NN
+REACTOR NN
+READY NNP
+RIGHTS NNS
+RISC NNP
+RMS NNP
+RODE VBD
+ROGERS NNP
+RTC NNP
+Rabia NNP
+Radio NNP
+Rae NNP
+Rail NNP
+Railroad NN
+Railway NNP
+Rain NN
+Rally NNP
+Ralston NNP
+Rama NNP
+Ramos NNP
+Randall NNP
+Randolph NNP
+Random NNP
+Ranger NNP
+Rangers NNPS
+Ranieri NNP
+Rankin NNP
+Rapanelli NNP
+Rated VBN
+Rather RB
+Ratings NNS
+Ratner NNP
+Ratners NNP
+Raton NNP
+Ravenswood NNP
+Ray NNP
+Raymond NNP
+Reached VBN
+Reagan NNP
+Reagan-Bush JJ
+Real JJ NNP RB
+Realty NNP
+Reames NNP
+Reasons NNS
+Receipts NNPS
+Receivables NNPS
+Recent JJ
+Recently RB
+Recess NN
+Records NNPS
+Red NNP JJ
+Red-blooded JJ
+Reddington NNP
+Redevelopment NNP
+Reed NNP
+Regal NNP
+Regarded VBN
+Regarding VBG
+Regardless RB
+Regulation NNP
+Regulatory NNP
+Reich NNP
+Relations NNP NNS
+Reliance NNP
+Remember VB
+Remic NNP
+Renaissance-style JJ
+Renee NNP
+Renk NNP
+Rennie NNP
+Rep. NNP
+Repeat NN
+Report NNP
+Representative NNP
+Reps. NNPS
+Republican JJ NNP
+Republicans NNPS
+Research NNP
+Researchers NNS
+Reserve NNP
+Reserves NNS
+Resistance NNP
+Resnick NNP
+Resource NNP
+Resources NNPS
+Restaurant NNP
+Results NNS
+Retin-A NNP
+Retirement NNP
+Reupke NNP
+Reuter NNP
+Reuters NNP
+Rev. NNP
+Revenue NN NNP
+Review NNP
+Revitalized VBN
+Revolution NNP
+Revolutionary NNP
+Rewards NNS
+Rexinger NNP
+Rey\/Fawcett NNP
+Reykjavik NNP
+Reynolds NNP
+Rhone NNP
+Ricca NNP
+Rice NNP
+Rich NNP
+Richard NNP
+Richebourg NNP
+Richmond NNP
+Rick NNP
+Rico NNP
+Ridgefield NNP
+Ridley NNP
+Ries NNP
+Riese NNP
+Rieslings NNPS
+Right RB
+Rights NNPS
+Rill NNP
+Ringers NNS
+Ringing NN NNP
+Rippe NNP
+Riserva NNP
+Rita NNP
+Ritter NNP
+River NNP NN
+Riviera NNP
+Robbie NNP
+Robert NNP
+Robin NNP
+Robinson NNP
+Rock NNP
+Rockefeller NNP
+Rockford NNP
+Rockwell NNP
+Rod NNP
+Rodeo NN
+Rodgers NNP
+Roederer NNP
+Roger NNP
+Rogers NNP
+Roland NNP
+Rollie NNP
+Rolling NNP
+Roman JJ
+Romanee-Conti NNP
+Rome NNP
+Rome-based JJ
+Ronald NNP
+Roof NNP
+Root NN
+Rosa NNP
+Rosemont NNP
+Rosen NNP
+Rosenblum NNP
+Ross NNP
+Rost NNP
+Rothschild NNP
+Rotie NNP
+Rouge NNP
+Roukema NNP
+Rowe NNP
+Royal NNP
+Rozell NNP
+Rubendall NNP
+Rubicam NNP
+Rubinfien NNP
+Rudolph NNP
+Ruffo NNP
+Rumors NNS
+Runkel NNP
+Rural NNP
+Russel NNP
+Russell NNP
+Russian JJ
+Russo NNP
+Rust NNP
+Rusty NNP
+Ruth NNP
+S&L NN NNP
+S&Ls NNS
+S&P NNP NN
+S. NNP
+S.A NNP
+S.A. NNP
+S.C. NNP
+S.I. NNP
+S.p NNP
+S.p.A. NNP
+SALT NNP
+SDI NNP
+SEC NNP
+SERVICES NNS
+SFE NNP
+SFX NNP
+SHAREDATA NNP
+SOYBEANS NNPS
+SUNY NNP
+Sable NNP
+Sachs NNP
+Sacramento NNP
+Sacramento-based JJ
+Safety NNP NN
+Saint-Saens NNP
+Saints NNP
+Sale NNP
+Sales NNS
+Salinas NNP
+Salmore NNP
+Salomon NNP
+Salon NNP
+Sam NNP
+Samuel NNP
+San NNP
+Sand NN
+Sandberg NNP
+Sanderoff NNP
+Sandifer NNP
+Sandoz NNP
+Sandra NNP
+Sands NNPS
+Sandy NNP
+Sanford NNP
+Sangyo NNP
+Santa NNP
+Sanyo NNP
+Sardinia NNP
+Satoko NNP
+Satrum NNP
+Saturday NNP
+Saudi NNP
+Saul NNP
+Sauvignon NNP
+Savin NNP
+Savings NNP NNPS NNS
+Sayers NNP
+Says VBZ
+Scandinavian JJ
+Scannell NNP
+Schaefer NNP
+Scherer NNP
+Schimberg NNP
+Schlemmer NNP
+Schmidt NNP
+Schneider NNP
+School NNP
+Schramm NNP
+Schweiz NNP
+Science NN NNP
+Sciences NNPS
+Scientific NNP
+Scientists NNS
+Scoring NNP
+Scotch NNP
+Scotia NNP
+Scotland NNP
+Scott NNP
+Scowcroft NNP
+Scripps NNP
+Scypher NNP
+Sea NNP
+Seagate NNP
+Seagram NNP
+Seahorse NNP
+Seats NNS
+Seattle NNP
+Seattle-based JJ
+Sebastian NNP
+Secaucus NNP
+Secilia NNP
+Second JJ LS NNP
+Secondly RB
+Secretary NNP
+Section NN NNP
+Securities NNPS NNP NNS
+Security NNP
+See VB
+Seed NN
+Seems VBZ
+Seidman NNP
+Seimei NNP
+Sen NNP
+Sen. NNP
+Senate NNP
+Senator NNP
+Senators NNPS
+Send VB
+Senior NNP JJ
+Seniors NNP
+Sentra NNP
+Seoul NNP
+Separately RB NNP
+Sept. NNP JJ
+Sept.30 CD
+September NNP
+Serial JJ
+Series NNP NN
+Serkin NNP
+Service NNP
+Services NNP NNPS
+Session NN
+Settlement NNP
+Seven NNP
+Several JJ
+Seymour NNP
+Shahal NNP
+Shaken VBN
+Shapiro NNP
+ShareData NNP
+Shareholders NNS
+Sharon NNP
+Shaw NNP
+She PRP
+Shearman NNP
+Shearson NNP
+Sheep NNP
+Sheffield NNP
+Shelby NNP
+Shell NNP
+Shepperd NNP
+Sherblom NNP
+Shere NNP
+Sherry NNP
+Sherwood NNP
+Shevardnadze NNP
+Shining VBG
+Shipments NNS
+Shokubai NNP
+Shores NNP
+Short JJ
+Shorter JJR
+Shortly RB
+Shostakovich NNP
+Showa NNP
+Shugart NNP
+Shuwa NNP
+Shuxian NNP
+Si NNP
+Sidak NNP
+Sider NNP
+Sidewalk NNP
+Sidley NNP
+Siegal NNP
+Siemens NNP
+Siena NNP
+Sierra NNP
+Sigler NNP
+Sigmund NNP
+Signs NNS
+Sihanouk NNP
+Silicon NNP
+Silver NN
+Silverman NNP
+Simeon NNP
+Similar JJ
+Similarly RB
+Simmons NNP
+Simon NNP
+Since IN
+Singapore NNP
+Sino-British JJ
+Sino-U.S. JJ NNP
+Sir NNP
+Sit VB
+Siti NNP
+Six CD
+Sixth NNP
+Sixty CD
+Skilled JJ
+Skills NNS
+Skinner NNP
+Skipping VBG
+Skokie NNP
+Sky NN
+Slides NNS
+Sloan NNP
+Slovenian JJ
+Smaby NNP
+Small JJ
+Small-lot JJ
+Smelting NNP
+Smith NNP
+Smokers NNS
+So RB IN
+Society NNP
+Soho NNP
+Solaia NNP
+Sole NNP
+Solihull NNP
+Solo JJ
+Solution NN
+Some DT RB
+Someone NN
+Somerset NNP
+Something NN
+Sometimes RB
+Sonata NN
+Sonny NNP
+Sony NNP
+Soon RB
+Soup NNP
+Source NN
+South NNP JJ
+Southeast NNP JJ
+Southern NNP
+Southwide NNP
+Soviet JJ NNP
+Soviets NNPS
+Sox NNP NNPS
+Soybeans NNS
+Spaghetti NNP
+Spain NNP
+Spanish JJ NNP
+Spanish-language JJ
+Special JJ
+Specially RB
+Speculation NN
+Speedway NNP
+Spence NNP
+Spending NN
+Spiegel NNP
+Spielvogel NNP
+Spirit NN
+Spitler NNP
+Spokespersons NNS
+Spoon NNP
+Spreads NNS
+Springs NNP NNPS
+Square NNP
+Squier NNP
+Sr. NNP
+St. NNP
+Stadium NN
+Stadiums NNS
+Stag NNP
+Stage NN
+Stamford NNP
+Standard NNP
+Standardized JJ
+Stanford NNP
+Stanley NNP
+Stanza NNP
+Start-up JJ
+Started VBN
+State NNP NN
+State-owned JJ
+States NNPS NNS
+StatesWest NNP
+Station NNP
+Statistics NNPS
+Stearn NNP
+Stearns NNP
+Steel NNP
+Steelworkers NNP
+Steinberg NNP
+Stelco NNP
+Stena NNP
+Stena-Tiphook NNP
+Stennett NNP
+Stephanie NNP
+Stephen NNP
+Sterling NNP NN
+Stern NNP
+Sternberg NNP
+Stertz NNP
+Steve NNP
+Steven NNP
+Stevens NNP
+Stevenson NNP
+Stewart NNP
+Stieglitz NNP
+Still RB
+Stirlen NNP
+Stock NNP NN
+Stock-index NN
+Stockbrokers NNS
+Stockholders NNS
+Stockholm NNP
+Stocks NNS
+Stoll NNP
+Stoltzman NNP
+Stolzman NNP
+Stores NNPS
+Stories NNP
+Story NNP
+Strait NNP
+Strategic JJ
+Strauss NNP
+Street NNP
+Strindberg NNP
+Stronach NNP
+Strong JJ
+Strother NNP
+Stuart NNP
+Stuart-James NNP
+Stuffing VBG
+Stung VBN
+Subcontractors NNS
+Such JJ PDT
+Suddenly RB
+Suisse NNP
+Sulaiman NNP
+Sullivan NNP
+Sumitomo NNP
+Summer NNP
+Sun NNP
+Sunbird NNP
+Sunday NNP
+Sundays NNS
+Sunnyvale NNP
+Suns NNPS
+SuperDot NNP
+Superconductors NNS
+Superdome NNP
+Superior NNP
+Supportive JJ
+Supreme NNP
+Surprises NNS
+Surrey NNP
+Survey NN
+Susan NNP
+Sutro NNP
+Swan NN
+Swank NNP
+Swearingen NNP
+Swiss JJ
+Switzerland NNP
+Sydney NNP
+Symbol NN
+Symphony NNP
+Syndicate NN
+Synergistics NNP
+System NNP
+Systems NNPS NNP
+Szeto NNP
+T-shirts NNS
+T. NNP
+TAXPAYERS NNS
+TCMP NNP
+THAT WDT
+THE DT
+THREE CD
+TIRED JJ
+TNT NNP
+TO TO
+TRANSPLANT NNP
+TREASURY NN NNP
+TRIMMING VBG
+TRS-80 NNP
+TRUST NNP
+TV NN
+TWA NNP
+TWO CD
+TXO NNP
+Taccetta NNP
+Tache NNP
+Tacker NNP
+Tadzhikistan NNP
+Tailors NNP
+Taipei NNP
+Taittinger NNP
+Taiwan NNP
+Taizo NNP
+Takagi NNP
+Takashi NNP
+Take VB VBP
+Takeover NN
+Takes VBZ
+Takeshi NNP
+Takimura NNP
+Taking VBG
+Talcott NNP
+Talks NNS
+Tandem NNP
+Tandy NNP
+Tarwhine NNP
+Tashi NNP
+Tass NNP
+Tastes NNS
+Tator NNP
+Tatsunori NNP
+Taurus NNP
+Tax NNP
+Tax-exempt JJ
+Taxation NNP
+Taxpayer NNP
+Taylor NNP
+Technical NNP
+Technologies NNPS
+Technology NNP NN
+Ted NNP
+Teikoku NNP
+Teito NNP
+Tel NNP
+Telegraph NNP
+Telephone NNP
+Telepictures NNPS
+Telerate NNP
+Tempe NNP
+Temple NNP
+Ten CD
+Tennessee NNP
+Teodorani NNP
+Terms NNS
+Terrace NNP
+Terrence NNP
+Terror NN
+Test NNP NN
+Test-preparation JJ
+Testifying VBG
+Texaco NNP
+Texas NNP
+Thailand NNP
+Thalmann NNP
+Than IN
+Thanksgiving NNP
+That DT IN WDT
+Thatcher NNP
+The DT NNP
+Theatre NNP
+Their PRP$
+Then RB
+There EX
+Therefore RB
+These DT
+They PRP
+Think VB
+Third LS
+This DT
+Thomas NNP
+Thompson NNP
+Thornburgh NNP
+Those DT
+Though IN
+Thrall NNP
+Three CD NNP
+Throughout IN
+Throw VB
+Thunderbird NNP
+Thursday NNP
+Thus RB
+Tiananmen NNP
+Tiant NNP
+Tide NNP
+Tiger NNP
+Time NNP NN
+Times NNP NNPS
+Times-Stock NNP
+Timex NNP
+Tip NNP
+Tiphook NNP
+To TO
+Today NN
+Together RB
+Tokio NNP
+Tokyo NNP
+Toledo NNP
+Tom NNP
+Tomash NNP
+Tomoshige NNP
+Tony NNP
+Too RB
+Topeka NNP
+Toronto NNP
+Toronto-area JJ
+Toronto-based JJ
+Torrington NNP
+Total JJ
+Totally RB
+Touches VBZ
+Tourist NNP
+Tower NNP
+Toyota NNP
+Trace NNP
+Tracy NNP
+Trade NNP
+Traded NNP
+Traders NNS
+Trading NN NNP
+Traditional JJ
+Traditionally RB
+Traficant NNP
+Trailer NNP
+Train NNP
+Tramp NNP
+Trans NNP
+Transamerica NNP
+Transgenic NNP
+Transmission NNP
+Transport NNP VB
+Transportation NNP
+Travelers NNPS
+Travis NNP
+Tray NNP
+Treasury NNP
+Treaty NNP
+Trial NN NNP
+Tribe NNP
+Tribune NNP
+Trifari NNP
+Trinity NNP
+Triton NNP
+Trockenbeerenauslesen NNP
+Trojan NNP
+Tropics NNPS
+Troubled NNP
+Trout NNP
+Truck NNP
+Truckee NNP
+Trump NNP
+Trunkline NNP
+Trust NNP
+Trustco NNP
+Trying VBG
+Tube NNP
+Tucker NNP
+Tucson NNP
+Tuesday NNP
+Turkey NNP
+Turkmenia NNP
+Turnaround NNP
+Tuscany NNP
+Twins NNP
+Two CD
+Tymnet NNP
+Typically RB
+Tyre NNP
+U.K. NNP
+U.N. NNP
+U.N.-supervised JJ
+U.S. NNP
+U.S.-Japan JJ
+U.S.-Japanese JJ
+U.S.-Philippine JJ
+U.S.-Soviet JJ
+U.S.-backed JJ
+U.S.A NNP
+U.S.A. NNP
+U.S.S.R. NNP
+UAL NNP
+UAW NNP
+UBS NNP
+UNESCO NNP
+UNIFIRST NNP
+UNITED NNP
+US$ $
+USA NNP
+USIA NNP
+USX NNP
+Ultimately RB
+Unable JJ
+Uncertainty NN
+Under IN
+Undersecretary NNP
+Underwood NNP
+Underwoods NNPS
+Unemployed NNP
+Unemployment NN
+Unfortunately RB
+UniFirst NNP
+Unico NNP
+Unicorp NNP
+Unification NNP
+Unificationist JJ
+Union NNP
+United NNP
+Unitholders NNS
+Units NNS
+University NNP
+Unix NNP
+Unless IN
+Unlike IN
+Unsuspecting JJ
+Until IN
+Unwilling JJ
+Upham NNP
+Upjohn NNP
+Uptick NN
+Urban NNP
+Uruguay NNP
+Use NN
+Used VBN
+Using VBG
+Utah NNP
+Utilities NNPS
+Utility NNP
+Utsumi NNP
+Uzbekistan NNP
+Uzi-model JJ
+VAX9000 NN
+VOA NNP
+Va. NNP
+Vacancies NNS
+Vacaville NNP
+Valhi NNP
+Valley NNP
+Valrico NNP
+Van NNP
+Vanderbilt NNP
+Vanities NNS
+Vargas NNP
+Varying JJ
+Vega NNP
+Vegas NNP
+Velcro NN
+Venezuela NNP
+Venture NNP
+Veraldi NNP
+Vermont NNP
+Vernon NNP
+Veselich NNP
+Vicar NNP
+Vice NNP
+Vichy NNP
+Victor NNP
+Video NNP
+Vienna NNP
+Vietnam NNP
+Vietnamese-backed JJ
+Viewpoint NN
+Village NNP
+Vineyard NNP
+Vining NNP
+Vinken NNP
+Virgin NNP
+Virginia NNP
+Virginians NNPS
+Virtue NNP
+Visa NNP
+Visitors NNS
+Vitulli NNP
+Vivaldi-at-brunch JJ
+Voice NNP
+Voices NNS
+Volatility NN
+Volume NN
+Vos NNP
+Vose NNP
+Vosges NNP NNPS
+Voters NNS
+Voyager NNP
+Vries NNP
+Vt. NNP
+W. NNP
+W.A. NNP
+W.D. NNP
+W.N. NNP
+W.R. NNP
+W.Va NNP
+WARS NNS
+WORKERS NNPS
+WPP NNP
+WTD NNP
+Wa NNP
+Wachtel NNP
+Waertsilae NNP
+Wage NN
+Wah NNP
+Wakeman NNP
+Wako NNP
+Wakui NNP
+Walbrecher NNP
+Wales NNP
+Waleson NNP
+Walker NNP
+Walking VBG
+Walkman NNP
+Wall NNP
+Walt NNP
+Walter NNP
+Walters NNP
+Wamre NNP
+War NNP
+Ward NNP
+Warehouse NNP
+Warner NNP
+Warren NNP
+Warrenton NNP
+Warsaw NNP
+Was VBD
+Wash NNP
+Wash. NNP
+Washington NNP
+Washington-based JJ
+Wasserstein NNP
+Watanabe NNP
+Water NNP
+Watergate-beleaguered JJ
+Waters NNP
+Wathen NNP
+Watson NNP
+Wayland NNP
+Wayne NNP
+Ways NNPS
+We PRP
+Weatherly NNP
+Weaver NNP
+Webster NNP
+Wednesday NNP
+Wedtech NNP
+Week NNP
+Weekes NNP
+Weil NNP
+Weisfield NNP
+Wellesley NNP
+Wellington NNP
+Wells NNP
+West NNP JJ NNPS NN
+Westborough NNP
+Western JJ NNP
+Western-style JJ
+Westminster NNP
+Westport NNP
+Weyerhaeuser NNP
+What WP
+Whelen NNP
+When WRB
+Where WRB
+Whereas IN
+Whether IN
+While IN
+Whip NNP
+White NNP
+White-haired JJ
+Whiting NNP
+Whiz NNP
+Who WP
+Why WRB
+Wick NNP
+Wickliffe NNP
+Wilbur NNP
+Wild NNP
+Wilder NNP
+Will MD NNP
+Willamette NNP
+Willard NNP
+William NNP
+Williams NNP
+Wilmington NNP
+Wilson NNP
+Windy NNP
+Wine NN NNP
+Winger NNP
+Winiarski NNP
+Winnetka NNP
+Winning VBG
+Wis. NNP
+Wisconsin NNP
+Wise NNP
+With IN
+Without IN
+Witter NNP
+Wohlstetter NNP
+Wolf NNP
+Women NNP
+Wong NNP
+Wood NNP
+Woodrow NNP
+Worcester NNP
+Workers NNP NNS
+Works NNPS
+Worksheets NNS
+World NNP NN
+World-Wide NNP
+Worldwide NNP
+Worse JJR
+Worst RBS
+Wozniak NNP
+Wright NNP
+Wyoming NNP
+Xerox NNP
+Xiaoping NNP
+YMCA NNP
+YWCA NNP
+Yale NNP
+Yamaichi NNP
+Yamamoto NNP
+Yang NNP
+Yankee-come-lately JJ
+Yasuo NNP
+Yates NNP
+Year NN
+Yeargin NNP
+Years NNS
+Yesterday NN
+Yet CC RB
+Yetnikoff NNP
+Yew NNP
+Yields NNS
+Yokohama NNP
+York NNP
+York-based JJ NNP
+Yorker NNP
+Yoshihashi NNP
+You PRP
+Young NNP
+Younkers NNP NNS
+Your PRP$
+Youths NNP
+Yquem NNP
+Yutaka NNP
+Z. NNP
+Zaharah NNP
+Zama NNP
+Zapfel NNP
+Zarett NNP
+Zayed NNP
+Zealand NNP
+Zell NNP
+Zen-like JJ
+Zenith NNP
+Zhao NNP
+Zicklin NNP
+Ziyang NNP
+Zuckerman NNP
+Zurich NNP
+` ``
+`` ``
+a DT FW IN
+abandon VB VBP
+abandoned VBN
+abating VBG
+abduction NN
+abetted VBN
+abide VB
+ability NN
+able JJ
+aboard IN
+abolish VB
+abolished VBN
+abolishing VBG
+abolition NN
+abominable JJ
+abortion NN
+abortionist NN
+abounding VBG
+about IN RB RP
+above IN RB JJ
+above-market JJ
+abrasive JJ
+abridging VBG
+abroad RB
+absence NN
+absolute JJ
+absolutely RB
+absorbed VBN
+abstract JJ
+absurd JJ
+absurdity NN
+abuse NN
+abused JJ
+abusive JJ
+academia NN
+academic JJ
+academics NNS
+acceded VBD
+accelerated JJ VBD VBN
+acceleration NN
+accept VB VBP
+acceptable JJ
+acceptance NN
+acceptances NNS
+accepted VBD VBN
+accepting VBG
+access NN
+accessible JJ
+accessories NNS
+accident NN
+accidentally RB
+accommodate VB
+accompanied VBN
+accompany VB
+accomplish VB
+accomplished JJ
+accomplishments NNS
+accord NN
+accordance NN
+according VBG
+account NN VBP VB
+accountability NN
+accountable JJ
+accountants NNS
+accounting NN VBG
+accounts NNS
+accrue VB
+accrued VBN
+accumulated VBN
+accurate JJ
+accurately RB
+accusations NNS
+accusatory JJ
+accused VBD VBN
+accusing VBG
+aces VBZ
+achieve VB
+achieved VBN
+achievement NN
+achievement-test NN
+achieving VBG
+acid JJ NN
+acid-rain NN
+acknowledged VBD
+acknowledges VBZ
+acknowledging VBG
+acne NN
+acquainted VBN
+acquiesced VBD
+acquire VB
+acquired VBN VBD
+acquirer NN
+acquirers NNS
+acquires VBZ
+acquiring VBG
+acquisition NN
+acquisition-minded JJ
+acquisitions NNS
+acre NN
+acres NNS
+acrimonious JJ
+acrimony NN
+across IN RP
+act NN VB
+action NN
+actions NNS
+activate VBP
+active JJ
+actively RB
+activists NNS
+activities NNS
+activity NN
+actor NN
+acts VBZ NNS
+actual JJ
+actually RB
+ad NN
+adapted VBD
+adapting VBG
+add VB VBP
+added VBD VBN JJ
+addiction NN
+adding VBG
+addition NN
+additional JJ
+additions NNS
+address NN VB
+addressing VBG
+adds VBZ
+adequate JJ
+adhesives NNS
+adjacent JJ
+adjustable JJ
+adjusted VBN VBD
+adjusting VBG NN
+adjustment NN
+adjustments NNS
+administer VB
+administration NN
+administrations NNS
+administrative JJ
+administrator NN
+administrators NNS
+admires VBZ
+admit VBP
+admits VBZ
+admitted VBD VBN
+admitting VBG
+adopt VB
+adopted VBN VBD
+adoption NN
+adorned VBD
+ads NNS
+adult NN
+adults NNS
+advance NN VB
+advanced VBD JJ
+advances NNS
+advancing VBG
+advantage NN
+advantages NNS
+advent NN
+adversary NN
+adverse JJ
+advertise VB
+advertised VBN
+advertisements NNS
+advertisers NNS
+advertising NN VBG
+advice NN
+advise VB
+advised VBN VBD
+adviser NN
+advisers NNS
+advises VBZ
+advisory NN
+advocated VBD
+advocates NNS
+advocating VBG
+aerodynamic JJ
+aerospace NN
+aesthetic JJ
+affairs NNS
+affect VB VBP
+affected VBD
+affecting VBG
+affidavit NN
+affiliate NN
+affiliates NNS
+affinities NNS
+affirmation NN
+affirmative JJ
+afflicted VBN
+affluent JJ
+afford VB
+affordable JJ
+afraid JJ
+after IN RB
+after-tax JJ
+aftereffects NNS
+aftermath NN
+afternoon NN
+afterward RB
+afterwards RB
+again RB
+against IN
+age NN
+agencies NNS
+agency NN
+agenda NN
+agent NN
+agents NNS
+aggravated VBD
+aggressive JJ
+aggressively RB
+aghast JJ
+aging VBG
+ago RB IN
+agree VB VBP
+agreed VBD VBN
+agreeing VBG
+agreement NN
+agreements NNS
+agrees VBZ
+agricultural JJ
+ahead RB RP
+ai VBP
+aid NN
+aide NN
+aides NNS
+aids NNS
+ailing VBG JJ
+aim NN
+aimed VBN VBD
+aiming VBG
+air NN
+airborne JJ
+aircraft NN NNS
+aired VBD
+airing NN VBG
+airline NN
+airlines NNS
+airport NN
+airwaves NNS
+akin JJ
+alcohol NN
+alcoholic JJ
+alcoholics NNS
+alcoholism NN
+alert NN VB
+alerts VBZ
+alfalfa NN
+alfresco RB
+alienating VBG
+aligned VBN
+alike RB
+alive JJ
+all DT PDT RB
+all-cash JJ
+all-important JJ
+all-time JJ
+allegation NN
+allegations NNS
+alleged VBN JJ VBD
+allegedly RB
+alleges VBZ
+alleging VBG
+alleviate VB
+alley NN
+alleys NNS
+alliance NN
+allies NNS
+alligator NN
+allocated VBN
+allocation NN
+allow VB VBP
+allowed VBN VBD
+allowing VBG
+allows VBZ
+allure NN
+ally NN
+almost RB
+aloft RB
+alone RB
+along IN RB RP
+alongside IN
+already RB
+also RB
+altar NN
+alter VB
+altered JJ VBN
+alternating VBG
+alternative NN
+alternatively RB
+alternatives NNS
+although IN
+altitude NN
+altogether RB
+altruistic JJ
+alumni NNS
+always RB
+am VBP
+amass VB VBP
+amateur JJ
+amazing JJ
+amazingly RB
+ambassador NN
+ambassadors NNS
+ambitions NNS
+ambitious JJ
+amble VB
+amenable JJ
+amend VB
+amended VBN
+amending VBG
+amendment NN
+amendments NNS
+amicable JJ
+amid IN
+among IN
+amount NN VB
+amounted VBD
+amounts NNS VBZ
+amphobiles NNS
+ample JJ
+amps NNS
+amputation NN
+amusing JJ
+an DT ,
+analysis NN
+analyst NN
+analysts NNS
+analyze VB
+ancestry NN
+ancient JJ
+ancillary JJ
+and CC JJ IN NN
+anesthetized JJ
+anger NN
+angered VBN
+angle NN
+angry JJ
+animal NN
+ankle NN
+anniversary NN
+announce VB VBP
+announced VBD VBN JJ
+announcement NN
+announcer NN
+announcing VBG
+annoyed VBD
+annual JJ
+annualized JJ
+annually RB
+annuity NN
+another DT
+answer NN VB
+answering VBG
+answers NNS VBZ
+antagonistic JJ
+anthers NNS
+anti-China JJ
+anti-Japanese JJ
+anti-Western JJ
+anti-abortionists NNS
+anti-apartheid JJ
+anti-drug JJ
+anti-dumping JJ
+anti-hooligan JJ
+anti-miscarriage JJ
+anti-morning-sickness JJ
+anti-nuclear JJ
+anti-program JJ
+anti-programmers NNS
+anti-smoking JJ
+anti-takeover JJ
+antiSony JJ
+anticipated VBD VBN
+anticipates VBZ
+anticipation NN
+antics NNS
+anticult NN
+antitrust JJ
+anxieties NNS
+anxious JJ
+any DT RB
+anybody NN
+anymore RB
+anyone NN
+anything NN
+anytime RB
+anyway RB
+anywhere RB
+apart RB
+apartment NN
+apiece RB
+apologists NNS
+appalling JJ
+apparel NN
+apparent JJ
+apparently RB
+appeal NN VB VBP
+appealing VBG
+appeals NNS
+appear VB VBP
+appearance NN
+appeared VBD
+appearing VBG
+appears VBZ
+appease VB
+appellate JJ
+appetite NN
+applaud VBP
+applause NN
+apple NN
+apples NNS
+appliance NN
+appliances NNS
+applicability NN
+applicable JJ
+application NN
+applications NNS
+applied VBD VBN JJ
+apply VB
+appoint VB
+appointed VBN
+appointment NN
+appointments NNS
+appreciate VB
+appreciated VBD
+appreciation NN
+apprehensions NNS
+apprehensive JJ
+approach NN VBP
+approached VBD
+approaches NNS
+appropriate JJ
+appropriated VBN
+appropriation NN
+appropriations NNS
+appropriators NNS
+approval NN
+approve VB VBP
+approved VBN VBD
+approves VBZ
+approximately RB
+apt JJ
+arbitrage NN
+arbitrager NN
+arbitragers NNS
+arbitration NN
+arbitrator NN
+architect NN
+architects NNS
+architectural JJ
+architecture NN
+are VBP NN
+area NN
+areas NNS
+argue VBP VB
+argued VBD
+argues VBZ
+arguing VBG
+argument NN
+arguments NNS
+arise VBP
+arising VBG
+arm NN
+armed VBN
+armored JJ
+arms NNS
+arms-control NN JJ
+arms-reduction JJ
+around IN RB RP
+arousing VBG
+arranged VBD
+arrangement NN
+array NN
+arrest NN VB
+arrested VBN
+arrival NN
+arrive VB
+arrived VBD
+arrogance NN
+arrogant JJ
+arsenals NNS
+arsenide NN
+arson NN
+art NN
+artful JJ
+article NN
+articles NNS
+artist NN
+arts NNS
+as IN RB JJ
+asbestos NN
+asbestos-related JJ
+ascending VBG
+ashore RB
+aside RB
+ask VB VBP
+asked VBD VBN
+asking VBG
+asks VBZ
+aspect NN
+aspects NNS
+aspersions NNS
+aspires VBZ
+assault NN
+assaults NNS
+assemblages NNS
+assemble VB
+assembled VBN
+assemblies NNS
+assembly NN
+assert VB
+asserted VBD
+asserting VBG
+assertion NN
+asserts VBZ
+assess VB
+assessed VBN
+assessments NNS
+asset NN
+asset-backed JJ
+asset-sale JJ
+asset-valuation NN
+assets NNS
+assigned VBN
+assist VB
+assistance NN
+assistant NN JJ
+assisted VBN
+associate NN
+associated VBN
+associates NNS
+association NN
+assorted JJ
+assume VB VBP
+assumed VBN
+assuming VBG
+assumption NN
+assure VB
+assured VBN
+astonishment NN
+astray RB
+astronomer NN
+astronomical JJ
+at IN
+at-bat NN
+athletic JJ
+athletics NNS
+atmosphere NN
+atop IN
+attach VBP
+attached VBN VBD JJ
+attack NN VB
+attacks NNS
+attempt NN VB
+attempted VBN VBD
+attempting VBG
+attempts VBZ NNS
+attend VB
+attendance NN
+attendant JJ
+attended VBD
+attendee NN
+attention NN
+attitude NN
+attorney NN
+attorneys NNS
+attract VB VBP
+attracted VBD VBN
+attracting VBG
+attractions NNS
+attractive JJ
+attractiveness NN
+attracts VBZ
+attributed VBD VBN
+attributes NNS VBZ
+auction NN VB
+auctioned VBN
+auctions NNS
+audience NN
+audience-friendly JJ
+audiences NNS
+audiocassettes NNS
+audit NN VB
+audited VBN
+auditor NN
+audits NN
+augment VB
+auspices NNS
+austere JJ
+author NN
+authorities NNS
+authority NN
+authorization NN
+authorize VB
+authorized VBN VBD
+authorizes VBZ
+authors NNS
+autions NNS
+auto NN
+auto-safety JJ
+autographed VBN
+automated VBN
+automatic JJ
+automatically RB
+automobile NN
+automobile-parts JJ
+automobiles NNS
+automotive JJ
+automotive-lighting JJ
+automotive-parts JJ
+autos NNS
+autumn NN
+availability NN
+available JJ
+avec FW
+avenues NNS
+average JJ NN VBP
+averaged VBD
+avert VB
+averted VBN
+aviation NN
+avid JJ
+avoid VB VBP
+awaits VBZ
+awake JJ
+awarded VBN VBD
+awarding VBG
+awards VBZ
+aware JJ
+awareness NN
+away RB RP
+awesome JJ
+awful JJ
+awfully RB
+awry RB
+baby NN
+back RB RP JJ NN VB VBP
+back-pay NN
+backdrop NN
+backed VBN JJ VBD
+backers NNS
+background NN
+backgrounds NNS
+backing VBG
+backlash NN
+backlog NN
+backlogs NNS
+bad JJ
+badges NNS
+badly RB
+bailiff NN
+bailout NN
+bakery NN
+balance NN
+balanced JJ
+bald-faced JJ
+balkanized JJ
+balked VBD
+ball NN
+balloon NN VB
+ballooning NN VBG
+balloonists NNS
+balloons NNS
+ballot NN
+balloting NN
+ballots NNS
+ballpark NN
+ballplayers NNS
+ballroom NN
+balls NNS
+ban NN VB VBP
+band NN
+band-wagon JJ
+bands NNS
+bang NN
+bank NN
+bank-backed JJ
+banker NN
+bankers NNS
+banking NN VBG
+bankroll VBP
+bankrupt JJ
+bankruptcy NN
+bankruptcy-law JJ NN
+banks NNS
+banned VBN VBD
+banning VBG
+banquet NN
+bans VBZ
+bar NN
+barely RB
+bargain NN
+bargaining NN
+bargains NNS
+barge NN
+barges NNS
+barking VBG
+barred VBN VBD
+barrel NN
+barrels NNS
+barrier NN
+barriers NNS
+barring VBG
+base NN JJ
+baseball NN
+baseball-loving JJ
+based VBN
+baseman NN
+bases NNS
+basic JJ
+basically RB
+basis NN
+basket NN
+baskets NNS
+bass NN
+bassist NN
+bat NN
+battered VBN
+battery NN
+battery-operated JJ
+batting NN
+battle NN VBP
+battles NNS
+be VB
+beach NN
+beaches NNS
+beachfront JJ
+beanballs NNS
+bear NN
+bearing VBG NN
+bears NNS
+beat VB JJ NN VBD VBP
+beaten JJ VBN
+beating VBG
+beats VBZ NNS
+beautiful JJ
+beauty NN
+became VBD
+because IN RB
+become VB VBN VBP
+becomes VBZ
+becoming VBG
+bedding NN
+beds NNS
+beef NN
+been VBN
+beer NN
+beer-belly NN
+beers NNS
+befell VBD
+before IN RB
+beforehand RB
+befuddled VBD
+beg VB
+began VBD
+begging VBG
+begin VB VBP
+beginning VBG NN
+begins VBZ
+begot VBD
+begun VBN
+behalf NN
+behaved VBD
+behaving VBG
+behemoth NN
+behind IN RB
+being VBG
+beleaguered JJ VBN
+belfries NNS
+belfry NN
+belief NN
+believe VBP VB
+believed VBN VBD
+believes VBZ
+bell NN
+bell-ringer NN
+bell-ringing JJ
+bellringers NNS
+bells NNS
+bellwether NN
+belong VB VBP
+belonging VBG
+belongs VBZ
+beloved JJ
+below IN
+belts NNS
+bench NN
+benchmark NN JJ
+benchmarks NNS
+bend VB
+beneficial JJ
+beneficiaries NNS
+benefit NN VB VBP
+benefited VBD
+benefits NNS VBZ
+benevolent JJ
+benign JJ
+berries NNS
+besides IN
+best JJS RBS
+best-known JJS
+best-seller NN
+best-selling JJS
+besuboru FW
+bet RB
+betrayer NN
+better JJR RBR
+betterment NN
+betting VBG
+between IN
+beverage NN
+beverages NNS
+beyond IN
+biannual JJ
+bias NN
+bicameral JJ
+bickering NN
+bid NN VBD
+bidder NN
+bidders NNS
+bidding NN JJ
+bids NNS
+biennial JJ
+big JJ
+big-name JJ
+big-time JJ
+bigger JJR
+biggest JJS
+bikini NN
+bilateral JJ
+bilingual JJ
+bill NN
+billing NN
+billion CD
+billion-yen JJ
+billionaire NN
+billions NNS
+bills NNS
+binder NN
+binders NNS
+binge NN
+bio-analytical JJ
+biochemist NN
+biotechnology NN
+bipartisan JJ
+birds NNS
+biscuit NN
+bit NN RB
+bite NN
+bite-sized JJ
+biting VBG
+bitter JJ
+bitterness NN
+bizarre JJ
+black JJ
+black-and-white JJ
+blackjack NN
+blacks NNS
+blamed VBN VBD
+blames VBZ
+blank NN
+blanket VBP
+blase JJ NN
+blast NN
+bled VBD
+blender NN
+bless VB
+blessing NN
+blighted JJ
+blind JJ
+blindfold NN
+blink NN
+bloated JJ
+bloc NN
+block VB
+blockbuster NN
+blocked VBN
+blocking VBG
+blocks NNS
+blood NN
+blood-cell NN
+bloods NNS
+bloody JJ
+blow NN
+blown VBN
+bludgeon VB
+blue JJ
+blue-chip JJ
+blue-chips NNS
+bluntly RB
+blurred VBD
+board NN
+boarding VBG
+boardrooms NNS
+boards NNS
+boast VB
+boasts VBZ
+boatload NN
+bodegas NNS
+body NN
+boilers NNS
+bold JJ
+bolster VB
+bolstered VBN
+bolstering VBG
+bolsters VBZ
+bolts NNS
+bomb NN
+bombarding VBG
+bomber NN
+bombers NNS
+bond NN
+bond-price JJ
+bonds NNS
+bone NN
+bonus NN
+bonuses NNS
+book NN VB
+booked VBD
+booklet NN
+booklets NNS
+books NNS
+boom NN
+boom-or-bust JJ
+boomers NNS
+booming VBG
+boost VB NN
+boosted VBD VBN
+boosters NNS
+boosting VBG
+boosts VBZ
+boots NNS
+border NN
+borders NNS
+bore VBD
+boring JJ
+born VBN
+borough NN
+borrow VB
+borrowed VBD VBN
+borrowers NNS
+borrowing NN VBG
+borrowings NNS
+boss NN
+bosses NNS
+botched JJ
+both DT CC
+bothered VBN
+bottle NN
+bottlenecks NNS
+bottlers NNS
+bottles NNS
+bottling VBG
+bottom NN JJ
+bottom-line JJ
+bought VBD VBN
+bounce VB
+bounced VBD
+bounces VBZ
+boutique NN
+bowed VBD
+box NN
+boxy JJ
+boy NN
+boyfriends NNS
+boys NNS
+brain NN
+brain-wave JJ
+brainchild NN
+brains NNS
+brakes NNS
+bran NN
+branch NN
+branches NNS
+brand NN
+brand-name JJ
+brands NNS
+brat NN
+breach NN VB
+breach-of-contract JJ
+bread NN
+bread-and-butter JJ
+break VB
+breakdown NN
+breaker NN
+breakfast NN
+breaking NN VBG
+breaks VBZ
+breakthrough NN
+breathtaking JJ
+bred VBD
+breed NN VB
+breeding NN VBG
+breezy JJ
+brew NN
+brewed VBN
+brewing VBG
+bribe NN
+bribed VBD
+bribery NN
+bridge NN
+bridges NNS
+brief JJ VB
+briefing NN
+briefings NNS
+bright JJ
+brightened VBD
+brilliant JJ
+brilliantly RB
+bring VB VBP
+bringing VBG
+brings VBZ
+broad JJ
+broad-based JJ
+broadcasting NN VBG
+broadcasts NNS
+broaden VB
+broadened VBD
+broader JJR
+broadest JJS
+broadly RB
+broke VBD
+broken VBN
+broker NN
+broker-dealer JJ
+brokerage NN
+brokering VBG
+brokers NNS
+broncs NNS
+brood NN
+brother NN
+brought VBN VBD
+brow NN
+brunt NN
+brushbacks NNS
+brushed VBD
+brutal JJ
+buck NN VBP
+bucking VBG
+buckle NN
+budding VBG
+buddy NN
+budged VBN
+budget NN
+budgetary JJ
+budgeted VBN
+budgets NNS
+buds NNS
+buffet NN VB
+buffeted VBN
+build VB VBP
+building NN VBG
+buildings NNS
+buildup NN
+built VBN VBD
+bulging VBG
+bulk NN
+bull NN
+bulldozers NNS
+bullets NNS
+bullhorns NNS
+bullied VBD
+bullish JJ
+bulls NNS
+bunches NNS
+bundles NNS
+bundling VBG
+bunt NN
+buoyed VBD
+burden NN
+burdens NNS
+bureaucracy NN
+bureaucratic JJ
+burn VBP
+burned VBN
+burner NN
+burnouts NNS
+bus NN
+buses NNS
+bushel NN
+bushels NNS
+business NN
+businesses NNS
+businesslike JJ
+businessman NN
+businessmen NNS
+busloads NNS
+busted JJ
+but CC IN RB
+butter NN
+butterfat NN
+butterfly NN
+buttoned-down JJ
+buttoned-up JJ
+buttons NNS
+buy VB NN VBP
+buy-back NN JJ
+buy-out NN JJ
+buy-outs NNS
+buyer NN
+buyers NNS
+buying VBG NN
+buys NNS VBZ
+by IN RP RB
+bygone JJ
+ca MD
+cabinet NN
+cable NN
+cabs NNS
+cadet NN
+cake NN
+calculate VB VBP
+calculated JJ VBN
+calculating VBG
+calculations NNS
+calculator NN
+call VB VBP NN
+called VBN VBD
+caller NN
+callers NNS
+calling VBG
+calls VBZ NNS
+calm JJ
+calves NNS
+camaraderie NN
+came VBD
+camera NN
+cameras NNS
+camouflage NN
+camp NN
+campaign NN
+campaigner NN
+campaigning NN
+campaigns NNS
+campus NN
+can MD NN
+canal NN
+cancellation NN
+cancer NN
+cancer-causing JJ
+cancers NNS
+candid JJ
+candidate NN
+candidates NNS
+cane NN
+canine JJ
+cap NN
+capability NN
+capacity NN
+capacity-expansion JJ NN
+capital NN
+capital-gains NNS JJ
+capital-markets JJ
+capital-raising JJ
+capitalism NN
+capitalist JJ
+capitalists NNS
+capitalize VB
+capitalized VBN
+capped JJ VBD VBN
+capsules NNS
+captain VBP
+captive NN
+capture VB
+car NN
+car-crash JJ
+car-safety JJ
+card NN
+card-member NN
+cardboard NN
+cardholders NNS
+cardiac JJ
+cardiovascular JJ
+cards NNS
+care NN VB
+cared VBD
+career NN
+careers NNS
+carefree JJ
+careful JJ
+careless JJ
+caretaker NN
+cargo NN
+carpet NN
+carried VBN VBD
+carrier NN
+carriers NNS
+carries VBZ
+carry VB VBP
+carrying VBG
+cars NNS
+cartilage NN
+cascading VBG
+case NN
+cases NNS
+cash NN
+cash-and-stock JJ
+cash-flow JJ
+cash-flush JJ
+cash-rich JJ
+casino NN
+cast VBN
+cast-iron JJ
+casting VBG
+castle NN
+casts VBZ
+casually RB
+casualty-loss JJ
+catapult VB
+cataract NN
+catch VB NN
+catch-up NN
+catchers NNS
+catching VBG
+categories NNS
+category NN
+cater VBP
+catering VBG
+cattle NNS
+caught VBN VBD
+cause NN VB
+caused VBN VBD
+causes NNS VBZ
+causing VBG
+caution NN VBP
+cautioned VBD
+cautious JJ
+cautiously RB
+cautiousness NN
+cavalier JJ
+caveat NN
+cavernous JJ
+cease-fire NN
+ceiling NN
+celebration NN
+celebrity NN
+cell NN
+cellists NNS
+cells NNS
+cellular JJ
+cement NN
+censorship NN
+cent NN
+centennial NN
+center NN JJ
+center-right JJ
+centerfielder NN
+centerpiece NN
+centers NNS VBZ
+centimeter NN
+central JJ
+centralized VBN
+cents NNS
+cents-a-unit JJ
+century NN
+ceramic JJ
+cereal NN
+certain JJ
+certainly RB
+certainty NN
+certificate NN
+certificates NNS
+chain NN VBP
+chained JJ
+chair NN
+chairman NN
+chairs NNS
+chalk NN
+challenge NN VB
+challenges NNS
+challenging VBG
+chamber NN
+chambers NNS
+champion VBP
+championing VBG
+chance NN
+chancellor NN
+chances NNS
+change NN VB VBP
+change-ringing NN
+changed VBD VBN
+changes NNS VBZ
+changing VBG
+channel VB
+chanted VBN
+chaos NN
+chaps NNS
+character NN
+characteristics NNS
+characterized VBD VBN
+characterizing VBG
+characters NNS
+charge NN VB VBP
+charged VBN VBD
+charges NNS VBZ
+charitable JJ
+charm NN
+charter NN
+charts NNS
+chary JJ
+chase JJ VB
+chassis NN
+chastised VBD
+chat VB
+chateau NN
+chatter NN
+chauffeur VB
+cheapens VBZ
+cheaper JJR
+cheat VB
+cheating NN
+check VB
+checkbook NN
+checking NN VBG
+checks NNS
+cheek NN
+cheer NN VB
+chef NN
+chefs NNS
+chemical NN JJ
+chemicals NNS
+chest NN
+chew VB
+chic JJ
+chicago NNP
+chickens NNS
+chief NN JJ
+chiefly RB
+child NN
+children NNS
+chip NN
+chipping VBG
+chips NNS
+chocolate JJ
+choice NN
+choices NNS
+choose VB
+chooses VBZ
+choosing NN VBG
+chop VB
+chores NNS
+chose VBD
+chosen VBN
+chronicle NN
+chrysotile NN
+chunk NN
+church NN
+church-goers NNS
+church-owned JJ
+churches NNS
+churn VBP
+cigar-chomping JJ
+cigarette NN
+cigarettes NNS
+circle NN
+circles NNS
+circuit NN
+circuit-breaker NN
+circulation NN
+circumspect JJ
+circumstances NNS
+citation NN
+citations NNS
+cite VB VBP
+cited VBD VBN
+cites VBZ
+cities NNS
+citing VBG
+citizen NN
+citizen-sparked JJ
+citizens NNS
+city NN
+city-owned JJ
+civil JJ
+civil-service JJ
+civilization NN
+claim NN VBP VB
+claimed VBD VBN
+claiming VBG
+claims VBZ NNS
+clamped VBN
+clannish JJ
+claptrap NN
+clarified VBN
+clarify VB
+clarinet NN
+clarinetist NN
+clash NN
+clashed VBN
+class NN
+classed VBN
+classes NNS
+classic JJ
+classical JJ
+classics NNS
+classifications NNS
+classified VBN
+classifies VBZ
+classmates NNS
+classroom NN
+clause NN
+clauses NNS
+clean VB
+clean-air JJ
+clean-up JJ
+cleaned VBN
+cleaner JJR
+cleaner-burning JJ
+cleanliness NN
+cleanup NN
+clear JJ VB RB
+clearance NN
+cleared VBD VBN
+clearer JJR
+clearing NN VBG
+clearly RB
+clerics NNS
+clever JJ
+clicked VBD
+client NN
+clients NNS
+climate NN
+climb NN VB
+climbed VBD
+climbing VBG
+clinical JJ
+clip VB
+clipboard NN
+clipped VBD VBN
+clippings NNS
+cloak NN
+clobbered VBN
+clock NN
+close NN VB JJ RB
+close-up NN
+closed VBD VBN JJ
+closed-end JJ
+closely RB
+closeness NN
+closer RBR JJR
+closing NN VBG JJ
+closures NNS
+cloth NN
+clothes NNS
+clothing NN
+cloud NN VB
+clouding NN
+clouds NNS
+clout NN
+club NN
+clue NN
+clues NNS
+co-author NN
+co-chairman NN
+co-chief JJ
+co-developers NNS
+co-edited JJ
+co-founded VBD
+co-owner NN
+co-payments NNS
+coaching NN
+coal NN
+coal-fired JJ
+coalition NN
+coated VBN
+coatings NNS
+cocky JJ
+cocoa NN
+codified VBN
+coed NN
+coercion NN
+coffee NN
+coffin NN
+cogeneration-plant NN
+coincidental JJ
+coke NN
+cold NN
+colder JJR
+coliseum NN
+collaborate VB
+collaborated VBD
+collaboration NN
+collapse NN
+collapsed JJ VBD VBN
+collar NN
+collateral NN
+collateralized JJ
+colleagues NNS
+collect VBP
+collected VBN VBD
+collecting VBG
+collection NN
+collections NNS
+college NN
+college-bowl NN
+colleges NNS
+colony NN
+color-coding VBG
+colored VBN
+colors NNS
+columns NNS
+combat NN VB
+combination NN
+combinations NNS
+combine VB
+combined VBN JJ
+combines NNS
+combining VBG
+come VB VBP VBN
+comeback NN
+comes VBZ
+comfort NN
+comfortable JJ
+comfortably RB
+comforted VBN
+comic JJ
+coming VBG
+commanded VBN
+commencing VBG
+comment NN VB
+comments NNS VBZ
+commerce NN
+commercial JJ NN
+commercializing VBG
+commission NN
+commissioner NN
+commissions NNS VBZ
+commit VB
+commitment NN
+commitments NNS
+committed VBN VBD
+committee NN
+committees NNS
+commodities NNS
+commodity NN
+common JJ NN
+communication NN
+communications NNS
+communism NN
+communist NN
+communities NNS
+community NN
+compact JJ
+companies NNS
+companion NN
+company NN
+comparable JJ
+compare VBP
+compared VBN VBD
+compares VBZ
+comparison NN
+comparisons NNS
+compatible JJ
+compel VB
+compelled VBN
+compelling JJ
+compensate VB
+compensation NN
+compete VB
+competed VBN
+competes VBZ
+competing VBG
+competition NN
+competitions NNS
+competitive JJ
+competitively RB
+competitors NNS
+compilation NN
+compiled VBN
+complain VB
+complained VBD VBN
+complaining VBG
+complains VBZ
+complaint NN
+complaints NNS
+complete JJ VB
+completed VBD VBN
+completely RB
+completeness NN
+completes VBZ
+completing VBG
+completion NN
+complex JJ NN
+complexes NNS
+compliance NN
+complicate VB
+complicated JJ VBD VBN
+component NN
+components NNS
+composed VBN
+composite JJ NN
+composition NN
+compositional JJ
+compositions NNS
+compound NN
+comprehensive JJ
+compressed VBN
+comprises VBZ
+compromise NN VB
+compromised VBN
+computer NN
+computer-assisted JJ
+computer-driven JJ
+computer-market JJ
+computer-services NNS
+computerize VB
+computerized JJ
+computers NNS
+computing NN
+concealed VBN
+concede VBP
+concedes VBZ
+conceding VBG
+conceivable JJ
+concentrate VB
+concentrated VBD
+concentrating VBG
+concentration NN
+concept NN
+concepts NNS
+concern NN VB
+concerned VBN JJ
+concerning VBG
+concerns NNS
+concert NN
+concertos NNS
+concerts NNS
+concession NN
+conciliatory JJ
+conclude VB VBP
+concluded VBD VBN
+concrete JJ
+condemnation NN
+condemned VBN VBD
+condition NN
+conditional JJ
+conditions NNS
+condom NN
+condominium NN
+conduct NN VBP VB
+conducted VBN
+conducting VBG NN
+confer VB
+conferees NNS
+conference NN
+conferences NNS
+confesses VBZ
+confidant NN
+confidence NN
+confident JJ
+confidential JJ
+confined VBN
+confines NNS
+confirm VB
+confirmed VBD VBN
+confirms VBZ
+conflict NN VBP
+conforming VBG
+conforms VBZ
+confrontation NN
+confrontational JJ
+confuse VB
+confused JJ VBN
+confusion NN
+congenial JJ
+conglomerate NN
+congregation NN
+congress NN
+congressional JJ
+congressman NN
+congressmen NNS
+conjunction NN
+connect VB
+connected VBN
+connection NN
+connotation NN
+consecutive JJ
+consensus NN
+consent NN
+consented VBD
+consequence NN
+consequences NNS
+conservation NN
+conservative JJ
+consider VBP VB
+considerable JJ
+considerably RB
+consideration NN
+considered VBN
+considering VBG
+considers VBZ
+consist VB VBP
+consistent JJ
+consistently RB
+consisting VBG
+consists VBZ
+consolidate VB
+consolidated JJ
+consolidation NN
+consomme NN
+consonant JJ
+consortia NN
+consorting VBG
+conspicuous JJ
+conspiracy NN
+conspired VBD
+constant JJ
+constantly RB
+constituent NN
+constitute VBP
+constitution NN
+constitutional JJ
+constitutional-law NN
+constraints NNS
+construction NN
+construe VB
+construed VBN
+consultant NN
+consultants NNS
+consulted VBN
+consulting NN VBG
+consume VB
+consumed VBN
+consumer NN
+consumer-products NNS
+consumers NNS
+consumption NN
+contacted VBN
+contacts NNS
+contain VB VBP
+contained VBD VBN
+container NN
+containerboard NN
+containers NNS
+containing VBG
+contains VBZ
+contemplating VBG
+contemporary JJ
+contend VBP
+contended VBD
+contends VBZ
+content NN JJ
+contentious JJ
+contest NN VB
+contestants NNS
+contests NNS
+context NN
+continent NN
+contingency-fee JJ
+contingent NN
+continually RB
+continue VB VBP
+continued VBD VBN JJ
+continues VBZ
+continuing VBG JJ
+continuous JJ
+continuously RB
+contract NN
+contract-drilling NN
+contracted VBD
+contractions NNS
+contractor NN
+contractors NNS
+contracts NNS NN
+contradict VB
+contradictions NNS
+contrarian JJ
+contrary NN
+contrast NN
+contrasts VBZ
+contribute VB
+contributed VBD VBN
+contributing VBG
+contribution NN
+contributions NNS
+control NN VB
+controlled VBN VBD
+controlling VBG
+controls NNS VBZ
+controversial JJ
+controversies NNS
+convenience NN
+convenient JJ
+convention NN
+conventional JJ
+conventional-arms JJ
+conventioners NNS
+conversations NNS
+conversion NN
+convert VB
+converted VBD VBN
+convertible JJ
+convey VBP
+convicted VBN
+conviction NN
+convince VB
+convinced JJ
+convocation NN
+cookbook NN
+cooking JJ
+cool JJ
+cooled VBN
+cooperate VB
+cooperating VBG
+cooperation NN
+cooperative JJ
+coordinate VB
+coordinator NN
+cop-killer JJ
+cope VB
+copies NNS
+copper NN
+copper-rich JJ
+copy VB VBP
+copycats NNS
+copying VBG
+copyright NN
+core NN JJ
+corkscrews NNS
+corn NN
+corn-buying JJ
+corners NNS
+cornerstone NN
+cornerstones NNS
+corporate JJ
+corporate-wide JJ
+corporation NN
+corporations NNS
+correct JJ VB VBP
+corrected VBN
+correcting VBG
+corrective JJ
+correspondent NN
+corridors NNS
+corrupt JJ
+corruption NN
+cosmetic NN
+cosmetics NNS
+cost NN VB VBN
+cost-containment JJ
+cost-control JJ
+cost-cutting JJ NN
+cost-sharing JJ NN
+costly JJ
+costs NNS VBZ
+costume NN
+cotton NN
+could MD
+council NN
+councils NNS
+counsel NN
+counted VBN
+counter NN
+counteract VB
+counterattack NN
+counterbidders NNS
+counterclaims NNS
+countercultural JJ
+counterespionage NN
+countermove NN
+counterpart NN
+counterparts NNS
+counterrevolutionary JJ
+counterweight NN
+countless JJ
+countries NNS
+country NN
+countrymen NNS
+counts VBZ
+county NN
+coupe NN
+couple JJ NN
+coupled VBN
+couples NNS
+coupon NN
+course NN
+courses NNS
+court NN
+court-ordered JJ
+courthouse NN
+courtroom NN
+courts NNS
+cousins NNS
+cover VB VBP
+coverage NN
+covered VBN VBD
+covering VBG
+coverings NNS
+covers VBZ NNS
+cowardly JJ
+cows NNS
+crack VB NN
+crackdown NN
+cracks NNS
+craft VB
+cranked VBD
+crapshoot NN
+crash NN JJ
+crashes NNS
+craze NN
+cream NN
+creamier JJR
+creams NNS
+creamy JJ
+create VB VBP
+created VBD VBN
+creates VBZ
+creating VBG
+creation NN
+creative JJ
+creativity NN
+creators NNS
+creature NN
+credentials NNS
+credibility NN
+credit NN
+credit-card NN
+credit-rating NN
+creditor NN
+creditors NNS
+credits NNS
+creditworthiness NN
+crews NNS
+crib NN
+crime NN
+crimes NNS
+criminal JJ
+criminals NNS
+crippled VBN
+crippling JJ
+crises NNS
+crisis NN
+criteria NNS
+critic NN
+criticism NN
+criticize VB VBP
+criticized VBD VBN
+critics NNS
+crocidolite NN
+cronyism NN
+crook NN
+crookery NN
+crop NN
+cropped VBN
+crops NNS
+cross-border JJ
+crossed VBN
+crossing VBG
+crowd NN
+crowds VBZ
+crowning JJ
+crucial JJ
+crude JJ
+cruise NN
+cruising VBG
+crunch NN
+crusade NN
+crushed JJ
+cry VBP
+crying VBG
+crystal NN
+crystal-lattice JJ NN
+crystals NNS
+cubic JJ
+cuckoo NN
+cue NN
+cuisine NN
+culprit NN
+cultivated VBN
+cultivation NN
+cultural JJ
+cultural-reform NN
+culture NN
+cumbersome JJ
+cup NN
+cups NNS
+curb VB
+curbing VBG
+cure VB
+curl VB
+curled VBD
+curly JJ
+currencies NNS
+currency NN
+current JJ NN
+current-carrying JJ
+currently RB
+currents NNS
+curriculum NN
+curse NN
+curses NNS
+curtail VB
+curtailed VBD
+cushion NN
+cushioned VBN
+custom NN
+custom-tailored JJ
+customer NN
+customers NNS
+customized VBN
+cut VB VBD NN VBN
+cutbacks NNS
+cute JJ
+cutouts NNS
+cuts NNS
+cutthroat JJ
+cutting VBG
+cuvees NNS
+cycle NN
+cycles NNS
+cyclical JJ
+cynical JJ
+dailies NNS
+daily JJ RB
+dairy NN
+dam NN
+damage NN VB
+damaged VBD VBN
+damages NNS
+damaging JJ
+damn RB
+damp VB
+damping VBG
+dams NNS
+dance VB
+dances NNS
+danger NN
+dangerous JJ
+dare VBP
+dark JJ
+darned RB
+dash NN
+dashboard NN
+dashed VBN
+data NNS NN
+date NN
+dates NNS
+daughters NNS
+dawn NN
+day NN
+day-to-day JJ
+days NNS
+de IN FW NNP
+deactivates VBZ
+dead JJ
+dead-eyed JJ
+deadline NN
+deadwood NN
+deal NN VB VBP
+dealer NN
+dealers NNS
+dealership NN
+dealerships NNS
+dealing VBG
+dealings NNS
+deals NNS
+death NN
+deaths NNS
+debacle NN
+debate NN
+debenture NN
+debentures NNS
+debt NN
+debt-equity JJ NN
+debt-financed JJ
+debts NNS
+debut NN
+decade NN
+decade-long JJ
+decades NNS
+decades-old JJ
+deceptive JJ
+decide VB VBP
+decided VBD VBN
+deciding VBG
+decision NN
+decisions NNS
+deck NN
+declaration NN
+declarations NNS
+declare VB
+declared VBD VBN
+declaring VBG
+decline NN VB VBP
+declined VBD VBN
+decliners NNS
+declines NNS VBZ
+declining VBG
+decorated VBN
+decorator NN
+decrease NN
+decried VBD
+decries VBZ
+dedicated VBN
+deduct VB
+deductibles NNS
+deductions NNS
+deeds NNS
+deemed VBN VBD
+deep JJ RB
+deepening VBG
+deeper JJR
+deeply RB
+default NN VB
+defaults NNS
+defeat NN VB
+defeated VBD
+defeats VBZ
+defect NN
+defects NNS
+defend VB
+defendant NN
+defendants NNS
+defended VBD
+defends VBZ
+defense NN
+defenses NNS
+defensive JJ
+deficiencies NNS
+deficit NN
+deficit-reduction JJ
+deficit-ridden JJ
+deficits NNS
+defied VBD
+define VB
+defined VBN
+defines VBZ
+definitely RB
+definitive JJ
+deflect VB
+defunct JJ
+defying VBG
+degenerate VB
+degree NN
+degrees NNS
+dei FW
+del FW
+delay VB VBP
+delayed VBN JJ
+delays NNS
+delegates NNS
+delegation NN
+delete VB
+deliberately RB
+deliberating VBG
+delicate JJ
+delight NN
+delighted JJ
+delisted VBN
+deliver VB
+delivered VBN
+deliveries NNS
+delivering VBG
+delivery NN
+deluxe JJ
+delved VBN
+delver NN
+demagoguery NN
+demand NN
+demanded VBN
+demanding VBG
+demands NNS
+demeanor NN
+demise NN
+democracy NN
+democratic JJ
+demographic JJ
+demonstrate VB
+demonstrates VBZ
+demonstrating VBG
+demonstration NN
+demonstrations NNS
+demonstrators NNS
+denial NN
+denied VBD VBN
+denies VBZ
+denominations NNS
+denominator NN
+denounce VB VBP
+denouncing VBG
+dent NN
+deny VB
+denying VBG
+depart VB
+departed VBD
+department NN
+departments NNS
+departure NN
+departures NNS
+depend VB
+depended VBD
+dependents NNS
+depending VBG
+depleted VBN
+deplorable JJ
+deposit NN
+depositary JJ NN
+depository NN
+deposits NNS
+depress VB
+depressed JJ VBN
+depressing JJ
+depression NN
+depressions NNS
+deprivation NN
+deprive VB
+deprived VBN
+deprogrammings NNS
+deputy NN JJ
+deregulation NN
+derisively RB
+derivative JJ
+derivatives NNS
+derived VBN
+derring-do NN
+descending VBG
+descent NN
+describe VB VBP
+described VBD VBN
+describes VBZ
+description NN
+deserts NNS
+deserve VBP
+design NN
+designation NN
+designations NNS
+designed VBN
+designer NN
+designers NNS
+designing VBG
+designs NNS
+desirable JJ
+desire NN
+desired VBN
+desires NNS
+desktop NN
+desperate JJ
+desperately RB
+despise VB
+despite IN
+dessert NN
+dessert-menu NN
+destabilizing JJ
+destination NN
+destroy VB
+destruction NN
+desultory JJ
+detail NN
+detailed JJ VBN
+details NNS
+detected VBN
+detective NN
+detective-story NN
+deter VB
+deteriorated VBN
+deteriorating VBG
+deterioration NN
+determine VB
+determined VBN
+determining VBG
+deterrant JJ
+deterrents NNS
+devastating VBG
+develop VB VBP
+developed VBN VBD
+developer NN
+developers NNS
+developing VBG
+development NN
+developments NNS
+develops VBZ
+deviant JJ
+deviation NN
+device NN
+devices NNS
+devise VB VBP
+devised VBD
+devote VB
+devoted VBD
+devouring VBG
+dew-sodden JJ
+dexterity NN
+di FW
+diagnosed VBN
+diagnosis NN
+dialogue NN
+diamond NN
+diaper NN
+diapers NNS
+dictate VBP
+dictation NN
+did VBD
+die VB
+die-hard JJ
+die-hards NNS
+died VBD VBN
+diesel NN
+diethylstilbestrol NN
+differ VBP
+difference NN
+differences NNS
+different JJ
+differential JJ
+differently RB
+difficult JJ
+difficulties NNS
+difficulty NN
+dignitaries NNS
+dignity NN
+digs NNS VBZ
+diluted VBN JJ
+dilution NN
+diminished JJ VBN
+diners NNS
+dinner NN
+dinners NNS
+dinosaurs NNS
+diplomacy NN
+diplomatic JJ
+diplomats NNS
+dipped VBD
+direct JJ VB
+direct-investment JJ
+direct-mail JJ
+directed VBD
+directing VBG
+direction NN
+directionless JJ
+directly RB
+director NN
+directors NNS
+directorship NN
+directs VBZ
+dirtiest JJS
+dirty JJ
+disadvantage NN
+disagreement NN
+disagrees VBZ
+disallowed VBD
+disappear VB
+disappears VBZ
+disappointed JJ VBN
+disappointing JJ
+disappointment NN
+disapproval NN
+disapprove VBP
+disapproved VBN
+disarmament NN
+disarray NN
+disaster NN
+disasters NNS
+disbursed VBN
+disbursement NN
+discard VB
+discarded VBD VBN
+discipline NN
+disciplined VBD
+disclose VB
+disclosed VBN VBD
+disclosure NN
+disclosures NNS
+disconnect VB
+discontent NN
+discontinue VB
+discontinued VBN
+discontinuing VBG
+discordant JJ
+discos NNS
+discount NN
+discounting NN
+discounts NNS
+discourse NN
+discovered VBN VBD
+discrepancies NNS
+discrepancy NN
+discretionary JJ
+discrimination NN
+discriminatory JJ
+discuss VB
+discussed VBN VBD
+discussing VBG
+discussion NN
+discussions NNS
+disease NN
+diseases NNS
+disgorge VB
+dish NN
+disk NN
+dislike NN VBP
+dismal JJ
+dismantle VB
+dismay NN
+dismayed JJ
+dismiss VBP
+dismissal NN
+dismissed VBD VBN
+dismissing VBG
+disobedience NN
+disorder NN
+disorderly JJ
+disorders NNS
+disparate JJ
+displaced VBN
+display VB NN
+displays NNS
+disposable JJ
+disposables NNS
+disposal NN
+dispose VB
+disposing VBG
+disproportionate JJ
+dispute NN VBP
+disputed VBD VBN
+disputes NNS
+disquieting JJ
+disregard NN
+disrupt VB
+disruption NN
+disruptions NNS
+disruptive JJ
+dissatisfied JJ
+disseminate VB
+disseminating VBG
+dissemination NN
+dissented VBN
+disservice NN
+dissident NN
+dissolves VBZ
+dissolving VBG
+distance NN
+distant JJ
+distilled JJ
+distinct JJ
+distinguished JJ VBD
+distort VB
+distorted JJ
+distributable JJ
+distributed VBN
+distributes VBZ
+distribution NN
+distributor NN
+distributorship NN
+district NN
+districts NNS
+disturb VB
+disturbances NNS
+disturbing JJ
+divergence NN
+diverse JJ
+diversification NN
+diversified JJ VBN
+diversify VB
+diversifying VBG
+diversion NN
+diversionary JJ
+divest VB
+divesting VBG
+divided VBN
+dividend NN
+dividends NNS
+dividing VBG
+diving NN
+division NN
+divisions NNS
+divisiveness NN
+dizziness NN
+do VBP VB
+do-it-yourself JJ
+docile JJ
+docket NN
+doctor NN
+doctorate NN
+doctors NNS
+doctrine NN
+document NN
+documents NNS
+does VBZ
+doing VBG
+doldrums NNS
+doling VBG
+dollar NN
+dollar-denominated JJ
+dollar-yen JJ
+dollars NNS
+dolls NNS
+domain NN
+domestic JJ
+domestically RB
+dominance NN
+dominant JJ
+dominate VBP
+dominated VBN VBD
+dominates VBZ
+dominating VBG
+domination NN
+domineering JJ
+done VBN RB
+donor NN
+dons VBZ
+doomed JJ VBN
+door NN
+doors NNS
+dormitory NN
+dotting VBG
+double RB VB JJ
+double-A JJ
+double-C NN
+double-crossed VBD
+double-digit JJ
+doubled VBD
+doubt NN
+doubted VBD
+doubts VBZ
+dovetails VBZ
+down RB RP IN JJ
+downfall NN
+downgrade NN
+downgraded VBD
+downgrading NN
+downpayments NNS
+downright RB
+downside NN
+downsized VBN
+downtown NN
+downturn NN
+downward RB JJ
+dozen NN
+dozens NNS
+draft NN VB
+drafted VBD VBN
+drafting VBG
+drag NN VB
+drag-down JJ
+dragged VBN
+dragging VBG
+drain NN
+draining VBG
+dramatic JJ
+dramatically RB
+drape VB
+draw VB VBP
+drawbacks NNS
+drawing VBG NN
+drawn VBN
+draws VBZ
+dreaded JJ
+dreadful JJ
+dream NN VBP
+dreamt VBD
+drearier RBR
+dress VB
+dressed VBN
+drew VBD
+drift VBP
+drifted VBD
+drifting VBG
+drink NN VBP
+drinker NN
+drinking NN
+drinks NNS
+drive VB VBP NN
+driven VBN
+driver NN
+drivers NNS
+drives NNS
+driving VBG JJ
+drooled VBD
+drop NN VB
+drop-in JJ
+dropped VBD VBN
+dropping VBG
+drops NNS VBZ
+drought NN
+droughts NNS
+drove VBD
+drug NN
+drugs NNS
+drums NNS
+drunk JJ
+dry JJ
+dual JJ
+dubbed VBN VBD
+dubious JJ
+duck VB
+ducking VBG
+duckling NN
+due JJ RB
+duels NNS
+duffers NNS
+dull JJ
+duly RB
+dummies NNS
+dummy JJ
+dump VB
+dumped VBD VBN
+duo NN
+duplicity NN
+durable JJ
+durable-goods NNS
+durables NNS
+during IN
+dusk NN
+dust NN
+dust-up NN
+dusty JJ
+duties NNS
+dutifully RB
+duty NN
+duty-free JJ
+dwindling VBG
+dyes NNS
+dynamics NNS
+each DT
+eager JJ
+eagerness NN
+ear NN
+earlier JJR RBR RB
+earliest JJS
+early JJ RB
+early-retirement JJ
+earn VB
+earned VBD VBN
+earning VBG
+earnings NNS
+earns VBZ
+earring NN
+earthquake NN
+earthquakes NNS
+ease VB
+eased VBD
+eases VBZ
+easier JJR
+easily RB
+easing VBG
+east RB
+easy JJ
+easy-to-read JJ
+eat VBP
+eating NN VBG
+echo VBP
+echoed VBN
+echoing VBG
+eclectic JJ
+economic JJ
+economic-forecasting JJ
+economically RB
+economics NNS NN
+economies NNS
+economist NN
+economists NNS
+economy NN
+edge NN
+edged VBD VBN
+editing NN
+editing\/electronic JJ
+edition NN
+editions NNS
+editor NN
+editorial NN
+editorially RB
+editors NNS
+educating VBG
+education NN
+educational JJ
+educators NNS
+effect NN
+effective JJ
+effectively RB
+effectiveness NN
+effects NNS
+efficiencies NNS
+efficiency NN
+efficient JJ
+effort NN
+efforts NNS
+egg NN
+eggs NNS
+ego NN
+eight CD
+eight-month JJ
+eight-team JJ
+eight-time JJ
+eight-year JJ
+eighth JJ
+either DT CC RB
+ejected VBN
+elaborate VB JJ
+elderly JJ
+elected VBN VBD
+election NN
+elections NNS
+electric JJ
+electrical JJ
+electrical-safety JJ
+electricity NN
+electromagnets NNS
+electronic JJ
+electronics NNS NN
+elegant JJ
+elegantly RB
+element NN
+elementary JJ
+elements NNS
+elephant NN
+elevators NNS
+eligible JJ
+eliminate VB VBP
+eliminated VBN
+eliminates VBZ
+eliminating VBG
+elimination NN
+elite NN
+elixir NN
+else RB JJ
+elsewhere RB
+emasculate VB
+emasculation NN
+embarrassed JJ
+embarrassment NN
+embezzled VBD
+embody VBP
+embraced VBN
+embraces VBZ
+emerge VB
+emergency NN
+emerging VBG
+emeritus NN
+emigrate VB
+emigres NNS
+emissions NNS
+emotional JJ
+emotionally RB
+emotions NNS
+emphasis NN
+emphasized VBD
+empire NN
+employ VB
+employed VBN
+employee NN
+employees NNS
+employer NN
+employers NNS
+employment NN
+employs VBZ
+empower VBP
+empowers VBZ
+empty JJ
+enable VB VBP
+enabled VBD
+enables VBZ
+enabling VBG
+enact VB
+enacted VBD VBN
+enactment NN
+encircling VBG
+enclosed VBN
+encore NN
+encounter NN VB
+encourage VB VBP
+encouraged JJ
+encourages VBZ
+encouraging VBG
+encroaching VBG
+end NN VB
+ended VBD VBN
+ending VBG
+endorse VB
+ends VBZ NNS
+enemies NNS
+energetic JJ
+energy NN
+energy-services JJ
+enforce VB
+enforcement NN
+engage VB VBP
+engaged VBN
+engages VBZ
+engaging JJ
+engine NN
+engineer NN
+engineered VBN
+engineering NN VBG
+engineers NNS
+engines NNS
+enhanced VBN VBD
+enhances VBZ
+enjoy VB VBP
+enjoyable JJ
+enjoyed VBN
+enjoying VBG
+enjoys VBZ
+enlarged JJ
+enormous JJ
+enormously RB
+enough RB JJ
+enraged VBD
+enrollment NN
+ensembles NNS
+ensnarled VBN
+ensuing VBG
+ensure VB
+ensuring VBG
+entangled JJ
+enter VB
+entered VBN VBD
+entering VBG
+enterprises NNS
+enters VBZ
+entertained VBN
+entertaining JJ
+entertainment NN
+enthusiasm NN
+enthusiasms NNS
+enthusiasts NNS
+enticed VBD
+entire JJ
+entirely RB
+entitled VBD
+entitles VBZ
+entity NN
+entrants NNS
+entrench VB
+entrepreneur NN
+entrusted VBN
+enviable JJ
+environment NN
+environmental JJ
+environmentalists NNS
+environments NNS
+envision VB
+envoy NN
+epileptics NNS
+equal JJ VBP
+equal-opportunity NN
+equaling VBG
+equally RB
+equate VB
+equip VB
+equipment NN
+equipped VBN
+equities NNS
+equity NN
+equity-purchase JJ
+equivalent JJ
+era NN
+erasures NNS
+erect VB
+eroding VBG
+erroneous JJ
+error NN
+errors NNS
+ersatz JJ
+erupted VBN
+escape NN
+escaped VBD
+escort NN
+escrow NN
+especially RB
+espouse VBP
+espresso NN
+essential JJ
+essentially RB
+establish VB
+established VBD VBN
+establishing VBG
+establishment NN
+estate NN
+estimate NN VB
+estimated VBN VBD JJ
+estimates NNS VBZ
+estimation NN
+etc FW
+etc. FW
+eternal JJ
+ethanol NN
+ethical JJ
+ethics NNS
+ethnic JJ
+evade VB
+evaders NNS
+evaluate VB
+evaluated VBD
+evaluation NN
+evangelist-industrialist NN
+evaporated VBD
+evasion NN
+even RB JJ
+evening NN
+evenly RB
+evensong NN
+event NN
+events NNS
+eventual JJ
+eventually RB
+ever RB
+ever-changing JJ
+ever-growing JJ
+ever-optimistic JJ
+every DT
+everybody NN
+everyday JJ
+everyone NN
+everything NN
+everywhere RB
+evidence NN
+evidenced VBN
+evident JJ
+evil JJ NN
+evoke VBP
+evoking VBG
+evolution NN
+evolve VB
+evolved VBD
+ex-accountant NN
+ex-dividend JJ
+exacerbated VBN
+exact JJ
+exactly RB
+exaggerated JJ
+examination NN
+examinations NNS
+examine VB
+examined VBD
+examining VBG
+example NN
+examples NNS
+exceed VB VBP
+exceeded VBD
+exceeding VBG
+exceedingly RB
+exceeds VBZ
+excellent JJ
+except IN
+exception NN
+exceptional JJ
+exceptionally RB
+exceptions NNS
+excess JJ NN
+excesses NNS
+excessive JJ
+exchange NN VB
+exchanged VBD
+exchanges NNS
+exchanging VBG
+excise JJ VB
+excision NN
+excited VBN
+excitement NN
+exciting JJ
+exclaims VBZ
+excluded VBN
+excludes VBZ
+exclusion NN
+exclusive JJ
+exclusively RB
+excorciate VB
+excursions NNS
+excuse NN VB
+execs NNS
+execute VB
+executed VBN
+executes VBZ
+executing VBG
+execution NN
+executions NNS
+executive NN JJ
+executive-office NN
+executives NNS
+exempt VB
+exempted VBN
+exempting VBG
+exemption NN
+exemptions NNS
+exercisable JJ
+exercise VB NN
+exercised VBN VBD
+exercises NNS
+exerting VBG
+exhaust NN VBP
+exhausted VBN
+exhibit NN
+exhibition NN
+exhibits VBZ
+exile NN
+exist VB VBP
+existence NN
+existing VBG
+exit NN
+exits NNS
+exodus NN
+exorbitant JJ
+exotic JJ
+expand VB
+expanded VBD JJ VBN
+expanding VBG
+expands VBZ
+expansion NN
+expect VB VBP
+expectation NN
+expectations NNS
+expected VBN JJ
+expecting VBG
+expects VBZ
+expelled VBN
+expendable JJ
+expenditures VBZ
+expense NN
+expenses NNS
+expensive JJ
+experience NN VB
+experienced VBN
+experiencing VBG
+experimenting VBG
+expert NN
+experts NNS
+expire VB VBP
+expired VBD
+expires VBZ
+explain VB
+explained VBD
+explaining VBG
+explains VBZ
+explanations NNS
+exploded VBD
+exploit VB
+exploited VBN
+exploration NN
+explore VB
+explosion NN
+explosive JJ
+export NN VB
+export-oriented JJ
+exporter NN
+exporters NNS
+exports NNS
+exposed VBN
+exposure NN
+exposures NNS
+expressed VBD VBN
+expressing VBG
+expression NN
+expressly RB
+expunged VBN
+exquisite JJ
+extend VB VBP
+extended VBD JJ VBN
+extending VBG
+extension NN
+extensive JJ
+extent NN
+external JJ
+extort VB
+extorted VBD
+extra JJ
+extraordinarily RB
+extraordinary JJ
+extreme JJ
+extremely RB
+eye NN
+eyeing VBG
+eyes NNS
+fabled JJ
+fabric NN
+fabricator NN
+fabulous JJ
+face NN VB VBP JJ
+face-to-face JJ RB
+faced VBN
+faces VBZ
+facial JJ
+facilitate VB
+facilities NNS
+facility NN
+facing VBG
+fact NN
+factor NN
+factories NNS
+factors NNS
+factory NN
+facts NNS
+faculty NN
+fail VBP VB
+failed VBD VBN
+failing VBG
+fails VBZ
+failure NN
+failures NNS
+fainting NN VBG
+fair JJ
+fairly RB
+fairway NN
+faith NN
+faithful NN
+fake JJ
+fall NN VB VBP
+fallen VBN
+falling VBG
+falls VBZ
+false JJ
+falsify VB
+faltered VBD
+famed JJ
+familiar JJ
+familiarization NN
+families NNS
+family NN
+famous JJ
+fan NN
+fanciful JJ
+fancy JJ
+fanfare NN
+fans NNS
+far RB IN JJ
+far-reaching JJ
+fare VBP
+fared VBD
+farm NN
+farmers NNS
+farms NNS
+farmwives NNS
+farther RB
+fashion NN
+fashioned VBN
+fast RB JJ
+fast-food NN
+fast-growing JJ
+fastball NN
+fastballs NNS
+fastener NN
+fasteners NNS
+faster JJR
+fastest JJS
+fat JJ NN
+fatalities NNS
+fate NN
+father NN
+father-in-law NN
+fattened VBN
+fault NN VBP
+faultlessly RB
+faults NNS
+faulty JJ
+favor NN VB
+favorable JJ
+favorably RB
+favored JJ
+favorite JJ
+favors NNS VBZ
+fear NN VBP
+feared VBD VBN
+fearing VBG
+fears NNS
+fearsome JJ
+feasible JJ
+feature VB
+featured VBD VBN
+features NNS
+featuring VBG
+fed VBD VBN
+federal JJ
+federally RB
+federation NN
+fee NN
+feed NN VB VBP
+feel VBP VB NN
+feeling VBG NN
+feelings NNS
+feels VBZ
+fees NNS
+feet NNS
+feline JJ
+fell VBD
+fellow JJ NN
+felonies NNS
+felt VBD VBN
+female JJ NN
+feminine-care JJ
+fences NNS
+fend VB
+ferries NNS
+ferry NN
+fertile JJ
+fertilizing VBG
+festivities NNS
+fetal-tissue NN
+fetch VB
+fetching VBG
+fetchingly RB
+feudal JJ
+feuding NN VBG
+few JJ
+fewer JJR
+fiber NN
+fiber-end JJ
+fiber-optic JJ
+fibers NNS
+fiduciary JJ
+field NN VB
+fielded VBD
+fields NNS
+fierce JJ
+fifth JJ
+fifth-grade NN
+fifth-largest JJ
+fight NN VB
+fighters NNS
+fighting VBG
+fights NNS
+figure NN VB VBP
+figured VBN
+figures NNS
+file VB NN VBP
+filed VBN VBD
+filers NNS
+files NNS VBZ
+filing NN VBG
+filings NNS
+fill VB
+filled VBN
+filling VBG NN
+fills VBZ
+film NN
+films NNS
+filter NN
+filters NNS
+finagled VBN
+final JJ
+finalized VBN
+finally RB
+finance NN VB
+financed VBN
+finances NNS
+financial JJ
+financial-services NNS
+financially RB
+financier NN
+financiers NNS
+financing NN VBG
+financings NNS
+find VB VBP
+finding VBG NN
+findings NNS
+finds VBZ
+fine NN
+fine-tuned JJ
+fined VBN
+finery NN
+fines NNS
+finest JJS
+finger NN
+fingers NNS
+finished VBD VBN
+finite JJ
+fire NN
+fireballs NNS
+fired VBD VBN
+fireproofing NN
+fires NNS VBZ
+firings NNS
+firm NN JJ
+firmed VBD
+firmly RB
+firmness NN
+firms NNS
+first JJ RB
+first-half JJ
+first-mortgage JJ
+first-time JJ
+first-year JJ
+fiscal JJ
+fishing NN
+fishing\/processing JJ
+fit JJ NN VBP
+fits NNS VBZ
+five CD
+five-by-eight-inch JJ
+five-cent JJ
+five-course JJ
+five-day JJ
+five-point JJ
+five-year JJ
+fix VB
+fixed VBN
+fixed-price JJ
+fixed-rate JJ
+fixes NNS
+fixture NN
+fixtures NNS
+fizzled VBN
+flag NN
+flagrant JJ
+flagship NN
+flame NN
+flaps NNS
+flash VBP
+flashes NNS
+flashpoint NN
+flashy JJ
+flat JJ RB
+flat-footed RB
+flatulent JJ
+fled VBD
+fledgling NN
+fleet JJ NN
+fleeting JJ
+flex-time JJ
+flexibility NN
+flexible JJ
+flier NN
+flies VBZ
+flight NN
+flights NNS
+flip JJ
+flirted VBN
+float VB
+floating-rate JJ
+flood NN
+floor NN
+flooring NN
+floors NNS
+flourishing JJ
+flow NN VBP
+flower NN
+flowers NNS
+flown VBN
+flows NNS VBZ
+fluctuation NN
+fluctuations NNS
+flurry NN
+fly VB NN VBP
+flying VBG
+focus VB NN
+focused VBN VBD
+focuses VBZ
+focusing VBG
+fold VB
+foldability NN
+folded VBD
+folks NNS
+follow VB VBP
+followed VBD VBN
+following VBG JJ NN
+follows VBZ
+fond JJ
+food NN
+food-industry NN
+food-shop JJ
+foods NNS
+fool NN
+foot NN
+football NN
+for IN RB
+forbidding-looking JJ
+force NN VB VBP
+forced VBN VBD JJ
+forces NNS VBZ
+forcing VBG JJ
+forecast NN VBN VBP
+forecasting VBG
+forecasts NNS
+forefront NN
+foreign JJ
+foreign-exchange JJ
+foreign-stock JJ
+foreigners NNS
+forest NN
+forest-product NN
+forest-products NNS JJ
+forever RB
+forge VB
+forget VB
+forgettable JJ
+form NN VB
+formal JJ
+formally RB
+format NN
+formation NN
+formed VBN
+former JJ
+formerly RB
+forms NNS
+formula NN
+formulating VBG
+forth RB
+fortunes NNS
+forum NN
+forward RB
+forward-rate JJ
+foster VB
+fostering VBG
+fought VBD VBN
+foul JJ
+found VBD VBN
+foundation NN
+founded VBD VBN
+founder NN
+foundering VBG
+founding JJ NN
+four CD
+four-foot-high JJ
+four-month JJ
+four-year JJ
+four-year-old JJ
+fourteen CD
+fourth JJ
+fourth-largest JJ
+fourth-quarter NN
+fracas NN
+fraction NN
+fractional JJ
+fractionally RB
+fracture NN
+fragile JJ
+framers NNS
+franc NN
+franchise NN
+franchisee NN
+francs NNS
+frantic JJ
+fraud NN
+fraudulently RB
+fray NN
+free JJ RB VB
+free-choice JJ
+free-lance JJ
+free-market NN
+freedom NN
+freedoms NNS
+freeway NN
+freight NN
+frenzy NN
+frequency NN
+frequent JJ
+frequently RB
+fresh JJ
+freshman NN
+fret NN
+frets VBZ
+friction NN
+friend NN
+friendly JJ
+friends NNS
+friendship NN
+frightened VBN
+fringe NN
+fringes NNS
+frivolous JJ
+from IN
+front NN JJ
+front-seat NN
+frozen VBN
+fruitful JJ
+fruits NNS
+frustrate VB
+frustrated JJ VBN
+frustrating VBG
+frustration NN
+fuel NN VB
+fueled VBN VBD
+fueling VBG
+fuels NNS
+fulfill VB
+full JJ
+full-fledged JJ
+full-length JJ
+full-scale JJ
+full-time JJ
+full-year JJ
+fullscale JJ
+fully RB
+fun NN
+function NN
+functionaries NNS
+functions NNS
+fund NN VB
+fund-raisers NNS
+fundamental JJ
+fundamentalist JJ
+fundamentally RB
+fundamentals NNS
+funded VBN
+funding NN VBG
+funds NNS
+funny JJ
+furniture NN
+furor NN
+further JJ RB RBR JJR
+future JJ NN
+futures NNS
+fuzzy JJ
+gain NN VB
+gained VBD VBN
+gaining VBG
+gains NNS VBZ
+gallant JJ
+galling JJ
+gallium NN
+gallon NN
+galvanized JJ VBD
+galvanizing VBG
+gamble NN
+gambler NN
+game NN
+games NNS
+gametocide NN
+gamut NN
+gangs NNS
+gap NN
+garage NN
+garden-variety NN
+garment NN
+gas NN
+gas-tax NN
+gas-tax-increasing JJ
+gas-turbine JJ
+gasoline NN
+gate NN
+gather VB
+gathering NN
+gauge VB NN
+gauges VBZ
+gauging VBG
+gave VBD
+gelatin NN
+gendarme NN
+gene NN
+general JJ NN
+general-practice JJ
+general-purpose JJ
+generalizations NNS
+generally RB
+generate VB VBP
+generated VBN VBD
+generating VBG
+generation NN
+generations NNS
+generators NNS
+generous JJ
+genes NNS
+genetic JJ
+genetically RB
+genial JJ
+genie NN
+genius NN
+gentle JJ
+gentler JJR
+genuine JJ
+geography NN
+geometrical JJ
+gestures NNS
+get VB VBP
+get-out-the-vote JJ
+get-together NN
+get-togethers NNS
+gets VBZ
+getting VBG
+giant JJ NN
+giants NNS
+gift NN
+gigantic JJ
+gimmickry NN
+girl NN
+girlfriend NN
+give VB VBP
+giveaways NNS
+given VBN
+gives VBZ
+giving VBG
+glamorize VB
+glamorous JJ
+glasnost FW
+glass NN
+gleeful JJ
+glitches NNS
+global JJ
+globally RB
+globe NN
+gloomy JJ
+gloss VBP
+glossy JJ
+gluts NNS
+go VB VBP
+goal NN
+goals NNS
+goblins NNS
+goes VBZ
+going VBG
+gold NN
+golden JJ
+golf NN
+gone VBN
+good JJ NN
+good-faith NN
+good-hearted JJ
+good-natured JJ
+goodies NNS
+goods NNS
+goods-producing JJ
+goodwill NN
+gooseberry NN
+got VBD VBN
+gotten VBN
+goverment NN
+governed VBD
+government NN
+government-business NN
+government-certified JJ
+government-funded JJ
+government-sponsored JJ
+governments NNS
+governor NN
+governor-elect NN
+governors NNS
+grabbed VBN
+grade NN
+grader NN
+graders NNS
+graduated VBD
+grain NN
+grains NNS
+grand JJ
+grand-jury JJ NN
+grandfather NN
+grandson NN
+grant VB
+granted VBN VBD
+granting VBG
+grants NNS
+grapes NNS
+graphics NNS
+graphs NNS
+grapple VB
+grasp VB
+grass-roots JJ
+gray JJ
+graying NN
+great JJ RB
+greater JJR
+greatest JJS
+greatly RB
+greats NNS
+greed NN
+green JJ
+greenhouse-produced JJ
+greenmailer NN
+grew VBD
+grievance NN
+grievances NNS
+grim JJ
+grip NN
+gripping JJ
+grocery NN
+gross JJ
+ground NN
+group NN
+groups NNS
+grow VB
+grower NN
+growers NNS
+growing VBG
+growls VBZ
+grown VBN JJ
+grows VBZ
+growth NN
+growths NNS
+grudging JJ
+guarantee VB NN
+guaranteed VBN
+guarantees NNS VBZ
+guarding VBG
+guards NNS
+gubernatorial JJ
+guerrillas NNS
+guest NN
+guests NNS
+guide NN
+guided VBD
+guidelines NNS
+guilders NNS
+guile NN
+guilty JJ
+guinea NN
+guise NN
+gun-carrying JJ
+guns NNS
+gunship NN
+gurus NNS
+gut NN
+gut-wrenching JJ
+guts NNS
+guy NN
+guys NNS
+guzzle VB
+gyrate VB
+gyrations NNS
+habit NN
+habits NNS
+hack VB
+hacker NN
+hackles NNS
+had VBD VBN
+hailed VBD
+hailing VBG
+hair NN
+half NN DT JJ PDT
+half-an-hour NN
+half-forgotten JJ
+half-hour JJ NN
+half-point JJ
+halfhearted JJ
+hallmark NN
+halls NNS
+halt NN VB
+halted VBN
+halts NNS
+halve VB
+halved JJ
+hampered VBD
+hamstrung VBP
+hand NN
+hand-held JJ
+handed VBD
+handful NN
+handle VB
+handled VBD VBN
+handles VBZ
+handling NN
+hands NNS
+handy JJ
+hang VB VBP
+hangs VBZ
+happen VB
+happened VBD VBN
+happier JJR
+happy JJ
+harass VB
+harbinger NN
+hard JJ RB
+hard-line JJ
+harder JJR RBR
+hardly RB
+hardware NN
+harm NN
+harmful JJ
+harmless JJ
+harmony NN
+harms VBZ
+harped VBD
+harsh JJ
+harshly RB
+harvest NN
+harvested VBN
+has VBZ VBP
+hate VBP
+hatred NN
+hats NNS
+haul NN
+hauled VBD
+have VBP VB
+having VBG
+hay NN
+hazardous JJ
+hazardous-waste-site NN
+hazards NNS
+hazelnut NN
+he PRP
+head NN JJ VB
+headache NN
+headaches NNS
+headed VBN
+heading VBG
+headline NN
+headlined VBN
+headquarters NN NNS
+headrests NNS
+heads VBZ NNS
+heady JJ
+healing NN VBG
+health NN
+health-and-benefits JJ
+health-care NN
+healthy JJ
+hear VB VBP
+heard VBN VBD
+hearing NN VBG
+hearings NNS
+heart NN
+heartened VBN
+heartland NN
+hearts NNS
+heat NN
+heated VBN
+heating NN VBG
+heaviest JJS
+heavily RB
+heavy JJ
+heavy-duty JJ
+heavy-truck NN
+heavy-water NN
+hedging NN
+heebie-jeebies NNS
+heels NNS
+hefty JJ
+heightened VBN
+heights NNS
+heirs NNS
+held VBN JJ VBD
+helm NN
+help VB NN VBP
+helped VBD VBN
+helpful JJ
+helping VBG
+helps VBZ
+hemorrhaging VBG
+her PRP$ PRP
+herald VB
+herbicide NN
+here RB
+heredity NN
+herself PRP
+hesitate VB
+hid VBD
+hidden JJ VBN
+hide VB
+hiding NN VBG
+hierarchical JJ
+high JJ NN RB
+high-backed JJ
+high-cost JJ
+high-flying JJ
+high-grade JJ
+high-interest JJ
+high-level JJ
+high-performing JJ
+high-polluting JJ
+high-priced JJ
+high-production JJ
+high-quality JJ
+high-ranking JJ
+high-rate JJ
+high-risk JJ
+high-security JJ
+high-speed JJ
+high-stakes JJ
+high-tech JJ
+high-technology JJ
+high-temperature JJ
+high-volume JJ
+high-yield JJ
+higher JJR RBR
+higher-cost JJ
+higher-fat JJR
+highest JJS
+highest-pitched JJ
+highly RB
+highway NN
+him PRP
+himself PRP
+hindering VBG
+hint NN
+hinted VBD
+hire VB NN
+hired VBD VBN
+his PRP$
+hissed VBD
+historic JJ
+historical JJ
+historically RB
+history NN
+hit NN VBD VBN VB VBP
+hither RB
+hits NNS
+hitter NN
+hitting VBG
+hobby NN
+hobbyists NNS
+hodgepodge NN
+hold VB VBP NN
+holder NN
+holders NNS
+holding VBG NN
+holdings NNS
+holds VBZ
+hole NN
+holiday NN
+holidays NNS
+holler VB
+home NN RB
+home-market JJ
+home-ownership NN
+homeland NN
+homeless JJ NN
+homelessness NN
+homeowners NNS
+homes NNS
+homework NN
+honed VBN
+honey NN
+honor NN
+honorably RB
+honors NNS
+hook NN
+hooliganism NN
+hoopla NN
+hope NN VBP
+hoped VBD VBN
+hopeful JJ
+hopefully RB
+hopes VBZ NNS
+hoping VBG
+horizon NN
+hormone NN
+horoscopes NNS
+horse NN
+horse-breeding NN
+hospitable JJ
+hospital NN
+hospitalized VBN
+hospitals NNS
+host NN VB
+hostage NN
+hosted VBD
+hostile JJ NN
+hostility NN
+hosts NNS
+hot JJ
+hot-air JJ
+hotel NN
+hotels NNS
+hottest JJS
+hour NN
+hours NNS
+house NN VB
+household NN
+households NNS
+houses NNS
+housewife NN
+housing NN
+housing-assistance JJ
+housing-loan NN
+hovered VBN
+how WRB
+how-to JJ
+however RB
+howl NN
+huge JJ
+hugely RB
+hugging VBG
+hugs NNS
+human JJ
+human-rights JJ
+humble JJ
+humor NN
+hundred CD
+hundreds NNS
+hundredweight NN
+hung VBD
+hungry JJ
+hunker VB
+hunt NN
+hunted VBN
+hurdles NNS
+hurl VBP
+hurled VBN
+hurricane NN
+hurt VBN VB VBP
+hurting VBG
+husband NN
+hustlers NNS
+hybrid JJ NN
+hybrids NNS
+hypocrisy NN
+hypothesized VBN
+hypothetical JJ
+hysteria NN
+ice NN
+idea NN
+ideal NN
+ideals NNS
+ideas NNS
+identical JJ
+identification NN
+identified VBN VBD
+identify VB
+identity NN
+ideological JJ
+ideology NN
+idle JJ
+if IN JJ
+ignored VBD
+ignoring VBG
+ill JJ
+illegal JJ
+illegality NN
+illness NN
+illustrate VB
+illustrates VBZ
+illustration NN
+image NN
+images NNS
+imaginative JJ
+imagine VB
+imbalances NNS
+immediate JJ
+immediately RB
+immigrant JJ
+imminent JJ
+immoral JJ
+immorality NN
+immune JJ
+impact NN
+impair VB
+impart VB
+impasse NN
+impatient NN
+impeccable JJ
+impede VB
+impediment NN
+impeding VBG
+impending JJ VBG
+imperative JJ
+imperial JJ
+imperialists NNS
+imperiled VBN
+imperious JJ
+impetuous JJ
+impetus NN
+implement VB
+implementation NN
+implemented VBN
+implements VBZ
+implication NN
+implications NNS
+implicit JJ
+implicitly RB
+implied VBD VBN
+implies VBZ
+imploring VBG
+imply VBP
+import NN VBP
+importance NN
+important JJ
+importantly RB
+imported VBD VBN
+importer NN
+imports NNS
+impose VB
+imposed VBN VBD
+imposes VBZ
+imposing VBG
+impossible JJ
+impression NN
+impressive JJ
+imprisonment NN
+improperly RB
+improve VB VBP
+improved VBN VBD
+improvement NN
+improvements NNS
+improves VBZ
+improving VBG
+improvisation NN
+improvisational JJ
+impudent JJ
+impugn VB
+impulses NNS
+imputed JJ
+in IN RP RB NN
+in-depth JJ
+in-store JJ
+inaccurate JJ
+inaccurately RB
+inadequacy NN
+inadequate JJ
+inadvertence NN
+inappropriate JJ
+inaugurated VBN
+incentive NN
+incentive-backed JJ
+incentive-bonus NN
+incentives NNS
+inception NN
+incest NN
+inch NN
+inched VBD
+inches NNS
+inching VBG
+incident NN
+incidents NNS
+incisions NNS
+inclined JJ VBN
+include VBP VB
+included VBD VBN
+includes VBZ
+including VBG IN
+income NN
+income-tax NN
+incomes NNS
+incoming JJ
+incomplete JJ
+incorporated VBN
+incorporates VBZ
+increase NN VB VBP
+increased VBN VBD JJ
+increases NNS VBZ
+increasing VBG
+increasingly RB
+incredible JJ
+incredibly RB
+incriminating VBG
+incumbent JJ
+incurred VBN
+indeed RB
+indefinitely RB
+indemnification NN
+independence NN
+independent JJ
+index NN
+index-arbitrage JJ NN
+index-arbitrage-related JJ
+index-fund JJ NN
+index-options NNS
+index-related JJ
+indexers NNS
+indexes NNS
+indicate VB
+indicated VBD VBN
+indicates VBZ
+indicating VBG
+indication NN
+indications NNS
+indicative JJ
+indicator NN
+indicators NNS
+indicted VBD
+indictment NN
+indifference NN
+indirect JJ
+indirectly RB
+individual JJ NN
+individual-retirement-account NN
+individuals NNS
+induce VB
+industrial JJ
+industrial-product NN
+industrialize VB
+industrialized VBN JJ
+industrials NNS
+industries NNS
+industry NN
+industry-government JJ
+industry-supported JJ
+industrywide JJ
+inefficiencies NNS
+inefficiency NN
+inevitable JJ
+infamous JJ
+infamy NN
+infectious JJ
+inferences NNS
+infighting NN
+inflate VB
+inflated VBN
+inflation NN
+inflation-adjusted JJ
+inflationary JJ
+influence NN VB
+influenced VBN
+influences VBZ
+influencing VBG
+influential JJ
+inform VB
+informal JJ
+informally RB
+information NN
+information-services NNS
+informed JJ
+infrastructure NN
+infrequent JJ
+infringed VBN
+ingeniously RB
+ingenuity NN
+ingredients NNS
+inherent JJ
+inheritor NN
+inhibit VB
+initial JJ
+initialing VBG
+initially RB
+initiate NN
+initiating VBG
+initiative NN
+initiatives NNS VBZ
+injecting VBG
+injunction NN
+injured JJ
+injuries NNS
+injuring VBG
+injury NN
+ink NN
+inkling NN
+inmates NNS
+inner JJ
+inner-city NN
+innings NN
+innocent JJ
+innovated VBD
+innovation NN
+innovative JJ
+innuendoes NNS
+inoperative JJ
+inputs NNS
+inquiries NNS
+inquiring VBG
+inquiry NN
+insane JJ
+insanity NN
+insects NNS
+insert VB
+inserted VBN
+inside JJ NN
+insider NN
+insider-trading JJ NN
+insiders NNS
+insidious JJ
+insights NNS
+insinuating VBG
+insist VBP VB
+insisted VBD
+insistence NN
+insisting VBG
+insists VBZ
+insolvency NN
+insolvent JJ
+inspection NN
+inspector NN
+inspirational JJ
+inspired VBD JJ
+install VB
+installed VBN
+installing VBG
+installment NN
+instance NN
+instances NNS
+instead RB
+instigated VBD
+institute VB
+instituted VBN
+institutes NN
+institution NN
+institutional JJ
+institutions NNS
+instructed VBN
+instruction NN
+instruction-set JJ
+instructions NNS
+instrumental JJ
+instrumentation NN
+instruments NNS
+insulation NN
+insurance NN
+insurance-company NN
+insure VB
+insured JJ VBN
+insurer NN
+insurgents NNS
+intact JJ
+intangible JJ NN
+integrate VB
+integrated VBN JJ
+integrated-circuit JJ
+integration NN
+integrity NN
+intellectual JJ
+intellectual-property JJ
+intelligence NN
+intelligent JJ
+intend VBP VB
+intended VBN VBD
+intense JJ
+intensity NN
+intensive JJ
+intent NN
+intention NN
+intentional JJ
+intentionally RB
+intentioned JJ
+interactions NNS
+interbank NN
+interest NN
+interest-bearing JJ
+interest-rate NN
+interest-rate-sensitive JJ
+interested JJ VBN
+interesting JJ
+interestrate NN
+interests NNS
+interfere VB
+interference NN
+interferes VBZ
+interim JJ
+interior JJ
+interiors NNS
+interjects VBZ
+interloping VBG
+intermediate JJ
+intermission NN
+internal JJ
+international JJ
+interpretation NN
+interprets VBZ
+interrogated VBN
+intersections NNS
+interstate JJ
+intertitles NNS
+intervene VB
+intervened VBN
+intervention NN
+interventions NNS
+interview NN VB
+interviewed VBN
+interviewing VBG
+interviews NNS
+intimacy NN
+intimidate VB
+into IN
+intoxication NN
+intraday JJ
+intricate JJ
+intrinsic JJ
+introduce VB
+introduced VBD VBN
+introduces VBZ
+introducing VBG
+introduction NN
+introverted JJ
+intruder NN
+intrusion NN
+intrusions NNS
+invades VBZ
+invariably RB
+invent VB
+invented VBD VBN
+invention NN
+inventiveness NN
+inventor NN
+inventories NNS
+inventory NN
+invest VB VBP
+invested VBN
+investigate VB
+investigating VBG
+investigation NN
+investigations NNS
+investigator NN
+investigators NNS
+investing VBG
+investment NN
+investment-grade JJ
+investments NNS
+investor NN
+investors NNS
+invisible JJ
+invitation NN
+invite VB
+invited VBN
+invites VBZ
+inviting VBG
+invoking VBG
+involuntarily RB
+involve VB VBP
+involved VBN VBD JJ
+involvement NN
+involves VBZ
+involving VBG
+iota NN
+irony NN
+irrelevant JJ
+irreparable JJ
+irritated JJ
+is VBZ
+isolated VBN
+isolation NN
+issue NN VB
+issued VBN VBD
+issuers NNS
+issues NNS
+issuing VBG
+it PRP
+item NN
+items NNS
+itinerary NN
+its PRP$
+itself PRP
+jail NN
+jailed JJ VBD
+jam NN
+jazz NN
+jealously RB
+jealousy NN
+jeans NNS
+jeopardize VB
+jeopardizing VBG
+jeopardy NN
+jerked VBN
+jet NN VBP
+jetliner NN
+jets NNS
+jeweler NN
+jewelry NN
+job NN
+jobless JJ
+jobs NNS
+jockeys NNS
+join VB
+joined VBD
+joining VBG
+joins VBZ
+joint JJ NN
+joint-venture JJ NN
+jointly RB
+jokingly RB
+jolt NN
+jolted VBN
+jolts NNS
+jostle VBP
+journal NN
+journalism NN
+journalistic JJ
+journalists NNS
+joy NN
+joys NNS
+judge NN
+judged VBN
+judges NNS
+judicial JJ
+judiciary NN
+juggernaut NN
+juggle VB
+jugglers NNS
+jumbo JJ
+jumbos NNS
+jump VB
+jumped VBD VBN
+jumping VBG
+jumps NNS
+junk NN
+junk-bond NN JJ
+jurisdictional JJ
+jurisdictions NNS
+jurists NNS
+jury NN
+jury-rigged VBD
+just RB
+justice NN
+justices NNS
+justified JJ VBN
+justify VB
+justifying VBG
+juxtapose VBP
+keep VB VBP
+keeping VBG
+kept VBN VBD
+key JJ NN
+keychain NN
+kickback NN
+kicked VBN
+kicker NN
+kid NN
+kiddies NNS
+kidnapper NN
+kidnapping NN
+kidney NN
+kids NNS
+kill VB VBP
+killed VBD VBN
+killer NN
+killing VBG
+killings NNS
+kind NN JJ
+kindergarten NN
+kinds NNS
+king NN
+kit NN
+kits NNS
+kiwi NN
+knee NN
+knell NN
+knew VBD
+knife NN
+knight NN
+knitted VBN
+knocked VBD
+knotty JJ
+know VB VBP
+knowledge NN
+knowledgeable JJ
+known VBN JJ
+knowns NNS
+knows VBZ
+knuckles NNS
+la DT FW
+lab NN
+label NN
+labeled VBN
+labeling VBG
+labels NNS
+labor NN
+labor-intensive JJ
+labor-management JJ NN
+laboratories NNS
+laboratory NN
+laboring VBG
+laboriously RB
+lack NN VBP
+lackeys NNS
+lackluster JJ
+lacks VBZ
+lady NN
+lag VBP
+lagged VBD VBN
+lagging VBG
+laid VBN
+laid-back JJ
+land NN VB
+land-idling JJ
+landfills NNS
+landing NN
+landmark NN
+landowner NN
+landowners NNS
+language NN
+language-housekeeper JJ
+languishing VBG
+lap NN
+lap-shoulder JJ
+lapses VBZ
+large JJ
+large-scale JJ
+largely RB
+larger JJR
+larger-than-normal JJ
+largest JJS
+laser NN
+lashed VBD
+last JJ NN RB VB
+last-minute JJ
+lasting JJ
+late JJ RB
+lately RB
+later JJ RBR RB
+latest JJS
+latter NN
+laughed VBD
+laughs NNS VBZ
+laughter NN
+launch NN VB
+launch-vehicle NN
+launched VBD VBN
+launches VBZ
+laurels NNS
+lavish JJ
+lavishly RB
+law NN
+lawful JJ
+lawmakers NNS
+lawmaking JJ
+lawn NN
+laws NNS
+lawsuit NN
+lawsuits NNS
+lawyer NN
+lawyers NNS
+lay VBD
+laying VBG
+le DT
+lead VB NN VBP JJ
+leader NN
+leaders NNS
+leadership NN
+leading VBG JJ
+leads VBZ
+league NN
+leaguers NNS
+lean JJ
+leaned VBD
+leaped VBD
+leaping VBG
+learn VB
+learned VBD VBN
+learning NN
+learns VBZ
+lease VB
+leased VBN
+leases NNS
+leash NN
+leasing NN
+least JJS
+leather NN
+leave VB VBP NN
+leaves VBZ
+leaving VBG
+led VBN VBD
+leery JJ
+leeway NN
+left VBN VBD
+left-wing JJ
+leftist JJ
+leg NN
+legacy NN
+legal JJ
+legendary JJ
+legerdemain NN
+legislation NN
+legislative JJ
+legislator NN
+legislators NNS
+legislature NN
+legitimacy NN
+leisurely JJ
+len NN
+lender NN
+lenders NNS
+lending VBG NN JJ
+length NN
+lengthened VBD
+lengthy JJ
+lens NN
+lent VBD VBN
+les FW
+lesions NNS
+less JJR RBR CC
+less-serious JJ
+less-than-brilliant JJ
+lessen VB
+lessening VBG
+lesser JJR
+lesson NN
+let VB VBD VBP
+letter NN
+letter-writing JJ
+letters NNS
+letting VBG
+lettuce NN
+level NN JJ VBP
+leveling VBG
+levels NNS
+leveraged JJ
+leveraging VBG
+levy NN
+lewdness NN
+liabilities NNS
+liability NN
+liable JJ
+libel NN
+liberal JJ NN
+liberals NNS
+liberated VBD
+liberty NN
+license NN VB
+licensed VBD VBN
+licenses NNS VBZ
+licensing NN
+lid NN
+lie VBP
+lies VBZ
+lieu NN
+lieutenant NN
+life NN
+life-insurance NN
+life-style NN
+lifes NNS
+lift VB
+lifted VBD VBN
+lifting NN
+lifts VBZ
+light JJ NN
+light-truck JJ
+lighter JJR
+lighter-than-air JJ
+lightest JJS
+lighting VBG
+lightning-fast JJ
+lights NNS
+like IN VB VBP JJ
+liked VBD
+likelihood NN
+likely JJ RB
+likeness NN
+lilting JJ
+limb NN
+limbo NN
+limbs NNS
+limit NN VB
+limitation NN
+limited JJ VBN
+limited-partnership NN
+limited-production JJ
+limiting VBG
+limits NNS VBZ
+limp JJ
+limping VBG
+line NN VBP
+line-item JJ
+liners NNS
+lines NNS
+lingering VBG
+link VB NN
+linked VBN VBD
+linking VBG
+links NNS
+lion NN
+lip NN
+lipsticks NNS
+liquid JJ NN
+liquidated VBN
+liquidating JJ VBG
+liquidity NN
+liquor NN
+lire NNS
+list NN
+listed VBN VBD
+listener NN
+listening NN VBG
+listing NN VBG
+litany NN
+literacy NN
+literally RB
+literary JJ
+literature NN
+litigation NN
+little JJ RB
+live JJ VB VBP RB
+livelihood NN
+lives NNS VBZ
+livestock NN
+living NN
+load NN VB
+loaded VBN
+loading VBG
+loafers NNS
+loan NN VB
+loan-loss JJ
+loans NNS
+loath JJ
+loathsome JJ
+lobbies NNS
+lobby NN
+lobbying VBG
+lobbyist NN
+lobbyists NNS
+lobster NN
+local JJ
+locales NNS
+locally RB
+locate VB
+located VBN
+location NN
+locations NNS
+lock VBP
+locked VBN
+lofty JJ
+log VB
+logistical JJ
+logjam NN
+logo NN
+long JJ RB
+long-awaited JJ
+long-distance NN
+long-simmering JJ
+long-tenured JJ
+long-term JJ
+long-time JJ
+longer JJR RBR RB
+longer-term JJ JJR
+longest JJS
+longevity NN
+longstanding JJ
+longtime JJ NN
+look VB NN VBP
+looked VBD
+lookee-loos NNS
+looking VBG
+looks VBZ
+loom VBP
+looming VBG
+loops NNS
+loose JJ
+looseleaf NN
+loosely RB
+loosen VB
+loosened VBN
+looting NN
+lorded VBD
+lore NN
+lose VB VBP
+loser NN
+losers NNS
+loses VBZ
+losing VBG
+loss NN
+losses NNS
+lost VBD VBN
+lot NN
+lotions NNS
+lots NNS
+lotter NN
+lottery NN
+loudest JJS
+lousy JJ
+love VB VBP
+loved VBD
+loveliest JJS
+lovely JJ
+lover NN
+low JJ NN
+low-ability JJ
+low-altitude NN
+low-base-price JJ
+low-cost JJ
+low-margin JJ
+low-paid JJ
+low-priced JJ
+lower JJR VB
+lower-income JJ
+lower-priced JJ
+lower-priority JJ
+lowered VBD VBN
+lowering VBG
+lowest JJS
+loyalty NN
+lucid JJ
+luck NN
+lucky JJ
+lucrative JJ
+ludicrous JJ
+lumber NN
+lunch NN
+lung NN
+lungs NNS
+lure VB NN
+lush JJ
+luxury NN
+luxury-car NN
+lying VBG
+lynch-mob JJ
+machine NN
+machinery NN
+machines NNS
+machinists NNS
+made VBN VBD
+mafia NN
+magazine NN
+magazines NNS
+magicians NNS
+magnet NN
+magnetic JJ
+magnetically RB
+magnets NNS
+magnified VBN
+magnitude NN
+maiden JJ
+mail NN
+mailing NN VBG
+main JJ
+mainframe NN
+mainland NN
+mainly RB
+maintain VBP VB
+maintained VBD
+maintaining VBG
+maintenance NN
+major JJ
+major-league JJ
+majority NN
+majors NNS
+make VB VBP
+maker NN
+makers NNS
+makes VBZ
+making VBG
+male JJ NN
+male-dominated JJ
+male-fertile JJ
+male-only JJ
+male-sterile JJ
+males NNS
+malnutrition NN
+mammoth JJ
+man NN
+manage VB VBP
+managed VBN VBD
+management NN
+managements NNS
+manager NN
+managers NNS
+managing VBG
+mandates VBZ
+mandatory JJ
+manhood NN
+mania NN
+manipulation NN
+manmade-fiber JJ
+manner NN
+manpower NN
+mansion NN
+manually RB
+manufacture VB NN
+manufactured VBN JJ
+manufacturer NN
+manufacturers NNS
+manufacturing NN VBG
+many JJ RB
+mapping NN
+maquiladoras FW
+marble-columned JJ
+marbles NNS
+march NN
+marching VBG
+mare NN
+margin NN JJ
+marginally RB
+margins NNS
+marital JJ
+mark NN VBP
+markdown NN
+markdowns NNS
+market NN VB
+market-makers NNS
+market-oriented JJ
+market-research JJ
+market-share JJ NN
+market-weighted JJ
+marketed VBN VBD
+marketer NN
+marketers NNS
+marketing NN VBG
+marketplace NN
+markets NNS VBZ
+marking VBG
+markkaa NN
+marks NNS VBZ
+markup NN
+marriage NN
+marriages NNS
+marrow NN
+martyr NN
+marvelously RB
+mass NN
+massacre NN
+massive JJ
+master NN
+mastermind NN
+masterpiece NN
+masters NNS
+match NN VB
+matched VBN
+matches NNS
+matching VBG JJ
+material NN JJ
+materialistic JJ
+materialized VBD
+materials NNS
+mathematical JJ
+mathematics NN
+mating VBG
+matter NN VB
+matters NNS
+mature VB VBP JJ
+matures VBZ
+maturities NNS
+maturity NN
+maul VB
+maximize VB
+maximizing VBG
+maximum NN JJ
+may MD
+maybe RB
+mayor NN
+maze NN
+me PRP
+meal NN
+mean VB VBP JJ
+meaning VBG NN
+meaningful JJ
+means VBZ NNS
+meant VBN VBD
+meantime NN
+meanwhile RB
+measure NN VB
+measured VBN
+measurement NN
+measures NNS VBZ
+measuring VBG
+mechanical JJ
+mechanism NN
+medallions NNS
+media NNS NN
+medical JJ
+medical-practice NN
+medicine NN
+mediocre JJ
+medium-grade JJ
+medium-sized JJ
+meet VB VBP
+meeting NN VBG
+meetings NNS
+meets VBZ
+mega-stadium NN
+megabytes NNS
+mellow JJ
+mellowed VBN
+melt-textured JJ
+member NN
+members NNS
+membership NN
+memo NN
+memories NNS
+memory NN
+men NNS
+mend VB
+mental JJ
+mentally RB
+mention VB VBP
+mentioned VBN VBD
+menu NN
+merchandise NN
+merchandising NN
+merchant NN JJ
+merchants NNS
+mere JJ
+merely RB
+merge VB
+merged VBN
+merger NN
+merger-related JJ
+mergers NNS
+merging VBG
+merit NN VB
+merits NNS
+mess NN
+message NN
+met VBD VBN
+metal NN
+metals NNS
+metaphor NN
+meters NNS
+method NN
+methodologies NNS
+methods NNS
+metric JJ
+microcomputers NNS
+microphone NN
+microprocessor NN
+microprocessors NNS
+mid-1970s CD
+mid-1980s NNS
+mid-1990s NNS
+mid-August NNP
+mid-June NNP
+mid-November NNP
+mid-October NNP
+mid-afternoon JJ
+mid-to-late JJ
+midday NN
+middle NN JJ
+middle-aged JJ
+middle-ground JJ
+middle-management JJ
+midmorning NN
+midnight NN
+midsized JJ
+might MD NN
+mignon NN
+mildly RB
+mile NN
+miles NNS
+milestone NN
+milestones NNS
+militant JJ
+military JJ NN
+milk NN VB
+milked VBN
+milks NNS
+mill NN
+million CD
+million-a-year JJ
+millionaires NNS
+millions NNS
+mimics VBZ
+mind NN VB
+mind-boggling JJ
+mindful JJ
+minds NNS
+mine NN
+minerals NNS
+miners NNS
+mines NNS
+minicar NN
+minicars NNS
+minicrash NN
+minimize VB
+minimum JJ NN
+minimum-wage NN
+mining NN
+mininum-wage NN
+minister NN
+ministerial JJ
+ministers NNS
+minivans NNS
+minor JJ
+minor-leaguer NN
+minority NN
+minority-owned JJ
+minors NNS
+minted VBN
+minute NN JJ
+minutes NNS
+mired JJ VBN
+mirror NN VBP
+mirrors VBZ
+miscarriages NNS
+misleading JJ
+misrepresented VBD
+miss VBP
+missed VBN
+missile NN
+missiles NNS
+missing JJ VBG
+mission NN
+missionary JJ
+missions NNS
+mistake NN
+mistakenly RB
+mistakes NNS
+mists NNS
+mitigate VB
+mix NN
+mixed VBN JJ
+mixed-up JJ
+moat NN
+mob NN
+mobile JJ
+mobilizing VBG
+mode NN
+model NN
+modeled VBN
+models NNS
+modems NNS
+moderate JJ
+moderated VBN
+moderately RB
+modern JJ
+modern-day JJ
+modernization NN
+modest JJ
+modestly RB
+modification NN
+modifications NNS
+modified VBN
+modifies VBZ
+modify VB
+mom-and-pop JJ
+moment NN
+momentary JJ
+moments NNS
+monastery NN
+monetary JJ
+money NN
+money-center JJ
+money-fund NN
+money-losing JJ
+money-market JJ NN
+moneymakers NNS
+monied JJ
+moniker NN
+monitor NN VB
+monitoring NN
+monopolize VB
+monopoly NN
+monsieur NN
+montgolfiere FW
+month NN
+monthly JJ RB
+months NNS
+mood NN
+moons NNS
+morale NN
+morale-damaging JJ
+morally RB
+moratorium NN
+morbidity NN
+more JJR RBR JJ
+more-advanced JJ
+more-powerful JJR
+moreover RB
+morning NN
+morning-session NN
+morphogenetic JJ
+morsels NNS
+mortgage NN
+mortgage-backed JJ
+mortgage-based JJ
+mortgage-securities JJ
+mortgages NNS
+most JJS RBS
+most-active JJ
+most-likely-successor JJ
+most-recent JJ
+mostly RB
+mother NN
+mothers NNS
+motifs NNS
+motion NN
+motivate VBP
+motive NN
+motives NNS
+motor NN
+motor-control JJ
+motor-home NN
+mound NN
+mount VB
+mountain NN
+mounting VBG
+mousseline NN
+move NN VB VBP
+moved VBD VBN
+movement NN
+movements NNS
+moves NNS
+movie NN
+movies NNS
+moving VBG NN
+mow VB
+mph NN
+much JJ RB
+much-larger JJ
+mud NN
+mudslinging NN
+muffled VBN
+mulling VBG
+multi-crystal JJ
+multibillion-dollar JJ
+multibillion-yen JJ
+multilevel JJ
+multimillion-dollar JJ
+multinational JJ
+multinationals NNS
+multiple JJ NN
+multiples NNS
+multiplying VBG
+multistate NN
+multitude NN
+multiyear JJ
+mundane JJ
+municipal JJ
+municipalities NNS
+murder NN
+murdered VBN
+muscle NN
+muscled VBD
+muscles NNS
+muse NN
+museum NN
+museums NNS
+mushy JJ
+music NN
+must MD
+muster NN
+muted VBN
+mutts NNS
+mutual JJ
+mutual-fund NN
+mutually RB
+muzzling JJ
+my PRP$
+myself PRP
+mysterious JJ
+mystery NN
+n't RB
+nagging JJ
+naive JJ
+name NN VB
+named VBN VBD
+nameless JJ
+namely RB
+nameplate NN
+names NNS
+naming VBG
+narcotics NNS
+narrow JJ
+narrowed VBD
+narrower JJR
+narrowly RB
+nation NN
+national JJ
+nationalist JJ
+nations NNS
+nationwide JJ
+native JJ
+natural JJ
+natural-gas NN
+natural-resources NNS
+naturalized JJ
+nature NN
+naval JJ
+navies NNS
+navigation NN
+near IN JJ
+near-limit JJ
+near-luxury JJ
+near-term JJ
+nearby RB JJ
+nearest JJS
+nearly RB
+neat JJ
+necessarily RB
+necessary JJ
+necessities NNS
+neck NN
+necklace NN
+necks NNS
+need VBP NN VB
+needed VBN VBD JJ
+needing VBG
+needle-like JJ
+needs VBZ NNS
+needy JJ
+negative JJ
+negatives NNS
+neglect NN
+neglected VBN
+negotiable JJ
+negotiate VB
+negotiated VBN JJ VBD
+negotiating VBG
+negotiation NN
+negotiations NNS
+negotiator NN
+negotiators NNS
+neige FW
+neighborhood NN
+neighborhoods NNS
+neighboring VBG
+neighbors NNS
+neither DT CC RB
+neoprene NN
+nerve NN
+nerves NNS
+nervous JJ
+nervousness NN
+nervy JJ
+nests NNS
+net JJ NN
+net-profits JJ
+nets NNS VBZ
+netting VBG
+network NN
+networks NNS
+neurologist NN
+neurologists NNS
+neurosurgeon NN
+neutrons NNS
+never RB
+new JJ
+new-car NN
+new-home JJ
+new-model NN
+newcomers NNS
+newer JJR
+newest JJS
+newly RB
+news NN
+newspaper NN
+newspapers NNS
+newsprint NN
+newsroom NN
+newsstand NN
+next JJ IN
+nice JJ
+niches NNS
+nickel NN
+nickname NN
+night NN
+nine CD
+nine-day JJ
+nine-year JJ
+ninety CD
+nixed VBD
+no DT RB UH
+no-confidence NN
+noble JJ
+nobody NN
+nominal JJ
+nominate VB
+nominated VBN
+nomination NN
+nominee NN
+nominees NNS
+non-Japanese JJ
+non-Russian JJ
+non-U.S. JJ NNP
+non-`` ``
+non-callable JJ
+non-clients NNS
+non-core JJ
+non-encapsulating JJ
+non-farm JJ
+non-invasive JJ
+non-religious JJ
+non-strategic JJ
+non-violent JJ
+noncompetitively RB
+nondeductible JJ
+nondemocratic JJ
+nondescript JJ
+nondurable JJ
+none NN
+nonentity NN
+nonetheless RB
+nonexecutive JJ
+nonfat JJ
+nonprofit JJ
+nonrecurring VBG
+nonresidential JJ
+nonunion JJ
+nonvoting JJ
+noodles NNS
+noon NN
+nor CC
+normal JJ
+normally RB
+north JJ
+northern JJ
+nose NN
+nose-dive NN
+nostalgic JJ
+not RB
+notable JJ
+notably RB
+notch NN
+notched VBD
+note NN VB
+notebook NN
+noted VBD VBN
+notes NNS VBZ
+nothing NN
+noticed VBN
+noticing VBG
+notified VBN
+notify VB
+noting VBG
+notion NN
+notwithstanding IN RB
+novel NN
+novelist NN
+novitiates NNS
+now RB
+now-defunct JJ
+nowhere RB
+nuances NNS
+nuclear JJ
+nuisance NN
+nullified VBN
+nullify VB
+number NN
+numbers NNS
+numeral NN
+numerous JJ
+nursing VBG
+nurtured VBN
+nutrition NN
+nuts NNS
+nutty JJ
+oat NN
+obedient JJ
+obeisance NN
+obfuscation NN
+objectionable JJ
+objective NN JJ
+objectives NNS
+obligated VBD VBN
+obligation NN
+obligations NNS
+obligatory JJ
+obligatto NN
+oblivion NN
+oboist NN
+observance NN
+observed VBD VBN
+observers NNS
+obsessed VBN
+obsession NN
+obstacle NN
+obstacles NNS
+obstruction NN
+obtain VB
+obtained VBN VBD
+obtaining VBG
+obviate VB
+obvious JJ
+obviously RB
+occasionally RB
+occasions NNS
+occupant NN
+occupation NN
+occupying VBG
+occur VB VBP
+occurred VBD
+occurrences NNS
+occurs VBZ
+ocean NN
+oceanographic JJ
+octogenarians NNS
+odd JJ
+odd-year JJ
+odds NNS
+oeufs FW
+of IN
+off RP IN RB JJ
+off-again JJ
+off-budget JJ
+off-off JJ
+off-speed JJ
+off-year JJ
+offenders NNS
+offending VBG
+offense NN
+offensive JJ
+offer NN VBP VB
+offered VBN VBD JJ
+offering NN VBG
+offerings NNS
+offers VBZ NNS
+office NN
+officer NN
+officers NNS
+offices NNS
+official NN JJ
+officially RB
+officials NNS
+offset VBN VB
+offsetting VBG
+often RB
+oh UH
+oil NN
+oilman NN
+oils NNS
+old JJ
+old-fashioned JJ
+old-style JJ
+older JJR
+oldest JJS
+omnipresent JJ
+on IN RP RB
+on-again JJ
+on-campus JJ
+once RB IN
+once-closed JJ
+once-cozy JJ
+one CD NN PRP
+one-country JJ
+one-day JJ
+one-eighth NN
+one-fifth NN
+one-hour JJ
+one-house JJ
+one-month JJ
+one-newspaper JJ
+one-stop JJ
+one-third NN JJ RB
+one-time JJ
+one-upsmanship NN
+one-week JJ
+one-year JJ
+onerous JJ
+ones NNS
+ongoing JJ
+only RB JJ
+onslaught NN
+onto IN
+onus NN
+open JJ VB RP
+open-end JJ
+opened VBD VBN
+opening VBG NN
+openings NNS
+openly RB
+opens VBZ
+operate VB VBP
+operated VBD VBN
+operates VBZ
+operating NN VBG
+operation NN
+operations NNS
+operator NN
+operators NNS
+opinion NN
+opinions NNS
+opponents NNS
+opportunities NNS
+opportunity NN
+oppose VBP
+opposed VBN VBD
+opposing VBG
+opposite JJ
+opposition NN
+oppression NN
+opted VBN
+optimism NN
+optimistic JJ
+option NN
+options NNS
+or CC
+orange JJ
+orange-and-blue JJ
+oranges NNS
+ordeal NN
+order NN VB
+ordered VBN VBD
+ordering VBG
+orders NNS
+ordinary JJ
+organ NN
+organization NN
+organizations NNS
+organize VB
+organized VBN
+organs NNS
+oriented VBN
+original JJ
+originally RB
+orthodox JJ
+other JJ
+others NNS
+otherwise RB
+ought MD
+ounce NN
+ounces NNS
+our PRP$
+oust VB
+ousted VBN JJ
+out RP IN RB
+outbid VB
+outdistanced VBN
+outfield NN
+outfit NN
+outlawed VBN
+outlawing VBG
+outlay NN
+outlays NNS
+outlet NN
+outlets NNS
+outline NN
+outlined VBN
+outlining VBG
+outlook NN
+outnumbered VBD
+outpaced VBN
+outperform VB
+output NN
+outrage NN
+outraged JJ
+outranks VBZ
+outright JJ RB
+outselling VBG
+outside IN JJ NN
+outsiders NNS
+outspoken JJ
+outstanding JJ
+outstrips VBZ
+ovation NN
+over IN RP RB JJ
+over-the-counter JJ
+overall JJ
+overcapacity NN
+overcollateralized VBN
+overcome VB VBN
+overcomes VBZ
+overdone VBN
+overflowing VBG
+overhaul NN VB
+overhead JJ
+overnight JJ
+overpaying VBG
+overpriced VBN
+overproduction NN
+override VB
+overruns NNS
+overseas JJ RB
+oversee VB
+overseeing VBG
+oversees VBZ
+oversight NN
+overstating VBG
+overtime NN
+overturning VBG
+overuse NN
+overused VBN
+overwhelming JJ
+owe VB VBP
+owed VBD VBN
+owes VBZ
+own JJ VB VBP VBN
+owned VBN VBD
+owner NN
+owners NNS
+ownership NN
+owning VBG
+owns VBZ
+p.m RB
+p.m. NN
+pace NN
+pacemakers NNS
+pack NN VB
+package NN
+packaged VBN
+packages NNS
+packaging NN VBG
+packed VBD
+packet NN
+pact NN
+page NN
+page-one JJ NN
+pages NNS
+paid VBN VBD
+pain NN
+painfully RB
+painless JJ
+pains NNS
+paint VBP
+painted VBN
+painting NN
+pair NN VB
+palace NN
+pall NN
+pallor NN
+palms NNS
+pampers VBZ
+panel NN
+panic NN VB
+paper NN
+paper-company NN
+paperback NN
+papers NNS
+par NN JJ
+parallel JJ VB
+parallels NNS VBZ
+paralyzed JJ
+parched VBN
+pardoned VBD
+parent NN
+parents NNS
+paring VBG
+parishes NNS
+parishioners NNS
+parity NN
+park NN
+parking NN
+parliament NN
+parliamentary JJ
+parlors NNS
+paroxysmal JJ
+part NN
+partial JJ
+partially RB
+participant NN
+participants NNS
+participate VB
+participated VBD
+participating VBG
+participation NN
+particular JJ RB
+particularly RB
+particulars NNS
+parties NNS
+partisan JJ
+partisans NNS
+partly RB
+partner NN
+partners NNS
+partnership NN
+partnerships NNS
+parts NNS
+party NN
+pass VB
+passage NN
+passages NNS
+passbook NN
+passed VBD VBN
+passenger NN
+passenger-car NN
+passengers NNS
+passers-by NNS
+passes VBZ
+passing VBG
+passion NN
+passionately RB
+passions NNS
+passive JJ
+past JJ NN RB
+pasta NN
+pastry NN
+patch NN
+patent NN
+patented VBD
+patents NNS
+path NN
+pathlogy NN
+patient JJ NN
+patients NNS
+patriotic JJ
+patrol NN
+patrons NNS
+pattern NN
+patterns NNS
+pawing VBG
+pay VB NN VBP
+payable JJ
+paycheck NN
+paying VBG JJ
+payment NN
+payments NNS
+payoff NN
+payouts NNS
+payroll-tax NN
+payrolls NNS
+pays VBZ
+peace NN
+peaceful JJ
+peak NN
+peaked JJ
+peaks NNS
+peal NN
+peals NNS
+peanuts NNS
+peculiar JJ
+peculiarities NNS
+peddling NN
+pediatrician NN
+pegged VBN
+pejorative JJ
+penalties NNS
+penalty NN
+pence NN
+penchant NN
+pencil NN
+pending VBG JJ
+penetrate VB
+penetration NN
+pennies NNS
+pension NN
+pension-fund JJ
+people NNS
+peoples NNS
+per IN
+per-capita JJ
+per-share JJ
+perceived VBN
+perceives VBZ
+percent NN
+percentage NN
+perception NN
+perceptions NNS
+perestroika FW
+perfect JJ
+perfection NN
+perfectly RB
+perform VB
+performance NN
+performances NNS
+performed VBN
+performer NN
+performers NNS
+performing VBG
+perhaps RB
+period NN
+periodontal JJ
+periods NNS
+peripheral JJ
+permanent JJ
+permissible JJ
+permission NN
+permit VB VBP
+permits VBZ
+permitted VBN
+perpetual JJ
+perpetuate VBP
+perpetuates VBZ
+pershare JJ
+persistent JJ
+person NN
+personal JJ
+personality NN
+personally RB
+personnel NNS JJ
+persons NNS
+perspective NN
+persuade VB
+persuaded VBD
+persuading VBG
+persuasive JJ
+pervasive JJ
+pessimistic JJ
+pest-control JJ
+pet NN JJ
+petition NN
+petrochemicals NNS
+petroleum NN
+petulant JJ
+pharaohs NNS
+pharmaceutical JJ
+pharmaceuticals NNS
+phase NN
+phase-out NN
+phasing VBG
+phenomenon NN
+philosophies NNS
+philosophy NN
+phobias NNS
+phone NN
+phony JJ
+photocopy VB
+photocopying VBG
+photograph NN
+photographic JJ
+photographs NNS
+photos NNS
+phrase NN
+phrasing NN
+physical JJ
+physicist NN
+physics NN NNS
+pianist-comedian NN
+pianist\/bassoonist\/composer NN
+piano NN
+pick VB
+picked VBD
+pickers NNS
+picket NN
+picketing NN
+picking NN
+picks VBZ
+pickup NN
+pickups NNS
+picnic NN
+picture NN
+pictures NNS
+picturesquely RB
+pie NN
+piece NN
+pieces NNS
+pigs NNS
+pill NN
+pillow NN
+pills NNS
+pilot NN
+pilots NNS
+pinpointed JJ
+pins NNS VBZ
+pioneer NN
+pioneered VBD
+pioneers NNS
+pipe NN
+pipeline NN
+pipelines NNS
+pipes NNS
+pipsqueak NN
+piracy NN
+pistils NNS
+pistol NN
+pistols NNS
+pit NN
+pitcher-coach NN
+pitchers NNS
+pitches NNS
+pitching VBG
+pittance NN
+pitting VBG
+pity NN
+pixie-like JJ
+place NN VB VBP
+placed VBN VBD
+placement NN
+places NNS VBZ
+placing VBG
+plagued VBN
+plainclothes NNS
+plaintiffs NNS
+plan NN VBP VB
+plane NN
+planes NNS
+planned VBN VBD JJ
+planner NN
+planners NNS
+planning VBG
+plans NNS VBZ VBP
+plant NN
+plant-sciences JJ
+planted VBN
+planting NN
+plants NNS
+plastic JJ
+plate NN
+platforms NNS
+platinum NN
+platitudes NNS
+play VB VBP
+played VBN VBD
+player NN
+players NNS
+playful JJ
+playgrounds NNS
+playing VBG NN JJ
+plays VBZ
+playwright NN
+plea NN
+plead VB
+pleaded VBD
+pleadings NNS
+pleasantries NNS
+please VB
+pleased VBN JJ
+pleasure NN
+pledge NN
+pledged VBD
+plenty NN JJ RB
+plight NN
+plot NN
+plotted VBD
+plugged VBD
+plummeted VBD
+plunge NN
+plunged VBD VBN
+plunging VBG
+plurality NN
+plus CC NN RB
+pocket NN
+pocketbook NN
+pocketing VBG
+pockets NNS
+poignant JJ
+point NN VB VBP
+pointed VBD VBN
+pointedly RB
+pointing VBG
+points NNS VBZ
+poison NN JJ
+police NN NNS
+policies NNS
+policy NN
+policy-making VBG
+policymaker NN
+polish VB
+polished JJ
+politely RB
+political JJ
+politically RB
+politician NN
+politicians NNS
+politics NNS
+polled VBN VBD
+pollen NN
+pollen-inhibiting JJ
+pollen-producing VBG
+pollinate VB VBP
+pollination NN
+polls NNS
+pollution NN
+pollution-control JJ NN
+ponied VBD
+pool NN
+pooled VBN
+poor JJ NN NNP
+poorer JJR
+poorly RB
+pop NN
+popular JJ
+popularize VB
+popularly RB
+populated VBN
+population NN
+populations NNS
+pores VBZ
+pork NN
+pork-barrel JJ
+port JJ NN
+portfolio NN
+portfolios NNS
+portion NN
+portions NNS
+portray VBP
+portrayal NN
+portraying VBG
+ports NNS
+pose VB
+posed VBD VBN
+posing VBG
+position NN VB
+position-squaring NN
+positioned VBN
+positioning NN
+positions NNS
+positive JJ
+possess VB VBP
+possessed VBD
+possessions NNS
+possibilities NNS
+possibility NN
+possible JJ
+possibly RB
+post NN VB
+post-hearing JJ
+postal JJ
+posted VBD VBN
+posters NNS
+posting VBG
+postpone VB
+postponed VBN
+posts NNS
+posture NN
+posturing NN
+potent JJ
+potential JJ NN
+potpourri NN
+potted JJ
+pottery NN
+pound NN
+pounds NNS
+pour VB
+power NN
+powered VBN
+powerful JJ
+powerhouse NN
+powers NNS
+powwow NN
+practice NN
+practiced VBD VBN
+practices NNS
+practicing VBG
+practitioners NNS
+praised VBD
+praising VBG
+prayer NN
+pre-1917 JJ
+pre-1933 JJ
+pre-Communist JJ
+pre-approved JJ VBN
+pre-cooked JJ
+pre-existing JJ
+pre-trial JJ
+precarious JJ
+precaution NN
+precede VB
+precedent NN
+precedes VBZ
+precious JJ
+precise JJ
+precisely RB
+precision NN
+preclinical JJ
+preclude VB
+precocious JJ
+predates VBZ
+predecessor NN
+predecessors NNS
+predicated VBN
+predict VBP VB
+predictable JJ
+predicted VBD
+predicting VBG
+predictions NNS
+predispose VB
+predominantly RB
+preface NN
+prefer VBP
+preference NN
+preferences NNS
+preferred JJ VBN VBD
+preflight JJ
+preliminary JJ
+premier JJ NN
+premium NN
+premiums NNS
+preoccupied VBN
+prepaid VBN
+preparation NN
+preparatives NNS
+prepare VB
+prepared VBN JJ
+prepares VBZ
+prepayment NN
+prerogative NN
+prerogatives NNS
+prescient JJ
+prescribe VB
+prescribed JJ
+prescription NN
+presence NN
+present JJ VB
+presentation NN
+presented VBD VBN
+presenter NN
+presenters NNS
+presents VBZ
+preserve VB
+preserved VBN
+preserving VBG
+presidency NN
+president NN
+presidential JJ
+presidents NNS
+presiding VBG
+press NN VB
+pressed VBN
+pressing VBG
+pressman NN
+pressure NN VB
+pressured JJ
+pressures NNS
+pressuring VBG
+prestige NN
+prestigious JJ
+presumably RB
+presumes VBZ
+presumption NN
+pretax NN JJ
+pretend VB
+pretense NN
+pretext NN
+pretty RB
+prevailing VBG
+prevalance NN
+prevent VB VBP
+preventative JJ
+preventing VBG
+prevents VBZ
+previous JJ
+previously RB
+price NN
+price-cutting NN
+price-depressing JJ
+priced VBN
+priceless JJ
+prices NNS
+priciest JJS
+pricing NN
+pricings NNS
+pride NN
+primarily RB
+primary JJ
+prime JJ
+prime-time NN
+princely JJ
+principal NN JJ
+principals NNS
+principle NN
+principles NNS
+print VB NN VBP
+printed VBN
+printers NNS
+printing-press NN
+prints NNS
+prior RB JJ
+prior-year JJ
+priority NN
+prison NN
+prisoners NNS
+privacy NN
+private JJ
+private-sector JJ
+privately RB
+privatized JJ
+privilege NN
+privileged JJ
+privileges NNS
+prize-fighter NN
+prizes NNS
+pro JJ
+pro- JJ
+pro-choice JJ
+pro-democracy JJ
+probable JJ
+probably RB
+probation NN
+probe NN
+problem NN
+problems NNS
+procedural JJ
+procedure NN
+procedures NNS
+proceed VB
+proceeds NNS
+process NN
+processes NNS VBZ
+processing NN VBG
+processor NN
+processors NNS
+produce VB VBP
+produced VBN VBD
+producer NN
+producers NNS
+produces VBZ
+producing VBG
+product NN
+product-design JJ
+production NN
+productive JJ
+products NNS
+profess VBP
+profession NN
+professional JJ NN
+professionals NNS
+professor NN
+professors NNS
+profit NN VB VBP
+profit-seeking JJ
+profit-taking NN
+profitability NN
+profitable JJ
+profitably RB
+profited VBD
+profits NNS
+program NN VB
+program-trading JJ NN
+programmatic JJ
+programmer NN
+programs NNS
+progress NN
+progressive JJ
+prohibited VBN
+prohibition NN
+prohibits VBZ
+project NN
+projected VBN
+projecting VBG
+projections NNS
+projector NN
+projects NNS VBZ
+proliferated VBN
+prolonged VBN
+prominent JJ
+prominently RB
+promise NN VBP
+promised VBN JJ
+promises VBZ
+promising JJ
+promissory JJ
+promote VB
+promoters NNS
+promoting VBG
+promotion NN
+promotional JJ
+promotions NNS
+prompt VB JJ
+prompted VBD VBN
+promptly RB
+prompts VBZ
+proof NN
+proof-of-purchases NNS
+propaganda NN
+propagandize VB
+propagandizes VBZ
+propane NN
+propel VB
+propelling VBG
+proper JJ
+properly RB
+properties NNS
+property NN
+property\/casualty NN
+proponent NN
+proponents NNS
+proportion NN
+proportions NNS
+proposal NN
+proposals NNS
+propose VBP
+proposed VBN VBD
+proposes VBZ
+proposing VBG
+proposition NN
+proscribes VBZ
+prosecute VB
+prosecuted VBN
+prosecuting VBG
+prosecutor NN
+prosecutors NNS
+prospect NN
+prospective JJ
+prospectively RB
+prospects NNS
+prosperity NN
+protect VB VBP
+protected JJ
+protecting VBG
+protection NN
+protectionism NN
+protections NNS
+protective JJ
+protector NN
+protects VBZ
+protein NN
+protein-1 NN
+proteins NNS
+protest NN VB
+protesters NNS
+protests NNS
+protocol NN
+protocols NNS
+prototype NN
+protracted JJ
+prove VB VBP
+proved VBN VBD
+proves VBZ
+provide VB VBP
+provided VBN VBD
+provider NN
+provides VBZ
+providing VBG
+province NN
+proving VBG
+provision NN
+provisions NNS
+provoke VB
+provoked VBN
+prowess NN
+proxies NNS
+proxy NN
+prudent JJ
+prying JJ
+psychiatric JJ
+psychiatrist NN
+psychology NN
+public JJ NN
+public-relations NNS
+publication NN
+publications NNS
+publicity NN
+publicized JJ VBN
+publicly RB
+publish VB
+published VBD VBN
+publisher NN
+publishes VBZ
+publishing NN VBG
+puckish JJ
+puff NN
+pug-nosed JJ
+pull VB VBP
+pulled VBN
+pulling VBG
+pulls NNS
+pulp NN
+pummeled VBN
+pumping VBG
+punitive JJ
+puppet NN
+purchase NN VB
+purchased VBN VBD
+purchaser NN
+purchasers NNS
+purchases NNS
+purchasing VBG NN
+pure JJ
+pure-voiced JJ
+purely RB
+purged VBN
+purhasing NN
+purpose NN
+purposely RB
+purposes NNS
+purrs VBZ
+purse NN
+pursuant JJ
+pursue VB VBP
+pursued VBN
+pursuing VBG
+push VB NN VBP
+pushed VBN VBD
+pushes VBZ
+pushing VBG
+pussy-willow NN
+put VB VBN VBD
+puts VBZ
+putting VBG
+puzzled VBN
+pyramids NNS
+quadrennial JJ
+quake NN
+quake-relief JJ
+qualified VBN JJ
+qualify VB
+qualities NNS
+quality NN JJ
+quantification NN
+quantitative JJ
+quantities NNS
+quantitive JJ
+quantity NN
+quarry NN
+quarter NN
+quarter-to-quarter JJ
+quarterly JJ NN
+quarters NNS
+quartets NNS
+quashing VBG
+question NN
+questionable JJ
+questioned VBD
+questions NNS
+queuing VBG
+quick JJ
+quickly RB
+quiet JJ
+quietly RB
+quipped VBD
+quit VB
+quite RB
+quota NN
+quotas NNS
+quotations NNS
+quote VB
+quoted VBN VBD
+quoting VBG
+race NN
+raced VBD
+races NNS
+racing VBG
+racism NN
+racket NN
+racketeering NN
+radical JJ
+radically RB
+radio NN
+radio-station NN
+radioactivity NN
+rage VB
+ragged JJ
+railbikes NNS
+railcar NN
+railcars NNS
+railing NN
+railings NNS
+railroad NN
+railway NN
+rain NN
+raise VB NN VBP
+raised VBD VBN
+raises VBZ
+raising VBG NN
+rallied VBD
+rally NN
+rallying VBG
+ramparts NNS
+ran VBD
+rancor NN
+randomly RB
+rang VBD
+range NN VB VBP
+ranged VBD VBN
+ranges VBZ
+ranging VBG
+ranked VBD
+ranking VBG
+rankings NNS
+ranks NNS VBZ
+ransom NN
+rap NN
+rape NN
+rapid JJ
+rapidement FW
+rapidly RB
+rapists NNS
+rapport NN
+rapprochement NN
+rare JJ
+rarefied VBN
+rarely RB
+raring JJ
+rash NN
+raspberry NN
+ratcheting VBG
+rate NN VB
+rated VBN VBD
+ratepayers NNS
+rates NNS VBZ
+rather RB
+ratification NN
+ratified VBN
+rating NN
+ratings NNS
+ratio NN
+rational JJ
+rationed VBN
+rats NNS
+raw JJ
+raw-material NN
+raw-materials NNS
+razor-thin JJ
+re-elected VBN
+re-election NN
+re-examine VB
+re-thought JJ
+reach VB NN VBP
+reached VBN VBD
+reaching VBG
+reacted VBD VBN
+reacting VBG
+reaction NN
+reactions NNS
+reactor NN
+read VB VBP VBD VBN
+reader NN
+readers NNS
+reading NN VBG
+readings NNS
+ready JJ
+reaffirmed VBD
+real JJ NN RB
+real-estate NN JJ
+realestate VB
+realignments NNS
+realities NNS
+reality NN
+realization NN
+realize VB VBP
+realized VBD
+reallocate VB
+reallocated VBN
+really RB
+realty NN
+reap VB
+rear JJ
+rear-seat NN
+rearing VBG
+reason NN
+reasonably RB
+reasoning NN
+reasons NNS
+reasserts VBZ
+reassuring JJ
+rebate NN
+rebates NNS
+rebellion NN
+rebels NNS
+rebound NN VB
+rebounded VBD
+rebuffed VBD
+rebuild VB
+rebuilding VBG
+recalculating VBG
+recall VB
+recalling VBG
+recalls VBZ
+recapitalization NN
+recapture VB
+receipt NN
+receipts NNS
+receivable JJ
+receivables NN
+receive VB VBP
+received VBN VBD
+receivers NNS
+receiving VBG
+recent JJ
+recently RB
+receptive JJ
+receptivity NN
+recess NN
+recession NN
+recessionary JJ
+recipes NNS
+recipient JJ
+reciting VBG
+reckless JJ
+reclaimed VBN
+recognition NN
+recognizable JJ
+recognize VB
+recognized VBD VBN
+recognizing VBG
+recombinant JJ
+recommend VB
+recommendation NN
+recommendations NNS
+recommending VBG
+reconsider VB
+record NN JJ VB
+recorded VBN JJ VBD
+recorder NN
+records NNS
+recoup VB
+recouped VBN
+recourse NN
+recover VB
+recovered VBD
+recovery NN
+recreational JJ
+recruited VBN
+recruitment NN
+rectified VBN
+recurring VBG
+recyclable JJ
+recycled JJ
+red JJ NN
+red-and-white JJ
+red-carpet JJ
+redeemed VBN
+redefine VB
+redefining VBG
+redefinition NN
+redemption NN
+redemptions NNS
+redeploy VB
+redevelop VB
+redistribute VB
+redistributing VBG
+redistributionism NN
+reds NNS
+reduce VB
+reduced VBN VBD JJ
+reduced-fat JJ
+reduces VBZ
+reducing VBG
+reduction NN
+reductions NNS
+reeling VBG
+refer VBP
+reference NN
+references NNS
+referenda NN
+referendum NN
+referral NN
+referred VBD VBN
+referring VBG
+refillable JJ
+refinance VB
+refinanced VBD VBN
+refinancing NN
+refinery NN
+refitting VBG
+reflect VB VBP
+reflected VBD VBN
+reflecting VBG
+reflection NN
+reflects VBZ
+refocused VBN
+refocusing NN
+reform NN
+reformers NNS
+reforms NNS
+refrain VB
+refreshing VBG
+refrigerator NN
+refuge NN
+refund NN VB
+refunding NN VBG
+refurbished VBN
+refusal NN
+refuse VBP VB
+refused VBD VBN
+refuses VBZ
+regain VBP
+regard VBP
+regarded VBN
+regarding VBG
+regardless RB
+regime NN
+regimen NN
+regimented JJ
+region NN
+regional JJ
+regions NNS
+register NN
+registered VBN VBD
+registration NN
+registrations NNS
+regret NN
+regrettable JJ
+regular JJ
+regularly RB
+regulate VB
+regulated VBN
+regulates VBZ
+regulating VBG
+regulation NN
+regulations NNS
+regulators NNS
+regulatory JJ
+rehearing NN
+reimbursed VBD VBN
+reins NNS
+reinstatement NN
+reinvest VB
+reinvestment NN
+reject VB
+rejected VBD VBN
+rejection NN
+rejoin VB
+rejoining VBG
+related VBN JJ
+relation NN
+relations NNS
+relationship NN
+relationships NNS
+relative JJ
+relatively RB
+relatives NNS
+relaunched VBN
+relax VB
+release NN
+released VBN VBD
+releases NNS
+relegated VBN
+relevance NN
+reliable JJ
+reliance NN
+relief NN
+relies VBZ
+relieve VB
+relieved JJ
+reliever NN
+religion NN
+religions NNS
+religious JJ
+relinquish VB
+relished VBD
+relive VBP
+relocate NN
+reluctance NN
+reluctant JJ
+rely VB
+remain VB VBP
+remainder NN
+remained VBD
+remaining VBG
+remains VBZ
+remarkable JJ
+remarked VBD VBN
+remarks NNS
+remediation NN
+remember VB VBP
+remodeling NN
+remora NNS
+removal NN
+remove VB
+removed VBN
+removes VBZ
+removing VBG
+renamed VBN
+rendering NN
+renege VB
+reneging VBG
+renew VB
+renewal NN
+renewed VBN VBD
+renewing VBG
+renovated VBN
+renovation NN
+rent NN
+reopen VB
+reopened VBD
+reorganization NN
+reorganized VBN
+reorganizes VBZ
+repaid VBN
+repair NN VB
+repaired VBN
+repaying VBG
+repayment NN
+repeal VB NN
+repealed VBN
+repeals VBZ
+repeated VBN
+repeatedly RB
+repel VB
+repertoire NN
+replace VB
+replaced VBN VBD
+replacement NN
+replaces VBZ
+replacing VBG
+replete JJ
+replicate VB
+replicated VBN
+replicating VBG
+replies NNS
+report NN VB VBP
+reported VBD VBN JJ
+reportedly RB
+reporter NN
+reporters NNS
+reporting VBG NN
+reports NNS VBZ
+repossess VB
+represent VBP VB
+representative NN JJ
+representatives NNS
+represented VBD VBN
+representing VBG
+represents VBZ
+repriced VBN
+reprint VB
+reprove VB
+reps NNS
+republics NNS
+repurchase VB
+reputation NN
+request NN
+requested VBN
+requesting VBG
+requests NNS
+require VB VBP
+required VBN JJ VBD
+requirement NN
+requirements NNS
+requires VBZ
+requiring VBG
+rescheduled VBN
+rescind VB
+research NN
+research-based JJ
+researcher NN
+researchers NNS
+researches VBZ
+researching VBG
+resemble VB
+resembles VBZ
+resent VBP
+resentment NN
+reservations NNS
+reserve NN
+reserved JJ
+reserves NNS
+reset VB JJ
+reshaping VBG
+residence NN
+resident JJ
+residential JJ
+residents NNS
+residual JJ
+resign VB
+resignation NN
+resigned VBD JJ
+resigning VBG
+resilient JJ
+resin NN
+resist VB
+resistance NN
+resistant JJ
+resisted VBN
+resisting VBG
+resists VBZ
+resold VBN
+resolution NN
+resolve VB
+resolved VBN VBD
+resort NN VBP
+resources NNS
+respect NN
+respectable JJ
+respected VBN
+respectively RB
+respite NN
+respond VB VBP
+responded VBD VBN
+respondents NNS
+responding VBG
+responds VBZ
+response NN
+responses NNS
+responsibilities NNS
+responsibility NN
+responsible JJ
+responsive JJ
+rest NN VB
+restarters NNS
+restated JJ VBD
+restaurant NN
+restaurants NNS
+restore VB
+restored VBD
+restraining VBG
+restraints NNS
+restricting VBG
+restriction NN
+restrictions NNS
+restrictive JJ
+restricts VBZ
+restructure VB NN
+restructured VBN VBD
+restructuring NN VBG
+restructurings NNS
+restyled JJ
+resubmit VB
+result NN VB
+resulted VBD VBN
+resulting VBG
+results NNS
+resume VB
+resumes VBZ
+resumption NN
+retail JJ NN
+retailer NN
+retailers NNS
+retailing NN
+retain VB VBP
+retained VBN
+retaining VBG
+retains VBZ
+retaliation NN
+retard VB
+retentive JJ
+retire VB
+retired VBD VBN JJ
+retirees NNS
+retirement NN
+retorts NNS
+retraced VBD
+retractable JJ
+retreating VBG
+retrieve VB
+return NN VB VBP
+returned VBN VBD
+returning VBG
+returns NNS VBZ
+revamp VB
+revamped VBN VBD
+revelations NNS
+reveling VBG
+revenue NN
+revenue-raising JJ
+revenues NNS
+reversal NN
+reverses VBZ
+reverts VBZ
+review NN VB
+reviewed VBD
+revised JJ VBN
+revising VBG
+revision NN
+revival NN
+revive VB
+revived VBN
+revolt NN
+revolution NN
+reward VB
+rewarding VBG
+rewards NNS
+rewrite VB
+rhetoric NN
+rhythm NN
+rhythmically RB
+rice NN
+rich JJ
+richer JJR
+rid JJ
+ride VB
+rider NN
+riders NNS
+ridiculous JJ
+riding VBG
+rifles NNS
+rigged VBN
+right NN RB JJ
+righthander NN
+rights NNS
+rigid JJ
+rigidity NN
+rigors NNS
+rim NN
+ring VB VBP
+ringer NN
+ringers NNS
+ringing NN VBG
+rings NNS VBZ
+rioting NN
+riots NNS
+ripen VBP
+rise NN VB VBP
+risen VBN
+rises NNS VBZ
+rising VBG
+risk NN VB
+risk-free JJ
+risks NNS
+risky JJ
+ritual NN
+rival JJ NN
+rivalry NN
+rivals NNS
+river NN
+road NN
+roadblock NN
+robbed VBN
+robotic JJ
+robust JJ
+robustly RB
+rock NN
+rocket NN
+rocks NNS
+role NN
+roles NNS
+roll NN VB
+rolled VBD
+rolling VBG
+rollover NN
+romance NN
+romanticized VBN
+roof NN
+roof-crush JJ
+rookie NN
+room NN
+roost VB
+root NN
+rooted VBN
+rope NN
+rope-sight NN
+ropes NNS
+rose VBD
+roses NNS
+rosy JJ
+rough JJ
+roughly RB
+round NN
+round-trip JJ
+rounded JJ
+rounds NNS
+rout NN
+route NN
+routes NNS VBZ
+routine JJ NN
+routinely RB
+row NN
+royalties NNS
+royalty NN
+rubber NN
+ruble NN
+rubles NNS
+rule NN VB
+ruled VBD VBN
+rules NNS VBZ
+ruling NN VBG
+rulings NNS
+rumor NN
+rumored VBN
+rumors NNS
+run VB VBN NN VBP
+run-down JJ
+rung VBN
+running VBG
+runs VBZ NNS
+rural JJ
+rush VB
+rushed VBD
+rusted VBN
+rusticated VBN
+rusty JJ
+sabotage VB
+sacked VBD
+sacrifice VB
+sad JJ
+safe JJ
+safe-deposit JJ
+safeguarded VBN
+safeguarding VBG
+safeguards NNS
+safer JJR
+safest JJS
+safety NN
+sage NN
+sagged VBD
+sagging VBG
+said VBD VBN
+sailing NN
+sake NN
+salable JJ
+salaries NNS
+salary NN
+salarymen NNS
+sale NN
+sales NNS
+sales-tax NN
+salesman NN
+saluting VBG
+same JJ
+samples NNS
+samurai FW NN
+sanctions NNS VBZ
+sand NN
+sang VBD
+sank VBD
+sapping VBG
+sassy JJ
+sat VBD
+satellite JJ NN
+satirical JJ
+satisfaction NN
+satisfactory JJ
+satisfy VB
+satisfying VBG
+sauce NN
+sausage-grinder NN
+save VB
+savers\/investors NNS
+saving VBG
+savings NNS NN
+savings-and-loan JJ NN
+savings-type JJ
+savor VB
+savored VBD
+savoring VBG
+savvier JJR
+saw VBD
+say VBP VB
+saying VBG
+says VBZ
+scale NN
+scammers NNS
+scams NNS
+scandal NN
+scandals NNS
+scans VBZ
+scant JJ
+scarcely RB
+scared JJ VBN
+scaring VBG
+scattered VBN
+scenario NN
+scenarios NNS
+scene NN
+scenes NNS
+scenic JJ
+schedule NN
+scheduled VBN VBD
+schedules NNS
+scheme NN
+schemes NNS
+scholarly JJ
+scholars NNS
+school NN
+school-district NN
+school-improvement JJ
+school-research JJ
+school-sponsored JJ
+schoolboys NNS
+schoolchildren NN
+schools NNS
+schoolteacher NN
+science NN
+sciences NNS
+scientific JJ
+scientist NN
+scientists NNS
+sclerosis NN
+scoffs VBZ
+scolded VBN
+scoop VB
+scope NN
+score NN
+scores NNS
+scotch NN
+scour VB
+scrambled VBD VBN
+scrambling VBG
+scrapped VBN
+scream NN VB
+screen NN
+screened VBD
+screens NNS
+screwed VBD
+scribbling VBG
+scripts NNS
+scrounge VBP
+scruff NN
+scrupulously RB
+scrutinizing VBG
+scrutiny NN
+scuttle VB
+scuttled VBD
+sea NN
+seaborne JJ
+sealed VBN
+search NN
+searched VBD
+searching VBG
+season NN
+seasonal JJ
+seasonally RB
+seasoned JJ
+seasons NNS
+seat NN
+seating VBG
+seats NNS
+secede VB
+second JJ NN
+second-largest JJ
+second-level JJ
+second-quarter JJ
+secondary JJ
+seconds NNS
+secret JJ NN
+secretaries NNS
+secretary NN
+secrets NNS
+section NN
+sections NNS
+sector NN
+sectors NNS
+secure JJ
+secured JJ VBD VBN
+securities NNS
+securities-based JJ
+securities-turnover JJ
+security NN
+security-type JJ
+sedan NN
+sedans NNS
+seduce VB
+see VB VBP
+seed NN
+seeds NNS
+seeing VBG
+seek VB VBP
+seeking VBG
+seeks VBZ
+seem VBP VB
+seemed VBD
+seemingly RB
+seems VBZ
+seen VBN
+sees VBZ
+segment NN
+segmenting VBG
+segments NNS
+segregated VBD
+seisho FW
+seize VB
+seized VBD
+seizures NNS
+seldom RB
+select JJ
+selected VBN
+selection NN
+selections NNS
+selective JJ
+self-aggrandizing JJ
+self-esteem NN
+self-incrimination NN
+self-reform NN
+self-regulatory JJ
+self-serving JJ
+self-styled JJ
+sell VB NN VBP
+sell-off NN
+sell-offs NNS
+seller NN
+sellers NNS
+selling VBG NN
+sells VBZ
+semantics NNS
+semiannual JJ
+semicircular JJ
+semiconductor NN
+semiconductors NNS
+semiliterate JJ
+seminar NN
+seminars NNS
+senators NNS
+send VB VBP
+sending VBG
+sends VBZ
+senior JJ NN
+seniority NN
+seniors NNS
+sensation NN
+sensational JJ
+sense NN VBP
+senses NNS
+sensitive JJ
+sensitives NNS
+sensitivity NN
+sensory JJ
+sent VBD VBN
+sentence NN
+sentiment NN
+sentimental JJ
+separate JJ VBP
+separated JJ
+separately RB
+separation NN
+sequel NN
+sequels NNS
+sequester VBP
+serial NN
+serials NNS
+series NN
+serious JJ
+seriously RB
+servants NNS
+serve VB VBP
+served VBD VBN
+serves VBZ
+service NN VB
+service-industry NN
+services NNS
+servicing NN VBG
+serving VBG
+session NN
+sessions NNS
+set VBN NN VB VBD VBP
+setback NN
+sets NNS VBZ
+setting NN VBG
+settle VB
+settled VBD VBN
+settlement NN
+settlements NNS
+seven CD
+seven-day JJ
+seven-million-ton JJ
+seven-year JJ
+seven-yen JJ
+seventh JJ
+severable JJ
+several JJ
+several-year JJ
+severance NN
+severe JJ
+severity NN
+sew VB
+sewing-machine NN
+sex NN
+sexy JJ
+shadows NNS
+shags VBZ
+shake-up NN
+shaken VBN
+shaky JJ
+shall MD
+shame NN
+shape NN
+shaped VBN
+shapes NNS
+shaping VBG
+share NN VB
+shared VBN
+shareholder NN
+shareholder-rights JJ
+shareholders NNS
+shareholdings NNS
+shares NNS
+sharing VBG
+sharp JJ
+sharper JJR
+sharply RB
+she PRP
+sheaf NN
+shed VB VBD
+shedding VBG
+sheet NN
+sheets NNS
+shelf NN
+shelter NN
+shelves NNS
+sherbet NN
+shifted VBD
+shifts NNS
+shiny JJ
+ship NN VB
+shipboard NN
+shipbuilding NN
+shipments NNS
+shipped VBN
+shipping NN VBG
+ships NNS
+shipyard NN
+shipyards NNS
+shirt-sleeved JJ
+shirts NNS
+shivers NNS
+shocked VBN
+shocks NNS
+shoes NNS
+shoot VB
+shootout NN
+shop NN
+shopped VBD
+shopping NN VBG
+shops NNS
+shore VB
+shoring VBG
+short JJ RB
+short-lived JJ
+short-range JJ
+short-term JJ
+short-wave JJ
+shortage NN
+shortcut NN
+shorter JJR
+shortly RB
+shot NN VBD
+shots NNS
+should MD
+shoulder NN
+shovels NNS
+show VB NN VBP
+show-piece JJ
+showed VBD
+showing VBG NN
+showings NNS
+shown VBN
+showrooms NNS
+shows VBZ NNS
+shrank VBD
+shrinking VBG
+shrinks VBZ
+shrug VB
+shun VB
+shunned VBD
+shut VB VBN
+shuttle NN
+sick JJ
+sickness NN
+side NN
+sideline NN
+sideline-business JJ
+sidelines NNS
+sides NNS
+sidestep VB VBP
+sidewalk NN
+sights NNS
+sign NN VB
+signal VB NN
+signaled VBD
+signaling VBG
+signals NNS VBZ
+signature NN
+signboards NNS
+signed VBD VBN
+significance NN
+significant JJ
+significantly RB
+signifying VBG
+signing VBG
+signs NNS
+silent JJ
+silver NN
+similar JJ
+similarities NNS
+similarity NN
+similarly RB
+simple JJ
+simplifying VBG
+simply RB
+simulates VBZ
+simultaneous JJ
+simultaneously RB
+since IN RB
+sincere JJ
+sincerity NN
+singer NN
+single JJ VB
+single-A-2 JJ
+single-A-3 JJ
+single-B JJ
+single-B-1 JJ
+single-B-3 JJ
+single-B-plus JJ
+single-digit JJ
+single-family JJ NN
+single-handed JJ
+single-handedly RB
+singled VBN
+sink VB
+sipped VBD
+sister NN
+sit VB
+site NN
+sites NNS
+situated VBN
+situation NN
+situations NNS
+six CD
+six-bottle JJ
+six-cent JJ
+six-inch JJ
+six-month JJ
+six-packs NNS
+sixth JJ
+sizable JJ
+size NN
+skeptical JJ
+sketch NN
+sketching VBG
+sketchy JJ
+skid VB
+skidded VBD
+skill NN
+skilled JJ
+skills NNS
+skin NN
+skipped VBD
+skirmish NN
+skirmishes NNS
+sky NN
+skyrocketed VBN VBD
+slab NN
+slain VBN
+slash VB
+slashed VBN
+slashing VBG
+slate NN
+slated VBN
+slats NNS
+sleek JJ
+sleep NN VB
+sleeping NN VBG
+sleight NN
+slew NN
+slid VBD
+slide NN VB
+slides NNS VBZ
+sliding VBG
+slight JJ
+slightly RB
+slip VB
+slippage NN
+slipped VBD
+slippery JJ
+slogan NN
+slogans NNS
+slope NN
+sloppy JJ
+slots NNS
+slow VB JJ
+slow-startup JJ
+slowball NN
+slowdown NN
+slowdowns NNS
+slowed VBN
+slower JJR
+slowing VBG NN
+slowly RB
+slows VBZ
+sluggish JJ
+sluggishness NN
+slump NN
+small JJ
+small-company NN
+small-time JJ
+smaller JJR
+smartest JJS
+smartly RB
+smattering NN
+smiles NNS
+smoke NN
+smoke-filled JJ
+smokers NNS
+smoking NN
+smolder VBP
+smooth JJ VB
+smoothly RB
+snaking VBG
+snap VBP
+snapped VBD VBN
+snappy JJ
+so RB IN
+so-called JJ
+soar VB
+soared VBD VBN
+soaring VBG
+soccer NN
+social JJ
+socialism NN
+socialist JJ
+socialize VB
+society NN
+sociologist NN
+sociology NN
+soda NN
+sodas NNS
+soft JJ
+soft-drink NN
+softened JJ
+softening NN VBG
+softer JJR
+software NN
+soggy JJ
+sogo-shosha NN
+soil NN
+sold VBN VBD
+soldiers NNS
+sole JJ
+solely RB
+solemn JJ
+solicitation NN
+solicitations NNS
+soliciting VBG
+solicitor NN
+solicitors NNS
+solid JJ
+solidarity NN
+solution NN
+solutions NNS
+solved VBD VBN
+solvent JJ
+solving VBG
+some DT
+somebody NN
+someday RB
+somehow RB
+someone NN
+something NN
+sometime RB
+sometimes RB
+sometimes-exhausting JJ
+sometimes-tawdry JJ
+somewhat RB
+somewhere RB
+son NN
+song NN
+soon RB
+sooner RB
+sophisticated JJ
+sorghum NN
+sort NN
+sorting VBG
+sorts NNS
+sought VBN VBD
+soul NN
+souled JJ
+sound NN VB JJ
+sounded VBD
+sounding VBG
+soundings NNS
+sounds NNS VBZ
+sour JJ
+source NN
+sources NNS
+soured JJ
+southern JJ
+sow VBP
+soybeans NNS
+space NN
+spaces NNS
+spackle VB
+spanning VBG
+spare JJ
+spares NNS
+sparing VBG
+spark VB
+sparked VBD
+sparking VBG
+sparkplugs NNS
+speak VB
+speaking NN VBG
+speaks VBZ
+special JJ
+specialist NN
+specialists NNS
+specialized VBN JJ
+specializes VBZ
+specializing VBG
+specialties NNS
+specialty NN
+species NN
+specific JJ
+specifically RB
+specifics NNS
+specified JJ VBN
+specify VB
+spectacular JJ
+spectators NNS
+spectrum NN
+speculated VBD VBN
+speculating VBG
+speculation NN
+speculative JJ
+speculators NNS
+speech NN
+speeches NNS
+speed NN VB
+speeding NN
+speedometer NN
+speeds VBZ
+speedway NN
+spend VB VBP
+spending NN VBG JJ
+spends VBZ
+spent VBN VBD
+sphere NN
+spiders NNS
+spilling NN
+spin VB
+spinal JJ NN
+spine NN
+spinoff NN
+spins VBZ
+spirit NN
+spirits NNS
+spite NN
+splendidly RB
+split NN VBN JJ VB
+spoke VBD
+spoken VBN
+spokesman NN
+spokesmen NNS
+spokeswoman NN
+spokewoman NN
+sponsor NN
+sponsors NNS
+spook VBP
+spooked VBN
+spooks NNS
+sport-utility JJ
+sportif FW
+sports NNS
+sporty JJ
+spot NN VB
+spotlight NN
+spots NNS
+spouse NN
+spouses NNS
+sprawling JJ
+spray NN
+spread NN VB VBN
+spreading VBG
+spreads NNS VBZ
+spree NN
+spring NN
+spring-early JJ
+spring-training NN
+springing VBG
+spun VBN
+spur VB
+spurns VBZ
+spurred VBN
+spurring VBG
+spurted VBN
+sputtered VBD
+spy NN
+spy-chaser NN
+spy-chasing NN
+square JJ
+squared VBN
+squatted VBN
+squeeze NN VB
+squeezed VBN VBD
+squinted VBD
+stabbed VBN
+stability NN
+stable JJ NN
+stacked VBN
+stacking VBG
+stadium NN
+stadiums NNS
+staff NN
+staff-reduction NN
+staffers NNS
+staffs NNS
+stage NN
+stages NNS
+staggered JJ
+staggering JJ
+stain-resistant JJ
+stairs NNS
+stake NN VB
+stakes NNS
+stalemate NN
+stalked VBN
+stalled VBN
+stalls NNS
+stance NN
+stand VBP NN VB
+standard JJ NN
+standardized JJ
+standards NNS
+standing NN JJ VBG
+standing-room-only JJ
+stands VBZ NNS
+standstill JJ NN
+star NN
+stare VBP
+stars NNS
+start VB NN VBP
+start-up JJ NN
+started VBD VBN
+starter JJ
+starters NNS
+starting VBG JJ
+startling JJ
+starts VBZ NNS
+state NN
+state-appointed JJ
+state-funded JJ
+state-owned JJ
+state-supervised JJ
+stated VBN JJ VBD
+statement NN
+statements NNS
+states NNS VBZ
+statesmen NNS
+statewide JJ
+static JJ
+station NN
+stationery NN
+stations NNS
+statism NN
+statist JJ
+statistics NNS
+statue NN
+stature NN
+status NN
+statute NN
+statutory JJ
+stay VB
+stayed VBD VBN
+staying VBG
+stays VBZ
+steadily RB
+steady JJ
+steal VB
+stealing VBG
+steel NN
+steelmaker NN
+steelmakers NNS
+steep JJ
+steeper JJR
+steer VB
+stellar JJ
+stem VB
+stemmed VBD
+stemming VBG
+stems VBZ
+step NN VB
+stepped VBD VBN
+stepping VBG JJ
+steps NNS
+stereo NN
+stereotyped JJ
+sterile JJ
+steriles NNS
+sterility NN
+sterilization NN
+sterilize VB
+sterilizing VBG
+sterling NN
+stern JJ
+stewed JJ
+stick VB
+sticker-shock NN
+stickier JJR
+sticking VBG
+stiff JJ
+stiffer JJR
+stifle VB
+stigma NN
+still RB
+stimulate VB
+stimulated VBN
+stimulating VBG
+stimulation NN
+stimulative JJ
+stimulator NN
+stimulators NNS
+stimulus NN
+stirred VBD
+stirrings NNS
+stock NN
+stock-index JJ NN
+stock-market NN
+stock-picking JJ
+stock-price JJ NN
+stock-repurchase JJ
+stock-selection JJ
+stock-specialist JJ
+stockbrokers NNS
+stockholders NNS
+stockpiles NNS
+stocks NNS RB
+stoked VBN
+stolen VBN
+stone NN
+stonemason NN
+stones NNS
+stood VBD
+stop VB VBP
+stopped VBN VBD
+stopper NN
+storage NN
+store NN
+stored VBD
+stores NNS
+stories NNS
+storm NN
+story NN
+straight JJ RB
+straighten VB
+strain NN
+strains NNS
+strapped VBN
+strategic JJ
+strategies NNS
+strategy NN
+streaked VBD
+stream NN
+streamline VB
+street NN
+street-corner JJ
+streets NNS
+strength NN
+strengthen VB
+strengthened VBD VBN
+strengthens VBZ
+stress NN
+stressed VBD VBN
+stressing VBG
+stretch VB VBP
+stretched VBD
+stretches NNS
+stretching VBG
+strict JJ
+strictly RB
+strident JJ
+strike NN VB
+strikes NNS
+striking JJ VBG
+string NN VB
+stringently RB
+strings NNS
+strip NN VB
+stripped VBN
+striving VBG
+stroke NN
+strokes NNS VBZ
+strong JJ
+strong-willed JJ
+stronger JJR
+stronger-than-expected JJ
+strongest JJS
+strongly RB
+struck VBD VBN
+structural JJ
+structurally RB
+structure NN
+structured VBN JJ
+structures NNS
+struggled VBD
+struggling VBG
+stuck VBD
+student NN
+student-test JJ
+students NNS
+studied VBN VBD
+studies NNS
+studio NN
+studios NNS
+studiously RB
+study NN VB VBP
+studying VBG
+stuff NN
+stunned JJ
+stupid JJ
+style NN
+styles NNS
+styling NN VBG
+sub-markets NNS
+sub-minimum JJ
+sub-segments NNS
+subcommittee NN
+subcompact NN
+subdued VBN
+subindustry NN
+subject JJ NN
+subjected VBN
+subjects NNS
+sublime JJ
+subliminal JJ
+subminimum JJ NN
+submit VB
+submitted VBN
+subordinate JJ
+subordinated JJ VBN
+subpoenaed VBN
+subscribe VB VBP
+subscriber NN
+subscribers NNS
+subsequent JJ
+subset NN
+subsidiaries NNS
+subsidiary NN
+subsidies NNS
+subsidize VB
+subsidized VBN
+subskill NN
+subskills NNS
+substance NN
+substance-abusing JJ
+substantial JJ
+substantially RB
+substitute NN
+subterfuge NN
+subtitled VBN
+subtlety NN
+subtracted VBN
+subtraction NN
+suburban JJ
+suburbs NNS
+subverted VBN
+succeed VB VBP
+succeeded VBD VBN
+succeeding VBG
+succeeds VBZ
+succesful JJ
+success NN
+successes NNS
+successful JJ
+successfully RB
+succession NN
+successor NN
+such JJ PDT
+sudden JJ
+suddenly RB
+sue VB
+sued VBD
+suffer VB VBP
+suffered VBD VBN
+suffering NN
+sufficient JJ
+sufficiently RB
+sugar NN
+suggest VBP VB
+suggested VBD VBN
+suggesting VBG
+suggestion NN
+suggestions NNS
+suggests VBZ
+suing VBG
+suit NN VB
+suitors NNS
+sulfur-dioxide NN
+sum NN
+summary NN
+summer NN
+summer\/winter JJ
+summers NNS
+summit NN
+summon VB
+summoned VBN
+sums NNS
+sun NN
+sung VBN
+sunlight NN
+sunny JJ
+sunsets NNS
+super-absorbent JJ
+super-user NN
+supercilious JJ
+supercomputer NN
+supercomputers NNS
+superconductor NN
+superconductors NNS
+superficial JJ
+superimposed VBN
+superintendent NN
+superior JJ
+superiority NN
+superiors NNS
+supermarket NN
+superpower NN
+superpremiums NNS
+supervisors NNS
+supplemental JJ
+supplier NN
+suppliers NNS
+supplies NNS VBZ
+supply NN VB
+support NN VB
+supported VBD VBN
+supporters NNS
+supports VBZ
+supposed VBN
+supposedly RB
+suppression NN
+supraventricular JJ
+supreme NN
+sure JJ RB
+surely RB
+surfaced VBD VBN
+surge NN
+surged VBD VBN
+surgery NN
+surging JJ
+surpassed VBN
+surplus NN
+surpluses NNS
+surprise NN JJ
+surprised VBN JJ
+surprising JJ
+surprisingly RB
+surreal JJ
+surrendered VBD
+surreptitiously RB
+surrogate JJ
+surrounding VBG
+survey NN
+surveyed VBN
+survival NN
+survive VB VBP
+survived VBD
+survives VBZ
+surviving VBG
+survivor NN
+susceptible JJ
+suspect VBP VB
+suspected VBD VBN
+suspects NNS VBZ
+suspend VB
+suspended VBN VBD
+suspension NN
+suspensions NNS
+suspicion NN
+suspicions NNS
+sustain VB
+sustained VBN
+swallow VB
+swap NN VB
+swapping VBG
+swaps NNS
+swearing NN
+swearing-in NN
+sweat NN
+sweater NN
+sweaters NNS
+sweatshirts NNS
+sweeping JJ VBG
+sweepstakes NN
+sweet JJ
+sweeten VB
+sweetened VBD JJ VBN
+sweetheart NN
+swelled VBN
+swelling VBG
+swift NN
+swiftly RB
+swig NN
+swim VBP
+swing NN VB
+swings NNS
+switch NN
+switched VBD VBN
+sworn VBN
+symbol NN
+symbolic JJ
+symmetry NN
+sympathetic JJ
+symptoms NNS
+synchronized VBN
+syndicate NN
+synthetic JJ
+system NN
+systems NNS
+table NN
+tablets NNS
+tabloid JJ
+taboo NN
+tachycardia NN
+tack NN
+tackle VB
+tackling VBG
+tactics NNS
+tad RB
+tag NN
+tags NNS
+tailor-made JJ
+tailored VBN
+tailoring VBG
+taint NN
+take VB VBP
+take-it-or-leave JJ
+taken VBN
+takeoff NN
+takeover NN
+takeover-stock JJ
+takeovers NNS
+takes VBZ
+taking VBG
+takings NNS
+tale NN
+talents NNS
+talk VB NN VBP
+talk-show NN
+talked VBN
+talking VBG
+talks NNS VBZ
+tall JJ
+tallies NNS
+tally NN
+tamer JJR
+tangential JJ
+tangible JJ
+tangled VBN
+tank NN
+tanked VBN
+tanks NNS
+tap VB
+tape NN
+taper VB
+tapes NNS
+tapping VBG
+tar NN
+target NN VB
+targeted VBN JJ
+targeting VBG
+targets NNS VBZ
+tariff NN
+task NN
+tasks NNS
+tassel NN
+tassels NNS
+taste NN
+tastes NNS
+tasty JJ
+tattered JJ
+taught VBD
+tax NN
+taxable JJ
+taxation NN
+taxed VBD VBN
+taxes NNS
+taxpayer NN
+taxpayers NNS
+tea NN
+teach VB VBP
+teacher NN
+teacher-cadet JJ
+teachers NNS
+teaching NN
+team NN
+teams NNS
+tears NNS
+technical JJ
+technically RB
+technique NN
+techniques NNS
+technologies NNS
+technology NN
+tee NN
+teeming VBG
+teen-age JJ
+teenagers NNS
+teetering VBG
+telecommunications NN NNS
+telegraph NN VBP
+telephone NN VB
+telephone-information NN
+telephones NNS
+television NN
+tell VB
+telling VBG
+tells VBZ
+temporarily RB
+temporary JJ
+temptation NN
+tempted VBD
+tempts VBZ
+tenants NNS
+tend VBP
+tended VBN
+tendency NN
+tender NN VB JJ
+tendered VBN
+tendering VBG
+tends VBZ
+tennis NN
+tens NNS
+tense JJ
+tension NN
+tensions NNS
+tentatively RB
+tenth NN
+tenure NN
+term NN
+termed VBD
+terminal NN
+terminated VBN VBD
+terms NNS
+terrine NN
+territory NN
+terrorism NN
+test NN VBP
+test-coaching JJ
+test-drive VBP
+test-practice JJ
+test-prep JJ
+testaments NNS
+tested VBN VBD
+testified VBD
+testify VB
+testimonial JJ
+testimony NN
+testing NN VBG
+tests NNS VBZ
+tete-a-tete NN
+text NN
+textile NN
+texts NNS
+texture NN
+than IN
+thanks NNS
+that IN WDT DT RB
+the DT JJ CD NNP
+theaters NNS
+theft NN
+their PRP$
+theirs PRP
+them PRP
+theme NN
+themes NNS
+themselves PRP
+then RB
+then-21 JJ
+then-Speaker JJ
+theological JJ
+theories NNS
+theory NN
+therapy NN
+there EX RB
+therefore RB
+these DT
+they PRP
+thicket NN
+thieves NNS
+thigh NN
+thin JJ
+thin-lipped JJ
+thing NN
+things NNS
+think VBP VB
+thinking VBG NN
+thinks VBZ
+thinned VBN
+thinning VBG
+third JJ NN
+third-highest JJS
+third-largest JJ
+third-quarter NN JJ
+this DT
+thorough JJ
+thoroughfare NN
+those DT
+though IN RB
+thought VBD VBN NN
+thoughts NNS
+thousand CD
+thousand-person JJ
+thousands NNS
+thrash VB
+threat NN
+threatened VBN VBD
+threatening JJ
+threatens VBZ
+threats NNS
+three CD
+three-digit JJ
+three-month JJ
+three-quarters NNS
+three-sevenths NNS
+three-to-five-year JJ
+three-year JJ
+threw VBD
+thrift NN
+thrifts NNS
+thriller NN
+through IN RP
+throughout IN
+throw VB
+throwing NN VBG
+throws VBZ
+thrusting VBG
+thugs NNS
+thumb NN
+thumbs NNS
+thunder NN
+thus RB
+thwart VB
+ticket NN
+tickets NNS
+tidbit NN
+tidbits NNS
+tide NN
+tidily RB
+tie-in NN
+tied VBN VBD
+ties NNS VBZ
+tigers NNS
+tight JJ RB
+tighten VB
+tightened VBD VBN
+tightening VBG
+tightly RB
+tile NN
+tilt VB
+timber NN
+timberland NN
+timberlands NNS
+time NN VB
+time-limited JJ
+timed VBN
+timely JJ
+times NNS
+timetable NN
+timing NN
+timorous JJ
+tinker VB
+tiny JJ
+tips NNS
+tire NN
+tire-kickers NNS
+tired JJ
+tires NNS
+tissue NN
+tissues NNS
+titans NNS
+title NN
+title-insurance JJ
+titles NNS
+to TO IN
+toast NN
+tobacco NN
+tobacco-industry NN
+today NN
+toes NNS
+together RB RP
+told VBD VBN
+tolerance NN
+tolerate VB
+toll NN
+tomatoes NNS
+tomorrow NN
+ton NN
+tone NN
+toned VBN
+tons NNS
+tony JJ
+too RB
+took VBD
+tool NN
+top JJ NN VB
+top-level JJ
+top-secret JJ
+top-yielding JJ
+topic NN
+topics NNS
+topped VBD VBN
+topping VBG
+tormentors NNS
+torrent NN
+tort NN
+total JJ NN VB
+totaled VBD
+totaling VBG
+totally RB
+tote VB
+toted VBN
+touch NN VB
+touched VBD
+touchy JJ
+tough JJ
+tougher JJR
+toughness NN
+tourism NN
+tourist NN
+tourists NNS
+tours NNS
+touted VBN
+tow NN
+toward IN
+towards IN
+towels NNS
+tower NN
+town NN
+town-watching JJ
+towns NNS
+tows NNS
+toxicology NN
+toy NN
+toying VBG
+trace VB
+traced VBD
+tracing VBG
+track NN VBP
+tracked VBN
+tracking NN
+tracks VBZ NNS
+trade NN VB VBP
+trade-in NN
+trade-off NN
+traded VBN VBD
+trademark NN
+trader NN
+traders NNS
+trades NNS VBZ
+trading NN VBG
+trading-company NN
+tradition NN
+traditional JJ
+traditionalists NNS
+traditionally RB
+traduce VB
+traffic NN
+trafficking NN
+tragedy NN
+trail NN VB
+trailed VBD
+train NN VB
+trained VBN JJ
+trainer NN
+training NN VBG
+trains NNS VBZ
+trait NN
+traitor NN
+tramp NN
+transacting VBG
+transaction NN
+transactions NNS
+transcribe VBP
+transfer VB NN
+transferred VBD VBN
+transferring VBG
+transfers NNS
+transform VB
+transformed VBN
+transforming VBG
+transition NN
+transitional JJ
+transnational JJ
+transplants NNS
+transportable JJ
+transportation NN
+transporting VBG
+trap NN
+trash NN VB
+trashing NN
+travel NN
+travel-related JJ
+traveled VBD
+travelers NNS
+traveling VBG
+trays NNS
+treasure-trove NN
+treasurer NN
+treasury NN
+treat VB
+treated VBN
+treating VBG
+treatment NN
+treatments NNS
+treats VBZ
+treaty NN
+tree NN
+trees NNS
+tremendously RB
+trend NN
+trend-setters NNS
+trending VBG
+trends NNS
+trendy JJ
+trepidation NN
+trespass VBP
+trespasses NNS
+trial NN
+tribunal NN
+tricks NNS
+tricky JJ
+tried VBD VBN
+tries VBZ
+trigger NN VB
+triggered VBD VBN
+trillion CD
+trimmed VBN
+trimming VBG
+trip NN
+triple RB
+triple-A JJ
+triple-A-rated JJ
+triple-C NN
+tripled VBD
+trips NNS
+trivial JJ
+troop NN
+troops NNS
+trop FW
+trouble NN
+troubled JJ VBN
+troublemakers NNS
+troubles NNS
+troublesome JJ
+trousers NNS
+truce NN
+truck NN
+trucks NNS
+true JJ
+truly RB
+trumpets VBZ
+trust NN VB
+trustee NN
+trusts NNS
+truth NN
+truthful JJ
+try VB VBP NN
+trying VBG
+tubes NNS
+tubular JJ
+tuck VB
+tumbled VBD
+tumbling VBG
+tumultuous JJ
+tune NN VBP
+turbines NNS
+turbulence NN
+turf NN
+turkey NN
+turmoil NN
+turn VB NN
+turnaround NN
+turned VBD VBN
+turning VBG
+turnover NN
+turns VBZ
+tutorials NNS
+tweaking NN
+tweezers NNS
+twice RB
+twin NN
+twin-jet NN
+twindam NN
+twinned VBN
+twist NN
+twisted JJ
+twisting VBG
+twitch VB
+two CD
+two-letter JJ
+two-part JJ
+two-sevenths NNS
+two-story JJ
+two-thirds NNS
+two-tiered JJ
+two-time-losers JJ
+two-week JJ
+two-year JJ
+two-year-old JJ
+tycoon NN
+type NN
+types NNS
+typical JJ
+typically RB
+ultimate JJ
+ultimately RB
+umbrellas NNS
+unable JJ
+unaffiliated JJ
+unaltered JJ
+unamended JJ
+unanimous JJ
+unappealing JJ
+unauthorized JJ
+unaware JJ
+unbearably RB
+uncertainties NNS
+uncertainty NN
+unchanged JJ
+uncharacteristically RB
+uncharted JJ
+unclear JJ
+uncombed JJ
+uncompensated JJ
+uncomplaining JJ
+unconnected JJ
+unconsolidated JJ
+unconstitutional JJ
+uncovered VBN
+undelivered JJ
+under IN
+under-reported JJ
+undercover JJ
+undercut JJ
+undergoing VBG
+underline VB
+underlying VBG JJ
+undermine VB
+undermined VBD
+underperforming VBG
+underpin VB
+underprivileged JJ
+underscore VBP
+underscored VBD
+undersecretary NN
+understand VB VBP
+understanding NN
+understatement NN
+understood VBD VBN
+undertaking VBG
+undertone NN
+undervalued VBN
+underwear NN
+underwent VBD
+underwriter NN
+underwriters NNS
+undesirable JJ
+undisclosed JJ
+undo VB
+unemployment NN
+unencumbered JJ
+unenthusiastic JJ
+unenticing JJ
+uneventful JJ
+unexpected JJ
+unexpectedly RB
+unfair JJ
+unfair-trade JJ
+unfairly RB
+unfamiliarity NN
+unfathomable JJ
+unfilled JJ
+unfit JJ
+unfocused JJ
+unforeseen JJ
+unfortunate JJ
+unfortunately RB
+unfunded JJ
+unhappiness NN
+unhappy JJ
+unheard JJ
+unhinged VBN
+uniform NN
+unimpeded JJ
+uninsured JJ
+unintelligible JJ
+uninvited JJ
+union NN
+unions NNS
+unique JJ
+unit NN
+unitary JJ
+unitholders NNS
+units NNS
+universally RB
+universities NNS
+university NN
+unjust JJ
+unjustified JJ
+unknown NN
+unknowns NNS
+unless IN
+unlike IN
+unlikely JJ
+unload VB
+unmarked JJ
+unmistakable JJ
+unnecessary JJ
+unneeded JJ
+unofficial JJ
+unpleasant JJ
+unpopular JJ
+unpopularity NN
+unproductive JJ
+unprofitable JJ
+unproven JJ
+unpublished JJ
+unravel VB
+unraveled JJ
+unrealistically RB
+unrealized JJ
+unreasonable JJ
+unrecognizable JJ
+unrelated JJ
+unresolved JJ
+unrest NN
+unrestricted JJ
+unsecured JJ
+unsettled VBN
+unsettling JJ
+unsolicited JJ
+unspecified JJ
+unstinting JJ
+unsuccessful JJ
+unsuccessfully RB
+unsupported JJ
+unsympathetic JJ
+untapped JJ
+until IN
+untrained JJ
+untrue JJ
+unusual JJ
+unusually RB
+unveil VB
+unveiled VBD
+unwanted JJ
+unwary JJ
+unwashed JJ
+unwilling JJ
+unwind VB
+unworkable JJ
+unwritten JJ
+up RP RB IN JJ
+upbeat JJ
+update VB
+upgrade NN
+upgraded VBD
+upheld VBD VBN
+upon IN
+upper JJ
+upscale JJ NN
+upset JJ VBN
+upsets NNS
+upsetting VBG
+upside NN
+upstate JJ
+upstream RB
+uptempo JJ
+uptick NN
+upturn NN
+upward RB
+urban JJ
+urge VB VBP
+urged VBD VBN
+urgently RB
+urges VBZ
+urging VBG
+us PRP
+use NN VB VBP
+used VBN VBD JJ
+useful JJ
+usefulness NN
+user NN
+users NNS
+uses VBZ NNS
+ushered VBD
+ushering VBG
+ushers NNS
+using VBG
+usual JJ
+usually RB
+usurp VB
+utilities NNS
+utility NN
+utterances NNS
+uttering VBG
+v. CC
+vacancies NNS
+vacancy NN
+vacant JJ
+vacation NN
+vacations NNS
+vagabond NN
+vagrant JJ
+vague JJ
+valid JJ
+valuable JJ
+valuation NN
+value NN
+valued VBN
+values NNS VBZ
+van NNP
+vanilla NN
+vans NNS
+variables NNS
+variations NNS
+varied VBD
+variety NN
+various JJ
+vary VB VBP
+varying VBG
+vast JJ
+veal NN
+vegetables NNS
+vehemently RB
+vehicle NN
+vehicles NNS
+velocity NN
+vendetta NN
+vendor NN
+vendors NNS
+venerable JJ
+ventilated VBD
+venture NN
+ventures NNS
+verdict NN
+version NN
+versions NNS
+versus CC
+vertically RB
+very RB JJ
+vessel NN
+vessels NNS
+vested VBN
+veteran NN
+veto NN VB
+vetoed VBD
+via IN
+viable JJ
+vicar NN
+vicars NNS
+vice NN RB
+vicious JJ
+vicissitudes NNS
+victim NN
+victims NNS
+victory NN
+video-viewing JJ
+videocassette NN
+view NN VB
+viewed VBN VBD
+viewing VBG
+viewpoint NN
+viewpoints NNS
+views NNS VBZ
+vigor NN
+vindication NN
+vineyard NN
+vintage JJ NN
+vintages NNS
+vinyl NN
+violate VB VBP
+violated VBD VBN
+violates VBZ
+violating VBG
+violation NN
+violations NNS
+violence NN
+violent JJ
+violently RB
+virgins NNS
+virtually RB
+virtue NN
+virtues NNS
+virus NN
+visibility NN
+visible JJ
+vision NN
+visit NN VB
+visited VBD VBN
+visiting VBG
+visitors NNS
+visits NNS
+visual JJ
+visuals NNS
+vital JJ
+vitally RB
+vividly RB
+vocalist NN
+voice NN VBP
+voices NNS
+void JJ
+volatile JJ
+volatility NN
+volume NN
+voluntarily RB
+vortex NN
+vote NN VB
+voted VBN VBD
+voters NNS
+votes NNS
+voting NN VBG
+vowed VBD VBN
+vows VBZ
+voyage NN
+vulnerability NN
+wad NN
+wage NN
+wage-discrimination NN
+wage-floor JJ
+wages NNS
+waggishly RB
+waif NN
+wail VB
+wait VB NN
+waiting VBG NN
+waive VB
+waived VBN
+waiver NN
+waivers NNS
+wake NN
+walk VBP
+walked VBD
+walkie-talkie NN
+walking VBG
+walkout NN
+wall NN
+wallet NN
+walls NNS
+want VBP VB
+wanted VBD VBN
+wanting VBG
+wants VBZ
+war NN
+war-damaged JJ
+war-rationed JJ
+ward VB
+warehouses NNS
+warm JJ
+warming NN
+warned VBD VBN
+warning NN VBG
+warnings NNS
+warns VBZ
+warrant NN
+warranties NNS
+warrants NNS
+warriors NNS
+wary JJ
+was VBD
+waste NN
+wastewater NN
+wasting NN
+watch NN VB VBP
+watchdogs NNS
+watched VBN VBD
+watchers NNS
+watches NNS
+watching VBG NN
+water NN
+watered VBD
+watering NN
+waters NNS
+wave NN
+way NN
+ways NNS
+we PRP
+we-Japanese JJ
+weak JJ
+weaken VB VBP
+weakened VBD
+weakening NN
+weaker JJR
+weakness NN
+wealth NN
+wealthier JJR
+wealthy JJ
+weapon NN
+weapons NNS
+wear VB
+wearing VBG
+weather NN VB
+weatherbeaten JJ
+web NN
+wedded VBN
+weddings NNS
+wedge VB
+week NN
+weekends NNS
+weeklies NNS
+weekly JJ
+weeks NNS
+weigh VB VBP
+weighed VBD
+weighing VBG
+weighs VBZ
+weight VB
+weighted JJ
+weird JJ
+welcome JJ VB
+welcomed VBD VBN
+well RB UH
+well-connected JJ
+well-heeled JJ
+well-hit JJ
+well-known JJ
+well-lighted JJ
+well-meaning JJ
+well-to-do JJ
+went VBD
+were VBD
+western JJ
+wet JJ
+whacker NN
+what WP WDT
+wheat NN
+when WRB
+when-issued JJ
+whenever WRB
+where WRB
+whereby WRB
+wherewithal JJ
+whether IN
+which WDT
+whichever WDT
+while IN NN
+whimsical JJ
+whimsically RB
+whipping JJ
+whirlwinds NNS
+whispering NN
+white JJ
+who WP
+whole JJ NN
+wholesale JJ NN
+wholesaler NN
+whom WP
+whose WP$
+why WRB
+wicker NN
+wide JJ RB
+wide-ranging JJ
+widely RB
+wider JJR
+widespread JJ
+widget NN
+widgets NNS
+widow NN
+wield VB
+wife NN
+wild JJ
+wildly RB
+will MD NN
+willing JJ
+willingness NN
+wills NNS
+wily JJ
+win VB VBP
+wind NN VB
+windfalls NNS
+winding VBG
+window NN
+winds NNS
+wine NN
+wine-buying JJ
+wine-making NN
+wines NNS NN
+wing NN
+wings NNS
+winner NN
+winners NNS
+winning VBG
+wins NNS VBZ
+wiry JJ
+wisdom NN
+wisecracks NNS
+wish NN
+wishing VBG
+wit NN
+with IN RP
+withdraw VB
+withdrawal NN
+withdrawn VBN
+withdrew VBD
+withhold VB
+within IN
+without IN
+witness NN
+witnesses NNS
+wives NNS
+wo MD
+woe NN
+woke VBD
+woman NN
+women NNS
+won VBD VBN
+wonder NN VBP
+wood NN
+woodwind NN
+wooing VBG
+word NN
+word-processing NN
+wordplay NN
+words NNS
+wore VBD
+work NN VB VBP
+workable JJ
+worked VBD VBN
+worker NN
+workers NNS
+working VBG JJ NN
+workings NNS
+workout NN
+works NNS VBZ
+worksheets NNS
+world NN
+world-wide JJ RB
+worms NNS
+worried VBN JJ
+worries NNS VBZ
+worry VBP NN VB
+worrying VBG
+worse JJR
+worsen VB
+worsened VBN
+worsening NN
+worst JJS
+worst-case JJ
+worth NN IN JJ
+worthiness NN
+worthy JJ
+would MD
+wound NN VBD
+wounds NNS
+wrapping VBG
+wrath NN
+wrecking VBG
+wrenching JJ
+wrestling VBG
+wrists NNS
+write VB
+write-downs NNS
+write-off NN
+writer NN
+writers NNS
+writing VBG NN
+written VBN
+wrong JJ
+wrongdoing NN
+wrote VBD
+year NN
+year-ago JJ
+year-earlier JJ
+year-end NN
+year-to-date JJ
+year-to-year JJ
+years NNS
+yelled VBD
+yen NN NNS
+yen-support JJ
+yes RB UH
+yesterday NN
+yet RB CC
+yield VB NN VBP
+yielded VBD
+yielding VBG JJ NN
+yields NNS
+yon RB
+you PRP
+young JJ
+younger JJR
+youngsters NNS
+your PRP$
+yourself PRP
+youth NN
+youthful JJ
+youths NNS
+yuppie NN
+zero CD
+zero-sum JJ
+zip NN VB VBP
+zone NN
+zoning NN
+zoomed VBN
+{ (
+} )

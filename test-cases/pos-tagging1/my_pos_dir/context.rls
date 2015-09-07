@@ -1,0 +1,306 @@
+#train_voc_file: /home/raduf/fnTBL-1.2/test-cases/pos-tagging1/my_pos_dir/11.lexical.voc
+GOOD:237 BAD:28 SCORE:209 RULE: pos_0=NN word_-1=to => pos=VB
+GOOD:125 BAD:0 SCORE:125 RULE: pos_0=VBP pos:[-3,-1]=MD => pos=VB
+GOOD:139 BAD:18 SCORE:121 RULE: pos_0=NN pos:[-2,-1]=MD => pos=VB
+GOOD:103 BAD:16 SCORE:87 RULE: pos_0=VBD pos:[-3,-1]=VBZ => pos=VBN
+GOOD:88 BAD:2 SCORE:86 RULE: pos_0=VBP pos:[-3,-1]=TO => pos=VB
+GOOD:96 BAD:10 SCORE:86 RULE: pos_0=VB pos:[-2,-1]=DT => pos=NN
+GOOD:81 BAD:2 SCORE:79 RULE: pos_0=POS word_0='s pos_-1=PRP => pos=VBZ
+GOOD:92 BAD:15 SCORE:77 RULE: pos_0=VB pos_-1=NNS => pos=VBP
+GOOD:76 BAD:2 SCORE:74 RULE: pos_0=VBN pos_-1=PRP => pos=VBD
+GOOD:88 BAD:15 SCORE:73 RULE: pos_0=RP pos:[1,3]=CD => pos=RB
+GOOD:78 BAD:6 SCORE:72 RULE: pos_0=VBD pos:[-3,-1]=VBP => pos=VBN
+GOOD:80 BAD:7 SCORE:73 RULE: pos_0=VBN pos_-1=NNP => pos=VBD
+GOOD:68 BAD:2 SCORE:66 RULE: pos_0=VBD pos_-1=VBD => pos=VBN
+GOOD:64 BAD:2 SCORE:62 RULE: pos_0=IN word_0=that pos_1=VBZ => pos=WDT
+GOOD:74 BAD:12 SCORE:62 RULE: pos_0=VB pos_-1=PRP => pos=VBP
+GOOD:60 BAD:1 SCORE:59 RULE: pos_0=IN pos:[1,2]=VB => pos=WDT
+GOOD:57 BAD:1 SCORE:56 RULE: pos_0=IN word_0=as word_2=as => pos=RB
+GOOD:55 BAD:3 SCORE:52 RULE: pos_0=VBD pos:[-2,-1]=VB => pos=VBN
+GOOD:65 BAD:18 SCORE:47 RULE: pos_0=JJR pos_1=JJ => pos=RBR
+GOOD:44 BAD:0 SCORE:44 RULE: pos_0=VBP word:[-2,-1]=n't => pos=VB
+GOOD:68 BAD:26 SCORE:42 RULE: pos_0=NN pos_-1=NNS => pos=VBP
+GOOD:38 BAD:0 SCORE:38 RULE: pos_0=IN word_0=that pos_1=VBP => pos=WDT
+GOOD:38 BAD:0 SCORE:38 RULE: pos_0=IN word_0=that pos_1=VBD => pos=WDT
+GOOD:37 BAD:0 SCORE:37 RULE: pos_0=JJ word_0=American pos_1=NNP => pos=NNP
+GOOD:40 BAD:10 SCORE:30 RULE: pos_0=JJ pos_-1=DT pos_1=IN => pos=NN
+GOOD:37 BAD:7 SCORE:30 RULE: pos_0=VBD word_1=by => pos=VBN
+GOOD:29 BAD:1 SCORE:28 RULE: pos_0=IN word_0=that pos_-1=IN => pos=DT
+GOOD:24 BAD:0 SCORE:24 RULE: pos_0=VBN pos_-1=NN pos_1=DT => pos=VBD
+GOOD:34 BAD:10 SCORE:24 RULE: pos_0=NNP pos_-1=ZZZ pos_1=NNS => pos=NN
+GOOD:24 BAD:0 SCORE:24 RULE: pos_1=IN word_0=out word_1=of => pos=IN
+GOOD:23 BAD:0 SCORE:23 RULE: pos_0=VB pos_-1=WDT => pos=VBP
+GOOD:31 BAD:9 SCORE:22 RULE: pos_0=JJS word_0=most pos_1=JJ => pos=RBS
+GOOD:24 BAD:3 SCORE:21 RULE: pos_0=VB pos_-1=NN => pos=NN
+GOOD:21 BAD:1 SCORE:20 RULE: pos_0=VB pos_-1=JJ => pos=NN
+GOOD:36 BAD:18 SCORE:18 RULE: pos_0=JJ word_-1=to => pos=VB
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=POS word_0='s pos_1=DT => pos=VBZ
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=NNS pos_-1=PRP => pos=VBZ
+GOOD:18 BAD:1 SCORE:17 RULE: pos_0=VB word_-1=who => pos=VBP
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=JJ pos_1=JJR => pos=RB
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=VBN pos_-1=NNS pos_1=DT => pos=VBD
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=JJR word_0=more pos_1=RB => pos=RBR
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=JJ word_0=Soviet pos_1=NNP => pos=NNP
+GOOD:17 BAD:1 SCORE:16 RULE: pos_0=RB pos_-1=DT pos_1=NN => pos=JJ
+GOOD:34 BAD:15 SCORE:19 RULE: pos_0=NN pos_-1=RB => pos=VB
+GOOD:21 BAD:2 SCORE:19 RULE: pos_0=VB pos_-1=RB pos_-2=NNS => pos=VBP
+GOOD:18 BAD:2 SCORE:16 RULE: pos_0=NN pos_-1=PRP => pos=VBP
+GOOD:19 BAD:4 SCORE:15 RULE: pos_0=DT pos_1=DT => pos=PDT
+GOOD:16 BAD:2 SCORE:14 RULE: pos_0=VBN pos_-1=, pos_1=DT => pos=VBD
+GOOD:30 BAD:16 SCORE:14 RULE: pos_0=NN pos_1=DT => pos=VBG
+GOOD:15 BAD:1 SCORE:14 RULE: pos_0=VB pos_-1=IN => pos=NN
+GOOD:15 BAD:2 SCORE:13 RULE: pos_0=JJ pos_-1=JJ pos_1=IN => pos=NN
+GOOD:14 BAD:1 SCORE:13 RULE: pos_0=JJ pos_-1=IN pos_1=IN => pos=NN
+GOOD:18 BAD:6 SCORE:12 RULE: pos_0=VB pos_-1=VB pos_-2=MD => pos=NN
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=IN word_0=that pos_1=MD => pos=WDT
+GOOD:14 BAD:3 SCORE:11 RULE: pos_0=JJ pos_-1=DT pos_1=. => pos=NN
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=NNS word_-1=which => pos=VBZ
+GOOD:14 BAD:3 SCORE:11 RULE: pos_0=DT pos:[1,3]=JJR => pos=RB
+GOOD:27 BAD:16 SCORE:11 RULE: pos_0=VBG pos_-1=JJ => pos=NN
+GOOD:12 BAD:2 SCORE:10 RULE: pos_0=IN word_0=that pos_1=VBN => pos=WDT
+GOOD:22 BAD:2 SCORE:20 RULE: pos_0=VBN pos_-1=WDT => pos=VBD
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=VBN pos_-1=RB pos_-2=PRP => pos=VBD
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=VBN pos_-1=RB pos_-2=NNP => pos=VBD
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=JJ word_0=long pos_-1=RB => pos=RB
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=VBN pos_-1=WP => pos=VBD
+GOOD:12 BAD:2 SCORE:10 RULE: pos_0=VBZ pos:[-2,-1]=VB => pos=NNS
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=IN pos_1=TO word_0=like word_1=to => pos=VB
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=VBD pos_-1=DT pos_1=NN => pos=VBN
+GOOD:17 BAD:8 SCORE:9 RULE: pos_0=NNS pos_-1=RB => pos=VBZ
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=VB word_-1=has => pos=VBN
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=VBP word_-1=the => pos=NN
+GOOD:8 BAD:0 SCORE:8 RULE: pos_-1=DT pos_0=POS word_-1=That word_0='s => pos=VBZ
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NNP pos_1=JJ word_0=West word_1=German => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=POS pos_1='' word_0=' word_1='' => pos=''
+GOOD:12 BAD:4 SCORE:8 RULE: pos_0=NNS pos_-1=NN pos_1=DT => pos=VBZ
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=VBD pos_-1=RB pos_-2=VBD => pos=VBN
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=JJR pos_1=DT pos_2=NN => pos=RBR
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NN word_0=Act pos_-1=NNP => pos=NNP
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=NN word_0=World => pos=NNP
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=VB pos_-1=PRP$ => pos=NN
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=RB pos_1=NNS => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=IN word:[1,2]=. => pos=DT
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VBD word_-1=months word_0=ended word_1=in => pos=VBN
+GOOD:7 BAD:0 SCORE:7 RULE: pos_-1=ZZZ pos_0=NNPS word_-1=ZZZ word_0=Investors => pos=NNS
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=JJ pos_1=POS pos_2=NN word_1='s => pos=NN
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=IN pos_-1=NN pos_1=RB => pos=WDT
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VBN pos_-1=NN pos_1=JJ => pos=VBD
+GOOD:11 BAD:4 SCORE:7 RULE: pos_0=VBN pos_-1=RB pos_-2=NN => pos=VBD
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=JJ word_0=early pos_1=IN => pos=RB
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=VBZ word_0=plans pos_-1=NN => pos=NNS
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NN pos_1=NNP pos_2=, => pos=NNP
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=NN word_0=minimum pos_-1=DT => pos=JJ
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NN word_-1=who => pos=VBP
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NN word_-1=are => pos=VBG
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VBP word:[-2,-1]=did => pos=VB
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VBP pos_-2=VB => pos=VB
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=JJS pos_1=RB => pos=RBS
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=NN word_0=Carnival => pos=NNP
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=VB word_1=of => pos=NN
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=JJ pos_1=VBD => pos=NN
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=JJ pos_1=VBD => pos=RB
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=NN word_-1=chief word_0=operating word_1=officer => pos=VBG
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=VB pos_-1=RB pos_-2=PRP => pos=VBP
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NNP pos_-1=ZZZ pos_1=DT => pos=VBG
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN pos_-1=CC pos_1=DT => pos=VB
+GOOD:6 BAD:0 SCORE:6 RULE: pos_-2=IN pos_-1=CD word_0=yen => pos=NNS
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=JJ word_0=Western pos_1=NNP => pos=NNP
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=JJ word_0=third-quarter pos_1=NN => pos=NN
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=VBG pos_-1=DT pos_1=DT => pos=NN
+GOOD:8 BAD:2 SCORE:6 RULE: pos_0=JJ pos_-1=DT pos_1=TO => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=RBS word_0=most pos_-1=IN => pos=JJS
+GOOD:8 BAD:2 SCORE:6 RULE: pos_0=NNP word_0=South pos_1=JJ => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_0=official pos_1=NN => pos=JJ
+GOOD:9 BAD:3 SCORE:6 RULE: pos_0=JJ word_0=next pos_-1=NN => pos=IN
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=VB pos_-1=VBP => pos=VBN
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_-1=help => pos=VB
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=VBP word:[-2,-1]=a => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_-1=WP pos_0=POS word_-1=What word_0='s => pos=VBZ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_-1=IN pos_0=POS word_-1=that word_0='s => pos=VBZ
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN pos_1=IN word_0=trading word_1=at => pos=VBG
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=EX pos_1=, word_0=there word_1=, => pos=RB
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ pos_1=, word_0=commercial word_1=, => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NNP pos_1=JJ pos_2=NNS word_1=Asian => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=IN pos_1=VBZ word_0=that word_1='s => pos=DT
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NNS pos_1=NNP pos_2=NNP => pos=VBZ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VB pos_-1=, pos_1=DT => pos=VBP
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VBN pos_-1=NNS pos_1=NN => pos=VBD
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VBN pos_-1=NN pos_1=PRP => pos=VBD
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VBN pos_-1=CC pos_1=DT => pos=VBD
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=IN word_0=over word_-2=to => pos=RP
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ word_0=Canadian pos_1=NNP => pos=NNP
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VBN word_0=split pos_-1=DT => pos=NN
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=VBG pos_-1=DT pos_1=IN => pos=NN
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=JJ pos_-1=JJ pos_1=. => pos=NN
+GOOD:11 BAD:6 SCORE:5 RULE: pos_0=NN word_0=executive pos_2=IN => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=half pos_1=NN => pos=JJ
+GOOD:10 BAD:5 SCORE:5 RULE: pos_0=NNP pos_-1=ZZZ pos_1=NN => pos=JJ
+GOOD:7 BAD:2 SCORE:5 RULE: pos_1=NN word_0=working word_1=capital => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=WDT word_0=that pos_-1=CC => pos=DT
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=IN pos_1=NN pos_2=POS => pos=DT
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NNS pos_1=PRP$ => pos=VBZ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VBD pos_-1=WRB => pos=VBN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VBP word:[-2,-1]=does => pos=VB
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VBN pos_-1=TO => pos=VB
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ pos_-1=MD => pos=VB
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VBZ word:[-3,-1]=on => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ word_0=- => pos=:
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ pos_1=IN word_0=combined word_1=with => pos=VBN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJR pos_1=IN word_0=more word_1=about => pos=RBR
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=IN word_-1=, word_0=though word_1=, => pos=RB
+GOOD:7 BAD:3 SCORE:4 RULE: pos_0=JJ pos_1=TO word_0=close word_1=to => pos=RB
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ pos_1=DT word_0=early word_1=this => pos=RB
+GOOD:5 BAD:1 SCORE:4 RULE: pos_-1=RB pos_0=JJ word_-1=so word_0=much => pos=RB
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NNP pos_1=CD word_0=Series word_1=1989 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=IN pos_1=IN word_0=worth word_1=of => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: pos_-1=DT pos_0=CD word_-1=no word_0=one => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=CD pos_1=. pos_2=VB word_1=. => pos=LS
+GOOD:13 BAD:9 SCORE:4 RULE: pos_0=NN word_0=chief word_1=executive word_2=officer => pos=JJ
+GOOD:7 BAD:3 SCORE:4 RULE: pos_0=RB pos_1=TO word_0=up word_1=to => pos=IN
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=RB pos_1=IN word_0=so word_1=that => pos=IN
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=RB pos_1=DT word_0=so word_1=the => pos=IN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=IN pos_1=RB pos_2=VBD => pos=WDT
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=POS word_0='s pos_-1=EX => pos=VBZ
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=VBN pos_-1=NNS pos_1=JJ => pos=VBD
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VBP pos_-1=CC pos_-2=NN => pos=VB
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=RP word_0=down pos_-2=RB => pos=RB
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=right pos_-1=NN => pos=RB
+GOOD:7 BAD:3 SCORE:4 RULE: pos_0=JJ pos_-1=NNS pos_1=, => pos=RB
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NNPS word_0=Securities word_2=, => pos=NNP
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=NN pos_1=NNP pos_2=VBD => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN pos_1=NNP pos_2=IN => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VBP word_0=plan pos_-2=NN => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=VBG word_0=manufacturing pos_-1=IN => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=CD pos_-1=: pos_1=) => pos=LS
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=RBR word_0=higher pos_1=JJ => pos=JJR
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=RB word_0=enough word_2=to => pos=JJ
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=VBZ pos_-1=JJ => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=IN pos_-1=DT pos_-2=IN => pos=JJ
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=WDT word_0=that pos_-1=IN => pos=DT
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=POS word_0=' pos_-1=NN => pos=''
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NNS word_-1=Congress => pos=VBZ
+GOOD:7 BAD:3 SCORE:4 RULE: pos_0=VBD pos_-1=IN => pos=VBN
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=JJR pos:[1,2]=VBN => pos=RBR
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word_1=up => pos=VBG
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=VBN pos_-1=MD => pos=VB
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=VBZ pos_-1=IN => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VBZ pos:[-2,-1]=VBG => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VB word:[-2,-1]='s => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=NN pos_0=DT word_0=that word_1='s => pos=WDT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_1=TO word_0=hopes word_1=to => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_1=NN pos_2=NN word_1=program => pos=VBZ
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NNS pos_1=DT pos_2=NN word_1=the => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VB pos_1=IN word_0=put word_1=in => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN pos_1=TO word_0=increased word_1=to => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN pos_1=, pos_2=`` word_1=, => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=VB pos_0=RB word_-1=take word_0=away => pos=RP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RB pos_1=IN pos_2=$ word_1=about => pos=RP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=overseas word_1=. word_2=ZZZ => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN word_0=as word_1=well word_2=. => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN pos_1=CC word_0=over word_1=and => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=EX pos_1=. word_0=there word_1=. => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN pos_1=CD word_0=about word_-1=has => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=RP pos_0=EX word_-1=out word_0=there => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=VB pos_0=JJ word_0=much word_1=of => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=PRP$ pos_1=TO word_0=her word_1=to => pos=PRP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=VB pos_0=JJ word_0=such word_1=a => pos=PDT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNPS pos_1=NNP word_0=Industries word_-1=Heavy => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=CD pos_0=DT word_-1=1989 word_0=A => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_-1=the word_0=past word_1=, => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DT word_-1=( word_0=A word_1=) => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_1=, word_0=general word_1=, => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=CD pos_1=VBZ word_0=one word_-1=No => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBG pos_1=NNS pos_2=POS word_1=managers => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RBR word_-1=ZZZ word_0=More word_1=than => pos=JJR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_-1=and word_0=stock-index word_1=futures => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=RB pos_0=VBN word_-1=widely word_0=used => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RP pos_1=RB word_0=out word_1=there => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=NNS pos_0=JJ word_0=next word_1=week => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=VBD pos_0=IN word_0=that word_1=its => pos=DT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN pos_1=NN pos_2=RB => pos=WDT
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN pos_-1=WDT => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS word_0=charges word_-2=the => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_-1=NN pos_1=NNP => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_-1=CC pos_1=JJ => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_1=RB pos_2=JJ => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_1=CD pos_2=NNS => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VB pos_-1=, pos_1=JJ => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VB pos_-1=, pos_1=IN => pos=VBP
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=VB pos_-1=NN pos_-2=DT => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBD word_0=involved word_-2=the => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBD word_0=adopted pos_-2=NN => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBD word_0=changed pos_-1=RB => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=offering pos_-1=IN => pos=VBG
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN pos_-1=NNS pos_1=IN => pos=VBG
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN word_0=lost pos_2=IN => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN word_0=agreed pos_-2=NN => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN pos_-1=NNS pos_1=NNS => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN pos_-1=NNPS pos_1=IN => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN pos_-1=IN pos_1=TO => pos=VBD
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=VBN pos_-1=NN pos_-2=NNP => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_1=DT word_0=cut word_1=the => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=RB pos_-2=MD => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN pos_-1=VBP pos_1=TO => pos=RP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJS word_0=most pos_1=VBN => pos=RBS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=late pos_-2=CD => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=long pos_1=VBN => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=first pos_-1=NN => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=half pos_1=DT => pos=PDT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=yen word_-2=and => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=yen word_-2=the => pos=NNS
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_0=headquarters pos_2=NNP => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBZ word_0=plans pos_-1=PRP$ => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=DT pos_1=VBP => pos=NNPS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS pos_1=POS pos_2=NNP => pos=NNPS
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NNPS word_0=Containers word_-2=ZZZ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=Business pos_-2=NNP => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=British pos_1=NNP => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN word_0=set pos_2=NNS => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBG word_0=buying pos_2=IN => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=future pos_2=VB => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP word_0=S&L pos_-2=DT => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=joint pos_-2=DT => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=chemical pos_1=NN => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBP pos_-1=NNS pos_1=VBD => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=NNP pos_1=. => pos=NN
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=VBG pos_-1=NN pos_-2=IN => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VB pos_-1=RB pos_-2=IN => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP pos_-1=JJ pos_-2=`` => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=PRP$ pos_-2=DT => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-2=NN pos_-1=CC word_0=sell => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=material pos_2=IN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP word_0=Big pos_-2=NNP => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_0=executive pos_-2=NNP => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBP word_0=live pos_1=NN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=female pos_1=NN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=homeless pos_1=NN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=executive pos_-1=IN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP pos_-1=ZZZ pos_1=NNS => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP pos_1=IN pos_2=JJ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_-1=VBZ pos_-2=PRP => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_-1=, pos_-2=JJ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_1=NN word_0=acid word_1=rain => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RB pos_1=PRP pos_2=VBZ => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=IN pos_-1=RB pos_1=NN => pos=DT
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=IN pos_1=NN pos_2=, => pos=DT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS word:[-3,-1]=Court => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNS word_-1=That => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBD word:[-2,-1]=being => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBD word:[-2,-1]=been => pos=VBN
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=JJ word_0=concerned => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBN word:[-2,-1]=government => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBP word:[-2,-1]=Do => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBP word:[-3,-1]=helped => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VBP word:[-3,-1]=help => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_-1=PRP => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_-1=MD => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJR pos_1=VBG => pos=RBR
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=RP word:[1,2]=from => pos=RB
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=RP pos:[1,2]=CC => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RB word_0=up pos_-1=VB => pos=RP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RP pos:[-2,-1]=JJ => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=PRP$ pos:[1,2]=DT => pos=PRP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNPS word_2=of => pos=NNP
+GOOD:7 BAD:4 SCORE:3 RULE: pos_0=VBN word:[-2,-1]=for => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP word:[1,3]=Order => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=RP pos_-1=RB => pos=IN

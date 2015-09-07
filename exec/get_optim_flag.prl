@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+open f, "$ARGV[0] -v 2>&1 |";
+while(<f>) {
+    $r2 = $_;
+    last if $r2 =~ / version /;
+}
+close f; 
+
+($gcc_name, $gcc_ver) = $r2 =~ /^(.*?) version (.*?) /;
+
+if ($gcc_name eq 'gcc' and $gcc_ver ge "2.95" and $gcc_ver !~ /^egcs/) {
+  print "-O2";
+} else {
+  print "-O";
+}

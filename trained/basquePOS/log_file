@@ -1,0 +1,7 @@
+Thursday, June 27 2002, 11:51:17  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL-train lexical_train.dat lexical.rls -F tbl.lexical.train.params.0 -threshold 2 -v 
+Thursday, June 27 2002, 11:57:52  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL-train lexical_train.dat lexical.rls -F tbl.lexical.train.params.0 -threshold 2 -v 
+Thursday, June 27 2002, 12:07:35  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL-train lexical_train.dat lexical.rls -F tbl.lexical.train.params.0 -threshold 2 -v 
+Thursday, June 27 2002, 12:11:26  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL-train lexical_train.dat lexical.rls -F tbl.lexical.train.params.0 -threshold 2 -v 
+Thursday, June 27 2002, 12:29:51  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL train.dat.init lexical.rls -F tbl.lexical.train.params.1 -v -o train.dat.lexical 
+Thursday, June 27 2002, 12:33:00  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL-train train.dat.lexical context.rls -F tbl.context.pos.params.0 -threshold 1 -v 
+Thursday, June 27 2002, 15:21:23  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL test.dat.lexical ./context.rls -F tbl.context.pos.params1 -o test.out 

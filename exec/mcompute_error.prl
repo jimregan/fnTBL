@@ -1,0 +1,90 @@
+#!/usr/bin/perl
+use Getopt::Std;
+getopts("t:g:i:T:v");
+
+if (defined $opt_t) {
+  $t = $opt_t;
+} else {
+  $t = -1;
+}
+
+if (defined $opt_g) {
+  $g = $opt_g;
+} else {
+  $g = -2;
+}
+
+# if (defined $opt_v) {
+#   $opt_T = "|";
+# }
+
+$T = defined $opt_T ? quotemeta $opt_T : "";
+
+if (defined $opt_i) {
+  @a = split /,/, $opt_i;
+  $state_start_index = $a[0];
+  $truth_start_index = $a[1];
+  $truth_size = $a[2];
+} else {
+  #  print "Don't know how to compute the errors. Please start with -i <state_start_index>,<truth_start_index>,<truth_size>.";
+  $state_start_index = -2;
+  $truth_start_index = -1;
+  $truth_size = 1;
+  #  exit(1);
+}
+
+if (@ARGV == 0 || $ARGV[0] eq "-") {
+  $f = \*stdin;
+} else {
+  open f, $ARGV[0];
+  $f = \*f;
+}
+
+while (<$f>) {
+  next unless /\S/;
+  s/\s+\|.*$//;
+  $n++;
+  @a = split;
+  if ($state_start_index<0 || $truth_start_index<0) {
+    $state_start_index = @a-2;
+    $truth_start_index = @a-1;
+  }
+
+  if (defined $opt_T) {
+    for ($i=0 ; $i<$truth_size ; $i++) {
+      @cc = split /$T/, $a[$truth_start_index+$i];
+      undef %c;
+      #  		  %c = map {$_=>1} @c;
+      map {$c{$_}=1} @cc;
+      $c[$i] += $c{$a[$state_start_index+$i]};
+      if (defined $opt_v) {
+	if ($c{$a[$state_start_index+$i]}) {
+	  print "$a[0] 1\n"
+	} else {
+	  print "$a[0] 0\n"
+	}
+      }
+    }
+  } else {
+    for ($i=0 ;$i<$truth_size ; $i++) {
+      $c[$i]++ if $a[$state_start_index+$i] eq $a[$truth_start_index+$i];
+      if (defined $opt_v) {
+	if ($a[$state_start_index+$i] eq $a[$truth_start_index+$i]) {
+	  print "@a 1\n";
+	} else {
+	  print "@a 0\n";
+	}
+      }
+    }
+  }
+}
+
+close $f;
+
+printf "%-20s%-20s%-20s\n", "State", "No of errors", "Percent correct";
+
+for ($i=0 ; $i<$truth_size ; $i++) {
+  printf "%-10d%8s%.2f/%.2f%5s%10.2f%%%10s\n", $i, "", ($n-$c[$i]),$n, "", 100*$c[$i]/$n;
+}
+# ,($n-$c/$truth_start_index), "\n";
+# printf "Percent correct: %.2f%%\n", 100*$c/$n;

@@ -1,0 +1,684 @@
+#train_voc_file: /home/fnTBL-1.2/trained/frenchPOS/train.dat.lexical.voc
+GOOD:834 BAD:6 SCORE:828 RULE: pos_0=Dete-dprp-masc-plur pos:[1,2]=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:677 BAD:0 SCORE:677 RULE: pos_0=Dete-dart-femi-sing pos:[1,2]=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:652 BAD:4 SCORE:648 RULE: pos_0=Dete-dart-masc-plur pos:[1,2]=NomC-femi-plur => pos=Dete-dart-femi-plur
+GOOD:106 BAD:0 SCORE:106 RULE: pos_0=NN pos:[-3,-1]=Prep => pos=Verb-InfPré
+GOOD:106 BAD:0 SCORE:106 RULE: pos_0=Dete-ddem-masc-sing word_0=ce word_1=qui => pos=Pron-pdem-masc-sing
+GOOD:102 BAD:1 SCORE:101 RULE: pos_0=Dete-dpos-masc-sing pos:[1,2]=NomC-femi-sing => pos=Dete-dpos-femi-sing
+GOOD:99 BAD:2 SCORE:97 RULE: pos_0=Dete-dpos-masc-plur pos:[1,3]=NomC-femi-plur => pos=Dete-dpos-femi-plur
+GOOD:80 BAD:0 SCORE:80 RULE: pos_0=Dete-ddem-masc-sing word_0=ce pos_1=ConS => pos=Pron-pdem-masc-sing
+GOOD:90 BAD:3 SCORE:87 RULE: pos_0=ConS pos_-1=Pron-pdem-masc-sing => pos=Pron-RelInt
+GOOD:79 BAD:2 SCORE:77 RULE: pos_0=Verb-IndPré-sing-p3 pos:[-3,-1]=Pron-psuj-sing-p1 => pos=Verb-IndPré-sing-p1
+GOOD:71 BAD:1 SCORE:70 RULE: pos_0=Dete-ddem-masc-plur pos:[1,3]=NomC-femi-plur => pos=Dete-ddem-femi-plur
+GOOD:69 BAD:0 SCORE:69 RULE: pos_0=NN pos:[1,3]=Prep => pos=Verb-ParPas-masc-sing
+GOOD:65 BAD:1 SCORE:64 RULE: pos_0=Dete-dpos-femi-sing pos:[1,2]=NomC-masc-sing => pos=Dete-dpos-masc-sing
+GOOD:56 BAD:5 SCORE:51 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_2=Verb-ParPas-masc-sing => pos=Pron-obj
+GOOD:48 BAD:0 SCORE:48 RULE: pos_0=Dete-dpos-femi-plur pos:[1,2]=NomC-masc-plur => pos=Dete-dpos-masc-plur
+GOOD:47 BAD:0 SCORE:47 RULE: pos_0=NomC-masc-sing pos:[-2,-1]=Dete-dprp-masc-plur => pos=NomC-masc-plur
+GOOD:49 BAD:7 SCORE:42 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:42 BAD:0 SCORE:42 RULE: pos_0=AdjQ-masc-plur pos_1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:41 BAD:0 SCORE:41 RULE: pos_0=Dete-dart-femi-sing word_0=l' word_1=on => pos=Pron-obj
+GOOD:42 BAD:2 SCORE:40 RULE: pos_0=Dete-dart-masc-sing pos:[1,2]=NomC-femi-sing => pos=Dete-dart-femi-sing
+GOOD:38 BAD:0 SCORE:38 RULE: pos_0=Pron-psuj-plur-p1 pos:[1,2]=Verb-IndPré-sing-p3 => pos=Pron-obj
+GOOD:38 BAD:0 SCORE:38 RULE: pos_0=Pron-pdem-masc-sing word_0=Ce pos_1=NomC-masc-sing => pos=Dete-ddem-masc-sing
+GOOD:35 BAD:0 SCORE:35 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous pos_-1=Prep => pos=Pron-fort
+GOOD:36 BAD:1 SCORE:35 RULE: pos_0=Pron-psuj-plur-p1 pos:[-2,-1]=Pron-psuj-plur-p1 => pos=Pron-refl-plur-p1
+GOOD:35 BAD:0 SCORE:35 RULE: pos_0=Adve word_0=tout pos_1=Dete-dart-masc-sing => pos=PreD-masc-sing
+GOOD:34 BAD:0 SCORE:34 RULE: pos_0=NomC-masc-sing pos:[-2,-1]=Dete-dart-masc-plur => pos=NomC-masc-plur
+GOOD:33 BAD:0 SCORE:33 RULE: pos_0=NN pos:[-3,-1]=Verb-IndPré-sing-p3 => pos=Verb-ParPas-masc-sing
+GOOD:39 BAD:6 SCORE:33 RULE: pos_0=Verb-ParPas-masc-sing word_0=fait pos_1=ConS => pos=NomC-masc-sing
+GOOD:41 BAD:8 SCORE:33 RULE: pos_0=AdjQ-femi-sing pos:[-2,-1]=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:33 BAD:0 SCORE:33 RULE: pos_0=Verb-InfPré pos_-1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:31 BAD:0 SCORE:31 RULE: pos_0=Pron-pind-sing word_0=autre pos_1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:31 BAD:1 SCORE:30 RULE: pos_0=Pron-refl-p3 word_0=s' word_1=il => pos=ConS
+GOOD:33 BAD:5 SCORE:28 RULE: pos_0=Verb-InfPré word:[-2,-1]=en => pos=Verb-ParPré
+GOOD:41 BAD:0 SCORE:41 RULE: pos_0=Prep word_0=en pos_1=Verb-InfPré => pos=Pron-padv
+GOOD:28 BAD:0 SCORE:28 RULE: pos_0=NN pos:[-3,-1]=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:27 BAD:0 SCORE:27 RULE: pos_0=NN pos:[-3,-1]=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:44 BAD:18 SCORE:26 RULE: pos_0=ConS pos_-1=NomC-femi-plur => pos=Pron-RelInt
+GOOD:24 BAD:0 SCORE:24 RULE: pos_0=Prep word_0=en pos_1=Verb-IndPré-sing-p3 => pos=Pron-padv
+GOOD:22 BAD:0 SCORE:22 RULE: pos_0=Verb-ParPas-masc-sing pos:[-2,-1]=Dete-dprp-masc-plur => pos=NomC-masc-plur
+GOOD:29 BAD:7 SCORE:22 RULE: pos_0=AdjQ-masc-sing pos_-1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:21 BAD:0 SCORE:21 RULE: pos_0=Pron-pind-sing word_0=autre pos_1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:19 BAD:0 SCORE:19 RULE: pos_0=AdjQ-masc-sing pos_1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:19 BAD:0 SCORE:19 RULE: pos_0=Verb-InfPré pos_-1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:18 BAD:0 SCORE:18 RULE: pos_0=NomC-masc-sing word:[-2,-1]=ces => pos=NomC-masc-plur
+GOOD:18 BAD:0 SCORE:18 RULE: pos_0=Dete-dind-femi-plur pos_1=NomC-masc-plur => pos=Dete-dind-masc-plur
+GOOD:23 BAD:5 SCORE:18 RULE: pos_0=AdjQ-femi-plur pos:[-2,-1]=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:22 BAD:0 SCORE:22 RULE: pos_0=Dete-dprp-masc-plur word_0=des pos_2=AdjQ-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=Pron-refl-sing-p1 word_0=me pos_1=Verb-IndPré-sing-p3 => pos=Pron-obl
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=Adve word_0=même pos_1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=Dete-ddem-masc-sing word_0=ce pos_1=Adve => pos=Pron-pdem-masc-sing
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Pron-refl-p3 => pos=Verb-IndPré-sing-p3
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=NN pos:[-3,-1]=Pron-psuj-plur-p1 => pos=Verb-IndPré-plur-p1
+GOOD:17 BAD:1 SCORE:16 RULE: pos_0=Pron-obj pos:[-2,-1]=Pron-psuj-sing-p1 => pos=Pron-refl-sing-p1
+GOOD:18 BAD:2 SCORE:16 RULE: pos_0=Dete-dpos-femi-sing word_0=leur pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:17 BAD:1 SCORE:16 RULE: pos_0=Pron-psuj-plur-p1 pos:[-2,-1]=Pron-psuj-masc-sing-p3 => pos=Pron-obj
+GOOD:17 BAD:1 SCORE:16 RULE: pos_0=Verb-InfPré word:[-2,-1]=l' => pos=NomC-femi-sing
+GOOD:28 BAD:0 SCORE:28 RULE: pos_0=Dete-dart-femi-sing pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndPré-sing-p1 => pos=Pron-obj
+GOOD:29 BAD:14 SCORE:15 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=NN pos:[-3,-1]=Dete-dprp-masc-plur => pos=NomC-femi-plur
+GOOD:19 BAD:1 SCORE:18 RULE: pos_0=NomC-femi-plur pos_-1=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:21 BAD:5 SCORE:16 RULE: pos_0=AdjQ-masc-plur pos:[-2,-1]=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=Dete-dart-femi-sing pos:[1,3]=AdjQ-masc-sing => pos=Dete-dart-masc-sing
+GOOD:14 BAD:0 SCORE:14 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Pron-psuj-plur-p1 => pos=Verb-IndPré-plur-p1
+GOOD:14 BAD:0 SCORE:14 RULE: pos_0=Pron-psuj-plur-p2 pos:[-2,-1]=Pron-psuj-sing-p1 => pos=Pron-obj
+GOOD:14 BAD:0 SCORE:14 RULE: pos_0=Verb-InfPré word_0=pouvoir pos_-1=Dete-dprp-masc-sing => pos=NomC-masc-sing
+GOOD:20 BAD:6 SCORE:14 RULE: pos_0=NomC-masc-sing pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Verb-IndPré-sing-p1 pos:[-2,-1]=NomC-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Prep word_0=en pos_1=Verb-IndPré-plur-p3 => pos=Pron-padv
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=Verb-IndPré-sing-p3 => pos=Pron-obj
+GOOD:16 BAD:3 SCORE:13 RULE: pos_0=ConS pos_1=Verb-IndPré-sing-p3 => pos=Pron-RelInt
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=NNP word:[1,3]=, => pos=NomP-nodt-fam
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Verb-ParPas-masc-sing word_-1=l' => pos=NomC-masc-sing
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Dete-dart-masc-sing => pos=NomC-masc-sing
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=NN pos:[-3,-1]=Dete-dart-masc-plur => pos=NomC-masc-plur
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=NNP word:[-2,-1]=ZZZ => pos=NomC-femi-sing
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:12 BAD:0 SCORE:12 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=les => pos=NomC-masc-plur
+GOOD:12 BAD:0 SCORE:12 RULE: pos_0=NomC-masc-sing pos_-1=AdjQ-masc-plur => pos=NomC-masc-plur
+GOOD:12 BAD:0 SCORE:12 RULE: pos_0=AdjQ-femi-plur pos_-1=Dete-dprp-masc-plur => pos=NomC-masc-plur
+GOOD:18 BAD:6 SCORE:12 RULE: pos_0=NomC-masc-sing pos_-1=Dete-dart-femi-sing => pos=NomC-femi-sing
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Verb-ParPas-masc-sing word:[1,2]=pas => pos=Verb-IndPré-sing-p3
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Verb-ParPas-masc-sing word_-1=il => pos=Verb-IndPré-sing-p3
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Dete-ddem-masc-sing word_0=ce word_1=soit => pos=Pron-pdem-masc-sing
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Prep word_0=en pos_1=Verb-IndPré-sing-p1 => pos=Pron-padv
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Pron-fort word_0=nous pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Pron-psuj-femi-plur-p3 word_0=elles pos_-1=Prep => pos=Pron-fort
+GOOD:14 BAD:3 SCORE:11 RULE: pos_0=ConS pos:[1,3]=Verb-ParPas-femi-sing => pos=Pron-RelInt
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Prep => pos=NomC-masc-sing
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Verb-IndPré-sing-p3 word_0=demande pos_-1=Dete-dart-femi-sing => pos=NomC-femi-sing
+GOOD:12 BAD:1 SCORE:11 RULE: pos_0=Dete-ddem-femi-plur pos:[1,3]=NomC-masc-plur => pos=Dete-ddem-masc-plur
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Dete-dart-femi-sing word_0=l' word_-2=bout => pos=Dete-dart-masc-sing
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=Pron-refl-p3 word_0=s' word_1=ils => pos=ConS
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=PreD-masc-plur word_0=tous pos_-1=Verb-IndPré-plur-p1 => pos=Adve
+GOOD:21 BAD:10 SCORE:11 RULE: pos_0=NomC-masc-plur pos_-1=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=NN word:[1,2]=, => pos=Verb-ParPas-masc-plur
+GOOD:11 BAD:1 SCORE:10 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=sont => pos=Verb-ParPas-masc-plur
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=NN pos:[1,3]=Punc-pcst => pos=Verb-InfPré
+GOOD:17 BAD:7 SCORE:10 RULE: pos_0=ConS word_0=qu' pos_-1=NomC-masc-plur => pos=Pron-RelInt
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=Dete-dind-femi-sing word_0=quelque pos_1=Num => pos=PreN
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=Dete-dind-femi-sing pos_1=NomC-masc-sing => pos=Dete-dind-masc-sing
+GOOD:18 BAD:8 SCORE:10 RULE: pos_0=Verb-SubPré-sing-p3 word_0=soit word_-1=, => pos=Adve
+GOOD:14 BAD:4 SCORE:10 RULE: pos_0=Verb-InfPré pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=Adve word_0=même pos_1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:11 BAD:1 SCORE:10 RULE: pos_0=Verb-ParPas-masc-sing pos:[-3,-1]=Dete-dind-femi-sing => pos=AdjQ-femi-sing
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Verb-ParPas-masc-sing word_-1=qui => pos=Verb-IndPré-sing-p3
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndPré-plur-p3 => pos=Pron-obj
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_-1=Pron-psuj-plur-p2 => pos=Pron-obj
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Dete-dpos-femi-sing pos:[-2,-1]=Pron-RelInt => pos=Pron-obj
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=NomC-masc-plur pos_-1=Dete-dart-masc-sing => pos=NomC-masc-sing
+GOOD:11 BAD:2 SCORE:9 RULE: pos_0=AdjQ-femi-plur pos_-1=Dete-dart-masc-plur => pos=NomC-masc-plur
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=NN pos:[-3,-1]=Dete-dart-femi-sing => pos=NomC-femi-sing
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Pron-RelInt-femi-sing word_0=quelle pos_1=NomC-femi-sing => pos=Dete-dint-femi-sing
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=NomC-femi-sing word_0=politique pos_-1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=Adve word_0=soit pos_1=Verb-ParPas-masc-sing => pos=Verb-SubPré-sing-p3
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NN pos:[-3,-1]=ConS => pos=Verb-IndPré-sing-p3
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NNP pos:[-3,-1]=NomC-femi-sing => pos=NomC-masc-sing
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NomC-masc-plur pos:[-2,-1]=Dete-dind-masc-sing => pos=NomC-masc-sing
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=Verb-InfPré word:[-2,-1]=des => pos=NomC-masc-plur
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NomC-masc-sing pos_-1=Dete-dind-masc-plur => pos=NomC-masc-plur
+GOOD:11 BAD:3 SCORE:8 RULE: pos_0=PreD-femi-sing word_0=toute pos_1=NomC-femi-sing => pos=Dete-dind-femi-sing
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=Supr-masc-sing word:[-3,-1]=qui => pos=Adve
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=ConS word_0=si pos_1=Adve => pos=Adve
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=PreD-masc-plur word_0=tous pos_-1=Verb-IndPré-plur-p3 => pos=Adve
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NomC-masc-sing word_-1=a => pos=Verb-ParPas-masc-sing
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NomC-masc-sing pos_-1=NomC-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Verb-IndPré-sing-p1 pos:[-2,-1]=Pron-psuj-masc-sing-p3 => pos=Verb-IndPré-sing-p3
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Adve word_0=puis pos_-1=Pron-psuj-sing-p1 => pos=Verb-IndPré-sing-p1
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Dete-dpos-femi-sing word_0=leur pos_1=Verb-ParPré => pos=Pron-obj
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Ordi-femi-sing pos_1=NomC-masc-sing => pos=Ordi-masc-sing
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Verb-InfPré pos_-1=Prep pos_1=NomC-masc-plur-abbr => pos=Num
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Verb-InfPré word_0=pouvoir word_-1=le => pos=NomC-masc-sing
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Verb-InfPré word:[-3,-1]=dans => pos=NomC-masc-plur
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Verb-IndPré-sing-p3 word:[-2,-1]=une => pos=NomC-femi-sing
+GOOD:15 BAD:8 SCORE:7 RULE: pos_0=Dete-dprp-masc-plur pos:[1,2]=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Adve word_0=tout pos_1=NomC-masc-sing => pos=Dete-dind-masc-sing
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=Pron-obj word_0=le word_1=pouvoir => pos=Dete-dart-masc-sing
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=AdjQ-femi-sing pos_-2=AdjQ-masc-sing => pos=AdjQ-masc-sing
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=NomC-femi-plur pos_-1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Verb-IndPré-plur-p1 word:[-2,-1]=avons => pos=Verb-ParPas-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Verb-ParPas-masc-sing pos:[-3,-1]=Verb-IndFut-plur-p3 => pos=Verb-ParPas-masc-plur
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN pos:[1,3]=ConC => pos=Verb-InfPré
+GOOD:12 BAD:6 SCORE:6 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=ZZZ => pos=Verb-IndPré-sing-p3
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NomC-femi-sing pos_-2=Dete-dart-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-ddem-masc-sing word_0=ce word_1=serait => pos=Pron-pdem-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-ddem-masc-sing word_0=ce word_1=sont => pos=Pron-pdem-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Prep word_0=en pos_1=Verb-IndFut-sing-p3 => pos=Pron-padv
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Pron-psuj-plur-p2 word:[-2,-1]=de => pos=Pron-obj
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=Verb-IndPré-sing-p3 => pos=Pron-obj
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-dart-femi-sing pos_1=Verb-IndPré-plur-p3 => pos=Pron-obj
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-dind-masc-sing word:[1,3]=soit => pos=Pron-RelInt-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=ConS word_0=que pos_-2=Dete-dart-masc-plur => pos=Pron-RelInt
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=ConS pos_1=Verb-IndPré-plur-p3 => pos=Pron-RelInt
+GOOD:6 BAD:0 SCORE:6 RULE: pos_-1=NomC-femi-sing pos_0=ConS pos_1=Pron-psuj-plur-p1 pos_2=Verb-IndPré-plur-p1 => pos=Pron-RelInt
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=AdjQ-masc-sing pos_-1=Dete-dart-masc-sing pos_1=Dete-dprp-masc-sing => pos=NomC-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NomC-masc-plur pos_-1=Dete-dprp-masc-sing => pos=NomC-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NNP pos_-1=Dete-dart-masc-plur => pos=NomC-masc-plur
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NomC-femi-plur word_-1=Une word_0=voix word_1=: => pos=NomC-femi-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NomC-femi-sing word_0=fois pos_-1=Num => pos=NomC-femi-plur
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NNP pos_-1=Dete-dprp-masc-plur => pos=NomC-femi-plur
+GOOD:8 BAD:2 SCORE:6 RULE: pos_0=Dete-dprp-femi-plur pos_1=NomC-masc-plur => pos=Dete-dprp-masc-plur
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Dete-dart-masc-plur pos_2=AdjQ-femi-plur => pos=Dete-dart-femi-plur
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=NomP-nodt-fam word_-1=ZZZ => pos=Adve
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NomC-femi-sing word_0=politique pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=AdjQ-masc-plur pos_-1=Verb-IndPré-sing-p3 => pos=AdjQ-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=AdjQ-femi-sing pos:[-3,-1]=Pron-psuj-masc-sing-p3 => pos=AdjQ-masc-sing
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=Verb-InfPré pos_-1=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=AdjQ-masc-sing pos_-2=AdjQ-femi-sing => pos=AdjQ-femi-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=versés => pos=Verb-ParPas-masc-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Verb-ParPas-masc-sing word_-1=me => pos=Verb-IndPré-sing-p3
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN pos_1=Adve => pos=Verb-IndPré-sing-p3
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN pos:[1,3]=ConS => pos=Verb-IndFut-sing-p3
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Pron-psuj-plur-p2 word_0=vous pos_-1=Pron-psuj-plur-p2 => pos=Pron-refl-plur-p2
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dind-femi-plur word_0=certaines word_1=des => pos=Pron-pind-femi-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dind-femi-plur word_0=certaines word_1=de => pos=Pron-pind-femi-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-ddem-masc-sing word_0=ce word_1=dont => pos=Pron-pdem-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-ddem-masc-sing word_0=ce pos_1=Prep => pos=Pron-pdem-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Prep word_0=en word_-1=nous => pos=Pron-padv
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Prep word_0=en pos_1=Verb-SubPré-sing-p3 => pos=Pron-padv
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Pron-refl-sing-p1 word_0=me pos_1=Verb-IndPré-sing-p3 => pos=Pron-obl
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous word_-1=qui => pos=Pron-obj
+GOOD:10 BAD:5 SCORE:5 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndPré-sing-p3 => pos=Pron-obj
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndFut-plur-p3 => pos=Pron-obj
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_-1=Pron-psuj-sing-p1 => pos=Pron-obj
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NNP pos_-1=NomC-masc-sing => pos=NomP-nodt-fam
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Prep word_0=avant word_-1=l' => pos=NomC-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=AdjQ-masc-sing word_0=moyen pos_1=Prep => pos=NomC-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NomC-masc-sing word_0=collègue pos_-1=Dete-dpos-femi-sing => pos=NomC-femi-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Verb-InfPré pos:[-2,-1]=Dete-dpos-femi-sing => pos=NomC-femi-sing
+GOOD:8 BAD:3 SCORE:5 RULE: pos_-1=Prep pos_0=Verb-InfPré pos_1=ConC pos_2=Prep => pos=NomC-femi-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NomC-masc-plur pos_1=AdjQ-femi-plur => pos=NomC-femi-plur
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=Dete-dprp-masc-plur pos_1=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=Verb-ParPas-masc-sing pos_-2=NomC-femi-plur => pos=Verb-ParPas-femi-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=PreN pos_1=NomC-masc-sing => pos=Dete-dprp-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=PreN pos_1=NomC-femi-sing => pos=Dete-dprp-femi-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dart-femi-sing word_-1=de word_0=l' word_1=avant => pos=Dete-dart-masc-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Pron-obj word_0=les word_-1=dans => pos=Dete-dart-masc-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Pron-obj word_0=les pos_-2=Prep => pos=Dete-dart-masc-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Verb-InfPré pos_-1=Dete-dart-masc-plur => pos=NomC-masc-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dart-masc-plur word_0=les word_-1=toutes => pos=Dete-dart-femi-plur
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=ConS word_0=si pos_1=AdjQ-masc-sing => pos=Adve
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=uniquement => pos=Adve
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=AdjQ-femi-plur pos_1=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=ConC pos_-2=AdjQ-femi-sing => pos=AdjQ-femi-sing
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=Dete-dind-femi-plur word:[-3,-1]=les => pos=AdjQ-femi-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-plur-p1 word:[-3,-1]=importe => pos=Verb-SubPré-plur-p1
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-masc-plur word_0=établis pos_1=Prep => pos=Verb-ParPas-masc-plur
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Verb-ParPas-masc-sing pos_-2=Verb-IndPré-plur-p3 => pos=Verb-ParPas-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-InfPré word_-2=d' => pos=Verb-ParPas-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-plur-p2 pos:[-3,-1]=NomC-femi-plur => pos=Verb-ParPas-femi-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN pos_2=NomC-masc-plur => pos=Verb-InfPré
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p1 word:[-2,-1]=s' => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p1 word:[-2,-1]=de => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-masc-sing word:[-2,-1]=ne => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-femi-sing word:[-2,-1]=il => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-ParPas-masc-sing word_0=fait pos_-1=NomC-femi-sing => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p1 word_-1=, => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_-3=ConS pos_-2=Dete-dart-masc-sing pos_-1=NomC-masc-sing pos_0=Verb-ParPas-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-femi-sing pos_-1=Pron-psuj-sing-p1 => pos=Verb-IndPré-sing-p1
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Pron-obj pos:[-3,-1]=Pron-psuj-plur-p1 => pos=Pron-refl-plur-p1
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=Adve word_0=tout word_-1=que => pos=Pron-pind-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=PreD-masc-plur pos:[1,3]=Adve => pos=Pron-pind-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Prep word_0=en pos_1=Verb-IndImp-plur-p3 => pos=Pron-padv
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Prep word_0=en pos_1=Verb-ConPré-sing-p3 => pos=Pron-padv
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dart-masc-plur word_0=les word_-1=nous => pos=Pron-obj
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dpos-femi-sing word_0=leur pos_1=Verb-IndPré-plur-p3 => pos=Pron-obj
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dart-femi-sing pos_1=Verb-ParPré => pos=Pron-obj
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=ConS word:[-3,-1]=question => pos=Pron-RelInt
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=ConS pos_-1=AdjQ-masc-plur pos_1=Pron-psuj-plur-p1 => pos=Pron-RelInt
+GOOD:4 BAD:0 SCORE:4 RULE: pos_-2=NomC-masc-plur pos_-1=AdjQ-masc-plur word_0=qu' => pos=Pron-RelInt
+GOOD:4 BAD:0 SCORE:4 RULE: pos_-3=Prep pos_-2=Dete-dind-masc-sing pos_-1=NomC-masc-sing pos_0=ConS => pos=Pron-RelInt
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-InfPré pos_1=NomC-masc-plur => pos=Num
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NomP-nodt-fam word_-1=de => pos=NomP-nodt-pgeo
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NNP pos_2=NomP-nodt-pgeo => pos=NomP-nodt-pgeo
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NNP pos_-1=NomP-nodt-phum-masc-sing => pos=NomP-nodt-fam
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Adve word_0=mal word_1=à => pos=NomC-masc-sing
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=AdjQ-masc-sing word_-1=au => pos=NomC-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Pron-obj pos_-2=Prep => pos=NomC-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Dete-dprp-masc-sing => pos=NomC-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN pos:[-3,-1]=Dete-dart-masc-sing => pos=NomC-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-masc-plur word:[-2,-1]=anciens => pos=NomC-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-femi-sing word_-1=des => pos=NomC-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-InfPré pos_-1=Dete-dpos-masc-plur pos_-2=Prep => pos=NomC-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-masc-sing pos:[-2,-1]=Dete-dpos-masc-plur => pos=NomC-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-femi-sing pos_-1=Dete-dind-femi-sing pos_1=Prep => pos=NomC-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-InfPré pos_1=Verb-ParPas-femi-sing => pos=NomC-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-InfPré pos_-1=Dete-dpos-masc-sing => pos=NomC-femi-sing
+GOOD:5 BAD:1 SCORE:4 RULE: pos_-3=Dete-dind-masc-sing pos_-2=NomC-masc-sing pos_-1=Prep pos_0=Verb-InfPré => pos=NomC-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-plur-p1 word_0=sommes word_1=d' word_2=argent => pos=NomC-femi-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-masc-plur word:[-3,-1]=toutes => pos=NomC-femi-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Verb-IndPré-sing-p3 word_0=a word_1=) => pos=Ltre
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dprp-masc-plur pos_1=NomP-wtdt-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=Dete-dpos-masc-sing pos_1=NomC-femi-sing => pos=Dete-dpos-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_1=AdjQ-masc-sing word_0=tout word_1=autre => pos=Dete-dind-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-masc-plur word_0=divers pos_-1=Prep => pos=Dete-dind-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Pron-pdem-plur word_0=les~~autres pos_1=NomC-masc-plur => pos=Dete-ddem-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Pron-obj pos_-1=Prep pos_1=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dart-femi-plur word_0=les pos_1=NomC-masc-plur => pos=Dete-dart-masc-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dart-masc-sing word_0=L' pos_1=NomC-femi-sing => pos=Dete-dart-femi-sing
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NomC-masc-sing pos_-1=NomC-femi-sing pos_-2=Dete-dart-femi-sing => pos=AdjQ-femi-sing
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=Pron-RelInt word_0=qu' word_-2=aux => pos=ConS
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=PreD-masc-plur pos:[1,2]=Prep => pos=Adve
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=Adve word_0=même pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-femi-sing pos_1=NomC-masc-sing pos_2=Prep => pos=AdjQ-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NomC-masc-plur word_0=anciens word_1=combattants => pos=AdjQ-masc-plur
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Prep word_0=concernant word_1=les => pos=Verb-ParPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré word:[-2,-1]=En => pos=Verb-ParPré
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Prep word_0=touchant => pos=Verb-ParPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-sing word_0=permis word_1=de => pos=Verb-ParPas-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-sing word:[-2,-1]=s' => pos=Verb-ParPas-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_-1=Adve => pos=Verb-ParPas-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-plur word_0=représentés word_-1=partis => pos=Verb-ParPas-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=seraient => pos=Verb-ParPas-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-plur word:[-2,-1]=été => pos=Verb-ParPas-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word:[-3,-1]=soient => pos=Verb-ParPas-masc-plur
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=NomC-masc-plur => pos=Verb-ParPas-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-femi-sing word_0=tenue word_1=à => pos=Verb-ParPas-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré word_-1=été => pos=Verb-ParPas-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-femi-plur pos_-1=Verb-IndPré-plur-p3 => pos=Verb-ParPas-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-sing word_0=fier word_-1=se => pos=Verb-InfPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPré word:[-2,-1]=faisant => pos=Verb-InfPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word:[-3,-1]=laissé => pos=Verb-InfPré
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word:[-3,-1]=peut => pos=Verb-InfPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_-1=va => pos=Verb-InfPré
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=AdjQ-femi-sing word_0=précise word_1=que => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_0=dit word_-2=Le => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[-2,-1]=il => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-femi-sing word_0=précise pos_1=Adve => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_0=fait pos_-1=NomC-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_-1=nous => pos=Verb-IndPré-sing-p3
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous pos_1=Verb-IndPré-sing-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_-1=on => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=NomP-nodt-fam => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-femi-sing pos:[-3,-1]=Dete-dart-masc-sing => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Pron-psuj-femi-plur-p3 => pos=Verb-IndPré-plur-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[-2,-1]=je => pos=Verb-IndFut-sing-p1
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-3=Dete-dart-masc-plur pos_-2=NomC-masc-plur pos_-1=AdjQ-masc-plur pos_0=Verb-ParPas-masc-sing => pos=Verb-IndFut-plur-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Supr-masc-plur pos:[-3,-1]=NomC-femi-plur => pos=Supr-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dind-masc-sing word_1=de => pos=Pron-pind-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dind-masc-plur word:[1,3]=nous => pos=Pron-pind-masc-plur
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Dete-dind-femi-sing word_1=des => pos=Pron-pind-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-refl-sing-p1 word_0=me word_1=donner => pos=Pron-obl
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-refl-sing-p1 pos:[1,3]=Verb-IndImp-sing-p3 => pos=Pron-obl
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-fort word_0=nous word_-1=en => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dpos-femi-sing word_0=leur word_-1=ne => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur word_0=les word_-1=ne => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-femi-sing word_0=l' word_-1=ne => pos=Pron-obj
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=Pron-refl-sing-p1 word_0=me pos_1=Verb-InfPré => pos=Pron-obj
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous pos_1=Verb-IndPré-plur-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-psuj-plur-p1 word_0=nous pos_1=Verb-IndFut-sing-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndFut-sing-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=Verb-IndPré-plur-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=Verb-IndPré-plur-p1 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=Verb-IndImp-sing-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-psuj-plur-p2 pos:[-3,-1]=Pron-psuj-masc-sing-p3 => pos=Pron-obj
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-obj word_0=lui word_1=. word_2=ZZZ => pos=Pron-fort
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-psuj-plur-p2 word_0=vous pos_-1=Prep => pos=Pron-fort
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-psuj-femi-sing-p3 word_0=elle pos_-1=Prep => pos=Pron-fort
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=ConS word_0=que word_-2=des => pos=Pron-RelInt
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=ConS word:[-2,-1]=salaire => pos=Pron-RelInt
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=ConS word:[-2,-1]=programme => pos=Pron-RelInt
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=ConS pos_-1=Punc-pccm pos_-2=NomP-nodt-pgeo => pos=Pron-RelInt
+GOOD:4 BAD:1 SCORE:3 RULE: pos_-3=NomC-masc-plur pos_-2=Prep pos_-1=NomC-femi-sing pos_0=ConS => pos=Pron-RelInt
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-3=Dete-dind-femi-sing pos_-2=NomC-femi-sing pos_-1=AdjQ-femi-sing pos_0=ConS => pos=Pron-RelInt
+GOOD:4 BAD:1 SCORE:3 RULE: pos_-2=Dete-dart-masc-sing pos_-1=NomC-masc-sing pos_0=ConS pos_1=Pron-psuj-plur-p1 => pos=Pron-RelInt
+GOOD:4 BAD:1 SCORE:3 RULE: pos_-2=Dete-dart-femi-sing pos_-1=NomC-femi-sing pos_0=ConS pos_1=Pron-psuj-masc-sing-p3 => pos=Pron-RelInt
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Verb-ParPas-masc-sing pos_1=NomC-masc-plur => pos=Num
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomP-nodt-fam word_0=Lawrence word_-1=-- => pos=NomP-nodt-pgeo
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NomC-femi-sing word_0=question pos_-2=NomC-masc-sing => pos=NomC-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Punc-pccm pos_-2=NomP-nodt-fam => pos=NomC-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-femi-sing pos_-1=Dete-dart-masc-sing => pos=NomC-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos:[-2,-1]=Dete-dpos-masc-sing => pos=NomC-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-plur word_0=parlementaires word_-1=les => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-plur word_0=pilotes word_-1=projets => pos=NomC-masc-plur
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=AdjQ-masc-plur word_0=jeunes word_-1=les => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré word:[-2,-1]=deux => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-plur pos_-1=Dete-dprp-masc-plur pos_1=Prep => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos_-1=Dete-dpos-femi-plur => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-sing pos:[-2,-1]=Dete-dprp-masc-plur => pos=NomC-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré word:[-2,-1]=cette => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-femi-sing word_-1=la => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Dete-dpos-femi-sing => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Dete-ddem-femi-sing => pos=NomC-femi-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AdjQ-masc-sing pos_-1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NNP pos:[1,3]=Prep => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos:[-2,-1]=Dete-dind-femi-sing => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=Prep pos_0=Verb-InfPré pos_1=Punc-pccm pos_2=Adve => pos=NomC-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=ses => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré word:[-2,-1]=sur => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-sing word:[-2,-1]=des => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[-3,-1]=et => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos_-1=Num pos_1=Prep => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_1=NomP-wtdt-masc-sing word_0=Cultures word_1=Canada => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-2=NomC-femi-plur pos_-1=NomP-wtdt-masc-sing word_0=88 => pos=Num
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=PreN pos_1=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-sing word_-1=ZZZ word_0=L' word_1=Alberta => pos=Dete-dart-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-obj word_0=l' pos_1=NomC-femi-sing => pos=Dete-dart-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur word_0=les word_-1=sinon => pos=Dete-dart-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-RelInt word_0=que word_-1=reprises => pos=ConS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing word_0=habituellement => pos=Adve
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos_1=Verb-ParPas-masc-sing pos_2=Prep => pos=Adve
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos:[1,2]=Verb-ParPas-masc-plur => pos=Adve
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-ParPas-masc-sing pos:[-3,-1]=Verb-ParPas-masc-plur => pos=Adve
+GOOD:3 BAD:0 SCORE:3 RULE: pos_1=Punc-pccm word_0=tous word_1=, => pos=Adve
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=Punc-pccm pos_0=ConC pos_1=ConS pos_2=Pron-psuj-masc-sing-p3 => pos=Adve
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=AdjQ-femi-sing word:[-2,-1]=tout~~à~~fait => pos=AdjQ-masc-sing
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=AdjQ-femi-sing word:[-3,-1]=projet => pos=AdjQ-masc-sing
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=AdjQ-femi-sing pos_-1=Verb-ParPas-masc-sing => pos=AdjQ-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-plur word_0=prêts word_1=à => pos=AdjQ-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-sing word:[-3,-1]=les => pos=AdjQ-masc-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-3=NomC-femi-sing pos_-2=Dete-dprp-masc-plur pos_-1=NomC-masc-plur pos_0=AdjQ-femi-sing => pos=AdjQ-masc-plur
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=AdjQ-masc-sing word:[-3,-1]=une => pos=AdjQ-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Adve word_0=même pos_-2=Dete-dart-femi-sing => pos=AdjQ-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-femi-sing pos_-1=Dete-ddem-femi-sing pos_1=NomC-femi-sing => pos=AdjQ-femi-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-masc-plur pos_1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-SubPré-sing-p3 word:[-2,-1]=je => pos=Verb-SubPré-sing-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Pron-psuj-plur-p2 pos_-2=ConS => pos=Verb-SubPré-plur-p2
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_0=exerçant word_1=leur word_2=activité => pos=Verb-ParPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=étonnant word_1=que word_2=les => pos=Verb-ParPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=intéressant word_1=aux word_2=langues => pos=Verb-ParPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[1,3]=autres => pos=Verb-ParPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=agréé word_1=à word_2=but => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word_0=passé word_-1=ai => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=élu word_-1=être => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur word_0=acquis word_1=une => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word:[-2,-1]=Ayant => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word:[-2,-1]=ont => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word_0=dit pos_2=Verb-ParPré => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-femi-plur word_-1=ont => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_-1=être => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos:[1,3]=Num => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p1 word_0=conclus word_1=dans => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word:[-2,-1]=soient => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=fournis pos_1=Prep => pos=Verb-ParPas-masc-plur
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=entendus => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word_1=par => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-femi-sing pos_-1=Verb-InfPré pos_1=Prep => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NomC-masc-plur pos_0=AdjQ-masc-plur pos_1=Prep pos_2=Dete-dart-femi-plur => pos=Verb-ParPas-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=mise word_1=de word_2=l' => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=rendue word_-1=est => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=portée word_1=devant => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=tenue word_2=la => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=tenue word_-2=a => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word:[-2,-1]=soit => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=mise pos_-2=Verb-SubPré-sing-p3 => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=utilisée pos_1=Prep => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=accordée => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=destinée => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing pos:[-2,-1]=Verb-ConPré-sing-p3 => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=Prep word_0=basée word_1=sur => pos=Verb-ParPas-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_0=régies word_1=par word_2=la => pos=Verb-ParPas-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_0=voulues word_-2=les => pos=Verb-ParPas-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur word:[-2,-1]=elles => pos=Verb-ParPas-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word:[-2,-1]=sont => pos=Verb-ParPas-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=veut => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=faut => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word:[-2,-1]=peuvent => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word:[-2,-1]=doit => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word:[-2,-1]=fait => pos=Verb-InfPré
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NomC-masc-sing pos_1=Verb-InfPré => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[-3,-1]=ne => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word:[-3,-1]=peut => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur pos_-1=Verb-IndPré-plur-p3 pos_-2=NomC-masc-plur => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_-1=ont => pos=Verb-ParPas-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=Dete-dprp-femi-plur word_0=conformer word_1=aux => pos=Verb-InfPré
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=fait word_1=aucun word_2=doute => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=dit word_-1=en => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=dit word_-1=, => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=fait word_-1=et => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=offre word_-1=n' => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p1 word:[-2,-1]=on => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word:[-2,-1]=on => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word_0=compte pos_1=Num => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_0=trahit => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_-1=Canada => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p1 word_-1=qui => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Pron-obj pos_-2=Pron-RelInt => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing pos_-1=NomC-femi-sing pos_-2=Dete-ddem-femi-sing => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing pos_-1=Pron-RelInt => pos=Verb-IndPré-sing-p3
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-IndPré-sing-p3 word_0=exercera => pos=Verb-IndFut-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p1 pos:[-2,-1]=NomP-nodt-fam => pos=Verb-IndPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word_-1=je word_0=partage word_1=l' => pos=Verb-IndPré-sing-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_-1=m' => pos=Verb-IndPré-sing-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word_0=dispensent word_-1=qui => pos=Verb-IndPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_-1=ils => pos=Verb-IndPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_-1=qui => pos=Verb-IndPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 pos_-1=Pron-RelInt pos_-2=AdjQ-femi-plur => pos=Verb-IndPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos:[-3,-1]=NomC-masc-plur => pos=Verb-IndPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word:[-2,-1]=nous => pos=Verb-IndPré-plur-p1
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-IndPré-plur-p1 word_0=devrons pos_-1=Pron-psuj-plur-p1 => pos=Verb-IndFut-plur-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 pos_-2=Pron-psuj-plur-p1 => pos=Verb-IndPré-plur-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_-1=ne => pos=Verb-IndImp-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos:[-3,-1]=NomC-masc-sing => pos=Verb-IndImp-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-plur word_0=pensions word_1=-nous word_2=, => pos=Verb-IndImp-plur-p1
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos_1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[1,2]=-t-il => pos=Verb-IndFut-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur word:[1,2]=je => pos=Verb-IndFut-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word_0=tiendra => pos=Verb-IndFut-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_-1=je => pos=Verb-IndFut-sing-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word_0=rapporteront word_1=pas word_2=de => pos=Verb-IndFut-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word:[1,2]=pas => pos=Verb-IndFut-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word:[-2,-1]=Canadiens => pos=Verb-IndFut-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-3=NomC-masc-plur pos_-2=Adve pos_-1=Pron-refl-p3 pos_0=Verb-IndPré-sing-p3 => pos=Verb-IndFut-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NNP word:[-2,-1]=: => pos=Verb-ImpPré-plur-p2
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=créerait pos_2=NomC-masc-sing => pos=Verb-ConPré-sing-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_-1=provinces word_0=choisiraient word_1=de => pos=Verb-ConPré-plur-p3
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word:[-2,-1]=intention => pos=Pron-refl-sing-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word_0=nous pos_2=Verb-IndPré-plur-p1 => pos=Pron-psuj-plur-p1
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-ppos-masc-sing word_-1=la word_0=nôtre word_1=. => pos=Pron-ppos-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=même word_1=. word_2=ZZZ => pos=Pron-pind-sing
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=autres word_1=. word_2=ZZZ => pos=Pron-pind-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=autres word_1=, => pos=Pron-pind-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=autres pos_1=Adve => pos=Pron-pind-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=personne word_-2=ne => pos=Pron-pind-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-masc-sing word_0=aucun pos_1=Adve => pos=Pron-pind-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve pos_-1=Prep pos_-2=Verb-ParPas-masc-sing => pos=Pron-pind-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing pos_1=Adve pos_2=Verb-IndPré-sing-p3 pos_3=Prep => pos=Pron-pind-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-masc-plur word:[1,3]=qu' => pos=Pron-pind-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=tous pos_-1=Prep => pos=Pron-pind-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-masc-plur pos_1=Verb-IndPré-plur-p3 => pos=Pron-pind-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word_0=telle word_1=qu' word_2=établie => pos=Pron-pind-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word_0=telle word_-1=comme => pos=Pron-pind-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-femi-plur pos_1=Verb-IndPré-plur-p3 => pos=Pron-pind-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-ddem-masc-sing word_-1=et word_0=ce word_1=, => pos=Pron-pdem-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Prep word_0=en word_-1=on => pos=Pron-padv
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Prep word_0=en word_-1=vous => pos=Pron-padv
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Prep word_0=en word_-1=qui => pos=Pron-padv
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Prep word_0=en word_2=fait => pos=Pron-padv
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word_0=m' word_-1=député => pos=Pron-obl
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word_0=m' word_2=demandé => pos=Pron-obl
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word_0=m' word_2=donné => pos=Pron-obl
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-refl-sing-p1 word_0=me pos_2=NomC-masc-sing => pos=Pron-obl
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dart-masc-sing word_-1=comme word_0=le word_1=fait => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dart-masc-plur word_0=les word_-1=en => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obl word_0=me word_1=préoccupe => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dpos-femi-sing word:[1,3]=programme => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dpos-femi-sing word:[-3,-1]=ZZZ => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dart-masc-sing word_0=le pos_1=Verb-IndImp-sing-p3 => pos=Pron-obj
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-psuj-plur-p2 word_0=vous word_1=et word_2=moi => pos=Pron-fort
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj word_0=lui word_-1=à => pos=Pron-fort
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=Pron-obj word_0=lui word_1=, => pos=Pron-fort
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=Pron-obj word:[1,2]=ont => pos=Pron-fort
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-masc-sing word:[1,3]=programme => pos=Pron-RelInt-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que word_1=je word_2=peux => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=qu' word_1=on word_2=y => pos=Pron-RelInt
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=ConS word_0=qu' word_1=il word_2=avait => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_-1=respect word_0=que word_1=je => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_-1=discours word_0=que word_1=le => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que word_-1=rôle => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que word_-1=celle => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que word_-1=libre-échange => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que word_-2=une => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word:[1,2]=arrivera => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word:[-2,-1]=celles => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word:[-2,-1]=cadre => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word:[1,3]=appelle => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=que pos_-1=NomP-nodt-fam => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_-1=travail => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_-1=objectif => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=Dete-dart-masc-sing pos_-1=NomC-masc-sing pos_0=ConS pos_1=Pron-psuj-masc-plur-p3 => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=AdjQ-masc-sing pos_-1=NomC-masc-sing pos_0=ConS pos_1=Pron-psuj-sing-p1 => pos=Pron-RelInt
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=vu word_-1=, => pos=Prep
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=Tout pos_2=Verb-IndPré-sing-p3 => pos=PreD-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-femi-sing word_0=toute word_2=, => pos=PreD-femi-sing
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=Adve word_0=bien pos_1=Dete-dprp-femi-plur => pos=PreD-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-masc-sing word_0=un word_1=ou word_2=deux => pos=Num
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=p.~~100 => pos=Num
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomP-nodt-pgeo word_0=Beauce pos_-1=Dete-dart-femi-sing => pos=NomP-wtdt-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word_0=Temagami word_-1=de => pos=NomP-nodt-pgeo
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=NomC-masc-sing-abbr pos_-1=NomP-nodt-phum-masc-sing pos_0=NomP-nodt-fam pos_1=NomP-nodt-fam => pos=NomP-nodt-init
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomP-nodt-pgeo word:[-2,-1]=la => pos=NomP-nodt-fam
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing pos_-1=NomP-nodt-phum-femi-sing pos_-2=Prep => pos=NomP-nodt-fam
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word_0=fonds word_1=des word_2=mineurs => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=demain word_1=. word_2=ZZZ => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_-1=du word_0=total word_1=des => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_-1=l' word_0=extérieur word_1=de => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_-1=un word_0=total word_1=de => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_-1=en word_0=faux word_1=contre => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_0=égout word_-1=d' => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_0=fret word_-1=de => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=air word_-1=l' => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=avènement word_-1=l' => pos=NomC-masc-sing
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=avortement word_-1=l' => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=libéral word_-1=un => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=moyen word_-1=un => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur word:[-2,-1]=l' => pos=NomC-masc-sing
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AdjQ-femi-sing pos:[-3,-1]=Dete-dart-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word:[-2,-1]=cet => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word:[-2,-1]=seul => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word:[-3,-1]=avec => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Dete-ddem-masc-sing pos_1=Punc-pccm => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=ConS pos_1=Prep => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing pos_-1=Dete-dart-masc-sing pos_1=AdjQ-masc-sing => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NNP pos:[1,3]=Verb-ParPas-masc-sing => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPré pos:[-3,-1]=Verb-IndPré-plur-p3 => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=Punc-pcst word_0=territoire word_1=. => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=Verb-InfPré pos_-1=Pron-obj pos_0=Verb-IndPré-sing-p3 pos_1=Prep => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=NomC-masc-plur pos_-1=Prep pos_0=Verb-InfPré pos_1=ConC => pos=NomC-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=responsables word_1=des word_2=services => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=bureaux word_-1=nos => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=Droits word_-1=ZZZ => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=actifs word_-1=les => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur pos_-1=Num pos_1=Punc-pccm => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur pos_-1=AdjQ-masc-plur pos_1=Punc-pccm => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur pos_-1=Dete-dprp-masc-plur pos_1=ConC => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur pos_-1=Dete-dart-masc-plur pos_1=ConC => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur pos_-1=Prep pos_-2=NomC-masc-sing => pos=NomC-masc-plur
+GOOD:3 BAD:1 SCORE:2 RULE: pos_-3=NomC-masc-plur pos_-2=ConC pos_-1=Dete-dprp-femi-plur pos_0=NomC-femi-plur => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=Prep pos_0=Verb-InfPré pos_1=Prep pos_2=NomP-nodt-pgeo => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-plur word_0=voix word_1=au word_2=chapitre => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_-1=à word_0=vocation word_1=résidentielle => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p1 word_0=estime word_-1=l' => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndPré-sing-p3 word:[-2,-1]=à => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=interprétation pos_-2=Prep => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur pos_-1=AdjQ-femi-sing => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-3=Pron-refl-p3 pos_-2=Verb-InfPré pos_-1=Prep pos_0=Verb-ParPré => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word_0=cours word_1=d' word_2=appel => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=notes word_1=diplomatiques word_2=entre => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Verb-InfPré pos_-1=NomC-femi-plur => pos=AdjQ-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dpos-masc-plur pos_2=AdjQ-femi-plur => pos=Dete-dpos-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_0=bonnes word_1=d' word_2=enfants => pos=NomC-femi-plur
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=Dete-dprp-masc-plur word_0=des pos_1=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word:[1,2]=entre => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=y => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word:[1,3]=traitement => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word:[-3,-1]=travail => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dprp-masc-plur word_0=des pos_1=NomC-femi-plur => pos=Dete-dprp-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur pos:[1,2]=NomC-femi-plur => pos=Dete-dart-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word_0=ordonnances pos_-2=Verb-InfPré => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré pos_-1=Prep pos_1=AdjQ-femi-plur => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré pos_1=Verb-InfPré pos_2=Dete-dprp-masc-plur => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Pron-obj word_0=les pos_1=NomC-femi-plur => pos=Dete-dart-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur pos_-1=Dete-dart-masc-plur pos_-2=Verb-IndPré-sing-p3 => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=NomC-femi-plur => pos=Dete-dart-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Dete-dpos-masc-plur => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_-1=AdjQ-femi-plur => pos=NomC-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=Punc-pccm word_0=ambassades word_1=, => pos=NomC-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-dpos-masc-plur pos_1=NomC-femi-plur => pos=Dete-dpos-femi-plur
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=Dete-ddem-masc-plur word_0=ces pos_1=NomC-femi-plur => pos=Dete-ddem-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dprp-femi-plur word_0=des pos_-2=Pron-psuj-sing-p1 => pos=Dete-dprp-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-plur pos_-1=Dete-dprp-masc-plur pos_-2=Verb-IndPré-sing-p1 => pos=NomC-masc-plur
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=Dete-dprp-femi-plur word_0=des pos_1=NomC-masc-plur => pos=Dete-dprp-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dprp-femi-plur pos_1=AdjQ-masc-plur => pos=Dete-dprp-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dprp-masc-plur word_-1=aide word_0=aux word_1=PME => pos=Dete-dprp-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dprp-masc-plur word_0=des word_2=premières => pos=Dete-dprp-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Prep word:[-2,-1]=tant => pos=Dete-dprp-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-3=Dete-dart-femi-sing pos_-2=NomC-femi-sing pos_-1=Prep pos_0=Pron-obj => pos=Dete-dpos-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dpos-femi-plur word_0=ses word_2=pour => pos=Dete-dpos-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-plur pos_-1=Dete-dpos-masc-plur pos_1=Prep => pos=NomC-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dpos-femi-plur word:[-3,-1]=vu => pos=Dete-dpos-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dpos-masc-sing word:[1,2]=interprétation => pos=Dete-dpos-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=différents pos_2=AdjQ-masc-plur => pos=Dete-dind-masc-plur
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=AdjQ-masc-plur pos:[-2,-1]=Verb-IndPré-sing-p3 => pos=Dete-dind-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dint-femi-sing word:[-2,-1]=décider => pos=Dete-dind-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word_0=différentes word_-1=de => pos=Dete-dind-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-pdem-plur word_0=les~~autres pos_1=NomC-femi-plur => pos=Dete-ddem-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dart-femi-sing word_0=l' pos_1=NomP-wtdt-acro-masc-sing => pos=Dete-dart-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-obj pos_-1=Verb-InfPré pos_1=NomC-masc-sing => pos=Dete-dart-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dart-masc-plur word_0=les pos_1=NomP-wtdt-femi-plur => pos=Dete-dart-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word_0=qu' word_1=établie word_2=par => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word_0=que word_-1=garderies => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[1,2]=attend => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[-2,-1]=mêmes => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[-2,-1]=communes => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[-2,-1]=cela => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[-2,-1]=provinces => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-RelInt word:[-2,-1]=ces => pos=ConS
+GOOD:3 BAD:1 SCORE:2 RULE: pos_-3=Verb-InfPré pos_-2=Dete-dprp-masc-plur pos_-1=NomC-masc-plur pos_0=Pron-RelInt => pos=ConS
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NomC-masc-plur pos_0=ConS pos_1=Dete-dart-masc-sing pos_2=NomC-masc-sing => pos=Pron-RelInt
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConC word_0=mais word_1=que => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=bon word_1=de => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=le => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word:[-2,-1]=tous => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Supr-masc-sing word:[1,3]=. => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConS word_0=si pos_1=AdjQ-femi-sing => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=bon pos_-1=ConS => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=ConC word_2=on => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur pos_-1=Verb-IndFut-sing-p3 pos_1=Punc-pccm => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Pron-pind-masc-sing pos_1=Adve pos_2=ConS => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing pos_-1=Verb-InfPré pos_-2=Pron-obj => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=Pron-psuj-sing-p3 pos_-1=Verb-IndPré-sing-p3 word_0=littéralement => pos=Adve
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=Tel word_1=est word_2=le => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_-1=compte word_0=tenu word_1=des => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word_-1=pas word_0=nécessaire word_1=de => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=qualifié word_-1=vol => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=mort word_-1=est => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=fort word_-1=plus => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=précis word_-1=plus => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Adve word_0=fort word_1=d' => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=moment => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[-2,-1]=développement => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-sing word:[-2,-1]=être => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word:[-2,-1]=un => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-sing word_0=inacceptable pos_2=ConS => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-femi-sing word_0=politique pos_-2=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=arbitraire pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Num word_0=neuf pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=québécois pos_-1=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=exact => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=inadéquat => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré pos_-1=AdjQ-masc-sing pos_-2=NomC-masc-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=Adve pos_0=AdjQ-femi-sing pos_1=Prep pos_2=Dete-dart-femi-sing => pos=AdjQ-masc-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NomC-masc-plur word_0=particuliers word_1=. word_2=ZZZ => pos=AdjQ-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-femi-plur word:[-3,-1]=été => pos=AdjQ-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=sérieux pos_-1=NomC-masc-plur => pos=AdjQ-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-plur word_-1=commentaires => pos=AdjQ-masc-plur
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=Verb-InfPré pos_-1=Adve pos_1=Punc-pcst => pos=AdjQ-masc-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré word_0=résidentielle word_-1=vocation => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word_0=fausse word_-1=était => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word_0=susceptible word_1=d' => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-sing word:[-2,-1]=république => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-InfPré pos_1=AdjQ-femi-sing => pos=NomC-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-ParPas-masc-sing word:[1,3]=elle => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NomC-femi-sing pos_0=Verb-ParPas-femi-sing word_0=prévue word_1=. => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-3=Verb-IndPré-sing-p3 pos_-2=Prep pos_-1=NomC-femi-sing pos_0=Verb-ParPas-femi-sing => pos=AdjQ-femi-sing
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Dete-dind-femi-plur word_-1=des word_0=diverses word_1=provinces => pos=AdjQ-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur word_0=acceptables pos_-2=Verb-IndPré-plur-p3 => pos=AdjQ-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=Verb-IndFut-sing-p3 pos_-1=Adve pos_1=ConS => pos=AdjQ-femi-plur
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AdjQ-masc-plur pos_-2=AdjQ-femi-plur => pos=AdjQ-femi-plur

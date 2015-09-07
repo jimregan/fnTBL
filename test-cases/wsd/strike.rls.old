@@ -1,0 +1,1262 @@
+#train_voc_file: /home/fnTBL-1.2/test-cases/wsd/strike.train.init.voc
+GOOD:10 BAD:3 SCORE:7 RULE: PrepositionWord=NOPREP sat=NO_SAT => sense=strike%2:35:02::
+GOOD:7 BAD:0 SCORE:7 RULE: pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:5 BAD:0 SCORE:5 RULE: NounRightWord=NONR sat=strike_out => sense=strike_out%2:30:03::
+GOOD:6 BAD:1 SCORE:5 RULE: pos1r=DT sense=strike%2:35:02:: sat=NO_SAT => sense=strike%2:35:01::
+GOOD:3 BAD:0 SCORE:3 RULE: NounRightWord=NONR sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:3 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:3 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:4 BAD:1 SCORE:3 RULE: PrepositionWord=with/IN sat=NO_SAT => sense=strike%2:31:00::
+GOOD:2 BAD:0 SCORE:2 RULE: lemma1r=the/D lemma2r=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:2 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V sense=strike%2:37:00:: sat=NO_SAT => sense=strike%2:41:02::
+GOOD:2 BAD:0 SCORE:2 RULE: pos2l=DT pos1l=NN pos0=VBD sat=NO_SAT => sense=strike%2:39:00::
+GOOD:2 BAD:0 SCORE:2 RULE: $words_in_a_20_window=He pos0=VBN sat=NO_SAT => sense=strike%2:39:00::
+GOOD:2 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=sense/N pos0=VBP sat=NO_SAT => sense=strike%2:37:00::
+GOOD:2 BAD:0 SCORE:2 RULE: pos2l=PRP sense=strike%2:35:01:: sat=NO_SAT => sense=strike%2:37:00::
+GOOD:2 BAD:0 SCORE:2 RULE: $words_in_a_20_window=understand sat=NO_SAT => sense=strike%2:35:02::
+GOOD:2 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=body/N sat=NO_SAT => sense=strike%2:35:00::
+GOOD:2 BAD:0 SCORE:2 RULE: PrepositionWord=at/IN sense=strike%2:37:00:: sat=NO_SAT => sense=strike%2:33:00::
+GOOD:2 BAD:0 SCORE:2 RULE: ObjectWord=light/NN sat=NO_SAT => sense=strike%2:30:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounRightWord=NONR sat=strike_up => sense=strike_up%2:36:01::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=rapport/NN sat=strike_up => sense=strike_up%2:36:00::
+GOOD:1 BAD:0 SCORE:1 RULE: lemma1l=he/P sat=strike_out => sense=strike_out%2:41:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=riders/NNS sat=strike_out => sense=strike_out%2:32:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounRightWord=NONR sat=strike_dumb => sense=strike_dumb%2:37:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounRightWord=NONR sat=strike_down => sense=strike_down%2:41:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=monster/NN sat=strike_down => sense=strike_down%2:35:02::
+GOOD:1 BAD:0 SCORE:1 RULE: NounRightWord=NONR sat=strike_back => sense=strike_back%2:33:04::
+GOOD:1 BAD:0 SCORE:1 RULE: NounRightWord=NONR sat=strike_a_chord => sense=strike_a_chord%2:37:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=id="strike sat=strike_a_chord => sense=strike_a_chord%2:31:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=:/: sat=NO_SAT => sense=strike%2:41:02::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=pact/NN sat=NO_SAT => sense=strike%2:41:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=MILLIONS/NNS sat=NO_SAT => sense=strike%2:41:00::
+GOOD:1 BAD:0 SCORE:1 RULE: lemma2l=able/J lemma1l=to/T sat=NO_SAT => sense=strike%2:41:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=gold/NN sat=NO_SAT => sense=strike%2:40:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=her/PRP$ sat=NO_SAT => sense=strike%2:39:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=Alexander/NNP sat=NO_SAT => sense=strike%2:39:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=time/NN sat=NO_SAT => sense=strike%2:39:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=Mosbacher/NNP sat=NO_SAT => sense=strike%2:35:03::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=members/NNS sat=NO_SAT => sense=strike%2:35:02::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=coast/NN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=Freeway/NNP sat=NO_SAT => sense=strike%2:35:02::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=muzzle/NN sat=NO_SAT => sense=strike%2:35:01::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=atoms/NNS sat=NO_SAT => sense=strike%2:35:01::
+GOOD:1 BAD:0 SCORE:1 RULE: lemma1l=lightly/R sat=NO_SAT => sense=strike%2:35:01::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=child/NN sat=NO_SAT => sense=strike%2:35:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToPrepositionWord=muzzle/NN sat=NO_SAT => sense=strike%2:35:00::
+GOOD:1 BAD:0 SCORE:1 RULE: lemma1l=i/P lemma1r=,/, sat=NO_SAT => sense=strike%2:33:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=two/CD sat=NO_SAT => sense=strike%2:32:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=balance/NN sat=NO_SAT => sense=strike%2:31:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectWord=match/NN sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=light/N $lemmas_in_a_20_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=cor/N $lemmas_in_a_20_window=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=cor/N $lemmas_in_a_20_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=cor/N pos0=VBP sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=light/N $lemmas_in_a_3_window=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=light/N $lemmas_in_a_3_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=cor/N $lemmas_in_a_3_window=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=cor/N $lemmas_in_a_3_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=cor/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=light/N pos0=VBP sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=cor/N pos0=VBP sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=cor/N lemma1l=,/, pos0=VBP sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=cor/N pos1l=, pos0=VBP sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBP pos1r=DT lemma2r=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=a word2r=light sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2r=light word1l=, sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=a word2r=light sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=cor/N lemma1l=,/, lemma0=strike/V sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=a/D lemma2r=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=a/D lemma2r=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=cor/N lemma1l=,/, sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: ObjectLemma=light/N sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: ObjectWord=light/NN sat=NO_SAT => sense=strike%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=deal/N $lemmas_in_a_20_window=deal/N sat=NO_SAT => sense=strike%2:31:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=deal/N sat=NO_SAT => sense=strike%2:31:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=strike $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=strike $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=strike $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=rod $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=In $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=case $words_in_a_20_window=case sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=When $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=When $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=When $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $lemmas_in_a_20_window=rod/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=respond/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=rod/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $lemmas_in_a_20_window=respond/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=respond/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=rod/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=respond/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=rod/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=respond/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=rod/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=strike/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=line/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=pull/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=respond/V $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=rod/N $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=fish/N $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $words_in_a_20_window=rod sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N $words_in_a_20_window=In sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=case/N $words_in_a_20_window=case sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $words_in_a_20_window=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J $words_in_a_20_window=When sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=check/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=twitch/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=bite/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=stop/V pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=strike/N pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=line/N pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=pull/V pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=solidness/N pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mid-sweep/N pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=tremendous/J pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=feeling/N pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hard/J pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=case sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=strike pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=line pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=When pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=up/R lemma1l=i/P pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=up/R pos1l=PRP pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos2l=RP lemma1l=i/P pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos2l=RP pos1l=PRP pos0=VBP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBP pos1r=, lemma2r=and/C sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBP lemma1r=,/, pos2r=CC sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=used word1l=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=, word2r=and word3r=the sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=, word2r=and word3r=the sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=used word2l=up word1l=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=used word2l=up word1l=I word0=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2l=up word1l=I word0=strike sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=, word2r=and sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=, word2l=up sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2r=and word1l=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=, word2r=and sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2l=up word1l=I sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=I word1r=, sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos1r=, lemma2r=and/C lemma3r=the/D sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=use/V lemma2l=up/R pos1l=PRP sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=use/V lemma1l=i/P lemma0=strike/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=,/, lemma2r=and/C lemma3r=the/D sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=use/V lemma2l=up/R lemma1l=i/P lemma0=strike/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=up/R lemma1l=i/P lemma0=strike/V sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=,/, lemma2r=and/C sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=,/, lemma2r=and/C sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=up/R lemma1l=i/P sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=i/P lemma1r=,/, sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=lift/V $lemmas_in_a_20_window=lift/V sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=opponent/N $lemmas_in_a_20_window=opponent/N sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=body/N $lemmas_in_a_20_window=body/N sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=body/N $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=lift/V sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=opponent/N sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=body/N sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=lift/V pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=if/I lemma1l=to/T pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=and/C pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=then/R pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=if/I pos1l=TO pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB pos1r=PRP lemma2r=on/I sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB lemma1r=her/P pos2r=IN sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=as word1l=to sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=her word3r=the sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=her word2r=on word3r=the sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=her word2r=on word3r=the sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=as word2l=if word1l=to sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=as word2l=if word1l=to word0=strike sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2l=if word1l=to word0=strike sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=her word2r=on sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=her word2r=on sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word2l=if word1l=to sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=and sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos1r=PRP lemma2r=on/I lemma3r=the/D sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=as/I lemma2l=if/I pos1l=TO sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=as/I lemma1l=to/T lemma0=strike/V sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=her/P lemma3r=the/D sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=her/P lemma2r=on/I lemma3r=the/D sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=as/I lemma2l=if/I lemma1l=to/T lemma0=strike/V sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=if/I lemma1l=to/T lemma0=strike/V sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=her/P lemma2r=on/I sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=her/P lemma2r=on/I sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=if/I lemma1l=to/T sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=and/C sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=then/R sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=time/N $lemmas_in_a_20_window=move/V sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=move/V $lemmas_in_a_20_window=time/N sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=move/V $lemmas_in_a_20_window=move/V sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=move/V $words_in_a_20_window=time sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=move/V sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=move/V pos0=VBP sat=NO_SAT => sense=strike%2:35:01::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=The $words_in_a_20_window=understand sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=The $words_in_a_20_window=people sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=50 $words_in_a_20_window=50 sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=understand $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=understand $words_in_a_20_window=understand sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=emergency $words_in_a_20_window=emergency sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=people $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=quake $words_in_a_20_window=Candlestick sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Candlestick $words_in_a_20_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Candlestick $words_in_a_20_window=Candlestick sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=major/J $lemmas_in_a_20_window=major/J sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=san/N $lemmas_in_a_20_window=san/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=san/N $lemmas_in_a_20_window=francisco/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=francisco/N $lemmas_in_a_20_window=san/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=francisco/N $lemmas_in_a_20_window=francisco/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=understand/V $lemmas_in_a_20_window=understand/V sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=emergency/N $lemmas_in_a_20_window=emergency/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=earthquake/N $lemmas_in_a_20_window=earthquake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=quake/N $lemmas_in_a_20_window=candlestick/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N $lemmas_in_a_20_window=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N $lemmas_in_a_20_window=candlestick/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=understand/V $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=understand/V $words_in_a_20_window=understand sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=emergency/N $words_in_a_20_window=emergency sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=people/N $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=quake/N $words_in_a_20_window=Candlestick sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N $words_in_a_20_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N $words_in_a_20_window=Candlestick sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=major/J sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=san/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=francisco/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=understand/V sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=emergency/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=earthquake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=world/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=major/J pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=san/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=francisco/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=candlestick/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=50 sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=understand sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=emergency sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Candlestick sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Candlestick pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=earthquake/N $lemmas_in_a_3_window=earthquake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=earthquake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=./. pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=,/, pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: pos2l=JJ pos1l=NN pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBN pos1r=. lemma2r=- sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBN lemma1r=./. pos2r=- sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=when word1l=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=struck word1r=. word2r=- word3r=- sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=when word2l=the word1l=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word3l=when word2l=the word1l=quake word0=struck sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=struck word1r=. word2r=- sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=. word2l=the sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word2r=- word1l=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=quake word1r=. sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=when/W lemma2l=the/D pos1l=NN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=when/W lemma1l=quake/N lemma0=strike/V sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma3l=when/W lemma2l=the/D lemma1l=quake/N lemma0=strike/V sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=quake/N lemma1r=./. sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=earthquake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=sense/N $lemmas_in_a_20_window=sense/N sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispose/V $lemmas_in_a_20_window=dispose/V sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=grow/V $lemmas_in_a_20_window=grow/V sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=sense/N sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispose/V sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=grow/V sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=sense/N pos0=VBP sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_3_window=I pos0=VBN sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I $words_in_a_20_window=different sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=thought $words_in_a_20_window=thought sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=He $words_in_a_20_window=He sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=different $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=different $words_in_a_20_window=different sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=different/J $lemmas_in_a_20_window=different/J sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hood/N $lemmas_in_a_20_window=hood/N sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=think/V $words_in_a_20_window=thought sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=different/J $words_in_a_20_window=I sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=different/J $words_in_a_20_window=different sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=different/J sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=hood/N sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=different/J pos0=VBD sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=thought sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=He sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=different sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=He pos0=VBN sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=different pos0=VBD sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma2l=the/D pos1l=NN pos0=VBD sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos2l=DT pos1l=NN pos0=VBD sat=NO_SAT => sense=strike%2:39:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=begin/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=de/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=break/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=began sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=begin/V pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=de/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=break/V pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=worker/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=beers/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=consolidated/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mines/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=ltd./N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=negotiation/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=settle/V pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=wage/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=dispute/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=striking/J pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=diamond/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=mine/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=oct./N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=return/V pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=work/V pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=week/N pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=began pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=broke pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Beers pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Consolidated pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Mines pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=Ltd. pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=negotiations pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=settle pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=wage pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=dispute pos0=VBG sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=worker/N $lemmas_in_a_3_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: ObjectLemma=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: ObjectWord=workers/NNS sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=earth/N $lemmas_in_a_20_window=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=earth/N $words_in_a_20_window=The sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=earth/N $lemmas_in_a_3_window=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=the/D lemma2r=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=the/D lemma2r=earth/N sat=NO_SAT => sense=strike%2:42:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window='s/P pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=<sat/N pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window='s pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=<sat/N pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=a/D pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB pos1r=DT lemma2r=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB lemma1r=a/D pos2r=NN sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I $words_in_a_20_window=I sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=made $words_in_a_20_window=made sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=decision/N $lemmas_in_a_20_window=decision/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=decision/N $lemmas_in_a_20_window=make/V sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=home/N $lemmas_in_a_20_window=home/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=make/V $lemmas_in_a_20_window=decision/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=make/V $lemmas_in_a_20_window=make/V sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=leave/V $lemmas_in_a_20_window=leave/V sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=decision/N $words_in_a_20_window=made sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=make/V $words_in_a_20_window=made sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=decision/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=home/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=make/V sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=leave/V sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_20_window=home/N pos0=VB sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=I sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $words_in_a_20_window=made sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=home/N $lemmas_in_a_3_window=home/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=home/N sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: $lemmas_in_a_3_window=home/N pos0=VB sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=out/R pos0=VBP sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=and/C pos0=VB sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VB lemma1r=out/R pos2r=IN sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word0=strike word1r=out word2r=on sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word1r=out word2r=on sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=and word1r=out sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=we word1r=out sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=and sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: word1l=we sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma0=strike/V lemma1r=out/R lemma2r=on/I sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1r=out/R lemma2r=on/I sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=and/C lemma1r=out/R sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=we/P lemma1r=out/R sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: pos0=VBP sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=and/C sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:2 RULE: lemma1l=we/P sat=strike_out => sense=strike_out%2:30:03::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=fish/N $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=fish/N sat=NO_SAT => sense=strike%2:33:00::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma1r=her/P pos0=VB sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectWord=her/PRP sat=NO_SAT => sense=strike%2:35:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window=quake $words_in_a_20_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=quake/N $lemmas_in_a_20_window=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=quake/N $words_in_a_20_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=quake/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window=quake pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_3_window=quake $words_in_a_3_window=quake $words_in_a_3_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_3_window=quake $words_in_a_3_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=quake/N $lemmas_in_a_3_window=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=quake/N $words_in_a_3_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=quake/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_3_window=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_3_window=quake pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma2l=the/D lemma1l=quake/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma1l=quake/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma2l=the/D pos1l=NN pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: pos2l=DT lemma1l=quake/N pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: pos2l=DT pos1l=NN pos0=VBN sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: word2l=the word1l=quake word0=struck sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: word2l=the word1l=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: word1l=quake sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma2l=the/D lemma1l=quake/N lemma0=strike/V sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma2l=the/D lemma1l=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma1l=quake/N sat=NO_SAT => sense=strike%2:35:02::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window=But pos0=VBP sat=NO_SAT => sense=strike%2:37:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=worker/N $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=worker/N sat=NO_SAT => sense=strike%2:41:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window='s $words_in_a_20_window='s sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window='s/P $lemmas_in_a_20_window='s/P sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window='s/P $lemmas_in_a_20_window=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=<sat/N $lemmas_in_a_20_window='s/P sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=<sat/N $lemmas_in_a_20_window=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window='s/P $words_in_a_20_window='s sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=<sat/N $words_in_a_20_window='s sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window='s/P sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $words_in_a_20_window='s sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=<sat/N $lemmas_in_a_3_window=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: $lemmas_in_a_3_window=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: word0=strike word1r=a word2r=<sat sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: word1r=a word2r=<sat sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: word1r=a sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma0=strike/V lemma1r=a/D lemma2r=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma1r=a/D lemma2r=<sat/N sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: word0=strike sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: lemma1r=a/D sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: DominatingNounLemma=NULL sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: PrepositionLemma=NOPREP sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectToPrepositionLemma=NOOBJPREP sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectLemma=id="strike sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: SiblingLemma=NOSIB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: NounModifierLemma=NOMODIF sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: SubjectToLemma=NOSUBJV sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectToLemma=NOOBJV sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: NounRightLemma=NONR sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: DominatingNounWord=NULL sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: PrepositionWord=NOPREP sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectToPrepositionWord=NOOBJPREP sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectWord=id="strike sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: SiblingWord=NOSIB sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: NounModifierWord=NOMODIF sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: SubjectToWord=NOSUBJV sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: ObjectToWord=NOOBJV sat=strike_a_blow => sense=strike_a_blow%2:30:00::
+GOOD:0 BAD:0 SCORE:3 RULE: NounRightWord=NONR sat=strike_a_blow => sense=strike_a_blow%2:30:00::

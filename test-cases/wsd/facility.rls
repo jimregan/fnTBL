@@ -1,0 +1,38 @@
+#train_voc_file: /home/fnTBL-1.2/test-cases/wsd/facility.train.voc
+GOOD:19 BAD:0 SCORE:19 RULE: word0=facility sat=NO_SAT => sense=facility%1:06:00::
+GOOD:5 BAD:0 SCORE:5 RULE: ObjectToLemma=offer/V sat=NO_SAT => sense=facility%1:04:00::
+GOOD:6 BAD:2 SCORE:4 RULE: $words_in_a_20_window=The pos0=NN sat=NO_SAT => sense=facility%1:04:00::
+GOOD:3 BAD:0 SCORE:3 RULE: $words_in_a_20_window=normally sat=NO_SAT => sense=facility%1:04:00::
+GOOD:3 BAD:0 SCORE:3 RULE: $lemmas_in_a_20_window=produce/V sat=NO_SAT => sense=facility%1:04:00::
+GOOD:2 BAD:0 SCORE:2 RULE: NounModifierWord=research/NN sat=NO_SAT => sense=research_facility%1:06:00::
+GOOD:2 BAD:0 SCORE:2 RULE: $words_in_a_20_window=involvement pos0=NN sat=NO_SAT => sense=facility%1:06:00::
+GOOD:2 BAD:0 SCORE:2 RULE: NounModifierWord=recruiting/NN sat=NO_SAT => sense=facility%1:04:00::
+GOOD:2 BAD:0 SCORE:2 RULE: lemma1r=of/I sat=NO_SAT => sense=facility%1:04:00::
+GOOD:2 BAD:0 SCORE:2 RULE: word0=Facility sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: SubjectToWord=integrated/VBN sat=NO_SAT => sense=facility%1:09:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounModifierWord=special/JJ sense=facility%1:06:00:: sat=NO_SAT => sense=facility%1:09:00::
+GOOD:1 BAD:0 SCORE:1 RULE: SubjectToWord=fitted/VBN sat=NO_SAT => sense=facility%1:06:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToWord=use/VBP sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: ObjectToWord=incorporates/VBZ sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: SubjectToWord=enjoyed/VBN sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounModifierWord=decorative/JJ sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounModifierWord=overdraft/NN sat=NO_SAT => sense=facility%1:04:00::
+GOOD:1 BAD:0 SCORE:1 RULE: NounModifierWord=credit/NN sense=facility%1:06:00:: sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=produce/V $lemmas_in_a_20_window=produce/V sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=produce/V sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:4 RULE: word1r=of sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:4 RULE: lemma1r=of/I sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $words_in_a_20_window=manufacturing $words_in_a_20_window=manufacturing sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $words_in_a_20_window=million $words_in_a_20_window=million sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=manufacturing/N $lemmas_in_a_20_window=manufacturing/N sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=manufacturing/N $words_in_a_20_window=manufacturing sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=manufacturing/N sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $lemmas_in_a_20_window=manufacturing/N pos0=NN sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $words_in_a_20_window=manufacturing sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $words_in_a_20_window=million sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: $words_in_a_20_window=manufacturing pos0=NN sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:4 RULE: pos0=NN lemma1r=in/I pos2r=NNP sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:5 RULE: ObjectToLemma=offer/V sat=NO_SAT => sense=facility%1:04:00::
+GOOD:0 BAD:0 SCORE:5 RULE: $lemmas_in_a_20_window=MONEY/C $lemmas_in_a_20_window=MONEY/C sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:5 RULE: $lemmas_in_a_20_window=MONEY/C sat=NO_SAT => sense=facility%1:06:00::
+GOOD:0 BAD:0 SCORE:5 RULE: $lemmas_in_a_20_window=MONEY/C pos0=NN sat=NO_SAT => sense=facility%1:06:00::

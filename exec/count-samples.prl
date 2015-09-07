@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+getopts("j:");
+$J = defined $opt_j ? $opt_j : 2;
+$i=0;
+$j=$J;
+
+open f, $ARGV[0];
+$space = 1;
+while (<f>) {
+  unless (/\S/) {
+	$i++ unless $space;
+	$j=$J;
+	$space = 1;
+  } else {
+	$space = 0;
+	$_="$i $j $_";
+	$j++;
+  }
+  print;
+}

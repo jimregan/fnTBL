@@ -1,0 +1,24 @@
+MAIN =                                          /home/fnTBL-1.2/trained/frenchPOS;
+FILE_TEMPLATE = ${MAIN}/file.templ;
+RULE_TEMPLATES = ${MAIN}/lexical_rules.templ;
+
+REASONABLE_SPLIT      = 10;
+REASONABLE_DT_SPLIT	  = 5;
+EMPTY_LINES_ARE_SEPARATORS = 0;
+ELIMINATION_THRESHOLD = 0;
+MINIMUM_ENTROPY_GAIN  = 0.01;
+
+#Modification
+#Modification
+CONSTRAINTS_FILE = ${MAIN}/constraints.lexical.train.templ;
+
+COOCCURRENCE_CONFIGURATION_FILE = ${MAIN}/bigrams.big.templ;
+
+LARGE_WORD_VOCABULARY = ${MAIN}/BIGWORDLIST;
+
+LOGFILE = ${MAIN}/log_file;
+# Ordering the rules based on size: 
+#  0 = more atomic predicates go first 
+#  1 = less atomic predicates go first
+#  2 = the template first in the rule template list first
+ORDER_BASED_ON_SIZE    = 2;

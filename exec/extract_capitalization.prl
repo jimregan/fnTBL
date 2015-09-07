@@ -1,0 +1,112 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+
+getopts("o:r:e");
+
+use POSIX qw(strftime);
+$now_string = strftime "%a %b %e %H:%M:%S %Y", localtime;  
+
+open f, ">>logfile";
+print f $now_string, " $0 @ARGV\n";
+
+open f, $ARGV[0];
+while (<f>) {
+  chomp;
+  @a = split / +/;
+  $seen{$a[0]} = 1;
+}
+
+$empty_line = 1;
+open f, $ARGV[1];
+while (<f>) {
+  unless (/\S/) { # Empty line
+	print ;
+	$empty_line = 1;
+	next;
+  }
+  chomp;
+  @a = split / +/;
+#   ($type, $alt_seen) = (0,0);
+  if ($seen{$a[0]}) {
+    $seen = 1;
+  } else {
+    $seen = 0;
+  }
+
+  $seen_lower = $seen_upper = $seen_both = 0;
+  $all_upper = $all_lower = 0;
+
+  if ($a[0] =~ /^[A-Z]/) {
+    if ($a[0] =~ /[a-z]/) {
+      $all_upper = 0;
+      $all_lower = 0;
+    } else {
+      $all_upper = 1;
+    }
+
+    if ($seen{lc $a[0]}) {
+      $seen_lower = 1;
+      $seen_both = 1 if $seen;
+    } else {
+      $seen_lower = 0;
+    }
+    $a = $a[0];
+    $a =~ s/^(.)/uc($1)/e;
+
+    if ($seen{uc $a[0]} or $seen{$a}) {
+      $seen_upper = 1;
+    }
+  } else {
+    $all_lower = 1;
+    $seen_lower = 1 if $seen;
+    $a = $a[0];
+    $a =~ s/^(\w)/uc($1)/e;
+    if ($seen{uc $a[0]} or $seen{$a}) {
+      $seen_upper = 1;
+      $seen_both = 1;
+    }
+  }
+
+  $output = "";
+  if ($empty_line and defined $opt_e) {
+    $output = "first-word_";
+  } elsif ($all_upper) {
+    $output = "all-upper_";
+  } elsif ($all_lower) {
+    if ($a[0] =~ /^[a-zבאדהגףפצםמןיךיכתüחס]+$/) {
+      $output = "all-lower_";
+    } elsif ($a[0] eq '.') {
+      $output = "period_";
+    } elsif ($a[0] =~ /-?[\d\.]+/) {
+      $output = "number_";
+    } else {
+      $output = "other_";
+    }
+  } elsif ($a[0] =~ /^[A-Z][a-zבאדהגףפצםמןיךיכתüחס]*$/) {
+    $output = "first-cap_";
+  } else {
+	$output = "some-lower_";
+  }
+
+  if ($seen_both) {
+	  $output .= "voc-both";
+  } elsif ($seen_lower) {
+	  $output .= "voc-lower";
+  } elsif ($seen_upper) {
+     $output .= "voc-upper";
+  } else {
+    $output .= "voc-neither";
+  }
+  
+  if (defined $opt_o) {
+	splice @a, $opt_o, 0, $output;
+	print "@a\n";
+  } elsif (defined $opt_r) {
+	$a[$opt_r] = $output;
+	print "@a\n";
+  } else {
+	  print "$a[0] $output\n";
+  }
+  $empty_line = 0;
+}

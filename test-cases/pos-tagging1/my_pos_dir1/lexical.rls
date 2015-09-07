@@ -1,0 +1,134 @@
+#train_voc_file: /home/fnTBL-1.2/test-cases/pos-tagging1/my_pos_dir1/lexical_train.dat.voc
+GOOD:603 BAD:37 SCORE:566 RULE: pos=NN word::~~1=~~s => pos=NNS
+GOOD:327 BAD:80 SCORE:247 RULE: pos=NN word::1<>=-<> => pos=JJ
+GOOD:230 BAD:0 SCORE:230 RULE: pos=NN word::1<>=.<> => pos=CD
+GOOD:215 BAD:3 SCORE:212 RULE: pos=NN word::~~2=~~ed => pos=VBN
+GOOD:251 BAD:65 SCORE:186 RULE: pos=NN word::~~3=~~ing => pos=VBG
+GOOD:162 BAD:15 SCORE:147 RULE: pos=NN word^^-1=to => pos=VB
+GOOD:114 BAD:6 SCORE:108 RULE: word::~~2=~~ly => pos=RB
+GOOD:104 BAD:1 SCORE:103 RULE: pos=NN word::1<>=0<> => pos=CD
+GOOD:47 BAD:0 SCORE:47 RULE: pos=NN word::1<>=1<> => pos=CD
+GOOD:46 BAD:2 SCORE:44 RULE: word::++2=++ly => pos=JJ
+GOOD:47 BAD:16 SCORE:31 RULE: pos=NN word::~~2=~~al => pos=JJ
+GOOD:34 BAD:4 SCORE:30 RULE: pos=NN word::~~3=~~ble => pos=JJ
+GOOD:34 BAD:5 SCORE:29 RULE: pos=NN word::~~1=~~c => pos=JJ
+GOOD:25 BAD:2 SCORE:23 RULE: word::~~3=~~ive => pos=JJ
+GOOD:19 BAD:0 SCORE:19 RULE: pos=NN word^^-1=$ => pos=CD
+GOOD:23 BAD:5 SCORE:18 RULE: pos=NNS word^^1=the => pos=VBZ
+GOOD:20 BAD:2 SCORE:18 RULE: pos=VBN word::2~~=un~~ => pos=JJ
+GOOD:28 BAD:11 SCORE:17 RULE: pos=VBN word^^1=the => pos=VBD
+GOOD:17 BAD:0 SCORE:17 RULE: pos=NNS word::~~2=~~ss => pos=NN
+GOOD:16 BAD:0 SCORE:16 RULE: pos=NN word^^-1=will => pos=VB
+GOOD:17 BAD:3 SCORE:14 RULE: pos=NNP word::~~2=~~ts => pos=NNS
+GOOD:15 BAD:1 SCORE:14 RULE: pos=NN word::~~3=~~ful => pos=JJ
+GOOD:17 BAD:3 SCORE:14 RULE: pos=NN word::--1=--y => pos=JJ
+GOOD:13 BAD:0 SCORE:13 RULE: pos=NNP word::~~3=~~sed => pos=JJ
+GOOD:13 BAD:0 SCORE:13 RULE: word::~~3=~~ous => pos=JJ
+GOOD:12 BAD:0 SCORE:12 RULE: pos=NN word^^-1=more => pos=JJ
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NNS word^^-1=which => pos=VBZ
+GOOD:12 BAD:1 SCORE:11 RULE: pos=VBG word^^1=of => pos=NN
+GOOD:15 BAD:4 SCORE:11 RULE: pos=NN word::~~3=~~est => pos=JJS
+GOOD:12 BAD:2 SCORE:10 RULE: pos=NN word^^-1=n't => pos=VB
+GOOD:11 BAD:1 SCORE:10 RULE: pos=NNS word::~~2=~~us => pos=NN
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NNS word^^-1=it => pos=VBZ
+GOOD:10 BAD:1 SCORE:9 RULE: pos=NN word^^-1=be => pos=VBN
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::1<>=5<> => pos=CD
+GOOD:9 BAD:1 SCORE:8 RULE: pos=NN word^^-1=would => pos=VB
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::~~4=~~nary => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos=VB word::1<>=1<> => pos=CD
+GOOD:8 BAD:0 SCORE:8 RULE: word^^-1=can => pos=VB
+GOOD:8 BAD:0 SCORE:8 RULE: word::~~5=~~nlike => pos=IN
+GOOD:17 BAD:10 SCORE:7 RULE: pos=NNP word::~~2=~~ed => pos=VBN
+GOOD:8 BAD:1 SCORE:7 RULE: pos=NNP word::~~3=~~ies => pos=NNS
+GOOD:18 BAD:11 SCORE:7 RULE: pos=NNP word::~~2=~~rs => pos=NNS
+GOOD:10 BAD:3 SCORE:7 RULE: pos=VBN word^^-1=a => pos=JJ
+GOOD:9 BAD:3 SCORE:6 RULE: pos=NNS word^^1=a => pos=VBZ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::~~4=~~ward => pos=RB
+GOOD:8 BAD:2 SCORE:6 RULE: pos=NNP word::~~2=~~ls => pos=NNS
+GOOD:13 BAD:7 SCORE:6 RULE: pos=VBG word^^1=, => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::~~4=~~less => pos=JJ
+GOOD:9 BAD:3 SCORE:6 RULE: pos=NN word::~~3=~~ant => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^-1=been => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=VB word::1<>=9<> => pos=CD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNS word^^-1=also => pos=VBZ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^-1=they => pos=VBP
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNP word::~~4=~~ying => pos=VBG
+GOOD:5 BAD:0 SCORE:5 RULE: pos=VBN word^^-1=he => pos=VBD
+GOOD:11 BAD:6 SCORE:5 RULE: pos=NNP word::~~2=~~ns => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNS word::1~~=M~~ => pos=NNPS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNP word^^1=on => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~4=~~xtra => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=VBN word::1<>=-<> => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^-1=are => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~1=~~2 => pos=CD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::++1=++- => pos=:
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~4=~~here => pos=WRB
+GOOD:7 BAD:3 SCORE:4 RULE: pos=NNS word^^1=its => pos=VBZ
+GOOD:10 BAD:6 SCORE:4 RULE: pos=NN word^^1=the => pos=VBP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBN word::1~~=n~~ => pos=VBD
+GOOD:7 BAD:3 SCORE:4 RULE: pos=NNP word::~~2=~~ds => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNS word^^1=Inc. => pos=NNPS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::4--=mid--- => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~5=~~mpany => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~4=~~-tax => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~3=~~ear => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~3=~~val => pos=NN
+GOOD:6 BAD:2 SCORE:4 RULE: pos=VBG word^^-1=a => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~4=~~rban => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~3=~~lar => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=RB word::1<>=-<> => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBP word::~~5=~~ghout => pos=IN
+GOOD:4 BAD:0 SCORE:4 RULE: word^^-1=could => pos=VB
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~5=~~where => pos=RB
+GOOD:5 BAD:1 SCORE:4 RULE: word::~~4=~~lish => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~4=~~rude => pos=JJ
+GOOD:5 BAD:1 SCORE:4 RULE: word::~~3=~~eep => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::~~5=~~rates => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~are => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=a => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~uming => pos=VBG
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::5~~=soari~~ => pos=VBG
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word::~~5=~~llied => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word::2~~=wa~~ => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word::2~~=pl~~ => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word^^1=out => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word^^-1=He => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~ssume => pos=VB
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^1=his => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~4=~~loft => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^1=are => pos=NNS
+GOOD:4 BAD:1 SCORE:3 RULE: pos=VBZ word^^-1=the => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::2~~=Op~~ => pos=NNPS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::~~5=~~nkers => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word::1~~=M~~ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word^^-1=Mr. => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::~~5=~~atics => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~5=~~affic => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~-off => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~-car => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~ship => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~3=~~age => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::~~3=~~eal => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNP word::3~~=Non~~ => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::2~~=pi~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~1=~~0 => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::~~1=~~w => pos=NN
+GOOD:6 BAD:3 SCORE:3 RULE: pos=VBG word^^1=and => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=VB word^^1='' => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^1=futures => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word^^1=might => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word^^-1=since => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~5=~~stent => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::~~5=~~ident => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~4=~~dian => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~4=~~wide => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~4=~~cent => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~act => pos=JJ
+GOOD:5 BAD:2 SCORE:3 RULE: pos=NN word::2~~=we~~ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::2--=Un-- => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::1<>=1<> => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=fear => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~1=~~6 => pos=CD
+GOOD:5 BAD:2 SCORE:3 RULE: word::~~4=~~gged => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=should => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~5=~~-like => pos=JJ

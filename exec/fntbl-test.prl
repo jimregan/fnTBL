@@ -1,0 +1,76 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+getopts("D:O:vo:c:C:");
+
+$exec_dir = "$ENV{HOME}/workdir/fnTBL/exec";
+$bin_dir = "$ENV{HOME}/workdir/fnTBL/bin";
+sub log_me {
+  open f, ">>logfile";
+  use POSIX qw(strftime);
+  $now_string = strftime "%a %b %e %H:%M:%S %Y", localtime;
+  print f $now_string, " $0 @ARGV\n";
+  close f;
+}
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+  if (! defined $opt_d and $?) {
+	print stderr "There was an error in running the command:\n$comm\nExiting the script!\n";
+	exit 1;
+  }
+}
+
+log_me();
+
+if (!defined $opt_D) {
+  print "Please define the directory!\n";
+  exit;
+}
+
+open f, "$opt_D/control_file" || die "The control file $opt_D/control_file seems to be corrupt !";
+while (<f>) {
+  chomp;
+  if (/rule_file\s*=\s*(\S+)/) {
+	$rule_file = $1;
+  } elsif (/parameter_file\s*=\s*(\S+)/) {
+	$param_file = $1;
+  } elsif (/opt_t\s*=\s*(\S+)/) {
+	$opt_t = $1;
+  } elsif (/lexicon_file\s*=\s*(\S+)/) {
+	$lexicon = $1;
+  } elsif (/opt_p\s*=\s*(\S+)/) {
+	$opt_p = $1;
+  }
+}
+
+$testfile = `basename $ARGV[0]`;
+chomp $testfile;
+
+system1 ("$exec_dir/most_likely_tag.prl -l $lexicon -t $opt_t -i -p '$opt_p' $ARGV[0] > /tmp/$testfile.init");
+
+if (defined $opt_c) {
+  open f, $rule_file;
+  $rule_file =~ s/\.rls/-$opt_c.rls/;
+  open g, ">$rule_file";
+  $on = 1;
+  while (<f>) {
+    if ($on and defined $opt_C and /SCORE:(\d+) /and $1<$opt_C) {
+      $on = 0;
+    }
+    if (/GOOD:0 / and /SCORE:(\d+) / and $1<$opt_c) {
+      # Do nothing
+    } else {
+      if (/GOOD:0 /) {
+	$on = 1;
+      }
+      print g if $on;
+    }
+  }
+  close g;
+}
+
+system1 ("$bin_dir/fnTBL /tmp/$testfile.init $rule_file -F $param_file -o $opt_o ".(defined $opt_O ? $opt_O : "").(defined $opt_v ? " -v" : ">& /dev/null"));
+system1 ("rm /tmp/$testfile.init");

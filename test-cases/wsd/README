@@ -1,0 +1,15 @@
+fnTBL for Word Sense Disambiguation
+
+
+Commands to run to train the fnTBL for the adjective 'free':
+
+Training:
+  ../../bin/fnTBL-train free.train free.rls -F tbl.20.params \
+	          -allPositiveRules 4 -threshold 0
+
+Applying:
+  ../../bin/fnTBL free.test free.rls -F tbl.20.params -o free.out
+  ../../exec/mcompute_error.prl -T '|' free.out
+
+Obs: The treshold of 4 was obtained by running cross-validation on the
+entire Senseval training data.

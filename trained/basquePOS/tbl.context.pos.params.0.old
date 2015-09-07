@@ -1,0 +1,11 @@
+MAIN =                                          /home/fnTBL-1.2/trained/basquePOS;
+FILE_TEMPLATE         =  ${MAIN}/file.templ;
+RULE_TEMPLATES        =  ${MAIN}/rule.pos.templ;
+REASONABLE_SPLIT      = 10;
+REASONABLE_DT_SPLIT	  = 5;
+EMPTY_LINES_ARE_SEPARATORS = 1;
+ELIMINATION_THRESHOLD = 0;
+MINIMUM_ENTROPY_GAIN  = 0.01;
+CONSTRAINTS_FILE = ${MAIN}/constraints.pos.templ;
+
+LOGFILE = ${MAIN}/log_file;

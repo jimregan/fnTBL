@@ -1,0 +1,165 @@
+#!/usr/bin/perl
+$exec_dir = "/home/fnTBL-1.2/exec";
+#require "locales.prl";
+
+
+require "$exec_dir/smartOpen.pl";
+use Getopt::Std;
+getopts("n:d:cT:");
+
+# Examples:
+#  - 0=>1 is equivalent with feature0 => feature1
+#  - 1,0=>2 means that the bigram (feature1,feature0) => feature2 ;
+#    backoff to feature1 is performed if the bigram is not present in the training data
+#  - 0_-1 0_0 => 1  means a that a bigram formed by the feature0 of the previous and
+#    current samples are used to predict the feature1
+
+if (defined $opt_d) {
+  $opt_d =~ /([\d\,_-]+)=>(\d*)/;
+  $d = $1;
+  $t = $2;
+  @d = split /,/, $d;
+} else {
+  $d = 0;
+  $t = 1;
+  @d = (0);
+}
+
+$opt_n = 0 unless defined $opt_n;
+@n = split /,/, $opt_n;
+
+$sequence_dep = 0;
+
+for ($i=0;$i<@d;$i++) {
+  if ($d[$i] =~ /_/) {    @{$part[$i]} = split /_/, $d[$i];
+    $sequence_dep = 1;
+    $min_dep = $part[$i][1] if $min_dep > $part[$i][1];
+    $max_dep = $part[$i][1] if $max_dep < $part[$i][1];
+  } else {
+    @{part[$i]} = ($d[$i], 0);
+  }
+}
+
+if (defined $opt_T) {
+  $ts = quotemeta $opt_T;
+}
+
+if (@ARGV == 0 or $ARGV[0] eq '-') {
+  $f = \*stdin;
+} else {
+  #   smartOpen(\*f, $ARGV[0]);
+  if (! -e $ARGV[0]) {
+    print stderr "$ARGV[0]: No such file ! \n";
+    exit;
+  }
+  open f, $ARGV[0];
+  $f = \*f;
+}
+
+while (<$f>) {
+  chomp;
+  if ($sequence_dep) {
+    if (/\S/) {
+      @a = split;
+      push @sent, [@a];
+    } else {
+      @zzz = ("ZZZ") x (scalar @{$sent[0]});
+      my $n = scalar @sent;
+
+      for ($i=0 ; $i<-$min_dep ; $i++) {
+	unshift @sent, [@zzz];
+      }
+      for ($i=0 ; $i<$max_dep ; $i++) {
+	push @sent, [@zzz];
+      }
+      for ($line=0 ; $line<$n ; $line++) {
+	for ($i=0 ; $i<@d ; $i++) {
+	  $ft = join " ", map {$sent[$line-$min_dep+$part[$_][1]][$part[$_][0]]} (0..$i);
+	  $wcount{$ft}++;
+
+	  if (defined $opt_T) {
+	    @aa = split /$ts/, $sent[$line-$min_dep][$t];
+	    for ($jj=0 ; $jj<@aa ; $jj++) {	  
+	      $count{$ft}{$a[$jj]}++;
+	    }
+	  } else {
+	    $count{$ft}{$sent[$line-$min_dep][$t]}++
+	  }
+
+	  $seen[$i]{$ft}=1;
+
+	  if (defined $opt_T) {
+	    foreach $aaa (@aa) {
+	      $tcount{$aaa}++;
+	    }
+	  } else {
+	    $tcount{$sent[$line-$min_dep][$t]}++;
+	  }
+	}
+      }
+      
+      @sent = ();
+    }
+  } else {
+    next unless /\S/;
+    @a = split /\s+/;
+    for ($i=0 ; $i<@d ; $i++) {
+      $ft = join " ", map {$a[$d[$_]]} (0..$i);
+      if (defined $opt_T) {
+	@aa = split /$ts/, $a[$t];
+	for ($jj=0 ; $jj<@aa ; $jj++) {
+	  $count{$ft}{$aa[$jj]}++;
+	}
+      } else {
+	$count{$ft}{$a[$t]}++;
+      }
+      $seen[$i]{$ft} = 1;
+    }
+    if (defined $opt_T) {
+      foreach $aaa (@aa) {
+	$tcount{$aaa}++;
+      }
+    } else {
+      $tcount{$a[$t]}++;
+    }
+    $wcount{$ft}++;
+  }
+}
+close f;
+
+
+print "#pattern: $opt_d\n";
+
+for ($i=0 ; $i<@seen ; $i++) {
+  @w = sort {$a cmp $b} keys %{$seen[$i]};
+  print $i+1,"-grams: -----\n";
+  foreach $word (@w) {
+    next if $wcount{$word}<$n[$i];
+    #   %t = %{$count{$word}};
+    @st = sort {compare($word,$a,$b)} keys %{$count{$word}};
+    if (defined $opt_c) {
+      print "$word ", join (" ", map {"$_ $count{$word}{$_}"} @st), "\n";
+    } else {
+      print "$word @st\n";
+    }
+  }
+}
+
+sub compare {
+  local $word = shift;
+  local ($a,$b) = @_;
+
+  while (1) {
+    if ($count{$word}{$a} < $count{$word}{$b}) {
+      return 1;
+    } elsif ($count{$word}{$a} > $count{$word}{$b}) {
+      return -1
+    } else {
+      @wrd = split / /, $word;
+      pop @wrd;
+      return $a cmp $b if @wrd==0;
+      $word = "@wrd";
+    }
+  }
+  return 0;
+}

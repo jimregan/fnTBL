@@ -1,0 +1,187 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+
+$exec_dir = "$ENV{HOME}/workdir/fnTBL/exec";
+$bin_dir = "$ENV{HOME}/workdir/fnTBL/bin";
+
+sub log_me {
+  open f, ">>logfile";
+  use POSIX qw(strftime);
+  $now_string = strftime "%a %b %e %H:%M:%S %Y", localtime;
+  print f $now_string, " $0 @ARGV\n";
+  close f;
+}
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+  if (! defined $opt_d and $?) {
+	print stderr "There was an error in running the command:\n$comm\nExiting the script!\n";
+	exit 1;
+  }
+}
+
+log_me();
+
+getopts("F:D:m:d:p:O:vt:");
+
+if (defined $opt_m) {
+  if ($opt_m eq 'baseNP') {
+    $opt_F = "$exec_dir/../test-cases/baseNP/tbl.context.chunk.params";
+    $dependencies = "'1=>2'";
+  } elsif ($opt_m eq 'textChunk') {
+    $opt_F = "$exec_dir/../trained/englishTextChunk/tbl.context.chunk.params";
+    $dependencies = "'1=>2'";
+  }
+} else {
+  $dependencies = $opt_p if defined $opt_p;
+}
+
+
+unless (defined $opt_F) {
+  print ::stderr "Please define a parameter file !!\n";
+  exit;
+}
+
+$dir = $ENV{PWD};
+
+if (defined $opt_D) {
+  if ($opt_D !~ /^\// and $opt_D !~ /^\./) {
+    $opt_D = "./$opt_D";
+  }
+  $out_dir = $opt_D;
+  $long_dir = $opt_D;
+  if ($long_dir =~ /^\.\//) {
+    $long_dir =~ s/^\./$dir/;
+  }
+  unless (-e $out_dir) {
+    mkdir $out_dir, 0755;
+  }
+  # Adapt the params file
+
+  open f, $opt_F;
+  $fl = `basename $opt_F`;
+  chomp $fl;
+  open g, ">$out_dir/$fl";
+  while (<f>) {
+    if (/MAIN\s*=\s*(\S*?)\s*;/) {
+      $main_dir = $1;
+      print g "MAIN = $long_dir;\n";
+    } elsif (/CONSTRAINTS_FILE\s*=\s*(\S+);/) {
+      print g "#Modification\n";
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      chomp $tmpfile1;
+      if (/\${MAIN}/) {
+	$main_dir = 1;
+	print g "CONSTRAINTS_FILE = \${MAIN}/$tmpfile1;\n";
+      } else {
+	print g "CONSTRAINTS_FILE = $long_dir/$tmpfile1;\n";
+      }
+#       if (-e $tmpfile) {
+# 	print stderr "The file $tmpfile exists.\n" if defined $opt_v;
+# 	system1 ("cp -u $tmpfile $out_dir");
+# 	$constraints_file = "$out_dir".`basename $tmpfile`;
+# 	chomp $constraints_file;
+#       } else {
+	print "Creating constraints file $out_dir/$tmpfile1\n" if defined $opt_v;
+	open f, ">$out_dir/$tmpfile1";
+	print f "pos tchunk $long_dir/pos_chunk.constraints";
+	close f;
+#       }
+    } elsif (/FILE_TEMPLATE\s*=\s*(.*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      chomp $tmpfile1;
+      system1 ("cp -u $tmpfile $out_dir");
+	  
+      if (defined $main_dir) {
+	print g "FILE_TEMPLATE = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "FILE_TEMPLATE = $long_dir/$tmpfile1;\n";
+      }
+    } elsif (/RULE_TEMPLATES\s*=\s*(.*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+	  
+      chomp $tmpfile1;
+      system1 ("cp -u $tmpfile $out_dir");
+      if (defined $main_dir) {
+	print g "RULE_TEMPLATES = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "RULE_TEMPLATES = $long_dir/$tmpfile1;\n";
+      }
+    } else {
+      print g;
+    }    
+  }
+  close g;
+  $opt_F = "$long_dir/$fl";
+
+} else {
+  $out_dir = ".";
+}
+
+open f, $opt_F;
+while (<f>) {
+  if (/FILE_TEMPLATE\s*=\s*(.*?)\s*;/) {
+    open g, $1;
+    $a=<g>;
+    chomp $a;
+    @classification_names = split / /, $a;
+    last;
+  } elsif (/CONSTRAINTS_FILE\s*=\s*(.*?)\s*;/) {
+    $tmpfile = $1;
+    $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+  } elsif (/MAIN\s*=\s*(\S*?)\s*;/) {
+    $main_dir = $1;
+  } 
+}
+
+unless (defined $dependencies) {
+  $dependencies = "'".($#classification_names-2)."=>".($#classification_names-1)."'";
+}
+
+system1 ("$exec_dir/mcreate_lexicon.prl -d '$dependencies' $ARGV[0] > $out_dir/pos_chunk.lexicon");
+system1 ("$exec_dir/mcreate_lexicon.prl -d '1=>2' $ARGV[0] > $out_dir/pos_chunk.constraints");
+
+unless (defined $opt_t) {
+  $opt_t = "O,I";
+}
+
+# echo "../../exec/mcreate_lexicon.prl -d '1=>2' train.dat > pos_chunk.lexicon"
+# ../../exec/mcreate_lexicon.prl -d '1=>2' train-truepos.dat > pos_chunk.truepos.lexicon
+
+$train_file = `basename $ARGV[0]`;
+chomp $train_file;
+
+system1 ("$exec_dir/most_likely_tag.prl -l $out_dir/pos_chunk.lexicon -t $opt_t -p '$dependencies' -i $ARGV[0] > $out_dir/$train_file.init");
+
+# echo "perl -ape '\$_=\"@F[0..1] - \$F[2]\n\" if /\S/' train-truepos.dat | ../../exec/most_likely_tag.prl -l pos_chunk.truepos.lexicon -t O,O -p '1=>2' - > train-truepos.init"
+# perl -ape '$_="@F[0..1] - $F[2]\n" if /\S/' train-truepos.dat | \
+#   ../../exec/most_likely_tag.prl -l pos_chunk.truepos.lexicon -t O,O \
+#                                  -p '1=>2' - > train-truepos.init
+
+system1 ("$bin_dir/fnTBL-train $out_dir/$train_file.init $out_dir/chunk.rls -F $opt_F -threshold 1 -allPositiveRules 20 $opt_O".
+	 (defined $opt_v ? " -v" : "").
+	 " $opt_O"
+	);
+
+# echo "../../bin/fnTBL-train train-truepos.init chunk-truepos.rls -F tbl.context-truepos.chunk.params -threshold 1"
+# ../../bin/fnTBL-train train-truepos.init chunk-truepos.rls -F tbl.context-truepos.chunk.params \
+#                                            -threshold 1
+
+open f, ">$out_dir/control_file";
+print f << "EOF";
+rule_file = $long_dir/chunk.rls
+parameter_file = $opt_F
+opt_t = $opt_t
+lexicon_file = $long_dir/pos_chunk.lexicon
+opt_p = $dependencies
+EOF
+;

@@ -1,0 +1,17 @@
+MAIN                  =                                    /home/fnTBL-1.2/trained/englishTextChunk;
+FILE_TEMPLATE         =  ${MAIN}/file1.templ;
+RULE_TEMPLATES   	  =  ${MAIN}/rule.chunk.templ;
+
+EMPTY_LINES_ARE_SEPARATORS = 1;
+
+CONSTRAINTS_FILE      = ${MAIN}/constraints.chunk.templ;
+
+LOGFILE = ${MAIN}/log_file;
+
+# Ordering the rules based on size: 
+#  0 = more atomic predicates go first 
+#  1 = less atomic predicates go first
+#  2 = the template first in the rule template list first
+ORDER_BASED_ON_SIZE    = 0;
+
+ERASE_USELESS_RULES    = 5;

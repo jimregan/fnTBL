@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+use Getopt::Std;
+getopts("v");
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+  if (! defined $opt_d and $?) {
+	print stderr "There was an error in running the command:\n$comm\nExiting the script!\n";
+	exit 1;
+  }
+}
+
+foreach $type ("USE_TYPE1","USE_TYPE2") {
+  system "$ARGV[0] -c -I../include -D$type ../src/bvector_test.cc 2> /dev/null";
+  if (! $?) {
+	print "$type";
+	exit;
+  }
+}
+
+print "NO_TYPE";

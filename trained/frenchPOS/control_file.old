@@ -1,0 +1,8 @@
+lexical_param_file /home/fnTBL-1.2/trained/frenchPOS/tbl.lexical.train.params
+context_param_file /home/fnTBL-1.2/trained/frenchPOS/tbl.context1.pos.params
+lexical_rule_file lexical.rls
+context_rule_file context.rls
+opt_f 5
+opt_B bigrams.dat
+capitalization no
+opt_t NomC-masc-sing,NomC-masc-sing

@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+open f, $ARGV[0];
+%c = ("W"=>"word", "T"=>"chunk", "P"=>"pos");
+while (<f>) {
+  chomp;
+  @a = split;
+  @b = split /([WTP])/, $a[0];
+  @res = ();
+  shift @b;
+  for ($i=0 ; $i<@b ; $i+=2) {
+	$w = $c{$b[$i]};
+	$r = $b[$i+1];
+	@n = ();
+	while (length $r > 0) {
+	  if ($r =~ /^_(\d)/) {
+		$n = $1;
+		$r =~ s/^_$n//;
+		push @n, -$n;
+	  } else {
+		$r =~ /^(\d)/;
+ 		push @n, $1;
+		$r =~ s/^\d//;
+	  }
+	}
+	if (@n>1) {
+	  push @res, "$w:[$n[0],$n[-1]]";
+	} else {
+	  push @res, "${w}_$n[0]";
+	}
+  }
+  shift @a;
+  for ($i=0 ; $i<@res ; $i++) {
+	print "$res[$i]=$a[$i] ";
+  }
+  print "=> chunk=$a[-1]\n";
+}

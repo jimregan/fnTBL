@@ -1,0 +1,3046 @@
+#train_voc_file: /home/fnTBL-1.2/trained/englishPOS/lexical_train.dat.voc
+GOOD:2473 BAD:165 SCORE:2308 RULE: pos=NN word::~~1=~~s => pos=NNS
+GOOD:1993 BAD:1 SCORE:1992 RULE: pos=NN word::1<>=.<> => pos=CD
+GOOD:2416 BAD:1009 SCORE:1407 RULE: word::1<>=-<> => pos=JJ
+GOOD:1095 BAD:234 SCORE:861 RULE: pos=NN word::~~3=~~ing => pos=VBG
+GOOD:796 BAD:9 SCORE:787 RULE: pos=NN word::~~2=~~ed => pos=VBN
+GOOD:523 BAD:4 SCORE:519 RULE: pos=NN word::1<>=0<> => pos=CD
+GOOD:486 BAD:55 SCORE:431 RULE: word::~~2=~~ly => pos=RB
+GOOD:541 BAD:134 SCORE:407 RULE: pos=NN word^^-1=to => pos=VB
+GOOD:264 BAD:0 SCORE:264 RULE: pos=NN word^^-1=$ => pos=CD
+GOOD:160 BAD:6 SCORE:154 RULE: pos=NN word::~~3=~~ble => pos=JJ
+GOOD:208 BAD:62 SCORE:146 RULE: pos=NN word::~~2=~~al => pos=JJ
+GOOD:169 BAD:42 SCORE:127 RULE: word::1<>=9<> => pos=CD
+GOOD:123 BAD:0 SCORE:123 RULE: word::~~3=~~ous => pos=JJ
+GOOD:146 BAD:30 SCORE:116 RULE: pos=NNS word^^1=the => pos=VBZ
+GOOD:136 BAD:33 SCORE:103 RULE: word::2--=un-- => pos=JJ
+GOOD:118 BAD:26 SCORE:92 RULE: pos=NN word::~~2=~~ic => pos=JJ
+GOOD:86 BAD:8 SCORE:78 RULE: word::~~3=~~ess => pos=NN
+GOOD:90 BAD:18 SCORE:72 RULE: pos=NN word::~~3=~~ive => pos=JJ
+GOOD:151 BAD:80 SCORE:71 RULE: pos=NNP word::~~3=~~ing => pos=VBG
+GOOD:68 BAD:0 SCORE:68 RULE: pos=NN word::1<>=1<> => pos=CD
+GOOD:62 BAD:11 SCORE:51 RULE: pos=NN word::~~3=~~est => pos=JJS
+GOOD:78 BAD:29 SCORE:49 RULE: pos=JJ word::++1=++s => pos=NN
+GOOD:56 BAD:11 SCORE:45 RULE: pos=NN word::++2=++ly => pos=JJ
+GOOD:55 BAD:11 SCORE:44 RULE: pos=JJ word^^1=of => pos=NN
+GOOD:62 BAD:20 SCORE:42 RULE: pos=NN word^^1=the => pos=VB
+GOOD:43 BAD:7 SCORE:36 RULE: pos=NNS word^^-1=it => pos=VBZ
+GOOD:33 BAD:0 SCORE:33 RULE: word^^1=Co. => pos=NNP
+GOOD:34 BAD:3 SCORE:31 RULE: pos=JJ word::~~2=~~rs => pos=NNS
+GOOD:109 BAD:80 SCORE:29 RULE: pos=VBN word^^1=the => pos=VBD
+GOOD:33 BAD:4 SCORE:29 RULE: pos=NNP word::~~3=~~ans => pos=NNPS
+GOOD:57 BAD:28 SCORE:29 RULE: pos=NN word::--1=--y => pos=JJ
+GOOD:27 BAD:0 SCORE:27 RULE: pos=NN word::~~4=~~less => pos=JJ
+GOOD:26 BAD:0 SCORE:26 RULE: word^^1=million => pos=CD
+GOOD:27 BAD:2 SCORE:25 RULE: pos=CD word::1<>=t<> => pos=JJ
+GOOD:34 BAD:10 SCORE:24 RULE: pos=VBN word^^-1=that => pos=VBD
+GOOD:28 BAD:5 SCORE:23 RULE: word::~~4=~~ions => pos=NNS
+GOOD:23 BAD:0 SCORE:23 RULE: word^^-1=Mr. => pos=NNP
+GOOD:69 BAD:47 SCORE:22 RULE: pos=NNP word::~~2=~~ed => pos=VBN
+GOOD:37 BAD:16 SCORE:21 RULE: pos=VB word^^-1=the => pos=NN
+GOOD:23 BAD:3 SCORE:20 RULE: pos=VB word^^-1=of => pos=NN
+GOOD:20 BAD:0 SCORE:20 RULE: pos=NN word::1<>=7<> => pos=CD
+GOOD:21 BAD:2 SCORE:19 RULE: pos=JJ word::--1=--s => pos=NNS
+GOOD:21 BAD:3 SCORE:18 RULE: pos=NN word^^-1=are => pos=JJ
+GOOD:24 BAD:7 SCORE:17 RULE: pos=VBD word::1<>=f<> => pos=VBN
+GOOD:17 BAD:0 SCORE:17 RULE: pos=NN word^^-1=could => pos=VB
+GOOD:23 BAD:7 SCORE:16 RULE: pos=VBN word^^-1=he => pos=VBD
+GOOD:23 BAD:7 SCORE:16 RULE: word^^-1=will => pos=VB
+GOOD:49 BAD:33 SCORE:16 RULE: pos=JJ word::1<>=C<> => pos=NNP
+GOOD:17 BAD:0 SCORE:17 RULE: pos=NNP word::~~2=~~ed => pos=JJ
+GOOD:22 BAD:6 SCORE:16 RULE: pos=NNS word::~~2=~~is => pos=NN
+GOOD:16 BAD:0 SCORE:16 RULE: pos=VB word::1<>=3<> => pos=CD
+GOOD:18 BAD:3 SCORE:15 RULE: pos=NNS word^^-1=he => pos=VBZ
+GOOD:18 BAD:3 SCORE:15 RULE: pos=NNS word::~~2=~~us => pos=NN
+GOOD:21 BAD:6 SCORE:15 RULE: pos=NN word::~~3=~~ary => pos=JJ
+GOOD:20 BAD:5 SCORE:15 RULE: pos=NN word::~~3=~~ish => pos=JJ
+GOOD:23 BAD:8 SCORE:15 RULE: pos=NN word::~~2=~~id => pos=JJ
+GOOD:20 BAD:6 SCORE:14 RULE: pos=NNS word^^-1=who => pos=VBZ
+GOOD:24 BAD:10 SCORE:14 RULE: pos=NN word^^-1=more => pos=JJ
+GOOD:14 BAD:0 SCORE:14 RULE: word::~~1=~~5 => pos=CD
+GOOD:18 BAD:5 SCORE:13 RULE: pos=NN word^^-1=n't => pos=VB
+GOOD:17 BAD:1 SCORE:16 RULE: pos=VB word::~~2=~~ic => pos=JJ
+GOOD:14 BAD:1 SCORE:13 RULE: pos=VBZ word^^1=of => pos=NNS
+GOOD:20 BAD:7 SCORE:13 RULE: pos=VBG word^^1='' => pos=NN
+GOOD:14 BAD:1 SCORE:13 RULE: pos=NNP word::~~4=~~ould => pos=MD
+GOOD:24 BAD:11 SCORE:13 RULE: pos=NNP word^^1=the => pos=IN
+GOOD:13 BAD:1 SCORE:12 RULE: pos=JJ word::~~2=~~ly => pos=RB
+GOOD:14 BAD:2 SCORE:12 RULE: pos=NNP word::~~4=~~tors => pos=NNS
+GOOD:12 BAD:0 SCORE:12 RULE: pos=NN word::~~3=~~ful => pos=JJ
+GOOD:12 BAD:0 SCORE:12 RULE: pos=CD word::1<>=a<> => pos=JJ
+GOOD:23 BAD:12 SCORE:11 RULE: pos=VBN word^^-1=they => pos=VBD
+GOOD:13 BAD:2 SCORE:11 RULE: pos=VBN word^^-1='' => pos=VBD
+GOOD:11 BAD:0 SCORE:11 RULE: word::~~4=~~self => pos=PRP
+GOOD:15 BAD:4 SCORE:11 RULE: pos=JJ word::~~2=~~ds => pos=NNS
+GOOD:11 BAD:0 SCORE:11 RULE: word=Angels => pos=NNPS
+GOOD:11 BAD:0 SCORE:11 RULE: pos=JJ word::~~5=~~-food => pos=NN
+GOOD:15 BAD:4 SCORE:11 RULE: pos=RB word::1<>=-<> => pos=JJ
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NNS word^^1=its => pos=VBZ
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NNS word^^1=an => pos=VBZ
+GOOD:12 BAD:2 SCORE:10 RULE: word::--3=--men => pos=NNS
+GOOD:24 BAD:14 SCORE:10 RULE: pos=JJ word::~~5=~~ation => pos=NN
+GOOD:13 BAD:3 SCORE:10 RULE: pos=JJ word::--3=--ing => pos=NN
+GOOD:10 BAD:0 SCORE:10 RULE: word^^1=officer => pos=NN
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word::~~4=~~ient => pos=JJ
+GOOD:11 BAD:1 SCORE:10 RULE: word::~~4=~~ular => pos=JJ
+GOOD:11 BAD:1 SCORE:10 RULE: word::~~4=~~cent => pos=JJ
+GOOD:11 BAD:2 SCORE:9 RULE: pos=NNS word^^1=his => pos=VBZ
+GOOD:15 BAD:6 SCORE:9 RULE: word::~~2=~~ED => pos=VBD
+GOOD:14 BAD:5 SCORE:9 RULE: pos=NN word^^-1=would => pos=VB
+GOOD:40 BAD:31 SCORE:9 RULE: pos=NNP word::~~2=~~ts => pos=NNS
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NNS word^^1=Inc. => pos=NNPS
+GOOD:10 BAD:0 SCORE:10 RULE: word^^1=Corp. => pos=NNP
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NNP word::~~2=~~TS => pos=NNS
+GOOD:9 BAD:0 SCORE:9 RULE: pos=JJ word::~~5=~~-fund => pos=NN
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NNP word^^1=guerrillas => pos=JJ
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word^^-1=been => pos=JJ
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::1<>=2<> => pos=CD
+GOOD:10 BAD:2 SCORE:8 RULE: pos=VBD word::~~5=~~ected => pos=VBN
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::~~3=~~ize => pos=VB
+GOOD:13 BAD:5 SCORE:8 RULE: pos=NNP word::~~4=~~ties => pos=NNS
+GOOD:20 BAD:12 SCORE:8 RULE: pos=JJ word::~~2=~~ts => pos=NNS
+GOOD:8 BAD:0 SCORE:8 RULE: word=Beebes => pos=NNPS
+GOOD:8 BAD:0 SCORE:8 RULE: pos=JJ word^^1=Index => pos=NNP
+GOOD:27 BAD:19 SCORE:8 RULE: pos=JJ word::~~4=~~ment => pos=NN
+GOOD:10 BAD:2 SCORE:8 RULE: pos=JJ word::4~~=oil-~~ => pos=NN
+GOOD:18 BAD:10 SCORE:8 RULE: pos=VB word^^-1=a => pos=NN
+GOOD:9 BAD:1 SCORE:8 RULE: pos=NN word::~~5=~~atory => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::~~3=~~ome => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::3~~=run~~ => pos=JJ
+GOOD:9 BAD:1 SCORE:8 RULE: pos=NN word^^1=tax => pos=JJ
+GOOD:10 BAD:2 SCORE:8 RULE: word::~~1=~~4 => pos=CD
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word^^-1=they => pos=VBP
+GOOD:11 BAD:4 SCORE:7 RULE: pos=VBD word^^-1=was => pos=VBN
+GOOD:11 BAD:4 SCORE:7 RULE: pos=VBN word^^-1=who => pos=VBD
+GOOD:7 BAD:0 SCORE:7 RULE: pos=VBN word^^-1=contract => pos=VBD
+GOOD:7 BAD:0 SCORE:7 RULE: pos=IN word::++3=++ing => pos=VB
+GOOD:8 BAD:1 SCORE:7 RULE: word::~~4=~~ward => pos=RB
+GOOD:10 BAD:3 SCORE:7 RULE: pos=NNP word::~~4=~~ates => pos=NNS
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NNP word::~~3=~~ALS => pos=NNS
+GOOD:14 BAD:7 SCORE:7 RULE: pos=NNP word::~~3=~~ses => pos=NNS
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::--1=--s => pos=NNS
+GOOD:8 BAD:1 SCORE:7 RULE: pos=NNP word^^1=who => pos=NNPS
+GOOD:7 BAD:0 SCORE:7 RULE: word=mountain-bike => pos=NN
+GOOD:8 BAD:1 SCORE:7 RULE: pos=JJ word::~~5=~~ustry => pos=NN
+GOOD:9 BAD:2 SCORE:7 RULE: pos=JJ word::3~~=cat~~ => pos=NN
+GOOD:8 BAD:1 SCORE:7 RULE: pos=JJ word::~~2=~~cy => pos=NN
+GOOD:7 BAD:0 SCORE:7 RULE: pos=VB word^^-1=on => pos=NN
+GOOD:8 BAD:1 SCORE:7 RULE: word::~~5=~~ility => pos=NN
+GOOD:7 BAD:0 SCORE:7 RULE: word^^1=centers => pos=NN
+GOOD:18 BAD:11 SCORE:7 RULE: pos=NN word::~~3=~~ier => pos=JJR
+GOOD:8 BAD:0 SCORE:8 RULE: pos=JJR word::++1=++s => pos=NN
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~4=~~like => pos=JJ
+GOOD:8 BAD:1 SCORE:7 RULE: pos=NN word::~~3=~~tty => pos=JJ
+GOOD:7 BAD:0 SCORE:7 RULE: word::--2=--by => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NNS word^^-1=often => pos=VBZ
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NNS word^^-1=industry => pos=VBZ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NNS word^^-1=He => pos=VBZ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^-1=has => pos=VBN
+GOOD:6 BAD:0 SCORE:6 RULE: pos=VB word^^-1=she => pos=VBD
+GOOD:6 BAD:0 SCORE:6 RULE: pos=JJ word::4~~=re-e~~ => pos=VB
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NNP word^^1=your => pos=VB
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NN word::++5=++oomed => pos=SYM
+GOOD:6 BAD:0 SCORE:6 RULE: pos=JJ word::~~2=~~ls => pos=NNS
+GOOD:10 BAD:4 SCORE:6 RULE: pos=CD word::~~1=~~s => pos=NNS
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NNP word::~~3=~~rds => pos=NNPS
+GOOD:7 BAD:1 SCORE:6 RULE: pos=VBN word::2~~=Un~~ => pos=NNP
+GOOD:6 BAD:0 SCORE:6 RULE: pos=JJ word::2~~=Rh~~ => pos=NNP
+GOOD:8 BAD:2 SCORE:6 RULE: pos=RB word::1~~=W~~ => pos=NNP
+GOOD:8 BAD:2 SCORE:6 RULE: word::2~~=Ha~~ => pos=NNP
+GOOD:7 BAD:1 SCORE:6 RULE: word=cough => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: pos=VBG word::~~5=~~thing => pos=NN
+GOOD:22 BAD:16 SCORE:6 RULE: pos=VBG word::~~5=~~oning => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: pos=JJ word::~~5=~~mpany => pos=NN
+GOOD:7 BAD:1 SCORE:6 RULE: pos=CD word::1<>=i<> => pos=NN
+GOOD:7 BAD:1 SCORE:6 RULE: word::~~5=~~ution => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: word=tall => pos=JJ
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NN word::~~3=~~ush => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::3--=one-- => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::1<>=3<> => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^1=dream => pos=JJ
+GOOD:9 BAD:3 SCORE:6 RULE: pos=VBN word^^-1=with => pos=JJ
+GOOD:31 BAD:25 SCORE:6 RULE: pos=VBN word^^-1=the => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=JJ word::2--=re-- => pos=VBN
+GOOD:6 BAD:0 SCORE:6 RULE: pos=VBN word^^-1=in => pos=JJ
+GOOD:41 BAD:35 SCORE:6 RULE: pos=VBG word^^-1=a => pos=JJ
+GOOD:19 BAD:11 SCORE:8 RULE: pos=JJ word::--3=--ing => pos=VBG
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NN word^^-1=so => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: word::3~~=uns~~ => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: word=aboard => pos=IN
+GOOD:6 BAD:0 SCORE:6 RULE: word=naczelnik => pos=FW
+GOOD:8 BAD:2 SCORE:6 RULE: word::~~1=~~8 => pos=CD
+GOOD:5 BAD:0 SCORE:5 RULE: word=contrasts => pos=VBZ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNS word^^1=it => pos=VBZ
+GOOD:15 BAD:10 SCORE:5 RULE: pos=VBD word^^1=by => pos=VBN
+GOOD:6 BAD:1 SCORE:5 RULE: pos=JJ word^^1=up => pos=VBN
+GOOD:5 BAD:0 SCORE:5 RULE: pos=VBN word::~~4=~~mmed => pos=VBD
+GOOD:8 BAD:3 SCORE:5 RULE: pos=VBN word^^1=some => pos=VBD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=VBN word^^-1=officials => pos=VBD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^-1=which => pos=VBD
+GOOD:7 BAD:2 SCORE:5 RULE: pos=NNS word::~~2=~~ss => pos=VB
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNP word^^1=it => pos=VB
+GOOD:5 BAD:0 SCORE:5 RULE: word=na => pos=TO
+GOOD:5 BAD:0 SCORE:5 RULE: word=YOU => pos=PRP
+GOOD:7 BAD:2 SCORE:5 RULE: word=S&Ls => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNP word::~~3=~~nds => pos=NNS
+GOOD:9 BAD:4 SCORE:5 RULE: pos=NNP word::~~3=~~ERS => pos=NNS
+GOOD:9 BAD:4 SCORE:5 RULE: pos=NNP word::~~3=~~als => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNP word::~~2=~~Os => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: word::~~5=~~rcers => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=JJ word::2~~=Da~~ => pos=NNP
+GOOD:5 BAD:0 SCORE:5 RULE: pos=IN word::1<>=c<> => pos=NNP
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNS word^^-1=Mr. => pos=NNP
+GOOD:6 BAD:1 SCORE:5 RULE: word::2~~=Bo~~ => pos=NNP
+GOOD:5 BAD:0 SCORE:5 RULE: word=spiral => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos=VB word::~~5=~~ation => pos=NN
+GOOD:6 BAD:1 SCORE:5 RULE: pos=JJ word::~~5=~~tting => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos=JJ word::~~4=~~-law => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos=JJ word::3~~=der~~ => pos=NN
+GOOD:14 BAD:9 SCORE:5 RULE: pos=VB word^^-1='s => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: word::5~~=tresp~~ => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: word=shorter => pos=JJR
+GOOD:6 BAD:1 SCORE:5 RULE: word=whooping => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: word=corresponding => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: word=Syrian => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~5=~~erent => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~4=~~uant => pos=JJ
+GOOD:7 BAD:2 SCORE:5 RULE: pos=NN word::~~2=~~vy => pos=JJ
+GOOD:6 BAD:1 SCORE:5 RULE: pos=NN word^^1=Federal => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^1=$ => pos=JJ
+GOOD:13 BAD:8 SCORE:5 RULE: word::~~4=~~tive => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: word^^1=place => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=JJ word::2--=2--- => pos=CD
+GOOD:4 BAD:0 SCORE:4 RULE: word=whereby => pos=WRB
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VB word::~~5=~~oever => pos=WP
+GOOD:4 BAD:0 SCORE:4 RULE: word=hangs => pos=VBZ
+GOOD:4 BAD:0 SCORE:4 RULE: word=IS => pos=VBZ
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NNS word::~~4=~~ears => pos=VBZ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNS word::3~~=equ~~ => pos=VBZ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNS word^^1=capital => pos=VBZ
+GOOD:5 BAD:1 SCORE:4 RULE: word=uncovered => pos=VBN
+GOOD:5 BAD:1 SCORE:4 RULE: word=beaten => pos=VBN
+GOOD:9 BAD:5 SCORE:4 RULE: pos=VBD word^^-1=n't => pos=VBN
+GOOD:5 BAD:1 SCORE:4 RULE: word::~~4=~~aken => pos=VBN
+GOOD:4 BAD:0 SCORE:4 RULE: word=designing => pos=VBG
+GOOD:9 BAD:5 SCORE:4 RULE: pos=NNP word::~~3=~~ING => pos=VBG
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~3=~~oke => pos=VBD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBN word^^1=what => pos=VBD
+GOOD:12 BAD:8 SCORE:4 RULE: pos=VBN word^^1=it => pos=VBD
+GOOD:5 BAD:1 SCORE:4 RULE: pos=VBN word^^-1=market => pos=VBD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBN word^^-1=I => pos=VBD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBZ word::~~4=~~pass => pos=VB
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~4=~~late => pos=VB
+GOOD:17 BAD:13 SCORE:4 RULE: pos=VB word^^-1=that => pos=VBP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^1=shareholders => pos=VB
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^-1=might => pos=VB
+GOOD:9 BAD:5 SCORE:4 RULE: word^^-1=can => pos=VB
+GOOD:4 BAD:0 SCORE:4 RULE: word=TO => pos=TO
+GOOD:5 BAD:1 SCORE:4 RULE: word=damn => pos=RB
+GOOD:4 BAD:0 SCORE:4 RULE: word=Likewise => pos=RB
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NNP word::4--=Some-- => pos=RB
+GOOD:4 BAD:0 SCORE:4 RULE: word=IT => pos=PRP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~5=~~ories => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::5~~=Offic~~ => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~4=~~ains => pos=NNS
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NNP word::~~4=~~ners => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::4~~=View~~ => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~3=~~ads => pos=NNS
+GOOD:4 BAD:0 SCORE:4 RULE: word=Teamsters => pos=NNPS
+GOOD:4 BAD:0 SCORE:4 RULE: word=Crusaders => pos=NNPS
+GOOD:4 BAD:0 SCORE:4 RULE: word=Purchasing => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=RB word::~~4=~~illy => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~2=~~rg => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~2=~~ns => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::2~~=Je~~ => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::2~~=Gr~~ => pos=NNP
+GOOD:7 BAD:3 SCORE:4 RULE: pos=JJ word::1<>=K<> => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~2=~~-A => pos=NNP
+GOOD:4 BAD:0 SCORE:4 RULE: word=recital => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=detective => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=cellular-phone => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=Wedding => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=Turnover => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=Margin => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~5=~~ining => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~4=~~ense => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~4=~~uter => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: pos=JJ word::~~3=~~lth => pos=NN
+GOOD:6 BAD:2 SCORE:4 RULE: pos=JJ word::~~3=~~ger => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::3~~=pic~~ => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::3~~=cru~~ => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word::~~2=~~GE => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word::~~2=~~em => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VB word::2~~=no~~ => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJS word::2~~=be~~ => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=CD word::1<>=L<> => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: pos=VBG word^^1=business => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NNP word^^1=prices => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBG word^^-1=such => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos=JJ word^^-1=economic => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: word::~~5=~~oduct => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~4=~~mage => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~5=~~aller => pos=JJR
+GOOD:4 BAD:0 SCORE:4 RULE: word=outer => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=incumbent => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=ceramic => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=Ready => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=Jamaican => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=VBG word::~~5=~~going => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~5=~~rnate => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~5=~~stern => pos=JJ
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NNP word::~~4=~~nese => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~4=~~sory => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::4++=non-++ => pos=JJ
+GOOD:7 BAD:3 SCORE:4 RULE: pos=NN word::3~~=arc~~ => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=CD word::1<>=e<> => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^1=side => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^1=field => pos=JJ
+GOOD:9 BAD:5 SCORE:4 RULE: pos=VBN word^^-1='s => pos=JJ
+GOOD:5 BAD:1 SCORE:4 RULE: pos=RB word^^-1=The => pos=JJ
+GOOD:5 BAD:1 SCORE:4 RULE: word::~~4=~~pian => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~4=~~lind => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~3=~~ous => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word^^1=votes => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word^^1=net => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=towards => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: word=attests => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::4--=port-- => pos=VBZ
+GOOD:6 BAD:3 SCORE:3 RULE: pos=NNS word^^1=up => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word^^1=one => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word^^-1=she => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word^^-1=letter => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word^^-1=It => pos=VBZ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^-1=YOU => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^-1=Firms => pos=VBP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VB word^^-1=have => pos=VBN
+GOOD:4 BAD:1 SCORE:3 RULE: word=gon => pos=VBG
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VB word::~~3=~~ing => pos=VBG
+GOOD:5 BAD:2 SCORE:3 RULE: pos=VBN word::~~5=~~veled => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word::3~~=ste~~ => pos=VBD
+GOOD:7 BAD:4 SCORE:3 RULE: pos=VBN word::--3=--red => pos=VBD
+GOOD:7 BAD:2 SCORE:5 RULE: pos=VBN word::2~~=sp~~ => pos=VBD
+GOOD:7 BAD:3 SCORE:4 RULE: pos=VBD word^^-1=was => pos=VBN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word^^-1=man => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word^^-1=later => pos=VBD
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^-1=who => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=briefly => pos=VBD
+GOOD:3 BAD:0 SCORE:3 RULE: word=Please => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: word=Assume => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos=IN word::~~2=~~re => pos=VB
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^1=seven => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=one => pos=VB
+GOOD:8 BAD:5 SCORE:3 RULE: pos=NN word^^-1=may => pos=VB
+GOOD:13 BAD:9 SCORE:4 RULE: pos=VB word^^-1=the => pos=NN
+GOOD:8 BAD:5 SCORE:3 RULE: word^^-1=could => pos=VB
+GOOD:3 BAD:0 SCORE:3 RULE: word=oh => pos=UH
+GOOD:3 BAD:0 SCORE:3 RULE: word=FFr => pos=SYM
+GOOD:3 BAD:0 SCORE:3 RULE: word=UP => pos=RP
+GOOD:3 BAD:0 SCORE:3 RULE: word=seldom => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: word=ashore => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: word=Often => pos=RB
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNP word^^1=YOU => pos=RB
+GOOD:3 BAD:0 SCORE:3 RULE: word=nuts => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: word=Magazines => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: word=EARNINGS => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~okers => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~4=~~eeds => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~4=~~ways => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~4=~~ides => pos=NNS
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NNS word::2~~=Gu~~ => pos=NNPS
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNP word::4~~=Bill~~ => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::--4=--ives => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~lia => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~2=~~Cs => pos=NNS
+GOOD:3 BAD:0 SCORE:3 RULE: word=Inns => pos=NNPS
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNP word::~~5=~~ayers => pos=NNPS
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::3~~=Ind~~ => pos=NNPS
+GOOD:3 BAD:0 SCORE:3 RULE: word=maitre => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Supply => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Resorts => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Endangered => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Diversified => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Corning => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=Avions => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNS word::~~5=~~oises => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::5~~=Richm~~ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBG word::4~~=Xiao~~ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::4~~=Time~~ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~3=~~ung => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=RB word::--3=--lly => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::1<>='<> => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBN word^^1=Financial => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBG word^^1=Service => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word^^1=Inc. => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word::3~~=Twe~~ => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word^^1=Order => pos=NNP
+GOOD:3 BAD:0 SCORE:3 RULE: word=waterworks => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: word=staging => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=smattering => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=offspring => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=lottery => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=fifth-grade => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=disapproval => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=diabetes => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: word=data-processing => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=corps => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=beneficiary => pos=NN
+GOOD:6 BAD:3 SCORE:3 RULE: pos=VBG word::~~5=~~hting => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~llium => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~5=~~maker => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::~~5=~~urity => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~5=~~ancer => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~5=~~awyer => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::5~~=Compo~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::5~~=flag-~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::5~~=Junk-~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~-net => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::~~4=~~-car => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~k-up => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~ease => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~4=~~lism => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=JJ word::4~~=hous~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~3=~~rge => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~3=~~ser => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::3~~=Pil~~ => pos=NN
+GOOD:5 BAD:2 SCORE:3 RULE: pos=JJ word::3~~=sho~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::3~~=ex-~~ => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNP word::--3=--age => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=VB word::2~~=bo~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VB word::~~1=~~a => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJS word::++1=++s => pos=NN
+GOOD:5 BAD:2 SCORE:3 RULE: pos=VBG word^^1=would => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^1=football => pos=NN
+GOOD:5 BAD:2 SCORE:3 RULE: pos=JJ word^^1=charges => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBG word^^-1=their => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word^^-1=plant => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: word::5~~=front~~ => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: word::5~~=credi~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::5~~=Quart~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::4~~=road~~ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~4=~~icon => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~4=~~pair => pos=NN
+GOOD:5 BAD:2 SCORE:3 RULE: word::~~4=~~alty => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=stricter => pos=JJR
+GOOD:5 BAD:2 SCORE:3 RULE: word=Higher => pos=JJR
+GOOD:3 BAD:0 SCORE:3 RULE: word=vain => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: word=tired => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=tempting => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=ragged => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: word=pale => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=noncontract => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=Libyan => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=Hostile => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=Fourth => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=Additional => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~unist => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~5=~~inian => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::5~~=intra~~ => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NNS word::~~4=~~fits => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word::~~4=~~ible => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~4=~~term => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~4=~~wide => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~msy => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~rdy => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VBG word::3~~=non~~ => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: pos=VBN word^^-1=such => pos=JJ
+GOOD:5 BAD:2 SCORE:3 RULE: pos=VBN word^^-1=become => pos=JJ
+GOOD:5 BAD:2 SCORE:3 RULE: pos=VBN word^^-1=an => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=RB word^^-1=other => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NNP word^^-1=two => pos=JJ
+GOOD:5 BAD:2 SCORE:3 RULE: word::~~5=~~zling => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~5=~~bound => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: word::~~5=~~ident => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word::4~~=shre~~ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~4=~~tale => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: word::~~4=~~ased => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~3=~~ppy => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word^^1=ways => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: word^^1=conference => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=alongside => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: word=IF => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~5=~~ereas => pos=IN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::--1=--i => pos=FW
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~2=~~47 => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=JJ word::~~1=~~6 => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=CD word::1<>=A<> => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: word^^1=percent => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word=Whenever => pos=WRB
+GOOD:2 BAD:0 SCORE:2 RULE: word=surges => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=smells => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=simulates => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=shouts => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=insures => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=fills => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=falters => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=executes => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=differs => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=connects => pos=VBZ
+GOOD:3 BAD:1 SCORE:2 RULE: word=beats => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=achieves => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=accuses => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Explains => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~5=~~loats => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~5=~~overs => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~5=~~ifies => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~5=~~rives => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::5~~=sprin~~ => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::--5=--tails => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~4=~~rces => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~EARS => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::~~3=~~wls => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~3=~~AYS => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::3~~=See~~ => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word^^1=him => pos=VBZ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word^^1=away => pos=VBZ
+GOOD:6 BAD:4 SCORE:2 RULE: word=cite => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~trude => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VB word::3~~=spo~~ => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::++1=++s => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^1=their => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=people => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=I => pos=VBP
+GOOD:4 BAD:2 SCORE:2 RULE: word::~~4=~~rive => pos=VBP
+GOOD:2 BAD:0 SCORE:2 RULE: word=witnessed => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: word=rung => pos=VBN
+GOOD:3 BAD:1 SCORE:2 RULE: word=Combined => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Built => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::~~5=~~icked => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::~~5=~~anced => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~itten => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~hored => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~3=~~ewn => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::1~~=O~~ => pos=VBN
+GOOD:4 BAD:2 SCORE:2 RULE: pos=VBD word^^1=investors => pos=VBN
+GOOD:3 BAD:1 SCORE:2 RULE: word::~~5=~~kened => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: word=vacationing => pos=VBG
+GOOD:2 BAD:0 SCORE:2 RULE: word=tripling => pos=VBG
+GOOD:2 BAD:0 SCORE:2 RULE: word=shining => pos=VBG
+GOOD:2 BAD:0 SCORE:2 RULE: word=provisioning => pos=VBG
+GOOD:3 BAD:1 SCORE:2 RULE: word=liquidating => pos=VBG
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=his => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: word=varied => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=slapped => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=shrugged => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=raced => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=proceeded => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=hauled => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=evaporated => pos=VBD
+GOOD:3 BAD:1 SCORE:2 RULE: word=disagreed => pos=VBD
+GOOD:5 BAD:2 SCORE:3 RULE: pos=VBN word::~~3=~~eed => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=decreed => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: word=belonged => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=abstained => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=abounded => pos=VBD
+GOOD:3 BAD:1 SCORE:2 RULE: word=Were => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::~~5=~~erged => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::~~4=~~ixed => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::4~~=blin~~ => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::3~~=dro~~ => pos=VBD
+GOOD:4 BAD:2 SCORE:2 RULE: pos=VBN word::2~~=wa~~ => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::~~5=~~anted => pos=VBN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word^^1=yesterday => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word^^1=when => pos=VBD
+GOOD:4 BAD:2 SCORE:2 RULE: pos=VBN word^^-1=we => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~asted => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~pened => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word::--4=--eted => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=wildly => pos=VBD
+GOOD:2 BAD:0 SCORE:2 RULE: word=sing => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word=pre-empt => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word=curry => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Thank => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Increase => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::++5=++ments => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~pose => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=RB word::++3=++ing => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::--1=--w => pos=VB
+GOOD:4 BAD:2 SCORE:2 RULE: pos=VBP word^^1=through => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word^^1=you => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word^^1=OF => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=simply => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word::--3=--AKE => pos=VB
+GOOD:2 BAD:0 SCORE:2 RULE: word=uh => pos=UH
+GOOD:2 BAD:0 SCORE:2 RULE: word=x => pos=SYM
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJR word^^-1=far => pos=RBR
+GOOD:2 BAD:0 SCORE:2 RULE: word=surreptitiously => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word=piecemeal => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Regardless => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Meantime => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Always => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::--5=--wards => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word^^1=good => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=read => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word::5~~=herea~~ => pos=RB
+GOOD:2 BAD:0 SCORE:2 RULE: word=Me => pos=PRP
+GOOD:2 BAD:0 SCORE:2 RULE: word=subtilis => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=passers-by => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=orchards => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=mutters => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=handicapped => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=fiberglass => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=blini => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Years => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Thanks => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Talks => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Steelmakers => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Soybeans => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Skills => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Hearings => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Areas => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Americana => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~ncies => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~ences => pos=NNS
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::~~5=~~sales => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~urces => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~ages => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~tops => pos=NNS
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NNP word::~~4=~~hers => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::4~~=VICT~~ => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word::4~~=SKr2~~ => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~3=~~ora => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~3=~~res => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~3=~~ffs => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~3=~~men => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~3=~~00s => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::3~~=Ide~~ => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~2=~~KS => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~2=~~DS => pos=NNS
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::~~2=~~ks => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::2~~=RA~~ => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBZ word::--2=--rs => pos=NNS
+GOOD:7 BAD:5 SCORE:2 RULE: pos=NNP word::--1=--S => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::--1=--s => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~laims => pos=NNS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Turks => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Tropics => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Receipts => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Proteins => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Practices => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Mineworkers => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Makers => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Liberties => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Emirates => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Claimants => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Archives => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=Agnellis => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~icans => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::5~~=Czech~~ => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~kies => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::4~~=Marc~~ => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word^^1=Inc. => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word^^-1=AND => pos=NNPS
+GOOD:2 BAD:0 SCORE:2 RULE: word=VH-1 => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=UNITED => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Stirling => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=SS => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Post-Newsweek => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Papua-New => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ned => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=NEWS => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Lyneses => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Jaguar-GM => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=I-880 => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Fitness => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Fairless => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Exporting => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=Evening => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=747-400 => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~Berol => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::5~~=Trans~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::5~~=767-3~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word::--5=--lding => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBD word::~~3=~~RED => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::3~~=Pla~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::3~~=El-~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::2~~=Mo~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word::2~~=Br~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word::2~~=Mc~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~1=~~S => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word^^1=Systems => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word^^1=Committee => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word^^-1=The => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^-1=British => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word::3~~=Sav~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word::3~~=Lem~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word::3~~=Her~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word::2~~=Za~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word::2~~=T-~~ => pos=NNP
+GOOD:3 BAD:1 SCORE:2 RULE: word::2~~=Sc~~ => pos=NNP
+GOOD:2 BAD:0 SCORE:2 RULE: word=word-processing => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=wool => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=warm-up => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=twin-jet => pos=NN
+GOOD:5 BAD:3 SCORE:2 RULE: word=teaching => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=take-out => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: word=swimming => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=sulfur-dioxide => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=staff-reduction => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=spelling => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=souring => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=sniping => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=smuggling => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=small-investor => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=rioting => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=rent-a-colonel => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: word=raid => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=prince => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=prerogative => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ordeal => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=nursing-home => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=morass => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=laxative => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=hot-line => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: word=healing => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=handwriting => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=half-life => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=egg-breaking => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=directory => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=crookery => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=crest => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=canvas => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=brewery => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=box-office => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ball-bearing => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=aramid => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=anti-depressant => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=antacid => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=analogy => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=accrual => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=about-face => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Taxi => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Step => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Shareholder => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Real-estate => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Reagan-era => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=RV => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Principal => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Passenger => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Panic => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Newsprint => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Merchant => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Livestock => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Jurisprudence => pos=NN
+GOOD:4 BAD:2 SCORE:2 RULE: word=Jeep => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Jazz => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=History => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Grain => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Exit => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=EARTHQUAKE => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Confusion => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Concern => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Censorship => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=COCOA => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=C-word => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Bacillus => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Anybody => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~uthor => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NNP word::~~5=~~ATION => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::~~5=~~s-tax => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~cargo => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~inter => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::~~5=~~eller => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~iture => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~nance => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~house => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~ption => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~ltant => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~sider => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~5=~~dence => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::5~~=trade~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::5~~=prope~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::5~~=minor~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::5~~=mini-~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::++5=++eagan => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=VBG word::~~4=~~TING => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~4=~~fect => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~4=~~-aid => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~4=~~bowl => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~4=~~emia => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word::~~4=~~tter => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::4~~=two-~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::4~~=Disa~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::4~~=thum~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word::3~~=rai~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::3~~=PER~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::3~~=Nom~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::3~~=Dri~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::3~~=tap~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::3~~=mot~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::--3=--ity => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~2=~~RY => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~2=~~OX => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~2=~~ig => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word::2~~=Ea~~ => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NNP word^^1=merchants => pos=NN
+GOOD:4 BAD:2 SCORE:2 RULE: pos=JJ word^^1=shop => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=over => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=operator => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=might => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=back => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=David => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1='s => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word^^-1=practical => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word^^-1=brain => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word^^-1=three => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word^^-1=Your => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^-1=since => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos=JJ word^^-1=federal => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^-1=delayed => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::5~~=strat~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~venge => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~sight => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~5=~~igner => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::4~~=dart~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~mory => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~bric => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~elly => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~3=~~-17 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::++3=++tra => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: word::3--=qui-- => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word^^-1=image => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=hour => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=wiser => pos=JJR
+GOOD:2 BAD:0 SCORE:2 RULE: word=Bigger => pos=JJR
+GOOD:2 BAD:0 SCORE:2 RULE: word=wobbly => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=unruly => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=underwater => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=threemonth => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=stately => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=somber => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=sobering => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=shareholder-rights => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: word=rewarding => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=powdered => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=okay => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=obscene => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=nude => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=nondescript => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=myriad => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=monied => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=lopsided => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=intricate => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: word=interior => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=iced => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=galling => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=fundamentalist => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=flagrant => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=edgy => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=doddering => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=cute => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=charming => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=catalytic => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=bogus => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=bald => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=antique => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=after-hours => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=adept => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Subsequent => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Same => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Quarterly => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Photographic => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Oriental => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Nazi => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Mad => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Knowledgeable => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Fiscal => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=FORMER => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Dual => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Danish => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=5th => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=5-4 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~onist => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~rable => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~5=~~style => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~level => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~onant => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~stent => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~urate => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~ought => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~ccess => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~5=~~ating => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::5~~=light~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::5~~=non-c~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=RB word::~~4=~~thly => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~4=~~nine => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~4=~~ushy => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: pos=NN word::~~4=~~imum => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~4=~~iant => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos=VBN word::4~~=cont~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::4~~=five~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNP word::~~3=~~lus => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBN word::3~~=ble~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=ric~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=fer~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=eff~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~zy => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::~~2=~~ky => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~by => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word::~~2=~~th => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=aw~~ => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos=RB word::--1=--y => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NNS word^^1=activities => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^1=ships => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: pos=NN word^^1=models => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^1=construction => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^1=American => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VBG word^^-1=both => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=most => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=how => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word::5~~=beach~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word::5~~=astou~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~ount => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=opinion => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=experience => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=lest => pos=IN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Toward => pos=IN
+GOOD:2 BAD:0 SCORE:2 RULE: word=vis => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=jour => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=i.e. => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=dolce => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=Wetten => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=Dass => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=TWO => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word::~~2=~~00 => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^1=p.m. => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~teen => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~3=~~30s => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word::++2=++.5 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=non-`` => pos=``
+GOOD:1 BAD:0 SCORE:1 RULE: word=WHICH => pos=WDT
+GOOD:1 BAD:0 SCORE:1 RULE: word=THAT => pos=WDT
+GOOD:1 BAD:0 SCORE:1 RULE: word=.what => pos=WDT
+GOOD:1 BAD:0 SCORE:1 RULE: word=wrestles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=weds => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=wanes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=waits => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=vanishes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unlocks => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unites => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=understaffs => pos=VBZ
+GOOD:2 BAD:1 SCORE:1 RULE: word=transports => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tapers => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tackles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sustains => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stirs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stifles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stagewhispers => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=squeezes => pos=VBZ
+GOOD:2 BAD:1 SCORE:1 RULE: word=spills => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=spawns => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=solves => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sighs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=shoves => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=selects => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=roars => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=riles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=rhymes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=retools => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=rests => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=respects => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=researches => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=relates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=reaffirms => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=raves => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pursues => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=prompts => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=presumes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=prescribes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pokes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pertains => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=persuades => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=persists => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ogles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=occupies => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=obscures => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=name-drops => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=mounts => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=moans => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=mixes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=meanders => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=manipulates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=lingers => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=lengthens => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=languishes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=laments => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=lags => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=jogs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=irks => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=invades => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=interjects => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=interferes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=indulges => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=implements => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hurries => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hooks => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=highlights => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hails => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gushes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=giveth => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=frets => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=formalizes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=fluctuates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=fizzes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=expresses => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=examines => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=evokes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=evens => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=errs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=engages => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=embodies => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=doth => pos=VBZ
+GOOD:2 BAD:1 SCORE:1 RULE: word=digs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=detracts => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=detests => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=depletes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=dawns => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=culminates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cries => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=crams => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=corrects => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cools => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=constitutes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=confuses => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=conforms => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=confides => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=concentrates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=compensates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=compels => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=commends => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-edits => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=circumvents => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=caters => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=buttresses => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=burbles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bristles => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=brags => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bolsters => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bodes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=blabs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=beams => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=assures => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=aspires => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=arouses => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=arises => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=appreciates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=alienates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=aggravates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=afflicts => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=admires => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=abates => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=abandons => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Writes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Weakens => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=WANES => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Turns => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Touches => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Taps => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=TRAVELS => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reveals => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Recalls => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Quips => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Puts => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Promises => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=PLANS => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=MOVES => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Leads => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Has => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gives => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Earns => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Competes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Comes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Closes => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CLAIMS => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Backs => pos=VBZ
+GOOD:1 BAD:0 SCORE:1 RULE: word=zig-zag => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=whoosh => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=wane => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=vanish => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=unroll => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=sympathize => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=surround => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=supercede => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=stink => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=stare => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=squeegee => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=sputter => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=smolder => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=scowl => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=scamper => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=sanitize => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=romp => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=ripen => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=rile => pos=VBP
+GOOD:2 BAD:1 SCORE:1 RULE: word=resent => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=relive => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=relent => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=purport => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=proliferate => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=profess => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=predict\/advocate => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=perceive => pos=VBP
+GOOD:3 BAD:2 SCORE:1 RULE: word=paint => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=overlap => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=modulate => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=mingle => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=latch => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=juxtapose => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=imitate => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=haunt => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=grumble => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=graze => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=gloss => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=epitomize => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=enrich => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=dodge => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=disapprove => pos=VBP
+GOOD:2 BAD:1 SCORE:1 RULE: word=denounce => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=damped => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=criss-cross => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=corroborate => pos=VBP
+GOOD:2 BAD:1 SCORE:1 RULE: word=confront => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=clutch => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=cling => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=chug => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=chafe => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=censor => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=arch => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=activate => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=abound => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stand => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Slay => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=SCRAP => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=REAP => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=GIVE => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Find => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Count => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=ARISE => pos=VBP
+GOOD:1 BAD:0 SCORE:1 RULE: word=woven => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=warded => pos=VBN
+GOOD:2 BAD:1 SCORE:1 RULE: word=unloaded => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=teased => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stung => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=smoothed => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=simplified => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=short-circuited => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=shielded => pos=VBN
+GOOD:2 BAD:1 SCORE:1 RULE: word=severed => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=second-guessed => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=riveted => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=reshaped => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rebutted => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-signed => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=poisoned => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pockmarked => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=penned => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=overthrown => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=overpaid => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=overdone => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=over-magazined => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=orphaned => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=nose-dived => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=misspent => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mislaid => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hand-carried => pos=VBN
+GOOD:2 BAD:1 SCORE:1 RULE: word=halved => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=gridlocked => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=governmentset => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=government-set => pos=VBN
+GOOD:3 BAD:2 SCORE:1 RULE: word=funneled => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=forbidden => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=expunged => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=de-emphasized => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=contravened => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=cont'd. => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=color-coded => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=charred => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bungled => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=borne => pos=VBN
+GOOD:5 BAD:4 SCORE:1 RULE: word=armed => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=appraised => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unveiled => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=URGED => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shorn => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=SEPARATED => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=REVISED => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Paid => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Known => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=JAILED => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gone => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Come => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=CALLED => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bolstered => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Been => pos=VBN
+GOOD:1 BAD:0 SCORE:1 RULE: word=whirring => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=unwavering => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=tax-reducing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=summoning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=still-raging => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=siphoning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=shadowing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=sanctioning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=postponing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=pollen-producing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=mentioning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=mass-producing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=jarring => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=highlighting => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=gunslinging => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=fractioning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=embezzling => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=championing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=braking => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=TREATING => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Singin => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Scaring => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=SIMPLIFYING => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Re-creating => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pickin => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Doing => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=Commissioning => pos=VBG
+GOOD:1 BAD:0 SCORE:1 RULE: word=wrought => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=unnerved => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=unlocked => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=unionized => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=unfolded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=undid => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=trekked => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=tangoed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=superseded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=subsided => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=stormed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=stared => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=stagnated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=squinted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=solidified => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=skipped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=sighed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=sidestepped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=shuffled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=shoved => pos=VBD
+GOOD:2 BAD:1 SCORE:1 RULE: word=shaved => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=segregated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=screeched => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=schmumpered => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=rowed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=rotated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=risked => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=revolutionized => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=resonated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=requisitioned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=relinquished => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=relented => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=relayed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=rejoined => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=refuted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=rebelled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=raked => pos=VBD
+GOOD:2 BAD:1 SCORE:1 RULE: word=profited => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=professed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=poked => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=plotted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=pervaded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=perturbed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=persisted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=parted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=pardoned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=pacified => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=overrode => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=outsold => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=necessitated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=multipled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=log-rolled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=lightened => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=laundered => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=lashed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=innovated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=immigrated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=hid => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=hewed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=harped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=halogenated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=grumbled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=groped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=grappled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=graduated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=gloated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=functioned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=froze => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=fractured => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=flickered => pos=VBD
+GOOD:2 BAD:1 SCORE:1 RULE: word=fielded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=faxed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=fanned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=exiled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=envisaged => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ensued => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=enlisted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=emoted => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=embezzled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=eked => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=dreamt => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=double-crossed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=donned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=dodged => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=dived => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=disregarded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=disallowed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=dickered => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=deviated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=depreciated => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=departed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=decried => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=crouched => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=cringed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=conveyed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=contribued => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=commenced => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=circled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=chewed => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=camped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=brandished => pos=VBD
+GOOD:2 BAD:1 SCORE:1 RULE: word=bombarded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=blared => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=belly-flopped => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=begot => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=befuddled => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=bargained => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=averred => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=appeased => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=acquiesced => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=acceded => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wrote => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Warned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=WENT => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shook => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=STRUCK => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=SAID => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=RODE => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lost => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Grinned => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Countered => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ate => pos=VBD
+GOOD:1 BAD:0 SCORE:1 RULE: word=wrung => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=wring => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=vent => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=unleash => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=uncover => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=unblock => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=twitch => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=tread => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=totter => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=spackle => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=shower => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=shoe-horn => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=shirk => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=self-reinsure => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=rubber-stamp => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=replaster => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=refocuses => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=redress => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=redefine => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=reddened => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-register => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=pivot => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=photocopy => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=out-trade => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=moan => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=mesh => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=innovate => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=impart => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=illuminate => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=holler => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=hinge => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=hack => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=guzzle => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=grimace => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=glaze => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=gasp => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=frolic => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=exert => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=dissociate => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=dig => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=crimp => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=counterprogram => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=coax => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-produce => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=bumble => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=brazen => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=bleed => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=belittle => pos=VB
+GOOD:2 BAD:1 SCORE:1 RULE: word=audition => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Withhold => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=WATCH => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Throw => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tap => pos=VB
+GOOD:2 BAD:1 SCORE:1 RULE: word=Speed => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sell => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=SIGNAL => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reward => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Resist => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Raise => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Prevent => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pretend => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=PAY => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=NOTE => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mean => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Listen => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lend => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Leave => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jolt => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=JOIN => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Inject => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Imagine => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Help => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=GET => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Follow => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fight => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Establish => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Enter => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Encourage => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dream => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Diversify => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dismantle => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Die => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Deliver => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Decide => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=DON'T => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Create => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Choose => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=COMPARE => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=C'mon => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Become => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ask => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aim => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Adjust => pos=VB
+GOOD:1 BAD:0 SCORE:1 RULE: word=wow => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=howdy => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=hey => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=hello => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=er => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=alas => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yeah => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wow => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Whoopee => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wham => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Welcome => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bam => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aw => pos=UH
+GOOD:1 BAD:0 SCORE:1 RULE: word=Amen => pos=UH
+GOOD:2 BAD:1 SCORE:1 RULE: word=e => pos=SYM
+GOOD:1 BAD:0 SCORE:1 RULE: word=straighter => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=smarter => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=less-perfectly => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=healthier => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=gloomier => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=duller => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Closer => pos=RBR
+GOOD:1 BAD:0 SCORE:1 RULE: word=uphill => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=trifle => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=topsy-turvy => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=slickly => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=sixfold => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=six-fold => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=single-handedly => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=sideways => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=semi-annually => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=quintuple => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=overboard => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=o'clock => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=not-so-subtly => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=matter-of-factly => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=irrespective => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=inland => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=homologous => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=heretofore => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=head-to-head => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=fro => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=four-to-one => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=four-fold => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=fifteenfold => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=doubtless => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=dear => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=cooly => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=conceivably => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=cheek-to-jowl => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=branch-by-branch => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=backstage => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=as-yet => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=anyhow => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=alfresco => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=aback => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wisely => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Widely => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Thereafter => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=N'T => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Morever => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=JUST => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=HERE => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Foremost => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=FAR => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Everywhere => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Double => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Apart => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Anyway => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=Abroad => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=12-2 => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word='til => pos=RB
+GOOD:1 BAD:0 SCORE:1 RULE: word=HIS => pos=PRP$
+GOOD:1 BAD:0 SCORE:1 RULE: word=ya => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word=y'all => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Us => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Him => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word=HE => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word='T- => pos=PRP
+GOOD:1 BAD:0 SCORE:1 RULE: word=nary => pos=PDT
+GOOD:1 BAD:0 SCORE:1 RULE: word=timpani => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=technical-services => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=swine => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=semi-celebrities => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=run-ins => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=pur-poises => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=piroghi => pos=NNS
+GOOD:2 BAD:1 SCORE:1 RULE: word=pins => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=on-ramps => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=office-supplies => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=nine-tenths => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=muses => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=mass-media => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=lures => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=louis => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=law-making => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=information-systems => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=great-grandchildren => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=glitterati => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=fuel-services => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=frogmen => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=factory-jobs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=errata => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=endangered-species => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=dice => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=deli => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=cross-shareholdings => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=corporate-earnings => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-pilot => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=clergy => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=chemical-weapons => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=business-machines => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=blips => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=auspices => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=anti-heroes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Zones => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wishes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Voices => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=VCRs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Upgrades => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unitholders => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Two-thirds => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tons => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Teens => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tales => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=T-shirt => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Surveys => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Subscribers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Strikes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Staffers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sponsors => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Speakers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Soldiers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shoppers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Samaritans => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Salespeople => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=SONGsters => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=SHOPS => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rubins => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ringers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rewards => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ratings => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=RVs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=RULES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=RESIGNATIONS => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Proverbs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Politicians => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pitfalls => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pencils => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pedigrees => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Patterns => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Paramedics => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=PRICES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Oils => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=ODDITIES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nos. => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Norms => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nonperformers => pos=NNS
+GOOD:2 BAD:1 SCORE:1 RULE: word=Nerds => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Muscovites => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mice => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Magnolias => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=MIPs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lyrics => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Loans => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lids => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lenders => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=LOSSES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Interviews => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Insureres => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hondurans => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hogs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=HOPES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Guys => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Guidelines => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Geeks => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=GERMANS => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Franciscans => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Foreclosures => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Flowers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=FOES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=F16s => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Examples => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eurodebentures => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=EXECUTIVES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ds => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Disasters => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Devotees => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Designs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Demographics => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Defenders => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Deer => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Decades => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=DOGS => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cosmetics => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Corvettes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Christians => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Chores => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Characters => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Changes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Champagnes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Casinos => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cartons => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Careers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Calaveras => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=CRs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=CHILDREN => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=CATFISH => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bulls => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Buildings => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Breeders => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Brazilians => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Books => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Boardrooms => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Blondes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bedfellows => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Barrels => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bailiffs => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Babies => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=BALANCES => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Attitudes => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Attacks => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Allies => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aftershocks => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Advances => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Advancers => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ads => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Adjusters => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=12-inches => pos=NNS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yippies => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yankees => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Warburgs => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Vikings => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Vehicles => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unitours => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Underwoods => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tristars => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Treasurers => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tissues => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ties => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Thursdays => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Territories => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Streets => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stations => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Southerners => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Solutions => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sikhs => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Scorpios => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Schiffs => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rolodexes => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rieslings => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Relationships => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rangers => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Quotrons => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Protestants => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Prizes => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Principles => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Places => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Picassos => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Performances => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pampers => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Palms => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=PUTS => pos=NNPS
+GOOD:2 BAD:1 SCORE:1 RULE: word=PACs => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ortegas => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nobels => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nikes => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nights => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nationalists => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mysteries => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Michelangelos => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Metzenbaums => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Medicis => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mechanisms => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Limitations => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Leagues => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jeffersons => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jays => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Islanders => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Insights => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Industriels => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Impressionists => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ilyushins => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Huggies => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Housewares => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hondas => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Helicopters => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hearts => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Guerrillas => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Grounds => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Grannies => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fundamentalists => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Forces => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Firearms => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Females => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Falcons => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=F-series => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Effects => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eagles => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Distillers => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Craftsmen => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Coronets => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Comics => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cohens => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Chipmunks => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Chevrolets => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Chargers => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ceramics => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Carews => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cardinals => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cairenes => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Braumeisters => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Boeings => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bicyclists => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Berets => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Belmonts => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Baches => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Augustines => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Articles => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=ArgoSystems => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Antiques => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Amityvilles => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Airplanes => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Accountants => pos=NNPS
+GOOD:1 BAD:0 SCORE:1 RULE: word=triple-B-minus => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=then-Vice => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=mid-August => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=l'Ouest => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=kelly\/varnell => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=fervente => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=erembal => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=chicago => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=bioTechnology => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Y-MP\/832 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wholesaler-Distributors => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Westinghouse-Mitsubishi => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Weingarten-Siegel => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=WBBM-TV => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Vitro-Anchor => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=V-6 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Usinor-Sacilor => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Undoubtedly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=U.S.-U.S.S.R. => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Two-Way => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tufts => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Trucking => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tracking => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Torts => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Toensing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tilted => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Texas-Louisiana => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tests => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=TRANSPORTATION => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=TED => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Supermarkets => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=String => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stena-Tiphook => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stals => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sporting => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Specialty => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shaw-Walker => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shared => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sewing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Semiconductors => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sa-Duk => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=SIZING => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=SHIPPING => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rosencrants => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rolls-Royce => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Robots => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Revisited => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reinforced => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reformed => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reduced => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Recording => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Raskolnikov => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=ROGERS => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pru-Bache => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pro-Iranian => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Phosphates => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pan-Alberta => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=PARTNERS => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=P-E => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=On-Broadway => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Offered => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Off-Road => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Oerlikon-Buehrle => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Oakland-Berkeley => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=OKing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=North-Rhine => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Non-Proliferation => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=No-Smoking => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=News-American => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Neiman-Marcus => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Moonlighting => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mississippian => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Minato-Mirai => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mil-Spec => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Miami-Madrid => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Metromedia-ITT => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Messerschmitt-Boelkow-Blohm => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Matsing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=MacNeil-Lehrer => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=MINING => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=MB-339 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=MANUFACTURING => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=M-Whatever => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Long-Term => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Liquidating => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lincoln-Mercury => pos=NNP
+GOOD:2 BAD:1 SCORE:1 RULE: word=Lights => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lafite-Rothschild => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Kimberly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jacques-Francois => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Isaly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Iran-Iraq => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Innis-Maggiore-Olson => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Inefficient-Market => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Imported => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Highly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Henning => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Helpless => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Greed => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gnu-Emacs => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Friendly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Francaises => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Floodlights => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Financials => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Facility => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=FALTERS => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=European-American => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Etienne-Emile => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Estates => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eldred => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Drybred => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Drive => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Downing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Donnelly => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Designing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=DC-9 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Curdling => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Crested => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Connections => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Colored => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Clements => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Citation => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Channing => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Celanese => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Carmen => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cards => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Capacitors => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=CSS => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bronfmans => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Breuners => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Billie => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bennigsen-Foerder => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Beech-Nut => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Baltimore-Washington => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Baking => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Baily => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Backed => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Baa-2 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=BUILDING => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=BIO-RAD => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Anti-Ballistic => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Anchorage => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Amadou-Mahtar => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Al-Sabah => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ait-Laoussine => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aguirre-Sacasa => pos=NNP
+GOOD:2 BAD:1 SCORE:1 RULE: word=Affiliated => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=ALQ-178 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=ADVANCED => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=7-Eleven => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=3COM => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=240SX => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=1990A => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=1069 => pos=NNP
+GOOD:1 BAD:0 SCORE:1 RULE: word=you-know-what => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=yearend => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=wrondgoing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=working-girl => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=workaholic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=work-rule => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=wiring => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=whipsawing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=whereabouts => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=wheeling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=weeked => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=warehouse-type => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=walkie-talkie => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=volunteering => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=videoconferencing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=vice-president => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=vernacular => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=unit-price => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=undergirding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=under-secretary => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tropical-fruit => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=trillion-plus => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tribunal => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=trash-bag => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=transatlantic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tractor-trailer => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=toy-store => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tonic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=thrips => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=three-hour-show => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=thrashing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tete-a-tete => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tell-tale => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=taunting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=task-force => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=tandem-trainer => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sweating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=swearing-in => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=supersafe => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=super-spy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=super-regulator => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=subcontracting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=subconscious => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=store-sales => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stock-trading => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stock-trader => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stock-taking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stock-exchange => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sticker-shock => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=steel-ingot => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=steam-generating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=state-court => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=standing-room => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=stained-glass => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=spunky => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=soy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=solid-waste => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sogo-shosha => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=softy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=small-incision => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=slush => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=slow-growth => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=slighty => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sleight => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=slaying => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=skin-care => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=shuttle-busing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=shoplifting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sewing-machine => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=self-reform => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=self-expression => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=self-discipline => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=second-guessing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=seat-belt => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=scorekeeping => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=schooling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=school-board => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=scarves => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=scare-tactic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=scapegoating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=sale-purchase => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rustling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ruling-party => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=root-canal => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rooster-comb => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rolling-steel => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rocket-propulsion => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ritual => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=retail-volume => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=reproval => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rehearing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=reduced-instruction => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=redfish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=rate-mortgages => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=quarter-point => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pussy-willow => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=purhasing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pudding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=public-interest => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=public-housing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=public-TV => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=protein-1 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=product-testing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=price-reporting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-noon => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-kindergarten => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-eminence => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=power-plant => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=posturing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pollution-reduction => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pleasure-boat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pity => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=pilot-seniority => pos=NN
+GOOD:3 BAD:2 SCORE:1 RULE: word=physics => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=personal-property => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=per-subscriber => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=penny-stockbroker => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=patriarchy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=party-giving => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=parenting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=paralegal => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=paragraphing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=palm-tree => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=palamedes => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=paging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=padding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=packing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=overpass => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=overbuilding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=order-taking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=one-person => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=one-eighth => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=off-season => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ocean-shipping => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=numeral => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=nose-dive => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=non-warranty => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=non-member => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=newspaper-delivery => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=news-weekly => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=networking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=nest-egg => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=near-mutiny => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=near-monopoly => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=name-calling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mothballing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mortgage-banking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=morning-session => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=month-end => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=money-transfer => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=money-saving => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=molding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mid-season => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=micromanage => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=micro-liquidity => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=melding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=masterminding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mass-merchandise => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=management-research => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=management-by-objective => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=make-work => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=lyric => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=lower-court => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=low-tax => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=low-density => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=low-altitude => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=loosening => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=lion's-head => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=light-wave => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=legislating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=launch-vehicle => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=landscaping => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=labor-shortage => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=kitty => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=junk-mail => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=itinerary => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=investigative-reporting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=intitiative => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=institutes => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=inking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=inflation-growth => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=infant-mortality => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=individual-retirement-account => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=imponderable => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=illogic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ice-core => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=housecleaning => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hotel-restaurant => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=horse-breeding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=home-sharing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hoisting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=high-growth => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hell-kitten => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=heavy-water => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=heavy-crude => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=haunting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hatred => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=harvesting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hand-wringing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=hand-lotion => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=half-year => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=half-block => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=half-an-hour => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=great-grandfather => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=grass => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=grammar-school => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=graduate-student => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=good-will => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=gibberish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=garbage-incinerator => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=gall-bladder => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=funeral => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fudging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ft. => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=franking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fracas => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=four-square => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=foul-up => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=foot-dragging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=food-production => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=folly => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fluting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=floppy-disk => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=flim-flam => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=flight-to-quality => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=first-person => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=first-grader => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=finger-pointing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=finagling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=filly => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fetish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fest => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fencing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fattening => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=faithful => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fairy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=fact-finder => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=expense-account => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=executive-office => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=evensong => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=evangelist-industrialist => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=equal-opportunity => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=end-zone => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=efficient-market => pos=NN
+GOOD:3 BAD:2 SCORE:1 RULE: word=editorial-page => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=editing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=drumbeating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=drubbing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=drive-train => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=drill-bit => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dressmaking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=drachmas => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=domestic-production => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dollar-mark => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dollar-cost => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dog-meat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=distillery => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=displacing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dislikes => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=direct-marketing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dickering => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=detective-story => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=dessert-menu => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=demonizing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=death-sentence => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=de-linkage => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=custom-die => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=cursing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=criminal-justice => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=crew-rest => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=craving => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=coup-planning => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=counterbid => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=contract-drilling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=container-ship => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=consuming => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=compounding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=commercial-credit => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=coercion => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=coed => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=coddling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=coating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-publisher => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-op => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-editor => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=clouding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=classified-ad => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=child-as-required-yuppie-possession => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=chemist-turned-entrepreneur => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=chateau => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=change-ringing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=chairman-elect => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=chain-smoking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=cash-up-front => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=carnival => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=card-member => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=callipygous => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bull-market => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bulk-mail => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bubble => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=brow-beating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bragging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bonding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=blood-cell => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=blend => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=blemish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=biped => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bio-research => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bicycling => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bevy => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=beheading => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=basketball-cutback => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=base-price => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bartering => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=barrier-island => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=barracks => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bank-debt => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=bank-credit => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=back-pay => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=auto-market => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=auditing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=athlete-s => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=at-bat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ascent => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=artery-clogging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=arms-kickback => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=arming => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=archive => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=apple-pie => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=anti-airline => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=angelfish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=airborne-radar => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=air-interdiction => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=air-conditioner => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=agrochemical => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ado => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=achievement-test => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=account-churning => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yeast => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Y => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=We've => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=WORLD => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=WITHHOLDING => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Vote => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Viewpoint => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Velcro => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=VOLUNTARISM => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Uptick => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unease => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Underwear => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Undead => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=UVB => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Turn => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Transition => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Trafficking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Timber => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tie-vole-ee => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Theft => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Testimony => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Terror => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Termination => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Taste => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=TREND-SETTER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=TRAVEL => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=TRADE => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=TILT => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=THREAT => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=TB => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=T-37 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Swiss-franc => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Swiss-cheese => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Swan => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Suppression => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Support => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Supplemental => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Studio => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stock-market => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Spending => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sort => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Smoking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Simulation => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Significance => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sidecar => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Side => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Session => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sentiment => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Season => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sand => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Saga => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=SU-27 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Root => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rise => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Return => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Retailer => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Result => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Repeat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Reconsideration => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Recession => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rebel => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=REPAIR => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=RC6280 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Quake => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Putty => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Propaganda => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Private-property => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Prescription-drug => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Poverty => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Polyvinyl => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Politrick => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Poison => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Plunge => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Plantago => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Piping => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pichia => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Payout => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Patrician => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Papa => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Pantyhose => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Packaging => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PROSECUTOR => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PHOTOGRAPH => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PG-13 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PENALTY => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PARENT => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=PANHANDLER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=P => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Overhead => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Outplacement => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Oil-tool => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=OVERHAUL => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Non-smoking => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Niche-itis => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Name => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=NUMBER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=NORTHEAST => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Murder => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Morning => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Moonie => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Montedision => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Monster => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Money-market => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mob => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Misery => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Minitruck => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Micronite => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MiG-23BN => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Metamorphosis => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Meat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MX-missile => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MURDER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MINORITY => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MD-80 => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=MARKET => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=MANAGER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Luxury => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lot => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lobbyist => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lie => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lesson => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lavaro => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lag => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Knee => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Kitchen => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=KHAD\/WAD => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=KC-10 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Juice => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Johnson-era => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jail => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=J&L => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Intent => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Index-arbitrage => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Impetus => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Impact => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Id => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=INTEREST => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hotel-casino => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Homo => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Homerun => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Henley => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Heating => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Health-insurance => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hawthorne => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Haste => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hand-holding => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=HOBBY => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=HIRING => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Grease => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Good-bye => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Genius => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=GenProbe => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=GROWTH => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fury => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Form => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Foreign-exchange => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Forecasting => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Flesh => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fish => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fax => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fall => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=FROG-7B => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=FLIGHT => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=FAST-FOOD => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=FAN => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=F-18 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Experience => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Expansion => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Excision => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Evidence => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eurodollar => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ethicist => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Encouragement => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Embryo => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Edge => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=EMPLOYEE => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Drain => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Downtown => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dividend => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Diversification => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Distiller => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Disk => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dictation => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Device => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Deregulation => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Departure => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dedication => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dartboard => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=DOWNSIZING => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=DIAPER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=DEBT => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=DC10-30 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cupboard => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cuckoo => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Criticism => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Creation => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Counterpoint => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cost => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Conversation => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Consequence => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Connection => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Concurrence => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Coffee-shop => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Closing => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Clarinet => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Chore => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Choice => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Cereal => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Catch-22 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Catalog => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Carrier => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Call-In => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Californian => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=CONVICTION => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=CONSUMER => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=CD-ROM => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=C-5B => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Buy-out => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bund => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bug => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Brief => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bribe => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Brand-Name => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bowater => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bordetella => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=Bonfire => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Body => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bleach => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Birthday => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Billionaire => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Bethle => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Battalion-2000 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Batch => pos=NN
+GOOD:3 BAD:2 SCORE:1 RULE: word=Baseball => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Backlog => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=BLOOD => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=B-flat => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Arteries => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Arm => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Anxiety => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=An-12 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ammonium => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Air-traffic => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aflatoxin => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Adjournment => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AS\/400 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AREA => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AP600 => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AMBASSADOR => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AC-130U => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ABUSE => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=800-number => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=1\/10th => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=12-pack => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=mighta => pos=MD
+GOOD:1 BAD:0 SCORE:1 RULE: word=SHOULD => pos=MD
+GOOD:1 BAD:0 SCORE:1 RULE: word=MAY => pos=MD
+GOOD:1 BAD:0 SCORE:1 RULE: word=third-highest => pos=JJS
+GOOD:1 BAD:0 SCORE:1 RULE: word=most-respected => pos=JJS
+GOOD:1 BAD:0 SCORE:1 RULE: word=most-contentious => pos=JJS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Latest => pos=JJS
+GOOD:1 BAD:0 SCORE:1 RULE: word=Biggest => pos=JJS
+GOOD:1 BAD:0 SCORE:1 RULE: word=warmer => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=trimmer => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=smoother => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=shallower => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=poorer-quality => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=nicer => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=more-senior => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=more-distinctive => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=milder => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=lower-quality => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=less-junky => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=higher-fat => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=greener => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=gentler => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=freer => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=fatter => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=faster-growing => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=dumber => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=darker => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=colder => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=brisker => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Slower => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shorter => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=More-detailed => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Fewer => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=FEWER => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=BIGGER => pos=JJR
+GOOD:1 BAD:0 SCORE:1 RULE: word=woolly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=women's-rights => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=wireline => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=whirlwind => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=wellrun => pos=JJ
+GOOD:3 BAD:2 SCORE:1 RULE: word=weighted => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=warped => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=vehement => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=utilitarian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=used-car => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unwitting => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unwieldy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unrivaled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=union-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=uninhibited => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=uniformed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ungainly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unenticing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=underworked => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=underdeveloped => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unbeknownst => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unamortized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ultramodern => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=twotiered => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=twin => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=twelvefold => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tumbledown => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=trade-liberalizing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=towering => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=topical => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=topgrade => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tippling => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tidy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tax-department => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tawdry => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=tattered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=swollen => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=superb => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sub-station => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stratified => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stingy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=stewed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=staggered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=squat => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=spur-of-the-moment => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=speckled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sparkling => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=spaceborn => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=soviet => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=souled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=solemn => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=softwood => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=snooty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=slippery => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=similiar => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sideline-business => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=shockproof => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sequined => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=separatist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=segmented => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sedate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=school-improvement => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=scathing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=scarlet => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=saucy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=sapiens => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=saintly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=rowdy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=rightward => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=revitalization => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=resell => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=repressed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=repossesed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=remiss => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=refractory => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=reflex => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=recycled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=raring => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ramshackle => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=racy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=proxy-solicitation => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=protectionist => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=pronounced => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=price-determination => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=preschool => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=prepurchase => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=predawn => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pre-publication => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=posh => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=polished => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pleated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=platter => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=plant-sciences => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=plant-and-equipment => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pioneering => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pilot-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=physician-reimbursement => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=petulant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=petrified => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pershare => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=perplexing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=perk => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=perforated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=peremptory => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pedestrian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pastdue => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=pained => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=overwritten => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=overdrawn => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=overcrowding => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=overcrowded => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=opportune => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=omnipresent => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ol' => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=oil-finding => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=numb => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=nouveau => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=nosedive => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=nonstop => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=nonchlorinated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=non-enforcement => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=nightly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=newspaper-industry => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=neighborly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=natured => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=mutant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=mum => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=multisided => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=multipleuser => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=multimillion => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=multi-agency => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=mulitiplier => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=moribund => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=moot => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=modernist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=miserly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=miscreant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=midsize => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=middle-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=masculine => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=management-pilots => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=makeshift => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=major-frauds => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=low-life => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=liquified => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=linear => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=leisurely => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=knock-offs => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=kinked => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=kindred => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=jalapeno => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=irritated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=inveterate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=investor-relations => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=investment-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=introverted => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=introductory => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=intimidating => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=interrelated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=intercorporate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=intentioned => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=insane => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ingrained => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=indeterminate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=impromptu => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=impressionist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=impoverished => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=illicit => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ill-fitting => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=hurried => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=humanist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=housing-assistance => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hourlong => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=hooked => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hollow => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=high-security => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=heavyweight => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=heathen => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=haughty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=harrowing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=halfhearted => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=hair-trigger => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gungho => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=groundup => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=grilled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gouty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=glum => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=glib => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gas-station => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gaping => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=gallant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=frosty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=front-running => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=freemarket => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=foward => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=folding => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=fogged => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=flex => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=flatulent => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=flattering => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=finite => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=filigree => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=fifth-generation => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=field-crop-seeds => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=feline => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=fallow => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=f.o.b => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=extravagant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=exquisite => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=exhilarating => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=exhausting => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=erudite => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ersatz => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=enterprising => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=endrocrine => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=endearing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=embittered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=earthshaking => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=dumbfounded => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=drab => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=downstream => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=domineering => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=disaffected => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=direct-investment => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=differentiated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=desultory => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=demeaning => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=dehumidified => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=degrading => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=deconstructed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=decadent => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=debilitating => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=daytime => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=dapper => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=dandy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=current-generation => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cunning => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=crusty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=crisp => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=crimson => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=crimped => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=creationist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cowardly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cost-containment => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=corinthian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=contrarian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=conflicting => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=competitve => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=commmon => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=co-sponsoring => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=clammy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=civilised => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=cash-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=canny => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=c.i.f => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bygone => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=buy\/hold => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=burnt => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=brown => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=brotherly => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=brokered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=brawny => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=brash => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=branded => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bovine => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bluechip => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=blood-and-guts => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=biotech => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bereft => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bent => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=bemused => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=belated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=beholden => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=barren => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=balkanized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=baked => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=backlit => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=backbench => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=azure => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=awed => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=automated-teller => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=august => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=attuned => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=asset-allocation => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=asleep => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=appetizing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=antimissile => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=antiSony => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=anti-prostitution => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=anti-development => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=annoying => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=animalcare => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=analytical-instruments => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=amino => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=alluring => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=agonizing => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=aftertax => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=aft => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=affectionate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=adjoining => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=absent => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Zapotec => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Zairean => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yearly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Yankees-Mets => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=YOUR => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wonderful => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Wholesale => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Warm => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=WCRS-Eurocom => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Verbatim => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Varying => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unsuspecting => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unprovable => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unknown => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Unfilled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Undeterred => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=UNRESOLVED => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=Troubled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Trendy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Transvaal => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tiny => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Test-preparation => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tendered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Tax-exempt => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=TRUE => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=TIRED => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sufi => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Successful => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Stygian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Structural => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Strict => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Standardized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Special => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sovietized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Sorry => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Skilled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=SUSPECT => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=SKILLED => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=SHORT => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Rubenesquely => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Protestant => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Primary => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Plump => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Physical => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Perpetual => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Parallel => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Panglossian => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=PRECIOUS => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=PC-magazine => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Overbuilt => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Outstanding => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Noriegan => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Neanderthal => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nationalist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Nasty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mixtec => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mega => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Medieval => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mechanized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Mayan => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Massive => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Married => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Marginal => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Maltese => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Malaysian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Magnetic => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lucullan => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Lucky => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Loud => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Leftist => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Leery => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Law-enforcement => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Jolly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Intense => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Insitutional => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Infrared => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Influential => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Indonesian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Indirect => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Idle => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Honduran => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hers => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Healthy => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Hard-hitting => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Half-year => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=HEAVY => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gouldoid => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Garish => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gargantuan => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Gaelic => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=GREAT => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Flush => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Flemish => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Favored => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Extraordinary => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Exact => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Enough => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Encouraged => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Empty => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Embittered => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ECONOMIC => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Disorderly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dismal => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Disabled => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Dire => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Czechoslovak => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Customized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Crippling => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Costly => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Coplandesque => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Conventional => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Congolese => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Confectionery => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Complex => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Civilized => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Certain => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Caspita-brand => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Canadian-U.S. => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Callable => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CRIMINAL => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CREATIVE => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CONGRESSIONAL => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CHIEF => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=CANADIAN => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Brisk => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Booming => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Benchmark => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=Basic => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Backup => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=BUSY => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=BRITISH => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Aztec => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Attic => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Associate => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Asset-management => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Asia\/Australia => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Arthurian => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Animated => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Angolan => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Amusing => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Amateur => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Adverse => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Absolute => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Abrupt => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=AFRICAN-AMERICAN => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=90-pound => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=62nd => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=55th => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=4th => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=29-inch => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=223-178 => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=206-199 => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=2,050-passenger => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=10-K => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=unto => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=nearer => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=astride => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=amongst => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=a\/k\/a => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=WITH => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=THAN => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Notwithstanding => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=DESPITE => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Atop => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=AMONG => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word='Cause => pos=IN
+GOOD:1 BAD:0 SCORE:1 RULE: word=trop => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=theatre => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=sportif => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=seisho => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=se => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=sarakin => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=rapidement => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=pro-forma => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=officio => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=oeufs => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=neige => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=montgolfiere => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=les => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=jonron => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=i => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=flagrante => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=esprit => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=entree => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=confreres => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=bruddah => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=brah => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=avec => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=Shalom => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=Salaam => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=Perestroika => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=PRO => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=Haole => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=BONO => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=le => pos=DT
+GOOD:1 BAD:0 SCORE:1 RULE: word=BOTH => pos=DT
+GOOD:1 BAD:0 SCORE:1 RULE: word=twenty => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=twelve => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ninety => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=billion-plus => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Twenty-four => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=THREE => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=M2 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=IX => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=FIVE => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eleven => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Eighty-three => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=99-cent => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=7\/100ths => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=75-year-old => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=72-yearold => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=70-A21 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=67-31 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=657 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=5-1 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=5-0 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=466 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=383-30 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=300-113 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=20s => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=1st => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=1890s => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=10-2 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=10%-12 => pos=CD
+GOOD:2 BAD:1 SCORE:1 RULE: word='40s => pos=CD

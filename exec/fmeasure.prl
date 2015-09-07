@@ -1,0 +1,102 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+getopts ("i:");
+if (defined $opt_i) {
+  @i = split /,/,$opt_i;
+} else {
+  print stderr "Please define the pairs of indices using -i <ind1>,<ind2>\n";
+  exit(1);
+}
+
+if (@ARGV == () or $ARGV[0] eq '-') {
+  $f = \*stdin;
+} else {
+  $f = \*f;
+  open $f, $ARGV[0];
+}
+
+while (<$f>) {
+  if (/\S/) {
+	@a = split;
+	push @guess, $a[$i[0]];
+	push @truth, $a[$i[1]];
+	$n++;
+  } else {
+	compute_score();
+	@truth = ();
+	@guess = ();	
+  }
+}
+#Processed 33214 tokens with 10139 phrases; found: 10123 phrases; correct: 9355.
+print "Processed $n tokens with $true_phrases true phrases; found $guess_phrases phrases out of which $correct_phrases are correct\n";
+$prec = $correct_phrases*100/$guess_phrases;
+$recl = $correct_phrases*100/$true_phrases;
+$fm1 = 2.0*($prec*$recl)/($prec+$recl);
+printf "Accuracy: %.2f%%; precision: %.2f%% ; recall: %.2f%% ; F-measure: %.2f\n", $token_correct*100/$n, $prec, $recl, $fm1;
+
+sub compute_score {
+  local @tp = ();
+  local @gp = ();
+  local $i = 0;
+  local %found = ();
+  $prev = 0;
+  while ($i<@guess) {
+	if (!$prev) { #Not inside a NP
+	  if ($guess[$i] ne 'O') { #Now we're in
+		$prev = ($i+$i-1)/2;
+	  }
+	} else {
+	  if ($guess[$i] =~ /^B(-NP)?/) {
+		push @gp, "$prev ".(2*$i-1)/2;
+		$found{"$prev ".(2*$i-1)/2} = 1;
+		$prev = (2*$i-1)/2;
+	  } elsif ($guess[$i] eq 'O') {
+		$found{"$prev ".(2*$i-1)/2} = 1;
+		push @gp, "$prev ".(2*$i-1)/2;
+		$prev = 0;
+	  }
+	}
+	$i++;
+  }
+  if ($prev!=0) {
+	push @gp, "$prev ".(2*$i-1)/2;
+	$found{"$prev ".(2*$i-1)/2} = 1;
+	$prev = 0;	
+  }
+  $i = 0;
+
+  while ($i<@truth) {
+	if (!$prev) { #Not inside a NP
+	  if ($truth[$i] ne 'O') { #Now we're in
+		$prev = ($i+$i-1)/2;
+	  }
+	} else {
+	  if ($truth[$i] =~ /^B(-NP)?/) {
+		push @tp, "$prev ".(2*$i-1)/2;
+		if (defined $found{"$prev ".(2*$i-1)/2}) {
+		  $correct_phrases++;
+		}
+		$prev = (2*$i-1)/2;
+	  } elsif ($truth[$i] eq 'O') {
+		push @tp, "$prev ".(2*$i-1)/2;
+		if (defined $found{"$prev ".(2*$i-1)/2}) {
+		  $correct_phrases++;
+		}
+		$prev = 0;
+	  }
+	}
+	$token_correct++ if $guess[$i] eq $truth[$i];
+	$i++;
+  }
+  if ($prev!=0) {
+	push @tp, "$prev ".(2*$i-1)/2;
+	if (defined $found{"$prev ".(2*$i-1)/2}) {
+	  $correct_phrases++;
+	}
+	$prev = 0;	
+  }
+  
+  $guess_phrases += @gp;
+  $true_phrases += @tp;  
+}

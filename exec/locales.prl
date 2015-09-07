@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+$exec_dir = "$ENV{HOME}/workdir/fnTBL/exec";
+
+sub log_me {
+  open f, ">>logfile";
+  use POSIX qw(strftime);
+  $now_string = strftime "%a %b %e %H:%M:%S %Y", localtime;
+  print f $now_string, " $0 @ARGV\n";
+  close f;
+}
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+  if (! defined $opt_d and $?) {
+	print stderr "There was an error in running the command:\n$comm\nExiting the script!\n";
+	exit 1;
+  }
+}
+
+1;

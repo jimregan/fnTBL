@@ -1,0 +1,123 @@
+#!/usr/bin/perl
+
+open f, $ARGV[0];
+while (<f>) {
+  chomp;
+  s/STAART/ZZZ/g;
+  if (/^(\S+) (\S+) fhassuf (\d+) (\w+) /) {
+	print "pos_0=$1 word_0::~~$3=~~$2 => pos=$4\n";
+  } elsif (/^(\S+) hassuf (\d+) (\S+) [\d\.]+/) {
+	print "word_0::~~$2=~~$1 => pos=$3\n";
+  } elsif (/^(\S+) (\S+) faddsuf (\d+) (\S+) [\d\.]+/) {
+	print "pos_0=$1 word_0::++$3=++$2 => pos=$4\n";
+  } elsif (/^(\S+) addsuf (\d+) (\S+) [\d\.]+/) {
+	print "word_0::++$2=++$1 => pos=$3\n";
+  } elsif (/^(\S+) (\S+) fhaspref (\d+) (\w+) /) {
+	print "pos_0=$1 word_0::$3~~=$2~~ => pos=$4\n";
+  } elsif (/^(\S+) haspref (\d+) (\S+) [\d\.]+/) {
+	print "word_0::$2~~=$1~~ => pos=$3\n";
+  } elsif (/^(\S+) (\S+) faddpref (\d+) (\S+) [\d\.]+/) {
+	print "pos_0=$1 word_0::$3++=$2++ => pos=$4\n";
+  } elsif (/^(\S+) addpref (\d+) (\S+) [\d\.]+/) {
+	print "word_0::$2++=$1++ => pos=$3\n";
+  } elsif (/^(\S+) (\S+) fdeletepref (\d+) (\S+) [\d\.]+/) {                # NNP s fdeletesuf 1 NNPS 17
+	print "pos_0=$1 word_0::$3--=$2-- => pos=$4\n";
+  } elsif (/^(\S+) deletepref (\d+) (\S+) [\d\.]+/) {                # NNP s fdeletesuf 1 NNPS 17
+	print "word_0::$2--=$1-- => pos=$3\n";
+  } elsif (/^(\S+) (\S+) fdeletesuf (\d+) (\S+) [\d\.]+/) {                # NNP s fdeletesuf 1 NNPS 17
+	print "pos_0=$1 word_0::--$3=--$2 => pos=$4\n";
+  } elsif (/^(\S+) deletesuf (\d+) (\S+) [\d\.]+/) {                # NNP s fdeletesuf 1 NNPS 17
+	print "word_0::--$2=--$1 => pos=$3\n";
+  } elsif (/^(\S+) goodright (\S+) [\d\.]+/) {
+	print "word^^-1=$1 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) fgoodright (\S+) [\d\.]+/) {				# VB the fgoodright NN 35.8444444444444
+	print "pos_0=$1 word^^-1=$2 => pos=$3\n";
+  } elsif (/^(\S+) goodleft (\S+) [\d\.]+/) {
+	print "word^^1=$1 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) fgoodleft (\S+) [\d\.]+/) {				# VB the fgoodright NN 35.8444444444444
+	print "pos_0=$1 word^^1=$2 => pos=$3\n";
+  } elsif (/^(\S+) (\S) fchar (\S+) [\d\.]+/) {
+	print "pos_0=$1 word_0::1<>=$2<> => pos=$3\n";
+  } elsif (/^(\S) char (\S+) [\d\.]+/) {
+	print "word_0::1<>=$1<> => pos=$2\n";
+  } 
+# CURWD
+# LBIGRAM
+# NEXT1OR2OR3TAG
+# NEXT1OR2TAG
+# NEXT1OR2WD
+# NEXT2WD
+# NEXTBIGRAM
+# NEXTTAG
+# NEXTWD
+# PREV1OR2OR3TAG
+# PREV1OR2TAG
+# PREV1OR2WD
+# PREV2TAG
+# PREV2WD
+# PREVBIGRAM
+# PREVTAG
+# PREVWD
+# RBIGRAM
+# SURROUNDTAG
+# WDAND2AFT
+# WDAND2BFR
+# WDAND2TAGAFT
+# WDAND2TAGBFR
+# WDNEXTTAG
+# WDPREVTAG
+  elsif (/^(\S+) (\S+) CURWD (\S+)$/) {
+	print "pos_0=$1 word_0=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) LBIGRAM (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$4 word_-1=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXT1OR2OR3TAG (\S+)$/) {
+	print "pos_0=$1 pos:[1,3]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXT1OR2TAG (\S+)$/) {
+	print "pos_0=$1 pos:[1,2]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXT1OR2WD (\S+)$/) {
+	print "pos_0=$1 word:[1,2]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXT2WD (\S+)$/) {
+	print "pos_0=$1 word_2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXTBIGRAM (\S+) (\S+)$/) {
+	print "pos_0=$1 pos_1=$3 pos_2=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXTTAG (\S+)$/) {
+	print "pos_0=$1 pos_1=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) NEXTWD (\S+)$/) {
+	print "pos_0=$1 word_1=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREV1OR2OR3TAG (\S+)$/) {
+	print "pos_0=$1 pos:[-3,-1]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREV1OR2TAG (\S+)$/) {
+	print "pos_0=$1 pos:[-2,-1]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREV1OR2WD (\S+)$/) {
+	print "pos_0=$1 word:[-2,-1]=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREV2TAG (\S+)$/) {
+	print "pos_0=$1 pos_-2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREV2WD (\S+)$/) {
+	print "pos_0=$1 word_-2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREVBIGRAM (\S+) (\S+)$/) {
+	print "pos_0=$1 pos_-1=$4 pos_-2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREVTAG (\S+)$/) {
+	print "pos_0=$1 pos_-1=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) PREVWD (\S+)$/) {
+	print "pos_0=$1 word_-1=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) RBIGRAM (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$3 word_1=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) SURROUNDTAG (\S+) (\S+)$/) {
+	print "pos_0=$1 pos_-1=$3 pos_1=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDAND2AFT (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$3 word_2=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDAND2BFR (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$4 word_-2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDAND2TAGAFT (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$3 pos_2=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDAND2TAGBFR (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$4 pos_-2=$3 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDNEXTTAG (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$3 pos_1=$4 => pos=$2\n";
+  } elsif (/^(\S+) (\S+) WDPREVTAG (\S+) (\S+)$/) {
+	print "pos_0=$1 word_0=$4 pos_-1=$3 => pos=$2\n";	
+  } else {
+	print "Unknown rule: $_\n";
+  }
+}
+

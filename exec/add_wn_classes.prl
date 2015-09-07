@@ -1,0 +1,124 @@
+#!/usr/bin/perl
+use Getopt::Std;
+
+$dir = "/remote/bigram/home/rflorian/workdir/research/data/tbl-toolkit/pp-attachment";
+open f, "$dir/wn_s.pl";
+
+while (<f>) {
+  # s(100014887,1,'location',n,1,1).
+  ($id, $wrd_sense, $wrd, $type, $no_senses,$id1) = /s\((\d+),(\d+),\'(.*?)\',(\w+),(\d+),(\d+)\)\.$/;
+  last if $type ne "n" and $type ne "v";
+  push @{$id{"$wrd $type"}}, $id;
+  push @{$word{$id}}, $wrd;
+  $type{$id} = $type;
+}
+
+close f;
+
+open f, "$dir/wn_hyp.pl";
+while (<f>) {
+  #hyp(100022737,100022246).
+  ($id1, $id2) = /hyp\((\d+),(\d+)\)\./;
+  $parent{$id1} = $id2;
+}
+
+close f;
+
+getopts("l:");
+if (! defined $opt_l) {
+  $l = 4;
+} else {
+  $l = $opt_l;
+}
+
+open f, $ARGV[0];
+while (<f>) {
+  #keep offer for cellular-phone n n
+  ($vb, $n1, $p, $n2, $t, $g) = split /\s+/;
+  @vp = ("-") x $l;
+  @n1p = ("-") x $l;
+  @n2p = ("-") x $l;
+
+#   $pv = $id{$vb};
+#   $pn1 = $id{$n1};
+#   $pn2 = $id{$n2};
+
+  @vq = @{$id{"$vb v"}};
+  @n1q = @{$id{"$n1 n"}};
+  @n2q = @{$id{"$n2 n"}};
+  undef %vbp;
+  undef %n1p;
+  undef %n2p;
+
+  for ($i=0 ; $i<$l ; $i++) {
+	while (1) {
+	  if (@vq==0) {
+		$pv = undef;
+		last;
+	  }
+	  $pv = shift @vq;
+	  while (@vq>0 and !defined $parent{$pv}) {
+		$pv = shift @vq;
+	  }
+	  if (defined $parent{$pv}) {
+		if (defined $vbp{$word{$parent{$pv}}[0]}) {
+		  next;
+		} 
+		$vbp{$word{$parent{$pv}}[0]} = 1;
+	  }
+	  last;
+	}
+
+	if (defined $pv and defined $parent{$pv}) {
+	  $vp[$i] = $word{$parent{$pv}}[0];
+	  push @vq, $parent{$pv};
+	}
+
+	while (1) {
+	  if (@n1q==0) {
+		$pn1=undef;
+		last;
+	  }
+	  $pn1 = shift @n1q;
+	  while (@n1q>0 and !defined $parent{$pn1}) {
+		$pn1 = shift @n1q;
+	  }
+	  if (defined $parent{$pn1}) {
+		if (defined $n1p{$word{$parent{$pn1}}[0]}) {
+		  next;
+		}
+		$n1p{$word{$parent{$pn1}}[0]} = 1;
+	  }
+	  last;
+	}
+	if (defined $pn1 and defined $parent{$pn1}) {
+	  $n1p[$i] = $word{$parent{$pn1}}[0];
+	  push @n1q, $parent{$pn1};
+	}
+
+	while (1) {
+	  if (@n2q==0) {
+		$pn2 = undef;
+		last;
+	  }
+	  $pn2 = shift @n2q;
+	  while (@n2q>0 && !defined $parent{$pn2}) {
+		$pn2 = shift @n2q;
+	  }
+	  if (defined $parent{$pn2}) {
+		if (defined $n2p{$word{$parent{$pn2}}[0]}) {
+		  next;
+		}
+		$n2p{$word{$parent{$pn2}}[0]} = 1;
+	  }
+	  last;
+	}
+	if (defined $pn2 and defined $parent{$pn2}) {
+	  $n2p[$i] = $word{$parent{$pn2}}[0];
+	  push @n2q, $parent{$pn2};
+	}
+  }
+  chomp;
+  print "$vb $n1 $p $n2 @vp @n1p @n2p $t $g\n"
+}
+close f;

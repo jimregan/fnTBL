@@ -1,0 +1,4 @@
+Friday, February 09 2007, 14:28:26  /home/fnTBL-1.2/bin/fnTBL-train ./my_pos_dir1/lexical_train.dat ./my_pos_dir1/lexical.rls -F ./my_pos_dir1/tbl.lexical.train.params.0 -threshold 2 -v 
+Friday, February 09 2007, 14:28:43  /home/fnTBL-1.2/bin/fnTBL ./my_pos_dir1/train_temp.init ./my_pos_dir1/lexical.rls -F ./my_pos_dir1/tbl.lexical.train.params.0 -v -o ./my_pos_dir1/11.temp_lexical 
+Friday, February 09 2007, 14:28:49  /home/fnTBL-1.2/bin/fnTBL-train ./my_pos_dir1/11.lexical ./my_pos_dir1/context.rls -F ./my_pos_dir1/tbl.context.pos.params.0 -threshold 2 -v 
+Friday, February 09 2007, 14:30:27  /home/fnTBL-1.2/bin/fnTBL /tmp/fnTBL162199/22.lexical my_pos_dir1/context.rls -F /tmp/fnTBL162199/tbl.context.pos.params1 -o 22.out -v 

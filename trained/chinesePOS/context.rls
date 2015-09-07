@@ -1,0 +1,879 @@
+#train_voc_file: /home/fnTBL-1.2/trained/chinesePOS/ctrain.dat.lexical.voc
+GOOD:1165 BAD:478 SCORE:687 RULE: pos_0=DEG pos:[-3,-1]=VV => pos=DEC
+GOOD:257 BAD:28 SCORE:229 RULE: pos_0=JJ word_1=的 => pos=VA
+GOOD:335 BAD:26 SCORE:309 RULE: pos_0=DEG pos:[-3,-1]=VA => pos=DEC
+GOOD:158 BAD:12 SCORE:146 RULE: pos_0=VV word_-1=的 => pos=NN
+GOOD:262 BAD:144 SCORE:118 RULE: pos_0=NN pos_-1=AD => pos=VV
+GOOD:77 BAD:1 SCORE:76 RULE: pos_0=LC word_0=中 pos_1=NR => pos=NR
+GOOD:85 BAD:10 SCORE:75 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:80 BAD:7 SCORE:73 RULE: pos_0=P word_0=为 pos_1=CD => pos=VC
+GOOD:77 BAD:6 SCORE:71 RULE: pos_0=LC pos:[1,2]=M => pos=DT
+GOOD:101 BAD:30 SCORE:71 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:72 BAD:4 SCORE:68 RULE: pos_0=VA pos_1=NN => pos=JJ
+GOOD:71 BAD:9 SCORE:62 RULE: pos_0=JJ pos_1=PU => pos=VA
+GOOD:66 BAD:6 SCORE:60 RULE: pos_0=AD word_-1=的 => pos=JJ
+GOOD:86 BAD:10 SCORE:76 RULE: pos_0=VV pos_-1=JJ => pos=NN
+GOOD:72 BAD:19 SCORE:53 RULE: pos_0=DEG pos:[-2,-1]=AD => pos=DEC
+GOOD:50 BAD:0 SCORE:50 RULE: pos_0=P word_0=同 word_1=期 => pos=DT
+GOOD:54 BAD:6 SCORE:48 RULE: pos_0=VV word_0=到 pos_1=NT => pos=P
+GOOD:87 BAD:41 SCORE:46 RULE: pos_0=DEC word_0=的 pos_-1=NR => pos=DEG
+GOOD:46 BAD:3 SCORE:43 RULE: pos_0=NN pos_1=AS => pos=VV
+GOOD:47 BAD:4 SCORE:43 RULE: pos_0=DT word:[1,2]=是 => pos=PN
+GOOD:36 BAD:0 SCORE:36 RULE: pos_0=AD word_1=的 => pos=VA
+GOOD:36 BAD:1 SCORE:35 RULE: pos_0=VV word_0=增长 pos_1=NN => pos=NN
+GOOD:35 BAD:4 SCORE:31 RULE: pos_0=CD word_0=多 pos_-1=AD => pos=VA
+GOOD:47 BAD:17 SCORE:30 RULE: pos_0=NN pos_1=NR pos_2=NN => pos=VV
+GOOD:29 BAD:0 SCORE:29 RULE: pos_0=DEV word_0=地 pos_-1=DT => pos=NN
+GOOD:29 BAD:0 SCORE:29 RULE: pos_0=VV word_-1=据 => pos=NN
+GOOD:64 BAD:35 SCORE:29 RULE: pos_0=DEG word_0=的 pos_1=NR => pos=DEC
+GOOD:26 BAD:0 SCORE:26 RULE: pos_0=CD word_0=一 pos_2=NT => pos=NT-SHORT
+GOOD:26 BAD:0 SCORE:26 RULE: pos_0=NN word_0=新华社 word_2=九月 => pos=NR
+GOOD:25 BAD:0 SCORE:25 RULE: pos_0=NN word_0=期 pos_-1=CD => pos=M
+GOOD:24 BAD:0 SCORE:24 RULE: pos_0=DEC pos_1=CD pos_2=PU => pos=DEG
+GOOD:23 BAD:1 SCORE:22 RULE: pos_0=CC word_0=与 pos_-1=AD => pos=P
+GOOD:24 BAD:2 SCORE:22 RULE: pos_0=DEC word_0=的 pos_-1=PN => pos=DEG
+GOOD:186 BAD:164 SCORE:22 RULE: pos_0=DEC pos_-1=NN pos_1=NN => pos=DEG
+GOOD:79 BAD:54 SCORE:25 RULE: pos_-2=VV pos_-1=NN word_0=的 => pos=DEC
+GOOD:35 BAD:14 SCORE:21 RULE: pos_0=NN word_0=投资 pos_-1=NR => pos=VV
+GOOD:21 BAD:0 SCORE:21 RULE: pos_0=M pos_-1=M => pos=NN
+GOOD:21 BAD:0 SCORE:21 RULE: pos_0=CC word_-1=ZZZ => pos=AD
+GOOD:20 BAD:0 SCORE:20 RULE: pos_0=NN word_0=新华社 word_2=８月 => pos=NR
+GOOD:22 BAD:2 SCORE:20 RULE: pos_0=P pos_-1=PU pos_1=VV => pos=MSP
+GOOD:29 BAD:9 SCORE:20 RULE: pos_0=DEG pos_-1=NN pos_1=PU => pos=DEC
+GOOD:19 BAD:0 SCORE:19 RULE: pos_0=M word_0=年 word_-1=， => pos=JJ
+GOOD:17 BAD:0 SCORE:17 RULE: pos_0=NN word_0=新华社 word_2=八月 => pos=NR
+GOOD:21 BAD:4 SCORE:17 RULE: pos_0=CC word_0=而 pos_1=VV => pos=MSP
+GOOD:16 BAD:0 SCORE:16 RULE: pos_0=CC word_0=与 word_-1=， => pos=P
+GOOD:19 BAD:3 SCORE:16 RULE: pos_0=CC word_0=与 word_-2=ZZZ => pos=P
+GOOD:21 BAD:5 SCORE:16 RULE: pos_0=VA pos_1=VV => pos=AD
+GOOD:16 BAD:0 SCORE:16 RULE: pos_1=VV word_0=年 word_1=产 => pos=AD
+GOOD:28 BAD:13 SCORE:15 RULE: pos_0=P word_0=为 pos_2=PU => pos=VV
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=P word_1=了 => pos=VV
+GOOD:16 BAD:1 SCORE:15 RULE: pos_0=AD pos_-1=NN pos_1=PU => pos=VA
+GOOD:19 BAD:4 SCORE:15 RULE: pos_0=CC word_0=与 pos_-1=VV => pos=P
+GOOD:16 BAD:1 SCORE:15 RULE: pos_0=JJ word_0=一体化 => pos=NN
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=LC pos_-1=NN pos_1=VV => pos=MSP
+GOOD:16 BAD:1 SCORE:15 RULE: pos_0=AD word_1=的 => pos=JJ
+GOOD:27 BAD:7 SCORE:20 RULE: pos_0=DEC pos_-1=JJ => pos=DEG
+GOOD:15 BAD:0 SCORE:15 RULE: pos_0=DEG word_0=的 word_1=比重 => pos=DEC
+GOOD:19 BAD:5 SCORE:14 RULE: pos_0=VV word_0=增长 word_-1=经济 => pos=NN
+GOOD:14 BAD:0 SCORE:14 RULE: pos_0=VV word:[-3,-1]=得到 => pos=NN
+GOOD:17 BAD:3 SCORE:14 RULE: pos_0=DEV word_0=地 pos_-2=NR => pos=NN
+GOOD:18 BAD:5 SCORE:13 RULE: pos_0=NN word_0=上市 => pos=VV
+GOOD:16 BAD:1 SCORE:15 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:16 BAD:3 SCORE:13 RULE: pos_0=LC pos:[-2,-1]=AD => pos=VV
+GOOD:17 BAD:4 SCORE:13 RULE: pos_0=AD word_0=就 pos_2=NN => pos=P
+GOOD:15 BAD:2 SCORE:13 RULE: pos_0=NN word:[1,3]=二十三日 => pos=NR
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=M pos_-1=P => pos=NR
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=AD word_0=努力 pos_1=PU => pos=NN
+GOOD:13 BAD:0 SCORE:13 RULE: pos_0=NN word_0=外 word_1=， => pos=LC
+GOOD:19 BAD:6 SCORE:13 RULE: pos_0=PN pos_1=NN => pos=DT
+GOOD:12 BAD:0 SCORE:12 RULE: pos_0=DT word_0=这 pos_1=VV => pos=PN
+GOOD:12 BAD:0 SCORE:12 RULE: pos_0=VV word_0=会 word_-1=两 => pos=NN
+GOOD:14 BAD:2 SCORE:12 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:22 BAD:10 SCORE:12 RULE: pos_0=DEC word_0=的 pos_-1=NR => pos=DEG
+GOOD:14 BAD:2 SCORE:12 RULE: pos_0=DEC word_0=的 pos_-1=CD => pos=DEG
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=P word_0=用 word_1=于 => pos=VV
+GOOD:12 BAD:1 SCORE:11 RULE: pos_0=NN pos_-1=AD => pos=VA
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=DT word_0=这 pos_1=P => pos=PN
+GOOD:12 BAD:1 SCORE:11 RULE: pos_0=LC word_0=中 pos_-1=NR => pos=NR
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=VV pos_-1=P pos_1=LC => pos=NN
+GOOD:13 BAD:2 SCORE:11 RULE: pos_0=JJ pos_1=PU => pos=NN
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=NN word_0=部分 pos_1=NN => pos=M
+GOOD:11 BAD:0 SCORE:11 RULE: pos_0=DEG pos_-1=NN pos_-2=VE => pos=DEC
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=M word_0=批 word_-1=新 => pos=VV
+GOOD:22 BAD:3 SCORE:19 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=P word_0=为 word_-2=以 => pos=VV
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=VV word_0=为 pos_1=PN => pos=P
+GOOD:10 BAD:0 SCORE:10 RULE: pos_0=NN word_0=新华社 pos_-1=P => pos=NR
+GOOD:14 BAD:4 SCORE:10 RULE: pos_0=VV word_-1=有 => pos=NN
+GOOD:11 BAD:1 SCORE:10 RULE: pos_0=M pos_-1=NN => pos=JJ
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=NN word_0=投资 pos_1=NR => pos=VV
+GOOD:23 BAD:14 SCORE:9 RULE: pos_0=NN word_0=要求 => pos=VV
+GOOD:12 BAD:2 SCORE:10 RULE: pos_0=VV word_0=要求 pos_1=PU => pos=NN
+GOOD:13 BAD:3 SCORE:10 RULE: pos_0=SB word_0=被 pos_1=NN => pos=LB
+GOOD:11 BAD:2 SCORE:9 RULE: pos_0=NN word_0=转变 => pos=VV
+GOOD:11 BAD:2 SCORE:9 RULE: pos_0=LC pos_1=NR pos_2=VV => pos=VV
+GOOD:9 BAD:0 SCORE:9 RULE: pos_-1=NN pos_0=NN word_0=统计 word_1=， => pos=VV
+GOOD:12 BAD:3 SCORE:9 RULE: pos_0=AD pos_-1=AD pos_1=PU => pos=VA
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=OD word_0=首 word_-1=之 => pos=NN
+GOOD:10 BAD:1 SCORE:9 RULE: pos_0=VV word_0=增长 pos_2=VA => pos=NN
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=VV word_0=分配 pos_-1=NN => pos=NN
+GOOD:12 BAD:3 SCORE:9 RULE: pos_0=VA pos:[-2,-1]=DEG => pos=NN
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=AD word_0=将 pos_1=NR => pos=BA
+GOOD:9 BAD:0 SCORE:9 RULE: pos_1=VV word_0=稳定 word_1=增长 => pos=AD
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NN word_0=交换 word_1=意见 => pos=VV
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NN word_0=建设 pos_1=DEC => pos=VV
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=VV word_0=配套 pos_1=NN => pos=NN
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=NN word_0=预测 pos_-1=NN => pos=VV
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=LC word_0=起 pos_-1=VV => pos=VV
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=NN pos_-1=DEV => pos=VV
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=JJ word:[1,2]=地 => pos=VA
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=AD word_0=就 pos_1=NR => pos=P
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=NN word:[1,3]=２３日 => pos=NR
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=VV word:[-2,-1]=有所 => pos=NN
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=VV word:[-2,-1]=投入 => pos=NN
+GOOD:12 BAD:4 SCORE:8 RULE: pos_0=VV word:[-2,-1]=进行 => pos=NN
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=NN word:[1,3]=经贸 => pos=VV
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=JJ word_0=全国 => pos=NN
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=JJ word_0=代理 => pos=NN
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=LC pos_-1=P => pos=NN
+GOOD:13 BAD:4 SCORE:9 RULE: pos_0=DEC word_0=的 pos_-1=LC => pos=DEG
+GOOD:11 BAD:3 SCORE:8 RULE: pos_0=LC pos_-1=CD => pos=M
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=PN pos:[1,2]=M => pos=DT
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=DEC pos_-1=NT pos_1=CD => pos=DEG
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=DEG word:[-2,-1]=稳定 => pos=DEC
+GOOD:9 BAD:1 SCORE:8 RULE: pos_0=VV word_0=到 pos_-1=CD => pos=CC
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=AD word_0=将 pos_1=PN => pos=BA
+GOOD:8 BAD:0 SCORE:8 RULE: pos_0=JJ word_1=是 => pos=AD
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=P word_0=为 word_-1=当选 => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=P word_0=为 word_1=驻 => pos=VV
+GOOD:10 BAD:3 SCORE:7 RULE: pos_0=NN word:[1,3]=石油 => pos=VV
+GOOD:10 BAD:3 SCORE:7 RULE: pos_0=P word_0=作为 pos_-2=NN => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VE word_0=没有 pos_1=VV => pos=VV
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=NN word_0=决定 pos_-1=NN => pos=VV
+GOOD:10 BAD:3 SCORE:7 RULE: pos_0=NN word_-1=上 => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos_-1=JJ pos_0=NN word_0=发展 word_1=的 => pos=VV
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=DT word_0=这 pos_1=AD => pos=PN
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VV word_0=到 word_1=本 word_2=世纪 => pos=P
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VV word_0=到 pos_-2=P => pos=P
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=CC word_0=与 pos_-1=LC => pos=P
+GOOD:10 BAD:3 SCORE:7 RULE: pos_0=AD word_0=近日 => pos=NT
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NN word_0=法 word_-1=中 => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=M word_0=台 pos_-1=NR => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos_1=NR word_0=中 word_1=法 => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=VV word_0=声明 word_-1=联合 => pos=NN
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=VV word_-1=但 => pos=NN
+GOOD:14 BAD:7 SCORE:7 RULE: pos_0=VV pos_-1=CC pos_1=PU => pos=NN
+GOOD:7 BAD:0 SCORE:7 RULE: pos_0=NN word_-1=并 => pos=VV
+GOOD:9 BAD:2 SCORE:7 RULE: pos_0=DEG word_0=的 word_1=项目 => pos=DEC
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=DEG word:[-3,-1]=位 => pos=DEC
+GOOD:10 BAD:3 SCORE:7 RULE: pos_0=DEG pos_1=JJ word_0=的 word_1=新 => pos=DEC
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_0=投资 word_-1=公司 => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_0=控制 word_1=在 => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=P word:[-2,-1]=所 => pos=VV
+GOOD:8 BAD:1 SCORE:7 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=NN word_0=稳定 pos_1=NN => pos=VV
+GOOD:9 BAD:3 SCORE:6 RULE: pos_0=NN word_0=发展 pos_-1=NR => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_1=中国 => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN word_-1=可 => pos=VV
+GOOD:7 BAD:1 SCORE:6 RULE: pos_-2=VV pos_-1=CC word_0=发展 => pos=VV
+GOOD:9 BAD:3 SCORE:6 RULE: pos_-2=NN pos_-1=JJ word_0=发展 => pos=VV
+GOOD:10 BAD:2 SCORE:8 RULE: pos_0=JJ pos_-1=NN pos_1=VV => pos=AD
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=CC word_0=与 pos_-2=CD => pos=P
+GOOD:9 BAD:3 SCORE:6 RULE: pos_0=VV word_0=投资 word_-1=直接 => pos=NN
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=VV word_0=成立 word_2=周年 => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=NN-SHORT word:[-3,-1]=届 => pos=NN
+GOOD:8 BAD:2 SCORE:6 RULE: pos_0=VV word_0=投入 pos_-1=NN => pos=NN
+GOOD:9 BAD:3 SCORE:6 RULE: pos_0=AD word_0=直接 word_1=投资 => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=LC word_0=前 pos_-1=NR => pos=JJ
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=AD pos:[-2,-1]=VE => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=P word_0=同 pos_1=M => pos=DT
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=DEG word:[-2,-1]=业务 => pos=DEC
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=AD word_0=大批 => pos=CD
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=NN word_0=自主 => pos=AD
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=CD pos_-1=NN pos_1=VV => pos=AD
+GOOD:7 BAD:1 SCORE:6 RULE: pos_0=JJ pos_1=P => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=组成 word_1=的 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=生产 word_1=的 => pos=VV
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=创汇 word_2=美元 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=合作 word_-2=与 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=出口 word_-2=向 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word:[1,2]=批 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word:[-2,-1]=加速 => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=支持 pos_-2=VV => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=计划 pos_1=P => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=生产 pos_1=CD => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NT word_0=过去 pos_-1=AD => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=接轨 pos_-1=NN => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=创办 => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=JJ word_0=新建 => pos=VV
+GOOD:9 BAD:0 SCORE:9 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN pos_-1=PU pos_1=NR => pos=VV
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=NN word_0=稳定 word_1=的 => pos=VA
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VV word_0=完善 pos_1=PU => pos=VA
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=AD pos_-1=VV pos_1=PU => pos=VA
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=AD word:[-2,-1]=双方 => pos=P
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=CC word:[-3,-1]=这 => pos=P
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ word_0=有关 pos_1=NR => pos=P
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=CC word_0=至 pos_-1=PU => pos=P
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=CC pos_-1=VV pos_1=NR => pos=P
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=NN word_0=新华社 pos_2=NR => pos=NR
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=法 pos_-2=NR => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=LC word_0=中 pos_-1=CD => pos=NN-SHORT
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VV word:[1,2]=办法 => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VV word_0=欢迎 pos_-1=VV => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VV word_0=统计 pos_-1=AD => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NR word_0=河 pos_-1=P => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NR word_0=岛 => pos=NN
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=VV word_1=公司 => pos=NN
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VV word_-1=一 => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VV pos_-1=JJ pos_1=PU => pos=NN
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=M pos_-1=NN => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=MSP word_0=所 pos_-1=CD => pos=M
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN pos_-1=MSP => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=AD word_0=只 pos_-1=CD => pos=M
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=SB word_0=被 pos_1=NR => pos=LB
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=AD word:[1,2]=统计 => pos=JJ
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=NN word_0=航天 pos_1=NN => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEC word_0=的 word_-1=党 => pos=DEG
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEC pos_1=CD pos_2=PU => pos=DEG
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEC pos_1=CD pos_2=CC => pos=DEG
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEG word_0=的 word_1=货物 => pos=DEC
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEG word_0=的 word_1=条件 => pos=DEC
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=DEG word_0=的 word_-2=先进 => pos=DEC
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEG word_0=的 word_-2=驻 => pos=DEC
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEG word:[-3,-1]=来自 => pos=DEC
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=DEG word:[-3,-1]=给 => pos=DEC
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=AD word_0=将 pos_2=M => pos=BA
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=AD word_0=将 pos_1=NN => pos=BA
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=CC word_0=并 word_1=不 => pos=AD
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=VV word_0=一致 pos_1=VV => pos=AD
+GOOD:7 BAD:2 SCORE:5 RULE: pos_0=NN word_0=重点 pos_1=VV => pos=AD
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=P pos_-1=AD pos_1=AD => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=JJ pos_-1=NN pos_1=AD => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=了解 word_1=到 word_2=， => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_-1=的 word_0=利用 word_1=外资 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=P word_0=在 word_-1=旨 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=回归 word_-1=香港 => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=P word_0=给 word_1=中国 => pos=VV
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=NN word_0=开发 word_1=的 => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=经营 word_2=业务 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=投资 word_-2=到 => pos=VV
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=P word:[1,2]=。 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ word:[1,2]=香港 => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word:[-2,-1]=王翔 => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word:[-2,-1]=前来 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word:[-2,-1]=对接 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word:[1,3]=彗星 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=P word:[-3,-1]=被 => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=NN word_0=国务院 pos_2=P => pos=NR
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word_0=分析 pos_2=PU => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_0=集中 pos_-2=NN => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=抑制 pos_1=NN => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=增长 pos_1=CD => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=授权 pos_-1=NN => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_0=保护 pos_-1=PU => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word_0=发展 pos_-1=P => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ word_0=持续 pos_-1=NN => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word_0=新增 => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_1=他 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word_-1=要 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VA pos_1=NN pos_2=NN => pos=VV
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=NN pos_-1=PN pos_-2=P => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN pos_1=VV word_0=出口 word_1=创汇 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=P word_0=为 word_2=号 => pos=VC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ word:[1,2]=了 => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_0=积极 pos_1=VA => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ word_1=ZZZ => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_1=ZZZ => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEC word_0=之 pos_1=P => pos=PN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=CC word_0=与 word_-1=了 => pos=P
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=CC word_0=与 word_2=合作 => pos=P
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=CC pos_-1=CC => pos=P
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=M pos_-1=PU pos_-2=NR => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN-SHORT word_0=中 word_1=全会 word_2=上 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word_0=投资 word_-1=韩国 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word_0=启动 word_1=项目 => pos=NN
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=VV word:[-2,-1]=保持 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_0=联合 pos_1=PU => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word_0=改组 pos_-1=NN => pos=NN
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=VV word_-1=如 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word_-1=经 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_-1=之 => pos=NN
+GOOD:9 BAD:5 SCORE:4 RULE: pos_0=VV pos_1=CC pos_2=NN word_1=和 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN word:[1,3]=生意 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=LC word_0=中 word_-1=大 => pos=JJ
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=NN word_0=军事 word_2=。 => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word:[1,2]=仪式 => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=M word:[1,2]=能力 => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_0=原 pos_1=NR => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD word_-1=保持 => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_1=NN word_0=年 word_1=产值 => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEC word_0=之 word_1=首 => pos=DEG
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEC word_0=的 word_2=发展 => pos=DEG
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEC word_0=的 word_2=与 => pos=DEG
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEC word:[-2,-1]=项目 => pos=DEG
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEC pos_1=CD pos_2=LC => pos=DEG
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word_0=的 word_1=同时 word_2=， => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word_0=的 word_1=仪式 => pos=DEC
+GOOD:8 BAD:4 SCORE:4 RULE: pos_0=DEG word_0=的 word_1=大型 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word_0=的 word_1=上海 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word_0=的 word_2=表示 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word:[1,2]=部队 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word:[1,2]=外商 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word:[1,2]=办法 => pos=DEC
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEG word:[1,2]=有 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word:[-3,-1]=从事 => pos=DEC
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEG word:[-3,-1]=或 => pos=DEC
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=MSP word_0=而 word_-1=， => pos=CC
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=AD word_0=将 pos_1=JJ => pos=BA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=P word:[1,2]=是 => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AS word:[1,3]=， => pos=AD
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=MSP word_0=从而 pos_-2=NN => pos=AD
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=NN word_0=和平 pos_1=VV => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ word_1=有 => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=投资 word_1=一千万 word_2=美元 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_-1=外 word_0=开放 word_1=政策 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VC word_0=为 word_-1=降 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=为 word_-1=转变 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=为 word_-1=” => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=对接 word_-1=轨道站 => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=统计 word_-1=产地 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=保障 word_-1=， => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=转化 word_1=为 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=建设 word_1=有 => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=P word_0=到 word_2=的 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word:[1,2]=于 => pos=VV
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=NN word:[-2,-1]=被 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=LC word:[-2,-1]=所 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[1,3]=盈利 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[1,3]=水运 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[-3,-1]=下一步 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=建设 pos_2=M => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=观测 pos_-2=VV => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=撤军 pos_-2=P => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=运行 pos_1=PU => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_0=支持 pos_1=NN => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=NN word_0=开放 pos_1=VV => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=调整 pos_-1=PU => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=LC word_0=起 pos_-1=NN => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=CC word_0=至 pos_-1=VV => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_-1=部门 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=NN pos_-1=CC pos_-2=VV => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_-1=区 => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=NN pos_1=JJ pos_2=JJ => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos_-1=NN pos_0=NN word_0=发展 word_1=。 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-2=AD pos_-1=VV word_0=开发 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_1=PU word_0=如下 word_1=： => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN pos_1=VA pos_2=DEC word_1=新 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_1=NN pos_2=NN word_1=国家 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN pos_1=JJ pos_2=NN word_1=友好 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_-1=题 word_0=为 word_1=《 => pos=VC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=为 word_-1=图 => pos=VC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=为 word_-1=之 => pos=VC
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=P word:[1,3]=。 => pos=VC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=互利 word_1=的 word_2=基础 => pos=VA
+GOOD:6 BAD:1 SCORE:5 RULE: pos_0=DEG word_0=的 pos_-1=VA => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=完善 word_1=的 => pos=VA
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_0=稳定 word_1=， => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word:[1,2]=而 => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV word_0=增长 pos_1=VA => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=哀悼 pos_-1=VV => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=AD pos_-2=NN => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=相互 word_1=了解 => pos=PN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=相互 pos_1=LC => pos=PN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VC word_0=为 word_1=两 word_2=国 => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=就 word_1=“ => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=就 word_1=新 => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=就 pos_1=DT => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=到 pos_-1=NR => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=CC word_0=与 pos_-1=P => pos=P
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_-1=ZZZ word_0=外交部 word_1=发言人 => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=LC word_0=中 word_-1=， => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=新华社 word_2=９月 => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=共和军 word_-2=ZZZ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=新华 pos_2=NN => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_-1=合同 word_0=利用 word_1=外资额 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=M word_-1=” word_0=号 word_1=轨道站 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=列 word_-1=之 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=会 word_-1=到 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=希望 word_1=的 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=投资 word_1=环境 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=实际 word_1=， => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=投资 word_-2=对 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=努力 word_-2=的 => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=VV word:[-2,-1]=取得 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word:[-2,-1]=提高 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word:[-2,-1]=受到 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=LC word:[-2,-1]=之 => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=VV word:[-3,-1]=作 => pos=NN
+GOOD:9 BAD:3 SCORE:6 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=VV pos_1=CC pos_2=JJ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word:[-3,-1]=获得 => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=发行 pos_-2=VV => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=学习 pos_1=PU => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=保证 pos_1=PU => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=进出口 pos_1=NN => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VA word_0=强 pos_-1=CD => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=M word_0=家 pos_-1=NR => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NR word_0=南 => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=VV word_1=组织 => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=VV word_1=工作 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_1=， => pos=NN
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=VV pos_-1=M pos_1=PU => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD pos_1=LC => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=M pos_-1=JJ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_-1=， word_0=以 word_1=进一步 => pos=MSP
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=CC word_0=而 word_1=努力 => pos=MSP
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=P word_0=对 pos_-1=CD => pos=M
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=NN word_-1=这 => pos=M
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DT word_0=上 word_-1=世界 => pos=LC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=M word_0=以内 word_-2=在 => pos=LC
+GOOD:4 BAD:1 SCORE:3 RULE: pos_-1=NT pos_0=VV word_0=开始 word_1=， => pos=LC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word:[-2,-1]=世界 => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word:[-3,-1]=成员国 => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word:[-3,-1]=给予 => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos_0=VV pos_-1=JJ pos_1=PU => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=平稳 pos_-1=VV => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VA word_0=所谓 => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD pos_-1=DEG pos_-2=NN => pos=JJ
+GOOD:9 BAD:5 SCORE:4 RULE: pos_0=VV pos_-1=JJ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=VV pos_0=NN word_-1=稳定 word_0=发展 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=同 word_1=一 => pos=DT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=全部 pos_1=NN => pos=DT
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=NN word_0=地 pos_-1=VA => pos=DEV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=得 pos_-1=VV => pos=DER
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEC word_0=的 word_1=顺利 => pos=DEG
+GOOD:6 BAD:3 SCORE:3 RULE: pos_0=DEC pos_-1=NT pos_1=NN => pos=DEG
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=NN pos_0=DEC word_0=的 word_1=决定 => pos=DEG
+GOOD:12 BAD:9 SCORE:3 RULE: pos_-1=NN pos_0=DEC word_0=的 word_1=“ => pos=DEG
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_1=企业 word_2=， => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_1=具体 word_2=时间 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_-1=在内 => pos=DEC
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=DEG word_0=的 word_-1=人民币 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_-1=自治区 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_1=目标 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_1=战略 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_1=领域 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 word_2=工厂 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word:[1,2]=建议 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word:[-2,-1]=变化 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word:[1,3]=正在 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word:[-3,-1]=设 => pos=DEC
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=DEG word:[-3,-1]=具有 => pos=DEC
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=DEG word:[-3,-1]=第一 => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_2=OD => pos=DEC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_-1=NN pos_0=DEG word_0=的 word_1=热点 => pos=DEC
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=AD word_0=如 pos_2=VV => pos=CS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VA word_0=多 word_-1=连续 => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word:[-3,-1]=既 => pos=CC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=P word_0=到 pos_-2=NT => pos=CC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD pos_1=VV word_0=又 word_-1=， => pos=CC
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=将 pos_1=CD => pos=BA
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=LC word:[-3,-1]=正在 => pos=AS
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV word_0=稳定 word_1=发展 => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=CC word:[-2,-1]=但 => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=累计 pos_2=NN => pos=AD
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=CD word_0=大量 pos_1=VV => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_-1=PU pos_1=AD => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=遣返 word_1=在 word_2=华 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=会见 word_1=并 word_2=宴请 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=多元化 word_1=。 word_2=ZZZ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=采访 word_1=时 word_2=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=旅游 word_1=的 word_2=游客 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=出口 word_1=十六点三七亿 word_2=美元 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_1=祖国 word_2=大陆 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LC word_0=来 word_1=琼 word_2=旅游 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=未 word_1=得到 word_2=海基会 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_-1=要 word_0=用 word_1=三 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=海外 word_0=投资 word_1=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=货物 word_0=进出口 word_1=时 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=于 word_0=安置 word_1=职工 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=外 word_0=开放 word_1=中 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=中 word_0=规定 word_1=的 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=“ word_0=开放 word_1=” => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=， word_0=关系 word_1=到 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=、 word_0=发展 word_1=西部 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CD word_-1=里 word_0=多 word_1=了 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 word_-1=转化 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 word_-1=合作 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=在 word_-1=不 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=撤军 word_-1=国 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=运作 word_-1=惯例 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=需要 word_-1=， => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN word_0=崛起 word_-1=迅速 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=经营 word_-1=自主 => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=合作 word_-1=公司 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=承包 word_-1=境内 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=生产 word_-1=是 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_-1=政府 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_-1=此 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=服务 word_-1=人民 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=开放 word_-1=外资 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=建设 word_-1=贷款 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_0=处 word_-1=正 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=逝世 word_1=表示 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=需要 word_1=的 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_1=五千万 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_1=建设 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=诞生 word_1=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=持续 word_1=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=本 word_1=着 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=集中 word_1=在 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=给 word_2=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NR word_0=加 word_2=的 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DT pos_-1=PU pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=统一 word_2=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=互利 word_2=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=拨款 word_2=美元 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=运行 word_2=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=预测 word_2=世界 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=进口 word_2=和 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_2=行业 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_2=农业 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=规划 word_2=有 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=在于 word_-2=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=作为 word_-2=将 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=发电 word_-2=使用 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=保护 word_-2=中国 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=执行 word_-2=为 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=支持 word_-2=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=发展 word_-2=国有 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=投资 word_-2=祖国 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=建设 word_-2=ZZZ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=努力 word_-2=将 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word:[1,2]=莫斯科 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=唱盘 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=侵权 => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN word:[1,2]=援助款 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=难民 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=三百八十九 => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN word:[1,2]=天然气 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=欧盟 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=美 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word:[-2,-1]=需 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-2,-1]=部件 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-2,-1]=授权 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-2,-1]=请 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-2,-1]=功能 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-2,-1]=形式 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word:[-2,-1]=国际 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word:[1,3]=副部长 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,3]=大势 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,3]=人类 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,3]=特别 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-3,-1]=准 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-3,-1]=中小学 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-3,-1]=富余 => pos=VV
+GOOD:5 BAD:3 SCORE:2 RULE: pos_0=NN word:[-3,-1]=行业 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 pos_2=DEC => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=合并 pos_2=VV => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=互利 pos_2=AD => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=决定 pos_2=NT => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=需要 pos_2=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LC word_0=来 pos_2=PU => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=突出 pos_2=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=来访 pos_-2=NR => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=武装 pos_-2=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=外销 pos_-2=AD => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=发展 pos_-2=CD => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=持续 pos_-2=VV => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=改制 pos_1=VV => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=邀请 pos_1=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=组成 pos_1=PU => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=保障 pos_1=NR => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=P word_0=通过 pos_-1=NT => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=决心 pos_-1=NR => pos=VV
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=NN word_0=支持 pos_-1=VV => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=经营 pos_-1=VV => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=规定 pos_-1=PU => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=建设 pos_-1=P => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=转口 pos_-1=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_1=人 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_1=的 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_1=羽绒 => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_1=起来 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_1=跨国 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_1=起来 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=独资 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_-1=开始 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LC word_-1=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_-1=DEC pos_1=NR => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA pos_1=AS pos_2=CD => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_1=NR pos_2=DEG => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LC pos_1=NR pos_2=DEG => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ pos_-1=AD pos_-2=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC pos_-1=AD pos_-2=PU => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=VA pos_1=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=VV pos_0=P word_0=为 word_1=“ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NR pos_0=P word_0=为 word_1=中国 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NN pos_0=NN word_0=会谈 word_1=ZZZ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NN pos_0=NN word_0=采访 word_1=， => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=JJ pos_0=NN word_0=经营 word_1=的 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ pos_1=VV => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEG word_0=的 pos_-1=VV => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=PU pos_-1=AD word_0=作为 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=NN pos_-1=JJ word_0=努力 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=NN pos_-1=JJ word_0=开放 => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos_0=JJ pos_-1=NN pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=JJ word_0=过 word_1=紧 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_1=PU pos_2=JJ word_1=“ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_1=NN pos_2=JJ word_1=农业 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=为 word_1=团长 word_2=的 => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 word_-1=均 => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=非 word_-1=并 => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 word_2=副会长 => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 word_2=银行 => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=为 pos_2=JJ => pos=VC
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=P word_0=为 pos_1=NT => pos=VC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=繁荣 word_1=稳定 word_2=的 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_-1=不 word_0=同 word_1=， => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=方便 word_1=快捷 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=繁荣 word_2=。 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=切实 word_2=的 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=满意 word_-2=成果 => pos=VA
+GOOD:5 BAD:3 SCORE:2 RULE: pos_0=AD word:[1,2]=地 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=稳定 pos_-1=VA => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_1=而 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_-1=DEG pos_1=DEC => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=DEC word_0=之 pos_-1=NN => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ pos_-1=NN pos_1=CD => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA word:[-3,-1]=卫星 => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NR-SHORT pos:[1,3]=PU => pos=VA
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN pos_1=PU pos_2=VA word_1=、 => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ pos_1=VA pos_2=DEC word_1=友好 => pos=VA
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=AS word_0=了 word_1=。 word_2=ZZZ => pos=SP
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LB pos_1=VV pos_2=NN => pos=SB
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=一切 word_-1=这 => pos=PN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=此 word_1=投资 => pos=PN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=对方 pos_1=NN => pos=PN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=与 word_1=木星 word_2=碰撞 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=与 word_1=国际 word_2=市场 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_-1=， word_0=面向 word_1=国内外 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=与 word_-1=生产 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=到 word_1=有 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=就 word_2=两 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word:[1,3]=台湾 => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=与 pos_2=M => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=与 pos_-2=DT => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=作为 pos_1=NR => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VC pos_1=NN pos_2=VV => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CD word:[-2,-1]=第一 => pos=OD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=老 word_1=两 word_2=国 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_-1=中 word_0=日 word_1=韩 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=王冶坪 word_-1=夫人 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=安理会 word_-1=， => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=法 word_-1=ZZZ => pos=NR
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN word_0=卫生部 word_-1=， => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,2]=助理 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[1,3]=距离 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word:[-3,-1]=重新 => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=中 pos_2=NR => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=新华社 pos_2=PU => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=苏军 pos_-2=VV => pos=NR
+GOOD:4 BAD:1 SCORE:3 RULE: pos_0=VV pos_1=CC pos_2=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=盈利 word_1=最 word_2=多 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=硕士 word_1=段祺华 word_2=律师 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=支持 word_1=。 word_2=ZZZ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=增加 word_1=较 word_2=多 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=实施 word_1=。 word_2=ZZZ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_-1=住房 word_0=货币化 word_1=分配 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_-1=的 word_0=系列 word_1=建议 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_-1=之 word_0=和 word_1=不 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=碰撞 word_-1=， => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=分配 word_-1=货币化 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=观察 word_-1=进一步 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=配置 word_-1=资源 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=访问 word_-1=国事 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=会 word_-1=交流 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=了解 word_-1=相互 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=投产 word_-1=ZZZ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=增长 word_-1=负 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NT word_0=新年 word_-1=ZZZ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_0=部 word_-1=我 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=部署 word_1=， => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=纪念 word_1=活动 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=发债 word_1=主体 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_0=处 word_1=） => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=收费 word_2=， => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=联合 word_2=公司 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=投产 word_-2=的 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_0=段 word_-2=至 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=联合 word_-2=的 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[1,2]=销 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[1,2]=博士 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[1,2]=目的 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[1,2]=时期 => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD pos_-1=VV pos_1=NN => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[1,2]=初 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word:[1,2]=。 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[-2,-1]=发出 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[-2,-1]=税收 => pos=NN
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=VV word:[-2,-1]=平均 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_-1=AD pos_1=CD => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=AD word_0=平均 pos_1=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA word:[-2,-1]=米 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word:[1,3]=知识 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[-3,-1]=红十字 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[-3,-1]=新四军 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word:[-3,-1]=制约 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=制约 pos_2=NN => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=投入 pos_2=AD => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=自由 pos_2=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=利用 pos_-2=DEG => pos=NN
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=JJ word_0=平均 pos_-2=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=空袭 pos_1=VV => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=副市长 pos_1=NR => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=办事 pos_1=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEV word_0=地 pos_1=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=商谈 pos_-1=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=承诺 pos_-1=VV => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=亏损 => pos=NN
+GOOD:8 BAD:5 SCORE:3 RULE: pos_0=AD pos_1=NN => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=JJ word_0=累计 pos_2=NN => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_2=所 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_1=关系 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_1=计划 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_1=之 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_-1=笔 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_-1=规模 => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=VV pos_-1=NN pos_1=ETC => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=LB pos_1=VV => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=AS pos_1=PU => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ pos_-1=VV pos_1=CC => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=DT pos_-2=VV => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=DEC pos_-2=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=AD pos_0=VV word_0=出口 word_1=的 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=VV pos_-1=NN word_0=出口 => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word:[1,3]=外资 => pos=MSP
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN pos_-1=MSP => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=NN pos_-1=NN word_0=而 => pos=MSP
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=LC word_0=起 word_-1=这 => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=期 pos_-1=OD => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT pos_-1=CD => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_-1=努力 word_0=下 word_1=， => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=开始 word_-2=今年 => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=后 word_-2=， => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=边 pos_-1=NN => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=外 pos_-1=NN => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA word_0=高 word_1=、 word_2=新 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=外 word_1=省 word_2=市 => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=NN word_0=总体 word_-1=的 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=负 word_1=增长 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA word_0=多方面 word_1=的 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA word_0=相应 word_1=的 => pos=JJ
+GOOD:6 BAD:2 SCORE:4 RULE: pos_0=DEC word_0=的 pos_-1=JJ => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NR-SHORT word_0=深 word_1=加工 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=控股 word_1=子公司 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=M word_0=年 word_1=产量 => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=CD word_0=大量 word_1=的 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word:[1,2]=向 => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=AD word:[-2,-1]=进行 => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos_0=VV pos_-1=JJ pos_1=PU => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=VA word:[1,3]=努力 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=平均 pos_2=AD => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=AD word_0=联合 pos_2=NN => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=JJ pos_1=NN => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=在建 pos_-2=M => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=直接 pos_-1=VV => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=DEG pos_1=NN => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA pos_-1=DEG pos_-2=NN => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV pos_-1=JJ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-2=VV pos_-1=AS word_0=稳定 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD pos_1=PU pos_2=JJ word_1=、 => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_1=不足 word_2=， => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_1=努力 word_2=， => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_-1=授权 word_0=的 word_1=对 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_-1=增长 word_0=的 word_1=预测 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_-1=暂时 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA pos:[1,2]=DEG => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_-1=茅台酒 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_-1=民族 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_-1=传统 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_2=倍 => pos=DEG
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=DEC word:[1,2]=建设 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word:[-3,-1]=不限期 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word:[-3,-1]=笔 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC pos_-1=NN pos_-2=NT => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NN pos_0=DEC word_0=的 word_1=增长 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=碰撞 word_2=发生 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=费用 word_2=， => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=重大 word_2=问题 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=做法 word_2=， => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=情况 word_2=下 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_-1=柬埔寨 word_0=的 word_1=代表 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_-1=直辖市 word_0=的 word_1=议案 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_-1=》 word_0=的 word_1=社评 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_-1=德国 word_0=的 word_1=最后 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=进程 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=经营权 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=公里 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=转让 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=意见 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-1=现代化 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=时候 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=茅台酒 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=消息 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=意愿 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=设备 => pos=DEC
+GOOD:4 BAD:2 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=国家 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEC word_0=的 word_-1=方面 => pos=DEG
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_1=工程 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=出发 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=思路 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=材料 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=国际 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=得到 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=新 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_2=现代化 => pos=DEC
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=DEG word_0=的 word_-2=政治 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word_0=的 word_-2=管理 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[1,2]=军队 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[1,2]=原因 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-2,-1]=撤军 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-2,-1]=义务 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-2,-1]=主导 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=为 pos_2=DEC => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-2,-1]=辅助 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[1,3]=实行 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-3,-1]=主管 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG word:[-3,-1]=万 => pos=DEC
+GOOD:3 BAD:1 SCORE:2 RULE: pos_0=DEG word:[-3,-1]=小 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG pos_1=VV pos_2=CD => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG pos_-1=PU pos_-2=NR => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG pos_1=NR word_0=的 word_-1=华 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DEG pos_1=CD word_0=的 word_-1=以上 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NN pos_0=DEG word_-1=内 word_0=的 => pos=DEC
+GOOD:3 BAD:1 SCORE:2 RULE: pos_-1=NN pos_0=DEG word_0=的 word_1=目的 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=NN pos_0=DEG word_0=的 word_1=国有 => pos=DEC
+GOOD:3 BAD:1 SCORE:2 RULE: pos_-1=NN pos_0=DEG word_0=的 word_1=要求 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=M pos_0=DEG word_0=的 word_1=大 => pos=DEC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=数 pos_2=LC => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=到 word_1=十一月份 word_2=， => pos=CC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=同 word_-2=目前 => pos=CC
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=将 word_-1=要 => pos=BA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=AD word_0=将 word_-1=已 => pos=BA
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=自 word_1=负 word_2=盈亏 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=各 word_1=异 word_2=， => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_-1=ZZZ word_0=另 word_1=据 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_-1=， word_0=不仅 word_1=是 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=重点 word_-1=ZZZ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CD word_0=多 word_-1=倍 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=加速 word_1=发展 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=义务 word_1=献血 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=DT word_0=上 word_1=千 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=不仅 word_1=有 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=并 word_1=非 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=BA word_0=将 word_1=重点 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=P word_0=在 word_2=献血 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word_0=并 word_2=世界 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NT word:[1,2]=发出 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NT word:[1,3]=中方 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word:[-3,-1]=是否 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CC word:[-3,-1]=国家 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=特别 pos_2=DEC => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VV word_0=逾 pos_-2=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=CS word_0=如 pos_-2=NN => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NR-SHORT word_0=深 pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ word_0=快速 pos_-1=NN => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_2=下 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=VA pos_-1=AD pos_1=VV => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=JJ pos_-1=AD pos_-2=NN => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_0=NN word_0=发展 pos_-1=AD => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos_-1=AD pos_0=P word_0=在 word_1=进行 => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos_1=VV word_0=在 word_1=加快 => pos=AD

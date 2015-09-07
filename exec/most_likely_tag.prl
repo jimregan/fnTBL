@@ -1,0 +1,199 @@
+#!/usr/bin/perl
+$exec_dir = "/home/fnTBL-1.2/exec";
+#require "locales.prl";
+require "$exec_dir/smartOpen.pl";
+use Getopt::Std;
+getopts("l:p:t:i");
+$file_ind = 0;
+
+$sequence_pattern = 0;
+
+if (defined $opt_p) {		# We have a pattern here.
+  read_pattern($opt_p);
+} else {
+  @{$patterns[0]} = ( 0 );
+  @{$truths[0]} = ( 1 );
+}
+
+if (defined $opt_t) {
+  @t = split /,/, $opt_t;
+} else {
+  @t = ("NN","NNP");
+}
+
+if (defined $opt_l) {
+  @l = split /,/, $opt_l;
+  local $ind = 0;
+  
+  foreach $file (@l) {
+    smartOpen (\*f, $file);
+    $sz = 1;
+    while (<f>) {
+      if (/^(\d+)-grams: -----$/) {
+	$sz = $1;
+      } elsif (/^\#pattern: (.*)$/) {
+	read_pattern($1);
+      } else {
+	chomp;
+	@a = split;
+# 	  $tag{$a[0]} = $a[1];
+	$string = join " ", map {$a[$_]} (0..$sz-1);
+# 	  $truth = join " ", map {$a[$_]} @{$truths[$ind]};
+	$truth[$ind]{$string} = $a[$sz];
+      }
+    }
+    close f;
+    $ind++;
+  }
+} else {
+  $file_ind = 1;
+  open f, "cut -f 1,2 -d ' ' $ARGV[0] | tr -s '\n' | sort | uniq -c | sort -nr |";
+  while (<f>) {
+    @a = split;
+    $tag{$a[1]} = $a[2] unless defined $t{$a[1]};
+  }
+  close f;
+}
+
+if ($file_ind > @ARGV || $ARGV[$file_ind] eq '-') {
+  $g = \*stdin;
+} else {
+  $g = \*g;
+  smartOpen ($g, $ARGV[$file_ind]);
+}
+
+$to_remove = defined $opt_i ? 0 : 1;
+
+while (<$g>) {
+  s/\s*$// if /\S/;
+
+  @a = split;
+  @out = @a;
+
+  if ($sequence_pattern > 0) {
+    unless (/\S/) {
+      @zzz = ("ZZZ") x (scalar @{$sent[0]});
+      my $n = scalar @sent;
+
+      for ($i=0 ; $i<-$min_dep ; $i++) {
+	unshift @sent, [@zzz];
+      }
+      for ($i=0 ; $i<$max_dep ; $i++) {
+	push @sent, [@zzz];
+      }
+
+      for ($line = 0 ; $line < $n ; $line++) {
+	undef @settled;
+	@out1 = ();
+	@out = @{$sent[$line-$min_dep]};
+
+	for ($p=0 ; $p<$pat ; $p++) {
+	  $sz = scalar @{$patterns[$p]};
+	  while ($sz > 0) {
+	    $string = join " ", map {$sent[$line-$min_dep+$patterns[$p][$_][1]][$patterns[$p][$_][0]]} (0..$sz-1);
+	    last if defined $truth[$p]{$string};
+	    $sz--;
+	  }
+	  
+	  if (defined $truth[$p]{$string}) {
+	    $i = $truths[$p][0];
+	    next if $settled[$i];
+	    $out1[$i-$min_truth] = $truth[$p]{$string};
+	    $settled[$i] = 1;
+	  } else {
+	    $i = $truths[$p][0];
+	    if ($a[0] =~ /^[A-Z]/ and !$prev_newline) {
+	      $out1[$i-$min_truth] = $t[1];
+	    } else {
+	      $out1[$i-$min_truth] = $t[0];
+	    }
+	  }
+	}
+
+	splice @out, $i, $to_remove, @out1;
+	$prev_newline = 0;
+	print "@out\n";
+      }
+      print "\n";
+      @sent = ();
+    } else {
+      push @sent, [@a];
+    }
+  } else {
+    unless (/\S/) {
+      print;
+      $prev_newline = 0;
+      next;
+    } else {
+      undef @settled;
+      @out1 = ();
+      for ($p = 0 ; $p<$pat ; $p++) {
+	$sz = scalar @{$patterns[$p]};
+	while ($sz > 0) {
+	  $string = join " ", map {$a[$patterns[$p][$_]]} (0..$sz-1);
+	  last if defined $truth[$p]{$string};
+	  $sz--;
+	}
+	
+	if (defined $truth[$p]{$string}) {
+	  $i = $truths[$p][0];
+	  next if $settled[$i];
+	  $out1[$i-$min_truth] = $truth[$p]{$string};
+	  $settled[$i] = 1;
+	} else {
+	  $i = $truths[$p][0];
+	  if ($a[0] =~ /^[A-Z]/ and !$prev_newline) {
+	    $out1[$i-$min_truth] = $t[1];
+	  } else {
+	    $out1[$i-$min_truth] = $t[0];
+	  }
+	}
+      }
+      splice @out, $i, $to_remove, @out1;
+      $prev_newline = 0;
+      print "@out\n";
+    }
+  }
+}
+
+close $g;
+
+sub read_pattern {
+  my $opt_p = shift;
+  @patterns = ();
+
+  @p = split /;/, $opt_p;
+  $pat = 0;
+  $min_truth = 1e10;
+  foreach $patt (@p) {
+    @c = split /=>/, $patt;
+    @a = split /,/, $c[0];
+    @b = split /,/, $c[1];
+    if ("@a" =~ /_/) {
+      $sequence_pattern = 1;
+      foreach $a1 (@a) {
+	@a1 = split /_/, $a1;
+	push @{$patterns[$pat]}, [@a1];
+      }
+#       push @{$patterns[$patt]}, map {[split /_/]} @a;
+    } else {
+      push @{$patterns[$pat]}, @a;
+    }
+    @{$truths[$pat]} = @b;
+    $pat++;
+    $min_truth = $b[0] if $b[0]<$min_truth;
+  }
+
+  $min_dep = $max_dep = 0;
+  for ($pat=0 ; $pat < @patterns ; $pat++) {
+    if (defined $sequence_pattern) {
+      for (my $i=0 ; $i<@{$patterns[$pat]} ; $i++) {
+	if ($min_dep > $patterns[$pat][$i][1]) {
+	  $min_dep = $patterns[$pat][$i][1];
+	} elsif ($max_dep < $patterns[$pat][$i][1]) {
+	  $max_dep = $patterns[$pat][$i][1];
+	}
+      }
+    }
+  }
+}

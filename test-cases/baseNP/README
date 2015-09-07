@@ -1,0 +1,61 @@
+We assume that the train and test files are in 1-word-per-line format,
+with blank lines delimiting the sentences (as provided in the
+distribution).
+
+The training and test data are the ones used in the original Ramshaw
+and Marcus experiments, and can be downloaded from the follwing
+address:
+
+                    ftp://ftp.cis.upenn.edu/pub/chunker/
+
+The training data consists of sections 15-18 of the Wall Street
+Journal part of the PennTreebank, and the test consists of the section
+20 of the same corpus.
+
+Training a base NP system:
+
+1. Create the pos - chunk lexicon (the file which says what chunk tags
+appear with each POS tag):
+
+  ../../exec/mcreate_lexicon.prl -d '1=>2' train.dat >! pos_chunk.lexicon
+
+2. Create the initial guess of the system:
+
+  perl -ape '$_="@F[0..1] - $F[2]\n" if /\S/' train.dat | \
+    ../../exec/most_likely_tag.prl -l pos_chunk.lexicon -t O,O \
+                                   -p '1=>2' - > ! train.init
+
+2a. (optional) Just for fun, check out the initial error (this is the
+chunk error, not the F-measure) of the result:
+
+  ../../exec/mcompute_error.prl train.init 
+
+  If you use the file from the distribution, you should get the
+following answer:
+
+  State               No of errors        Percent correct     
+  0                 12214.00/211727.00          94.23%          
+
+3. Train the system:
+
+  ../../bin/fnTBL-train train.init chunk.rls -F tbl.context.chunk.params \
+                                             -threshold 1
+
+4. Prepare the test data:
+
+  perl -ape '$_="@F[0..1] - $F[2]\n" if /\S/' test.dat |\
+    ../../exec/most_likely_tag.prl -l pos_chunk.lexicon \
+                                   -t O,O -p '1=>2' - > ! test.init
+
+5. Run the baseNP bracketer on the test data:
+
+  ../../bin/fnTBL test.init chunk.rls -F tbl.context.chunk.params \
+                                       -o test.res
+
+6. Compute the resulting fmeasure:
+
+  ../../exec/fmeasure.prl -i 2,3 test.res
+
+
+Alternatively, you can use the scripts train.me and test.me, which
+contain the above mentioned commands.

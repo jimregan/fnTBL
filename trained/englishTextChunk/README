@@ -1,0 +1,31 @@
+Text Chunking:
+
+  We assume that the input data has already POS assigned to them.
+If not, please use the POS tagger provided to assign POS tags.
+
+  The input should be 1-word-per-line, sentences separated by empty
+lines. Each sample should consist of the word and POS attached to it
+(either the correct one, or one assigned by a POS tagger). Let's assume this file is called 'test'.
+
+  The test.me script will run the fnTBL program on the data, and it
+should be launched as:
+
+	./test.me test.dat
+
+  The result will be written in the file 'test.res'.
+
+  The rules were obtained by training the fnTBL program on sections
+1-21 of the Wall Street Journal part of the Penn Treebank. The chunk
+tags were obtained by running the script 'chunklink.pl' written by
+Sabine Buchholz, and that can be obtained from
+	http://ilk.kub.nl/~sabine/chunklink/
+
+  Testing on section 0 of the same corpus yielded a performance of
+94.99 Fmeasure (precision 94.90%, recall 95.08%, accuracy 95.91%).
+
+  Observation: it turns out to be better to chunk the text if one
+wants to do base NP chunking, as more information about the context
+(B-VP, I-ADJP instead of just O) helps. Testing just for baseNP yields
+a performance of 93.97 Fmeasure (precision 94.15%, recall 93.79%),
+compared with 92.61 when the system is trained to recognize only base
+noun phrases (see ../baseNP/README).

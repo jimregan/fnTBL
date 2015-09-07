@@ -1,0 +1,1 @@
+Wed Jul 31 15:43:23 2002 /remote/bigram/usr/home/rflorian/workdir/fnTBL/exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params -r 0.4 -R lex0.rls,con0.rls -f 0 -t NN,NNP -T 2,1 -v train.dat

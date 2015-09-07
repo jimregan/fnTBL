@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "../../exec/mcreate_lexicon.prl -d '1=>2' train.dat > pos_chunk.lexicon"
+../../exec/mcreate_lexicon.prl -d '1=>2' train.dat > pos_chunk.lexicon
+
+echo "perl -ape '\$_=\"@F[0..1] - \$F[2]\n\" if /\S/' train.dat | ../../exec/most_likely_tag.prl -l pos_chunk.lexicon -t O,O -p '1=>2' - > train.init"
+perl -ape '$_="@F[0..1] - $F[2]\n" if /\S/' train.dat | \
+  ../../exec/most_likely_tag.prl -l pos_chunk.lexicon -t O,O \
+                                 -p '1=>2' - > train.init
+
+echo "../../bin/fnTBL-train train.init chunk.rls -F tbl.context.chunk.params -threshold 1"
+../../bin/fnTBL-train train.init chunk.rls -F tbl.context.chunk.params \
+                                           -threshold 1 -v

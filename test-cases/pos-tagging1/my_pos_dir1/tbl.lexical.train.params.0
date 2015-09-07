@@ -1,0 +1,15 @@
+MAIN = /home/fnTBL-1.2/test-cases/pos-tagging1/my_pos_dir1;
+FILE_TEMPLATE = ${MAIN}/file.templ;
+RULE_TEMPLATES = ${MAIN}/lexical_rules.templ;
+REASONABLE_SPLIT      = 10;
+REASONABLE_DT_SPLIT	  = 5;
+EMPTY_LINES_ARE_SEPARATORS = 0;
+ELIMINATION_THRESHOLD = 0;
+MINIMUM_ENTROPY_GAIN  = 0.01;
+#Modification
+#Modification
+CONSTRAINTS_FILE = ${MAIN}/constraints.lexical.train.templ;
+COOCCURRENCE_CONFIGURATION_FILE = ${MAIN}/bigrams.big.templ;
+LARGE_WORD_VOCABULARY = ${MAIN}/BIGWORDLIST;
+
+LOGFILE = ${MAIN}/log_file;

@@ -1,0 +1,13 @@
+Mon Oct 31 23:37:51 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS
+Mon Oct 31 23:38:22 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o txt.out -v txt.in
+Monday, October 31 2005, 23:38:23  /debian/home/rflorian/fnTBL-1.1/bin/fnTBL /tmp/fnTBL617548/txt.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL617548/tbl.lexical.train.params0 -o /tmp/fnTBL617548/txt.in.lexical -v 
+Mon Oct 31 23:39:52 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o txt.out -v txt.in
+Monday, October 31 2005, 23:39:53  /debian/home/rflorian/fnTBL-1.1/bin/fnTBL /tmp/fnTBL961219/txt.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL961219/tbl.lexical.train.params0 -o /tmp/fnTBL961219/txt.in.lexical -v 
+Mon Oct 31 23:40:31 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o txt.out -v txt.in
+Monday, October 31 2005, 23:40:32  /debian/home/raduf/fnTBL-1.1/bin/fnTBL /tmp/fnTBL673083/txt.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL673083/tbl.lexical.train.params0 -o /tmp/fnTBL673083/txt.in.lexical -v 
+Mon Oct 31 23:41:08 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o txt.out -N -v txt.in
+Monday, October 31 2005, 23:41:09  /debian/home/raduf/fnTBL-1.1/bin/fnTBL /tmp/fnTBL340040/txt.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL340040/tbl.lexical.train.params0 -o /tmp/fnTBL340040/txt.in.lexical -v 
+Mon Oct 31 23:42:44 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o txt.out -N -v txt.in
+Monday, October 31 2005, 23:42:45  /debian/home/raduf/fnTBL-1.1/bin/fnTBL /tmp/fnTBL39032/txt.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL39032/tbl.lexical.train.params0 -o /tmp/fnTBL39032/txt.in.lexical -v 
+Mon Oct 31 23:50:19 2005 ../../exec/pos-apply.prl -T /debian/home/raduf/fnTBL-1.1/trained/englishPOS -o text.pos -N -v text.in
+Monday, October 31 2005, 23:50:20  /debian/home/raduf/fnTBL-1.1/bin/fnTBL /tmp/fnTBL22911/text.in.init /debian/home/raduf/fnTBL-1.1/trained/englishPOS/lexical.rls -F /tmp/fnTBL22911/tbl.lexical.train.params0 -o /tmp/fnTBL22911/text.in.lexical -v 

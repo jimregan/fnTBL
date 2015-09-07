@@ -1,0 +1,12 @@
+Thursday, September 19 2002, 17:54:36  /home/rflorian/workdir/fnTBL/bin/fnTBL-train ./chinese-pos/lexical_train.dat ./chinese-pos/lexical.rls -F ./chinese-pos/tbl.lexical.train.params.0 -v 
+Thursday, September 19 2002, 17:55:02  /home/rflorian/workdir/fnTBL/bin/fnTBL ./chinese-pos/train_temp.init ./chinese-pos/lexical.rls -F ./chinese-pos/tbl.lexical.train.params.0 -v -o ./chinese-pos/ctrain.dat.temp_lexical 
+Thursday, September 19 2002, 17:55:13  /home/rflorian/workdir/fnTBL/bin/fnTBL-train ./chinese-pos/ctrain.dat.lexical ./chinese-pos/context.rls -F ./chinese-pos/tbl.context.pos.params.0 -v 
+Thursday, September 19 2002, 18:01:54  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL568552/cdevtest.dat.lexical chinese-pos/context.rls -F /tmp/fnTBL568552/tbl.context.pos.params1 -o cdevtest.out -v 
+Thursday, September 19 2002, 18:15:48  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL497837/ctest.dat.lexical chinese-pos/context.rls -F /tmp/fnTBL497837/tbl.context.pos.params1 -o ctest.dat -v 
+Thursday, September 19 2002, 18:17:37  /home/rflorian/workdir/fnTBL/bin/fnTBL-train ./chinese-pos/lexical_train.dat ./chinese-pos/lexical.rls -F ./chinese-pos/tbl.lexical.train.params.0 -threshold 0 -v 
+Thursday, September 19 2002, 18:18:34  /home/rflorian/workdir/fnTBL/bin/fnTBL ./chinese-pos/train_temp.init ./chinese-pos/lexical.rls -F ./chinese-pos/tbl.lexical.train.params.0 -v -o ./chinese-pos/ctrain.dat.temp_lexical 
+Thursday, September 19 2002, 18:18:44  /home/rflorian/workdir/fnTBL/bin/fnTBL-train ./chinese-pos/ctrain.dat.lexical ./chinese-pos/context.rls -F ./chinese-pos/tbl.context.pos.params.0 -threshold 1 -v 
+Thursday, September 19 2002, 18:21:33  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL814991/cdevtest.dat.lexical chinese-pos/context.rls -F /tmp/fnTBL814991/tbl.context.pos.params1 -o cdevtest.out -v 
+Thursday, September 19 2002, 19:56:37  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL397572/ctest.dat.lexical chinese-pos/context.rls -F /tmp/fnTBL397572/tbl.context.pos.params1 -o ctest.out -v 
+Thursday, September 19 2002, 20:18:12  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL457931/ctest.dat.lexical chinese-pos/context.rls -F /tmp/fnTBL457931/tbl.context.pos.params1 -o ctest-4.out -v 
+Thursday, September 19 2002, 22:10:44  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL127807/ctest.dat.lexical /home/rflorian/workdir/fnTBL/exec/../trained/chinesePOS/context.rls -F /tmp/fnTBL127807/tbl.context.pos.params1 -o ctest.out -v 

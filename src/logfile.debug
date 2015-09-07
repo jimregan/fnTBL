@@ -1,0 +1,2 @@
+Saturday, September 14 2002, 01:30:36  /home/rflorian/workdir/fnTBL/bin/fnTBL_D /tmp/fnTBL54983/FR.sample.TRAIN.1pl.init /home/rflorian/workdir/fnTBL/exec/../trained/frenchPOS/lexical.rls -F /tmp/fnTBL54983/tbl.lexical.train.params0 -o /tmp/fnTBL54983/FR.sample.TRAIN.1pl.lexical -v 
+Saturday, September 14 2002, 01:34:03  /home/rflorian/workdir/fnTBL/bin/fnTBL_D /tmp/fnTBL54983/FR.sample.TRAIN.1pl.init /home/rflorian/workdir/fnTBL/exec/../trained/frenchPOS/lexical.rls -F /tmp/fnTBL54983/tbl.lexical.train.params0 -o /tmp/fnTBL54983/FR.sample.TRAIN.1pl.lexical -v 

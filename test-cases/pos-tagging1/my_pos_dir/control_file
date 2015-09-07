@@ -1,0 +1,8 @@
+lexical_param_file /home/raduf/fnTBL-1.2/test-cases/pos-tagging1/my_pos_dir/tbl.lexical.train.params
+context_param_file /home/raduf/fnTBL-1.2/test-cases/pos-tagging1/my_pos_dir/tbl.context.pos.params
+lexical_rule_file lexical.rls
+context_rule_file context.rls
+opt_f 5
+opt_B bigrams.dat
+capitalization no
+opt_t NN,NNP

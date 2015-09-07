@@ -1,0 +1,118 @@
+#!/usr/bin/perl
+
+$dir = $ENV{PWD};
+$dir =~ s/\/(src|exec)\/?//;
+
+foreach $file ("create_lexical_split.prl", "mcreate_lexicon.prl", "most_likely_tag.prl", "pos-apply.prl", "pos-train.prl") {
+  system "cp -f ../exec/$file ../exec/$file.old; perl -pe 's%\\\$exec_dir(\\s*)=(\\s*)\".*?\"%\\\$exec_dir\$1=\$2\"$dir/exec\"%g; s%\\\$bin_dir(\\s*)=(\\s*)\".*?\"%\\\$bin_dir\$1=\$2\"$dir/bin\"%' ../exec/$file > ../exec/tmp; mv ../exec/tmp ../exec/$file; chmod +x ../exec/$file";
+}
+
+$d1 = $dir;
+chomp $d1;
+#  foreach $datafile (qw{trained/englishPOS/lexical.rls trained/englishPOS/context.rls trained/englishBaseNP/chunk.rls trained/englishTextChunk/chunk.rls}) {
+#    ($d2) = $datafile =~ /(.*)\/.*?$/;
+#    system "cp ../$datafile ../$datafile.old";
+#    open f, "../$datafile.old";
+#    open g, ">../$datafile";
+#    $line = <f>;
+#    $line =~ s%\#train_voc_file: .*/([^/]*)$%\#train_voc_file: $d1/$d2/$1%;
+#    print g $line;
+#    while (<f>) {
+#  	print g;
+#    }
+#    close g;
+#  }
+
+#  foreach $params_file (qw{trained/englishPOS/tbl.lexical.train.params trained/englishPOS/tbl.context.pos.params trained/englishTextChunk/tbl.context.chunk.params trained/englishBaseNP/tbl.context.chunk.params}) {
+#    ($d2) = $params_file =~ /(.*?)\/[^\/]*?$/;
+#    system "cp ../$params_file ../$params_file.old";
+#    open f, "../$params_file.old";
+#    open g, ">../$params_file";
+#    while (<f>) {
+#  	s%MAIN(\s*)=(\s*)\S*(\s*);\s*$%MAIN$1=$2$d1/$d2;\n%;
+#  	print g;
+#    }
+#    close g;
+#  #    system "rm ../$params_file.old";
+#  }
+		      
+#  foreach $constraints_file (qw{trained/englishTextChunk/constraints.chunk.templ trained/englishBaseNP/constraints.chunk.templ}) {
+#    ($d2) = $constraints_file =~ /(.*)\/.*?$/;
+#    system "cp ../$constraints_file ../$constraints_file.old";
+#    open f, "../$constraints_file.old";
+#    open g, ">../$constraints_file";
+#    while (<f>) {
+#  	chomp;
+#  	@a = split;
+#  	$a[2] =~ /\/([^\/]*)$/;
+#  	$a[2] = "$d1/$d2/$1";
+#  	print g "@a[0..2]\n";
+#    }
+#  }
+
+foreach $pos_train_dir (`ls -d ../trained/*POS`) {
+  chomp $pos_train_dir;
+  ($cdir) = $pos_train_dir =~ /\/([^\/]+)\/?$/;
+  system "cp $pos_train_dir/control_file $pos_train_dir/control_file.old";
+  open g, ">$pos_train_dir/control_file";
+  open f, "$pos_train_dir/control_file.old";
+  while (<f>) {
+    if (/^(.*)_param_file .*?\/([^\/]*)$/) {
+      print g "$1_param_file $d1/trained/$cdir/$2";
+    } else {
+      print g;
+    }
+  }
+  close g;
+  close f;
+}
+
+foreach $param_file (`ls ../trained/*/*.params ../trained/*/*.params.0 ../trained/*/*.params.1 ../test-cases/*/*.params ../test-cases/*/*.params.0`) {
+  chomp $param_file;
+  ($dir,$file) = $param_file =~ /\.\.\/([^\/]+\/[^\/]+)\/([^\/]+)$/;
+  print "Processing $param_file\n" if defined $opt_v;
+  system "cp $param_file $param_file.old";
+  open g, ">$param_file";
+  open f, "$param_file.old";
+  while (<f>) {
+    if (/^(.*\s*=\s*).*?\/([^\/]*)\s*;\s*$/ and not /\$\{MAIN\}/) {
+      print g "$1 $d1/$dir;\n";
+    } else {
+      print g;
+    }
+  }
+  close g;
+  close f;
+}
+
+foreach $rule_file (`ls ../trained/*/*.rls ../test-cases/*/*.rls`) {
+  chomp $rule_file;
+  ($dir,$file) = $rule_file =~ /\.\.\/([^\/]+\/[^\/]+)\/([^\/]+)$/;
+  print "Processing $rule_file\n" if defined $opt_v;
+  system "cp $rule_file $rule_file.old";
+  open g, ">$rule_file";
+  open f, "$rule_file.old";
+  $a = <f>;
+  $a =~ s/(\#train_voc_file:) .*?\/([^\/]+\.voc)$/$1 $d1\/$dir\/$2/;
+  print g $a;
+  while (<f>) {
+    print g;
+  }
+  close g;
+  close f;
+}
+
+foreach $constraint_file (`ls ../test-cases/*/constraint*.templ ../trained/*/constraint*.templ`) {
+  chomp $constraint_file;
+  ($dir,$file) = $constraint_file =~ /\.\.\/([^\/]+\/[^\/]+)\/([^\/]+)$/;
+  print "Processing $constraint_file\n" if defined $opt_v;
+  system "cp $constraint_file $constraint_file.old";
+  open g, ">$constraint_file";
+  open f, "$constraint_file.old";
+  while (<f>) {
+    if (/^(.*?) \S+\/([^\s\/]+)$/) {
+      s/^(.*?) \S+\/([^\s\/]+)$/$1 $d1\/$dir\/$2/;
+    }
+    print g;
+  }
+}

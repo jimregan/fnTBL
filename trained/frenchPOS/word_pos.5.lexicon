@@ -1,0 +1,2176 @@
+#pattern: 0=>1
+1-grams: -----
+! Punc-pcst
+$ NomC-masc-plur-abbr
+( Punc-pcpl
+) Punc-pcpr
+, Punc-pccm
+-- Punc-pcda
+-ci Adve
+-il Pron-psuj-masc-sing-p3
+-ils Pron-psuj-masc-plur-p3
+-là Adve
+-moi Pron-fort
+-nous Pron-psuj-plur-p1
+-on Pron-psuj-sing-p3
+-t-elle Pron-psuj-femi-sing-p3
+-t-il Pron-psuj-masc-sing-p3
+-vous Pron-psuj-plur-p2 Pron-fort
+. Punc-pcst
+... Punc-pcdd
+1 Num
+10 Num
+100 Num
+106 Num
+11 Num
+12 Num
+13 Num
+14 Num
+15 Num
+16 Num
+17 Num
+18 Num
+1971 Num
+1975 Num
+1976 Num
+1984 Num
+1985 Num
+1986 Num
+1987 Num
+1988 Num
+1er Ordi-masc-sing
+2 Num
+20 Num
+200 Num
+2000 Num
+20000 Num
+200000 Num
+21 Num
+22 Num
+23 Num
+25 Num
+250000 Num
+28 Num
+29 Num
+2e Ordi-femi-sing
+3 Num
+30 Num
+4 Num
+40 Num
+5 Num
+50 Num
+6 Num
+6,4 Num
+60 Num
+7 Num
+70 Num
+75 Num
+8e Ordi-femi-sing Ordi-masc-sing
+9 Num
+: Punc-pcco
+; Punc-pcsc
+? Punc-pcst
+ACDI NomP-wtdt-acro-femi-sing
+AFFAIRES NomC-femi-plur
+AU Dete-dart-masc-sing
+Accord NomC-masc-sing
+Affaires NomC-femi-plur
+Afrique~~du~~Sud NomP-wtdt-femi-sing
+Agriculture NomC-femi-sing
+Ainsi Adve
+Air~~Canada NomP-nodt-mltw
+Alan NomP-nodt-phum-masc-sing
+Alberta NomP-wtdt-femi-sing
+Allmand NomP-nodt-fam
+Alors Adve
+Américains NomC-masc-plur
+Après Prep
+Au Dete-dart-masc-sing
+Au~~lieu~~de Prep
+Avec Prep
+Axworthy NomP-nodt-fam
+BPC NomC-masc-plur-acro
+Batts NomP-nodt-fam
+Beaucoup Adve
+Bien Adve PreD-masc-plur
+Bien-être NomC-masc-sing
+Bien~~que ConS
+Bill NomP-nodt-phum-masc-sing
+Blackburn NomP-nodt-fam
+Bourassa NomP-nodt-fam NomP-nodt-pgeo
+Brant NomP-nodt-pgeo
+Bravo Inte
+Brian NomP-nodt-phum-masc-sing
+Broadbent NomP-nodt-fam
+C' Pron-pdem-masc-sing
+C-130 NomP-nodt-lbl
+C-144 NomP-nodt-lbl
+C-147 NomC-femi-sing
+C-152 NomC-femi-sing
+C-273 NomP-nodt-lbl
+CHAMBRE NomC-femi-sing
+Cabinet NomC-masc-sing
+Caccia NomP-nodt-fam
+Canada NomP-wtdt-masc-sing
+Canadien NomC-masc-sing
+Canadiennes NomC-femi-plur
+Canadiens NomC-masc-plur
+Capitale NomC-femi-sing
+Cassidy NomP-nodt-fam
+Ce Pron-pdem-masc-sing Dete-ddem-masc-sing
+Cela Pron-pdem-masc-sing
+Centre NomC-masc-sing
+Cependant ConS
+Certains Dete-dind-masc-plur Pron-pind-masc-plur
+Ces Dete-ddem-femi-plur Dete-ddem-masc-plur
+Cet Dete-ddem-masc-sing
+Cette Dete-ddem-femi-sing
+Ceux Pron-pdem-masc-plur
+Chambre NomC-femi-sing
+Chapitre NomC-masc-sing
+Charte NomC-femi-sing
+Chas. NomP-nodt-phum-abbr-masc-sing
+Chili NomP-wtdt-masc-sing
+Clark NomP-nodt-fam
+Code NomC-masc-sing
+Colombie-Britannique NomP-wtdt-femi-sing
+Comité NomC-masc-sing
+Comme ConS
+Comment Pron-idir
+Commission NomC-femi-sing
+Communes NomC-femi-plur
+Conseil NomC-masc-sing
+Conservateurs NomC-masc-plur
+Copps NomP-nodt-fam
+Cour NomC-femi-sing
+D' Prep
+D'accord Adve
+D'après Prep
+DE Prep
+DES Dete-dprp-femi-plur Dete-dprp-masc-plur
+DU Dete-dart-masc-sing
+Dans Prep
+Daubney NomP-nodt-fam
+Davenport NomP-nodt-pgeo
+David NomP-nodt-phum-masc-sing
+De Prep
+Depuis Prep
+Des Dete-dind-femi-plur Dete-dind-masc-plur
+Deux Num
+Deuxièmement Adve
+De~~plus Adve
+Downsview NomP-nodt-pgeo
+Déclaration NomC-femi-sing
+Edmonton NomP-nodt-pgeo
+Elle Pron-psuj-femi-sing-p3
+Elles Pron-psuj-femi-plur-p3
+Emploi NomC-masc-sing
+En Prep
+Enfin Adve
+Environnement NomC-masc-sing
+En~~effet Adve
+En~~fait Adve
+En~~outre Adve
+Epp NomP-nodt-fam
+Ernie NomP-nodt-phum-masc-sing
+Est Verb-IndPré-sing-p3 NomC-masc-sing
+Est-ce~~que ConS Pron-RelInt
+Et ConC
+FBI NomP-wtdt-acro-masc-sing
+Feuilleton NomC-masc-sing
+Finances NomC-femi-plur
+Fort~~Garry NomP-nodt-pgeo
+Fulton NomP-nodt-fam
+Fédération NomC-femi-sing
+Félix NomP-nodt-phum-masc-sing
+Gauthier NomP-nodt-fam
+Grand~~Toronto NomP-wtdt-masc-sing
+Grisé NomP-nodt-fam
+Hamilton NomP-nodt-pgeo
+Hamilton-Est NomP-nodt-pgeo
+Haïti NomP-nodt-pgeo
+Il Pron-psuj-masc-sing-p3
+Ils Pron-psuj-masc-plur-p3
+Indien NomC-masc-sing
+Indiens NomC-masc-plur
+Indonésie NomP-wtdt-femi-sing
+Institut NomC-masc-sing
+J' Pron-psuj-sing-p1
+J. NomP-nodt-init
+Jack NomP-nodt-phum-masc-sing
+Je Pron-psuj-sing-p1
+Jean NomP-nodt-phum-masc-sing
+Jim NomP-nodt-phum-masc-sing
+Joe NomP-nodt-phum-masc-sing
+John NomP-nodt-phum-masc-sing
+Justice NomC-femi-sing
+Kamloops NomP-nodt-pgeo
+Kaplan NomP-nodt-fam
+Keeper NomP-nodt-fam
+Kreisel NomP-nodt-fam
+Kreisel-Batts NomP-nodt-fam
+L' Dete-dart-masc-sing Dete-dart-femi-sing
+L. NomP-nodt-init
+LA Dete-dart-femi-sing
+LE Dete-dart-masc-sing
+LES Dete-dart-masc-plur Dete-dart-femi-plur
+LOI NomC-femi-sing
+La Dete-dart-femi-sing
+Labrador NomC-masc-sing NomP-wtdt-masc-sing
+Lawrence NomP-nodt-pgeo NomP-nodt-fam
+Le Dete-dart-masc-sing Pron-obj
+Leclerc NomP-nodt-fam
+Leonard NomP-nodt-phum-masc-sing
+Les Dete-dart-masc-plur Dete-dart-femi-plur
+Lewis NomP-nodt-fam
+Libéraux NomC-masc-plur
+Lloyd NomP-nodt-phum-masc-sing
+Loi NomC-femi-sing
+Lorsque ConS
+Léonard NomP-nodt-phum-masc-sing
+M. NomC-masc-sing-abbr NomP-nodt-init
+Ma Dete-dpos-femi-sing
+Mailly NomP-nodt-fam
+Mais ConC Adve
+Manitoba NomP-wtdt-masc-sing
+Margaret NomP-nodt-phum-femi-sing
+Martin NomP-nodt-fam
+May NomP-nodt-fam
+Mazankowski NomP-nodt-fam
+McCurdy NomP-nodt-fam
+McMillan NomP-nodt-fam
+Meech NomP-nodt-pgeo
+Mesure NomC-femi-sing
+Michael NomP-nodt-phum-masc-sing
+Mitchell NomP-nodt-fam
+Mme NomC-femi-sing-abbr
+Mon Dete-dpos-masc-sing
+Monsieur NomC-masc-sing
+Montréal NomP-nodt-pgeo
+Mulroney NomP-nodt-fam NomP-nodt-phum-masc-sing
+Multiculturalisme NomC-masc-sing
+Myrtle NomP-nodt-phum-femi-sing
+Même Adve
+N. NomP-nodt-init
+NPD NomP-wtdt-acro-masc-sing
+Ne Adve
+Nelson NomP-nodt-phum-masc-sing NomP-nodt-pgeo
+Nipigon NomP-nodt-pgeo
+Nord NomC-masc-sing
+Note NomC-femi-sing
+Notre Dete-dpos-masc-sing Dete-dpos-femi-sing
+Nous Pron-psuj-plur-p1
+Nouveau AdjQ-masc-sing NomC-masc-sing
+Nouveau-Brunswick NomP-wtdt-masc-sing
+Nowlan NomP-nodt-fam
+Oh Inte
+On Pron-psuj-sing-p3
+Ontario NomP-wtdt-femi-sing NomP-nodt-pgeo
+Or ConC
+Orlikow NomP-nodt-fam
+Ottawa NomP-nodt-pgeo
+Ottawa-Centre NomP-nodt-pgeo
+Ottawa-Ouest NomP-nodt-pgeo
+Ouest NomC-masc-sing
+Outremont NomP-nodt-pgeo
+Paproski NomP-nodt-fam
+Par Prep
+Parlement NomC-masc-sing
+Par~~ailleurs Adve
+Par~~conséquent Adve
+Par~~exemple Adve
+Pas Adve
+Peltier NomP-nodt-fam
+Pendant Prep
+Permettez Verb-ImpPré-plur-p2
+Peut-être Adve
+Pierre NomP-nodt-phum-masc-sing
+Pine~~Ridge NomP-nodt-pgeo NomP-nodt-fam
+Plus Adve
+Poor~~Bear NomP-nodt-fam
+Pour Prep
+Pourquoi Pron-idir
+Procès-verbaux NomC-masc-plur
+Programme NomC-masc-sing
+Projet NomC-masc-sing
+Provencher NomP-nodt-pgeo
+Président NomC-masc-sing
+Puisque ConS
+Pépin NomP-nodt-fam
+QUESTIONS NomC-femi-plur
+Qu' ConS Pron-RelInt
+Qu'est-ce~~que Pron-RelInt
+Quand Pron-idir
+Que ConS Pron-RelInt
+Questions NomC-femi-plur
+Québec NomP-wtdt-masc-sing NomP-nodt-pgeo
+Québécois NomC-masc-plur NomC-masc-sing
+RAPC NomP-wtdt-acro-masc-sing
+Reagan NomP-nodt-fam
+Redway NomP-nodt-fam
+Riis NomP-nodt-fam
+Robert NomP-nodt-phum-masc-sing
+Roumanie NomP-wtdt-femi-sing
+Règlement NomC-masc-sing
+Régime NomC-masc-sing
+S' ConS Pron-refl-p3
+SUR Prep
+Saint-Laurent NomP-wtdt-masc-sing NomP-nodt-fam
+Santé NomC-femi-sing
+Saskatchewan NomP-wtdt-femi-sing
+Scarborough-Ouest NomP-nodt-pgeo
+Selon Prep
+Shefford NomP-nodt-pgeo
+Sheila NomP-nodt-phum-femi-sing
+Shuswap NomP-nodt-pgeo
+Si ConS
+Skeena NomP-nodt-pgeo
+Stackhouse NomP-nodt-fam
+Stratégie NomC-femi-sing
+Sud-Africains NomC-masc-plur
+Sénat NomC-masc-sing
+Terre-Neuve NomP-nodt-pgeo
+Thunder~~Bay NomP-nodt-pgeo
+Timor NomP-wtdt-masc-sing
+Tom NomP-nodt-phum-masc-sing
+Toronto NomP-nodt-pgeo
+Tous PreD-masc-plur Pron-pind-masc-plur
+Tout Adve PreD-masc-sing Pron-pind-masc-sing Dete-dind-masc-sing
+Toutefois Adve
+Transports NomC-masc-plur
+Turner NomP-nodt-fam
+Un Dete-dind-masc-sing
+Une Dete-dind-femi-sing Pron-pind-femi-sing
+Union NomC-femi-sing
+Université NomC-femi-sing
+Valcourt NomP-nodt-fam
+Vancouver NomP-nodt-pgeo
+Vancouver-Est NomP-nodt-pgeo
+Vanier NomP-nodt-pgeo
+Voici Prep
+Voilà Prep
+Voir Verb-InfPré
+Vous Pron-psuj-plur-p2
+Wilson NomP-nodt-fam
+Windsor NomP-nodt-pgeo
+Winnipeg NomP-nodt-pgeo
+Winnipeg-Nord NomP-nodt-pgeo
+Wise NomP-nodt-fam
+York-Centre NomP-nodt-pgeo
+York-Est NomP-nodt-pgeo
+a Verb-IndPré-sing-p3 Ltre
+abordable AdjQ-masc-sing
+abordables AdjQ-masc-plur
+aborder Verb-InfPré
+absence NomC-femi-sing
+absolument Adve
+abus NomC-masc-plur NomC-masc-sing
+accepte Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+accepter Verb-InfPré
+accessibilité NomC-femi-sing
+accessible AdjQ-masc-sing AdjQ-femi-sing
+accompli Verb-ParPas-masc-sing
+accord NomC-masc-sing
+accorde Verb-IndPré-sing-p3
+accorder Verb-InfPré
+accords NomC-masc-plur
+accordé Verb-ParPas-masc-sing
+accroître Verb-InfPré
+accusation NomC-femi-sing
+accusations NomC-femi-plur
+accusés Verb-ParPas-masc-plur NomC-masc-plur
+accès NomC-masc-sing
+acides AdjQ-femi-plur
+actif NomC-masc-sing AdjQ-masc-sing
+action NomC-femi-sing
+actions NomC-femi-plur
+active AdjQ-femi-sing
+activité NomC-femi-sing
+activités NomC-femi-plur
+actuel AdjQ-masc-sing
+actuelle AdjQ-femi-sing
+actuellement Adve
+adaptation NomC-femi-sing
+additionnelles AdjQ-femi-plur
+admettre Verb-InfPré
+administrateurs NomC-masc-plur
+administration NomC-femi-sing
+admis Verb-ParPas-masc-sing Verb-ParPas-masc-plur
+admissibilité NomC-femi-sing
+admissible AdjQ-masc-sing
+admissibles AdjQ-masc-plur AdjQ-femi-plur
+adopte Verb-IndPré-sing-p3
+adopter Verb-InfPré
+adoption NomC-femi-sing
+adopté Verb-ParPas-masc-sing
+adoptée Verb-ParPas-femi-sing
+adresse Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+affaire NomC-femi-sing
+affaires NomC-femi-plur
+affirmation NomC-femi-sing
+affirme Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+affirment Verb-IndPré-plur-p3
+afin~~d' Prep
+afin~~de Prep
+afin~~que ConS
+agent NomC-masc-sing
+agents NomC-masc-plur
+agir Verb-InfPré
+agit Verb-IndPré-sing-p3
+agricole AdjQ-femi-sing AdjQ-masc-sing
+agricoles AdjQ-masc-plur
+agriculteurs NomC-masc-plur
+agriculture NomC-femi-sing
+ai Verb-IndPré-sing-p1
+aide NomC-femi-sing Verb-IndPré-sing-p3
+aider Verb-InfPré
+aient Verb-SubPré-plur-p3
+ailleurs Adve
+aimerais Verb-ConPré-sing-p1 Verb-ConPré-sing-p2
+ainsi Adve
+ainsi~~qu' ConS
+ainsi~~que ConS
+ait Verb-SubPré-sing-p3
+aller Verb-InfPré
+allons Verb-IndPré-plur-p1
+allusion NomC-femi-sing
+alors Adve
+alors~~qu' ConS
+alors~~que ConS
+amendement NomC-masc-sing
+amendements NomC-masc-plur
+ami NomC-masc-sing
+amis NomC-masc-plur
+amélioration NomC-femi-sing
+améliorer Verb-InfPré
+américain AdjQ-masc-sing
+américaine AdjQ-femi-sing
+américaines AdjQ-femi-plur
+américains AdjQ-masc-plur
+an NomC-masc-sing
+analyse NomC-femi-sing Verb-IndPré-sing-p3
+ancien AdjQ-masc-sing
+anciens AdjQ-masc-plur NomC-masc-plur
+anglais NomC-masc-sing AdjQ-masc-sing
+annonce NomC-femi-sing Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+annoncé Verb-ParPas-masc-sing
+annuler Verb-InfPré
+année NomC-femi-sing
+années NomC-femi-plur
+ans NomC-masc-plur
+août NomC-masc-sing
+apartheid NomC-masc-sing
+appel NomC-masc-sing
+appelle Verb-IndPré-sing-p3
+application NomC-femi-sing
+appliquer Verb-InfPré
+apporter Verb-InfPré
+apprendre Verb-InfPré
+apprentissage NomC-masc-sing
+approche NomC-femi-sing Verb-IndPré-sing-p3
+approprié AdjQ-masc-sing
+appui NomC-masc-sing
+appuie Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+appuyer Verb-InfPré
+après Prep
+après-midi NomC-masc-sing
+argent NomC-masc-sing
+arguments NomC-masc-plur
+arrive Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+arriver Verb-InfPré
+arrivée NomC-femi-sing Verb-ParPas-femi-sing
+arrière-ban NomC-masc-sing
+article NomC-masc-sing
+articles NomC-masc-plur
+aspect NomC-masc-sing
+aspects NomC-masc-plur
+assez Adve
+assistance NomC-femi-sing
+assisté Verb-ParPas-masc-sing
+association NomC-femi-sing
+assumer Verb-InfPré
+assurance NomC-femi-sing
+assurance-chômage NomC-femi-sing
+assurance-maladie NomC-femi-sing
+assure Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+assurer Verb-InfPré
+atteindre Verb-InfPré
+atteint Verb-ParPas-masc-sing Verb-IndPré-sing-p3
+attend Verb-IndPré-sing-p3
+attendre Verb-InfPré
+attention NomC-femi-sing Inte
+attentivement Adve
+attitude NomC-femi-sing
+au Dete-dprp-masc-sing
+aucun Dete-dind-masc-sing Pron-pind-masc-sing
+aucune Dete-dind-femi-sing Pron-pind-femi-sing
+audience NomC-femi-sing
+audiences NomC-femi-plur
+augmentation NomC-femi-sing
+augmenter Verb-InfPré
+augmenté Verb-ParPas-masc-sing
+aujourd'hui Adve
+auprès~~de Prep
+auquel Pron-RelInt-masc-sing
+aura Verb-IndFut-sing-p3
+auraient Verb-ConPré-plur-p3
+aurais Verb-ConPré-sing-p1
+aurait Verb-ConPré-sing-p3
+aurions Verb-ConPré-plur-p1
+aurons Verb-IndFut-plur-p1
+auront Verb-IndFut-plur-p3
+aussi Adve
+autant Adve
+autochtones AdjQ-femi-plur NomC-masc-plur AdjQ-masc-plur
+autonome AdjQ-masc-sing AdjQ-femi-sing
+autonomie NomC-femi-sing
+autorisant Verb-ParPré
+autoriser Verb-InfPré
+autorités NomC-femi-plur
+autre AdjQ-masc-sing Pron-pind-sing AdjQ-femi-sing Dete-dind-femi-sing
+autres AdjQ-masc-plur AdjQ-femi-plur Pron-pind-plur
+aux Dete-dprp-masc-plur Dete-dprp-femi-plur
+auxquelles Pron-RelInt-femi-plur
+auxquels Pron-RelInt-masc-plur
+au~~cours~~de Prep
+au~~début~~de Prep
+au~~lieu~~de Prep
+au~~moins Adve
+au~~moment~~de Prep
+au~~nom~~de Prep
+au~~sein~~de Prep
+au~~sujet~~de Prep
+au~~sérieux Adve
+avaient Verb-IndImp-plur-p3
+avais Verb-IndImp-sing-p1
+avait Verb-IndImp-sing-p3
+avancement NomC-masc-sing
+avant Prep NomC-masc-sing Adve
+avant~~de Prep
+avant~~que ConS
+avec Prep
+avenir NomC-masc-sing
+avez Verb-IndPré-plur-p2
+avions Verb-IndImp-plur-p1
+avis NomC-masc-sing NomC-masc-plur
+avocat NomC-masc-sing
+avoir Verb-InfPré
+avons Verb-IndPré-plur-p1
+avril NomC-masc-sing
+ayant Verb-ParPré
+aérienne AdjQ-femi-sing
+banques NomC-femi-plur
+barrage NomC-masc-sing
+base NomC-femi-sing
+beaucoup Adve
+beaucoup~~plus Adve
+besoin NomC-masc-sing
+besoins NomC-masc-plur
+biais NomC-masc-sing
+bien Adve PreD-femi-plur NomC-masc-sing
+bien-être NomC-masc-sing
+bientôt Adve
+bien~~que ConS
+bien~~sûr Adve
+blé NomC-masc-sing
+bon AdjQ-masc-sing Adve NomC-masc-sing
+bonne AdjQ-femi-sing NomC-femi-sing
+bonnes AdjQ-femi-plur NomC-femi-plur
+bons AdjQ-masc-plur
+bout NomC-masc-sing
+brièvement Adve
+budget NomC-masc-sing
+budgétaires AdjQ-femi-plur
+bureau NomC-masc-sing
+but NomC-masc-sing
+c' Pron-pdem-masc-sing
+c'est-à-dire ConC
+cabinet NomC-masc-sing
+cadre NomC-masc-sing
+camionnage NomC-masc-sing
+campagne NomC-femi-sing
+canadien AdjQ-masc-sing
+canadienne AdjQ-femi-sing
+canadiennes AdjQ-femi-plur
+canadiens AdjQ-masc-plur NomC-masc-plur
+capables AdjQ-masc-plur AdjQ-femi-plur
+capacité NomC-femi-sing
+car ConC
+caractère NomC-masc-sing
+cas NomC-masc-sing NomC-masc-plur
+caucus NomC-masc-sing
+cause NomC-femi-sing Verb-IndPré-sing-p3
+ce Dete-ddem-masc-sing Pron-pdem-masc-sing
+cela Pron-pdem-masc-sing
+celle Pron-pdem-femi-sing
+celles Pron-pdem-femi-plur
+celui Pron-pdem-masc-sing
+celui-ci Pron-pdem-masc-sing
+centre NomC-masc-sing
+centres NomC-masc-plur
+cependant ConS
+certain AdjQ-masc-sing
+certaine AdjQ-femi-sing
+certainement Adve
+certaines Dete-dind-femi-plur Pron-pind-femi-plur
+certains Dete-dind-masc-plur Pron-pind-masc-plur AdjQ-masc-plur
+certes Adve
+ces Dete-ddem-masc-plur Dete-ddem-femi-plur
+cet Dete-ddem-masc-sing
+cette Dete-ddem-femi-sing
+ceux Pron-pdem-masc-plur
+ce~~dernier Pron-pdem-masc-sing
+chacune Dete-dind-femi-sing
+chance NomC-femi-sing
+changements NomC-masc-plur
+changé Verb-ParPas-masc-sing
+chapitre NomC-masc-sing
+chaque Dete-dind-femi-sing Dete-dind-masc-sing
+charge NomC-femi-sing Verb-IndPré-sing-p3
+chargé Verb-ParPas-masc-sing AdjQ-masc-sing
+chef NomC-masc-sing
+chefs NomC-masc-plur
+cherche Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+cherché Verb-ParPas-masc-sing
+chez Prep
+chiffre NomC-masc-sing
+chiffres NomC-masc-plur
+choisi Verb-ParPas-masc-sing AdjQ-masc-sing
+choix NomC-masc-sing NomC-masc-plur
+chose NomC-femi-sing
+choses NomC-femi-plur
+chômage NomC-masc-sing
+cinq Num
+circonscription NomC-femi-sing
+circonstances NomC-femi-plur
+cite Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+citer Verb-InfPré
+citoyens NomC-masc-plur
+clair AdjQ-masc-sing NomC-masc-sing
+clairement Adve
+code NomC-masc-sing
+coeur NomC-masc-sing
+collaboration NomC-femi-sing
+collectivité NomC-femi-sing
+collectivités NomC-femi-plur
+collègue NomC-masc-sing NomC-femi-sing
+collègues NomC-masc-plur
+combien Pron-idir
+comité NomC-masc-sing
+comités NomC-masc-plur
+comme ConS Adve
+commencé Verb-ParPas-masc-sing
+comment Pron-idir
+commentaires NomC-masc-plur
+commerce NomC-masc-sing
+commercial AdjQ-masc-sing
+commerciales AdjQ-femi-plur
+commercialisation NomC-femi-sing
+commission NomC-femi-sing
+communautaire AdjQ-femi-sing AdjQ-masc-sing
+communautaires AdjQ-masc-plur AdjQ-femi-plur
+communauté NomC-femi-sing
+communautés NomC-femi-plur
+communes NomC-femi-plur AdjQ-femi-plur
+compagnies NomC-femi-plur
+complète AdjQ-femi-sing Verb-IndPré-sing-p3
+complètement Adve
+comporte Verb-IndPré-sing-p3
+comportement NomC-masc-sing
+comprend Verb-IndPré-sing-p3
+comprendre Verb-InfPré
+comprends Verb-IndPré-sing-p1
+comprennent Verb-IndPré-plur-p3
+compris Verb-ParPas-masc-sing Verb-ParPas-masc-plur
+compte NomC-masc-sing Verb-IndPré-sing-p3
+compter Verb-InfPré
+compétence NomC-femi-sing
+conception NomC-femi-sing
+concernant Prep Verb-ParPré
+concerne Verb-IndPré-sing-p3
+concernés Verb-ParPas-masc-plur
+conclu Verb-ParPas-masc-sing
+conclure Verb-InfPré
+conclusion NomC-femi-sing
+conclusions NomC-femi-plur
+condamnation NomC-femi-sing
+conditions NomC-femi-plur
+conduit Verb-ParPas-masc-sing Verb-IndPré-sing-p3
+conduite NomC-femi-sing
+confiance NomC-femi-sing
+conformément Adve
+conférence NomC-femi-sing
+congé NomC-masc-sing
+conjoint NomC-masc-sing
+connaissance NomC-femi-sing
+connaissances NomC-femi-plur
+connu Verb-ParPas-masc-sing AdjQ-masc-sing
+consacrer Verb-InfPré
+conscience NomC-femi-sing
+conseil NomC-masc-sing
+conseils NomC-masc-plur
+consentement NomC-masc-sing
+conservateur AdjQ-masc-sing NomC-masc-sing
+conservateurs NomC-masc-plur AdjQ-masc-plur
+conservation NomC-femi-sing
+considération NomC-femi-sing
+consommateurs NomC-masc-plur
+constate Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+constater Verb-InfPré
+constatons Verb-IndPré-plur-p1
+constituant Verb-ParPré
+constitue Verb-IndPré-sing-p3
+constituent Verb-IndPré-plur-p3
+constituer Verb-InfPré
+constitué Verb-ParPas-masc-sing
+construction NomC-femi-sing
+consultation NomC-femi-sing
+consultations NomC-femi-plur
+consulter Verb-InfPré
+consultés Verb-ParPas-masc-plur
+conséquences NomC-femi-plur
+contenu NomC-masc-sing Verb-ParPas-masc-sing
+contexte NomC-masc-sing
+continue Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+continuer Verb-InfPré
+contre Prep
+contribuables NomC-masc-plur
+contribuent Verb-IndPré-plur-p3
+contribuer Verb-InfPré
+contribution NomC-femi-sing
+contributions NomC-femi-plur
+contribué Verb-ParPas-masc-sing
+contrôle NomC-masc-sing
+convaincu Verb-ParPas-masc-sing
+coopération NomC-femi-sing
+coup NomC-masc-sing
+coups NomC-masc-plur
+cour NomC-femi-sing
+courant NomC-masc-sing
+cours NomC-masc-sing NomC-masc-plur NomC-femi-plur
+coût NomC-masc-sing
+coûts NomC-masc-plur
+cravate NomC-femi-sing
+crimes NomC-masc-plur
+criminel AdjQ-masc-sing NomC-masc-sing
+crise NomC-femi-sing
+critères NomC-masc-plur
+croient Verb-IndPré-plur-p3
+croire Verb-InfPré
+crois Verb-IndPré-sing-p1
+croissance NomC-femi-sing
+croyons Verb-IndPré-plur-p1
+créant Verb-ParPré
+création NomC-femi-sing
+crédibilité NomC-femi-sing
+crédit NomC-masc-sing
+crédits NomC-masc-plur
+créer Verb-InfPré
+créera Verb-IndFut-sing-p3
+créé Verb-ParPas-masc-sing
+créés Verb-ParPas-masc-plur
+culture NomC-femi-sing
+culturel AdjQ-masc-sing
+d' Prep Dete-dprp-masc-plur Dete-dprp-femi-plur
+d'ailleurs Adve
+d'après Prep
+d'entre Prep
+dans Prep
+date NomC-femi-sing Verb-IndPré-sing-p3
+davantage Adve
+de Prep Dete-dprp-femi-plur Dete-dprp-masc-plur Dete-dprp-masc-sing
+demain Adve NomC-masc-sing
+demande Verb-IndPré-sing-p3 Verb-IndPré-sing-p1 NomC-femi-sing
+demandent Verb-IndPré-plur-p3
+demander Verb-InfPré
+demandé Verb-ParPas-masc-sing
+depuis Prep
+dernier AdjQ-masc-sing
+dernière AdjQ-femi-sing
+dernières AdjQ-femi-plur
+derrière Prep
+des Dete-dprp-masc-plur Dete-dprp-femi-plur Dete-dind-femi-plur
+destinés Verb-ParPas-masc-plur
+deux Num
+deuxième Ordi-femi-sing Ordi-masc-sing
+devait Verb-IndImp-sing-p3
+devant Prep Verb-ParPré
+devenir Verb-InfPré
+devenu Verb-ParPas-masc-sing
+devoir NomC-masc-sing Verb-InfPré
+devons Verb-IndPré-plur-p1
+devra Verb-IndFut-sing-p3
+devraient Verb-ConPré-plur-p3
+devrait Verb-ConPré-sing-p3
+devrions Verb-ConPré-plur-p1
+devront Verb-IndFut-plur-p3
+de~~Jong NomP-nodt-fam NomP-nodt-fam-mltw
+de~~plus Adve
+de~~plus~~en~~plus Adve
+de~~près Adve
+de~~sorte~~que ConS
+difficile AdjQ-masc-sing AdjQ-femi-sing
+difficultés NomC-femi-plur
+différentes AdjQ-femi-plur Dete-dind-femi-plur
+différents AdjQ-masc-plur Dete-dind-masc-plur
+dire Verb-InfPré
+directement Adve
+direction NomC-femi-sing
+dirigeants NomC-masc-plur
+dis Verb-IndPré-sing-p1
+disait Verb-IndImp-sing-p3
+disant Verb-ParPré
+discours NomC-masc-sing NomC-masc-plur
+discussion NomC-femi-sing
+discussions NomC-femi-plur
+discuter Verb-InfPré
+discutons Verb-IndPré-plur-p1
+discuté Verb-ParPas-masc-sing
+disent Verb-IndPré-plur-p3
+disponibles AdjQ-masc-plur AdjQ-femi-plur
+disposition NomC-femi-sing
+dispositions NomC-femi-plur
+disposé Verb-ParPas-masc-sing
+dissoudre Verb-InfPré
+distincte AdjQ-femi-sing
+dit Verb-ParPas-masc-sing Verb-IndPré-sing-p3
+divers AdjQ-masc-plur Dete-dind-masc-plur
+diverses Dete-dind-femi-plur AdjQ-femi-plur
+diversification NomC-femi-sing
+diversité NomC-femi-sing
+dix Num
+document NomC-masc-sing
+documents NomC-masc-plur
+dois Verb-IndPré-sing-p1
+doit Verb-IndPré-sing-p3
+doivent Verb-IndPré-plur-p3 Verb-SubPré-plur-p3
+dollars NomC-masc-plur
+domaine NomC-masc-sing
+domaines NomC-masc-plur
+donc Adve
+donne Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+donnent Verb-IndPré-plur-p3
+donner Verb-InfPré
+donné Verb-ParPas-masc-sing AdjQ-masc-sing
+données NomC-femi-plur AdjQ-femi-plur Verb-ParPas-femi-plur
+dont Pron-Rel
+dossier NomC-masc-sing
+doute NomC-masc-sing Verb-IndPré-sing-p3
+drogues NomC-femi-plur
+droit NomC-masc-sing
+droite NomC-femi-sing
+droits NomC-masc-plur
+du Dete-dprp-masc-sing
+duquel Pron-RelInt-masc-sing
+durant Prep
+dès Prep
+débat NomC-masc-sing
+débattre Verb-InfPré
+début NomC-masc-sing
+décembre NomC-masc-sing
+décennie NomC-femi-sing
+déchets NomC-masc-plur
+décider Verb-InfPré
+décidé Verb-ParPas-masc-sing
+décision NomC-femi-sing
+déclaration NomC-femi-sing
+déclarations NomC-femi-plur
+déclaré Verb-ParPas-masc-sing
+découle Verb-IndPré-sing-p3
+déduction NomC-femi-sing
+défense NomC-femi-sing
+défi NomC-masc-sing
+déficit NomC-masc-sing
+définition NomC-femi-sing
+défis NomC-masc-plur
+déjà Adve
+démarches NomC-femi-plur
+démocratie NomC-femi-sing
+démocratique AdjQ-masc-sing AdjQ-femi-sing
+démocratiques AdjQ-femi-plur AdjQ-masc-plur
+dépenses NomC-femi-plur
+déplore Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+déposer Verb-InfPré
+député NomC-masc-sing
+députée NomC-femi-sing
+députés NomC-masc-plur
+déréglementation NomC-femi-sing
+désaccord NomC-masc-sing
+désire Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+désormais Adve
+détails NomC-masc-plur
+déterminer Verb-InfPré
+développement NomC-masc-sing
+développer Verb-InfPré
+dû Verb-ParPas-masc-sing
+eau NomC-femi-sing
+eaux NomC-femi-plur
+effectivement Adve
+effet NomC-masc-sing
+efficace AdjQ-masc-sing AdjQ-femi-sing
+efficacement Adve
+efforce Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+efforts NomC-masc-plur
+elle Pron-psuj-femi-sing-p3 Pron-fort
+elles Pron-psuj-femi-plur-p3 Pron-fort
+emploi NomC-masc-sing
+emplois NomC-masc-plur
+employés NomC-masc-plur
+emprisonnement NomC-masc-sing
+empêcher Verb-InfPré
+en Prep Pron-padv
+encore Adve
+encore~~une~~fois Adve
+encourager Verb-InfPré
+endroit NomC-masc-sing
+enfant NomC-masc-sing
+enfants NomC-masc-plur
+enfin Adve
+engage Verb-IndPré-sing-p3
+engagement NomC-masc-sing
+engagements NomC-masc-plur
+engager Verb-InfPré
+engagé Verb-ParPas-masc-sing
+enquête NomC-femi-sing Verb-IndPré-sing-p3
+enseignement NomC-masc-sing
+ensemble NomC-masc-sing Adve
+ensuite Adve
+entend Verb-IndPré-sing-p3
+entendre Verb-InfPré
+entendu Verb-ParPas-masc-sing
+entente NomC-femi-sing
+entier AdjQ-masc-sing
+entièrement Adve
+entre Prep Verb-IndPré-sing-p3
+entrepris Verb-ParPas-masc-sing
+entreprise NomC-femi-sing
+entreprises NomC-femi-plur Verb-ParPas-femi-plur
+entrer Verb-InfPré
+entrée NomC-femi-sing
+envergure NomC-femi-sing
+envers Prep
+environ PreN
+environnement NomC-masc-sing
+environnementaux AdjQ-masc-plur
+envisage Verb-IndPré-sing-p3
+en~~conséquence Adve
+en~~effet Adve
+en~~fait Adve
+en~~matière~~d' Prep
+en~~matière~~de Prep
+en~~mesure~~de Prep
+en~~particulier Adve
+en~~raison~~de Prep
+en~~sorte~~que ConS
+en~~tant~~que ConS
+en~~train~~de Prep
+en~~vertu~~de Prep
+en~~voie~~de Prep
+en~~vue~~d' Prep
+en~~vue~~de Prep
+erreur NomC-femi-sing
+espaces NomC-masc-plur
+esprit NomC-masc-sing
+espère Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+espérons Verb-IndPré-plur-p1 Verb-ImpPré-plur-p1
+essayer Verb-InfPré
+essence NomC-femi-sing
+essentiel AdjQ-masc-sing NomC-masc-sing
+est Verb-IndPré-sing-p3 NomC-masc-sing
+estime Verb-IndPré-sing-p1 NomC-femi-sing
+estiment Verb-IndPré-plur-p3
+et ConC
+eu Verb-ParPas-masc-sing
+eux Pron-fort
+eux-mêmes Pron-fort
+exactement Adve
+examen NomC-masc-sing
+examiner Verb-InfPré
+examiné Verb-ParPas-masc-sing
+exemple NomC-masc-sing
+exercer Verb-InfPré
+exhorte Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+exhortent Verb-IndPré-plur-p3
+exige Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+exiger Verb-InfPré
+existe Verb-IndPré-sing-p3
+expansion NomC-femi-sing
+experts NomC-masc-plur
+expliquer Verb-InfPré
+exploitation NomC-femi-sing
+expression NomC-femi-sing
+exprimer Verb-InfPré
+exprimé Verb-ParPas-masc-sing
+expérience NomC-femi-sing
+expériences NomC-femi-plur
+extradition NomC-femi-sing
+extradé Verb-ParPas-masc-sing
+extrêmement Adve
+extérieur AdjQ-masc-sing NomC-masc-sing
+extérieures AdjQ-femi-plur
+face NomC-femi-sing
+face~~à Prep
+facile AdjQ-femi-sing AdjQ-masc-sing
+faible AdjQ-masc-sing
+faire Verb-InfPré NomC-masc-sing
+faisait Verb-IndImp-sing-p3
+faisant Verb-ParPré
+fait Verb-ParPas-masc-sing NomC-masc-sing Verb-IndPré-sing-p3
+faite Verb-ParPas-femi-sing
+faites Verb-ParPas-femi-plur Verb-IndPré-plur-p2 Verb-ImpPré-plur-p2
+faits NomC-masc-plur Verb-ParPas-masc-plur
+famille NomC-femi-sing
+familles NomC-femi-plur
+fardeau NomC-masc-sing
+fassent Verb-SubPré-plur-p3
+faudra Verb-IndFut-sing-p3
+faudrait Verb-ConPré-sing-p3
+fausses AdjQ-femi-plur
+faut Verb-IndPré-sing-p3
+faux AdjQ-masc-plur AdjQ-masc-sing NomC-masc-sing NomC-masc-plur
+faveur NomC-femi-sing
+favorables AdjQ-masc-plur AdjQ-femi-plur
+favoriser Verb-InfPré
+favoritisme NomC-masc-sing
+façon NomC-femi-sing
+femme NomC-femi-sing
+femmes NomC-femi-plur
+fera Verb-IndFut-sing-p3
+ferme AdjQ-femi-sing AdjQ-masc-sing Verb-IndPré-sing-p3
+feu NomC-masc-sing
+fier AdjQ-masc-sing Verb-InfPré
+fiers AdjQ-masc-plur
+fierté NomC-femi-sing
+fil NomC-masc-sing
+fin NomC-femi-sing
+financement NomC-masc-sing
+financer Verb-InfPré
+finances NomC-femi-plur
+financier AdjQ-masc-sing
+financière AdjQ-femi-sing
+financières AdjQ-femi-plur
+fiscal AdjQ-masc-sing
+fiscale AdjQ-femi-sing
+fiscales AdjQ-femi-plur
+fixer Verb-InfPré
+fixé Verb-ParPas-masc-sing
+foi NomC-femi-sing
+fois NomC-femi-sing NomC-femi-plur
+fonction NomC-femi-sing
+fonctionnaires NomC-masc-plur
+fonctionnement NomC-masc-sing
+fonds NomC-masc-plur NomC-masc-sing
+fondée Verb-ParPas-femi-sing
+font Verb-IndPré-plur-p3
+formation NomC-femi-sing
+forme NomC-femi-sing
+formule NomC-femi-sing
+formé Verb-ParPas-masc-sing
+fort Adve AdjQ-masc-sing
+fournir Verb-InfPré
+fourniture NomC-femi-sing
+foyer NomC-masc-sing
+frais NomC-masc-plur
+français NomC-masc-sing AdjQ-masc-plur
+fraude NomC-femi-sing
+fusillade NomC-femi-sing
+fédéral AdjQ-masc-sing
+fédérale AdjQ-femi-sing
+fédérales AdjQ-femi-plur
+fédéraux AdjQ-masc-plur
+féliciter Verb-InfPré
+gagné Verb-ParPas-masc-sing
+garde NomC-femi-sing
+garderie NomC-femi-sing
+garderies NomC-femi-plur
+gardiennes NomC-femi-plur
+genre NomC-masc-sing
+gens NomC-masc-plur NomC-femi-sing
+gestion NomC-femi-sing
+global AdjQ-masc-sing
+gouvernement NomC-masc-sing
+gouvernementales AdjQ-femi-plur
+gouvernementaux AdjQ-masc-plur
+gouvernements NomC-masc-plur
+gouverneur NomC-masc-sing
+grain NomC-masc-sing
+grand AdjQ-masc-sing
+grande AdjQ-femi-sing
+grandement Adve
+grandes AdjQ-femi-plur
+grands AdjQ-masc-plur
+grave AdjQ-femi-sing AdjQ-masc-sing
+graves AdjQ-femi-plur AdjQ-masc-plur
+groupe NomC-masc-sing
+groupes NomC-masc-plur
+grâce~~à Prep
+guerre NomC-femi-sing
+génocide NomC-masc-sing
+général AdjQ-masc-sing
+générale AdjQ-femi-sing
+généralement Adve
+générales AdjQ-femi-plur
+génération NomC-femi-sing
+h NomC-femi-plur-abbr NomC-masc-plur-abbr
+habitants NomC-masc-plur
+habitent Verb-IndPré-plur-p3
+habitude NomC-femi-sing
+haute AdjQ-femi-sing
+hauts AdjQ-masc-plur NomC-masc-plur
+heure NomC-femi-sing
+heures NomC-femi-plur
+heureuse AdjQ-femi-sing
+heureux AdjQ-masc-sing AdjQ-masc-plur
+hier Adve
+histoire NomC-femi-sing
+historique AdjQ-femi-sing AdjQ-masc-sing
+hommage NomC-masc-sing
+homme NomC-masc-sing
+hommes NomC-masc-plur
+hon. AdjQ-masc-sing-abbr
+honneur NomC-masc-sing
+honorable AdjQ-masc-sing
+humblement Adve
+ici Adve
+idée NomC-femi-sing
+il Pron-psuj-masc-sing-p3
+ils Pron-psuj-masc-plur-p3
+immigrants NomC-masc-plur
+immigration NomC-femi-sing
+immédiatement Adve
+importance NomC-femi-sing
+important AdjQ-masc-sing
+importante AdjQ-femi-sing
+importantes AdjQ-femi-plur
+importants AdjQ-masc-plur
+importe Verb-IndPré-sing-p3
+impose Verb-IndPré-sing-p3
+imposer Verb-InfPré
+impossible AdjQ-masc-sing NomC-masc-sing
+impôt NomC-masc-sing
+inacceptable AdjQ-masc-sing AdjQ-femi-sing
+incapables AdjQ-masc-plur
+incinérateurs NomC-masc-plur
+indemnisation NomC-femi-sing
+indien AdjQ-masc-sing
+indienne AdjQ-femi-sing
+indiennes AdjQ-femi-plur
+indiens AdjQ-masc-plur
+industrie NomC-femi-sing
+industries NomC-femi-plur
+inflation NomC-femi-sing
+information NomC-femi-sing
+informer Verb-InfPré
+infractions NomC-femi-plur
+initiative NomC-femi-sing
+initiatives NomC-femi-plur
+injuste AdjQ-femi-sing AdjQ-masc-sing
+injustice NomC-femi-sing
+inquiétude NomC-femi-sing
+inquiétudes NomC-femi-plur
+inscrit Verb-ParPas-masc-sing Verb-IndPré-sing-p3
+inscrits Verb-ParPas-masc-plur AdjQ-masc-plur
+installation NomC-femi-sing
+institut NomC-masc-sing
+institution NomC-femi-sing
+institutions NomC-femi-plur
+insuffisant AdjQ-masc-sing
+intention NomC-femi-sing
+international AdjQ-masc-sing
+internationale AdjQ-femi-sing
+internationales AdjQ-femi-plur
+interprétation NomC-femi-sing
+intervenir Verb-InfPré
+intervention NomC-femi-sing
+intitulé Verb-ParPas-masc-sing
+intégrante AdjQ-femi-sing
+intéressant AdjQ-masc-sing Verb-ParPré
+intéresse Verb-IndPré-sing-p3
+intéressés NomC-masc-plur Verb-ParPas-masc-plur
+intérêt NomC-masc-sing
+intérêts NomC-masc-plur
+investissements NomC-masc-plur
+investisseurs NomC-masc-plur
+invoque Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+j' Pron-psuj-sing-p1
+jamais Adve
+japonaise AdjQ-femi-sing
+je Pron-psuj-sing-p1
+jeunes AdjQ-masc-plur NomC-masc-plur AdjQ-femi-plur
+jouer Verb-InfPré
+jouets NomC-masc-plur
+jour NomC-masc-sing
+journée NomC-femi-sing
+jours NomC-masc-plur
+judiciaire AdjQ-masc-sing AdjQ-femi-sing
+judiciaires AdjQ-femi-plur AdjQ-masc-plur
+juge NomC-masc-sing Verb-IndPré-sing-p3
+juillet NomC-masc-sing
+juin NomC-masc-sing
+jusqu' Prep
+jusqu'à Prep
+juste AdjQ-masc-sing AdjQ-femi-sing Adve
+justice NomC-femi-sing
+justifier Verb-InfPré
+l' Dete-dart-femi-sing Dete-dart-masc-sing Pron-obj
+l'une~~des Dete-dprp-femi-plur Dete-dind-femi-plur
+l'un~~des Dete-dind-masc-plur
+la Dete-dart-femi-sing Pron-obj
+lac NomC-masc-sing
+laisse Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+laisser Verb-InfPré
+laissé Verb-ParPas-masc-sing
+laissés Verb-ParPas-masc-plur
+lancer Verb-InfPré
+lancé Verb-ParPas-masc-sing
+langue NomC-femi-sing
+langues NomC-femi-plur
+laquelle Pron-RelInt-femi-sing
+la~~plupart~~des Dete-dprp-masc-plur Dete-dprp-femi-plur
+la~~plus Supr-femi-sing
+le Dete-dart-masc-sing Pron-obj
+leader NomC-masc-sing
+lecture NomC-femi-sing
+lequel Pron-RelInt-masc-sing
+les Dete-dart-masc-plur Dete-dart-femi-plur Pron-obj
+lesquelles Pron-RelInt-femi-plur
+lesquels Pron-RelInt-masc-sing
+les~~autres Pron-pdem-plur Dete-ddem-masc-plur Dete-ddem-femi-plur Dete-pdem-masc-plur
+les~~plus Supr-masc-plur Supr-femi-plur
+lettre NomC-femi-sing
+leur Dete-dpos-femi-sing Dete-dpos-masc-sing Pron-obj Pron-obl
+leurs Dete-dpos-masc-plur Dete-dpos-femi-plur
+le~~plus Supr-masc-sing Adve
+liberté NomC-femi-sing
+libertés NomC-femi-plur
+libre-échange NomC-masc-sing
+libéral AdjQ-masc-sing NomC-masc-sing
+libéraux NomC-masc-plur AdjQ-masc-plur
+lieu NomC-masc-sing
+ligne NomC-femi-sing
+lignes NomC-femi-plur
+linguistique AdjQ-masc-sing AdjQ-femi-sing
+lire Verb-InfPré
+liste NomC-femi-sing
+localités NomC-femi-plur
+locataires NomC-masc-plur
+logement NomC-masc-sing
+loi NomC-femi-sing
+lois NomC-femi-plur
+long AdjQ-masc-sing
+longtemps Adve
+lors Adve
+lorsqu' ConS
+lorsque ConS
+lors~~de Prep
+lu Verb-ParPas-masc-sing
+lucratif AdjQ-masc-sing
+lui Pron-obj Pron-fort
+lui-même Pron-fort
+lumière NomC-femi-sing
+lutte NomC-femi-sing
+là Adve
+là-dessus Adve
+législatif AdjQ-masc-sing
+législation NomC-femi-sing
+législative AdjQ-femi-sing
+m' Pron-obj Pron-refl-sing-p1 Pron-obl
+ma Dete-dpos-femi-sing
+main NomC-femi-sing
+maintenant Adve Verb-ParPré
+maintenir Verb-InfPré
+maintes Dete-dind-femi-plur
+mais ConC Adve
+maison NomC-femi-sing
+majorité NomC-femi-sing
+mal Adve NomC-masc-sing
+maladie NomC-femi-sing
+malgré Prep
+mandat NomC-masc-sing
+manifestement Adve
+manière NomC-femi-sing
+marché NomC-masc-sing
+maritime AdjQ-femi-sing
+matin NomC-masc-sing
+matière NomC-femi-sing
+matériel NomC-masc-sing
+mauvais AdjQ-masc-sing AdjQ-masc-plur
+me Pron-refl-sing-p1 Pron-obl Pron-obj
+meilleur AdjQ-masc-sing NomC-masc-sing
+meilleure AdjQ-femi-sing
+membre NomC-masc-sing
+membres NomC-masc-plur
+menace NomC-femi-sing Verb-IndPré-sing-p3
+mention NomC-femi-sing
+mentionner Verb-InfPré
+mentionné Verb-ParPas-masc-sing
+mes Dete-dpos-masc-plur Dete-dpos-femi-plur
+message NomC-masc-sing
+mesure NomC-femi-sing
+mesures NomC-femi-plur
+met Verb-IndPré-sing-p3
+mettre Verb-InfPré
+meurtre NomC-masc-sing
+mieux Adve NomC-masc-sing
+milieu NomC-masc-sing
+milliard NomC-masc-sing
+milliards NomC-masc-plur
+milliers NomC-masc-plur
+million NomC-masc-sing
+millions NomC-masc-plur
+minimales AdjQ-femi-plur
+ministre NomC-masc-sing NomC-femi-sing
+ministres NomC-masc-plur
+ministère NomC-masc-sing
+ministères NomC-masc-plur
+minutes NomC-femi-plur
+mis Verb-ParPas-masc-sing Verb-ParPas-masc-plur Verb-IndPas-sing-p1
+mise NomC-femi-sing Verb-ParPas-femi-sing
+mission NomC-femi-sing
+modalités NomC-femi-plur
+mode NomC-masc-sing
+modifiant Verb-ParPré
+modifications NomC-femi-plur
+modifier Verb-InfPré
+modèle NomC-masc-sing
+moi Pron-fort
+moins Adve
+mois NomC-masc-plur NomC-masc-sing
+moitié NomC-femi-sing
+moment NomC-masc-sing
+mon Dete-dpos-masc-sing Dete-dpos-femi-sing
+monde NomC-masc-sing
+mondiale AdjQ-femi-sing
+monoparentales AdjQ-femi-plur
+monsieur NomC-masc-sing
+montant NomC-masc-sing
+montre Verb-IndPré-sing-p3
+montrer Verb-InfPré
+mort NomC-femi-sing AdjQ-masc-sing Verb-ParPas-masc-sing
+mot NomC-masc-sing
+motion NomC-femi-sing
+mots NomC-masc-plur
+moyen AdjQ-masc-sing NomC-masc-sing
+moyens NomC-masc-plur AdjQ-masc-plur
+multiculturalisme NomC-masc-sing
+multiculturel AdjQ-masc-sing
+multiculturelle AdjQ-femi-sing
+municipalités NomC-femi-plur
+mère NomC-femi-sing
+mères NomC-femi-plur
+médicaux AdjQ-masc-plur
+mérite Verb-IndPré-sing-p3 NomC-masc-sing
+même Adve AdjQ-masc-sing AdjQ-femi-sing Pron-pind-sing
+mêmes AdjQ-femi-plur AdjQ-masc-plur
+n' Adve
+national AdjQ-masc-sing
+nationale AdjQ-femi-sing
+nationales AdjQ-femi-plur
+nationaux AdjQ-masc-plur
+nature NomC-femi-sing
+naturellement Adve
+ne Adve
+neuf Num AdjQ-masc-sing
+ni ConC
+niveau NomC-masc-sing
+niveaux NomC-masc-plur
+nom NomC-masc-sing
+nombre NomC-masc-sing
+nombreuses AdjQ-femi-plur
+nombreux AdjQ-masc-plur
+nominations NomC-femi-plur
+nommer Verb-InfPré
+nommés Verb-ParPas-masc-plur
+non Adve
+non~~pas Adve
+non~~plus Adve
+non~~seulement Adve
+norme NomC-femi-sing
+normes NomC-femi-plur
+nos Dete-dpos-masc-plur Dete-dpos-femi-plur
+notamment Adve
+notre Dete-dpos-masc-sing Dete-dpos-femi-sing
+nous Pron-psuj-plur-p1 Pron-obj Pron-fort Pron-refl-plur-p1
+nouveau AdjQ-masc-sing
+nouveaux AdjQ-masc-plur
+nouvel AdjQ-masc-sing
+nouvelle AdjQ-femi-sing NomC-femi-sing
+nouvelles AdjQ-femi-plur
+nullement Adve
+nécessaire AdjQ-masc-sing AdjQ-femi-sing
+nécessaires AdjQ-masc-plur AdjQ-femi-plur
+nécessité NomC-femi-sing
+négociations NomC-femi-plur
+néo-démocrates NomC-masc-plur AdjQ-masc-plur
+objectif NomC-masc-sing AdjQ-masc-sing
+objectifs NomC-masc-plur
+objet NomC-masc-sing
+observations NomC-femi-plur
+obstruction NomC-femi-sing
+obtenir Verb-InfPré
+obtenu Verb-ParPas-masc-sing
+occasion NomC-femi-sing
+occupent Verb-IndPré-plur-p3
+occuper Verb-InfPré
+occupé Verb-ParPas-masc-sing
+octobre NomC-masc-sing
+octroi NomC-masc-sing
+oeuvre NomC-femi-sing
+offerts Verb-ParPas-masc-plur
+officielle AdjQ-femi-sing
+officielles AdjQ-femi-plur
+offrant Verb-ParPré
+offre Verb-IndPré-sing-p3 NomC-femi-sing
+offrent Verb-IndPré-plur-p3
+offrir Verb-InfPré
+oh Inte
+on Pron-psuj-sing-p3
+ont Verb-IndPré-plur-p3
+opinion NomC-femi-sing
+oppose Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+opposition NomC-femi-sing
+opposés Verb-ParPas-masc-plur AdjQ-masc-plur
+ordre NomC-masc-sing
+organisation NomC-femi-sing
+organisations NomC-femi-plur
+organisme NomC-masc-sing
+organismes NomC-masc-plur
+oriental AdjQ-masc-sing
+origine NomC-femi-sing
+ou ConC
+oublier Verb-InfPré
+ouest NomC-masc-sing AdjQ-femi-sing
+ouvrir Verb-InfPré
+où Pron-RelInt
+p.~~100 NomC-masc-plur-abbr NomC-masc-sing-abbr
+page NomC-femi-sing
+pages NomC-femi-plur NomC-masc-plur
+par Prep
+paraît Verb-IndPré-sing-p3
+parce~~qu' ConS
+parce~~que ConS
+parcs NomC-masc-plur
+parental AdjQ-masc-sing
+parents NomC-masc-plur
+parfois Adve
+parlait Verb-IndImp-sing-p3
+parle Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+parlementaire AdjQ-masc-sing AdjQ-femi-sing
+parlementaires AdjQ-masc-plur NomC-masc-plur AdjQ-femi-plur
+parler Verb-InfPré
+parlé Verb-ParPas-masc-sing
+parmi Prep
+parole NomC-femi-sing
+paroles NomC-femi-plur
+part NomC-femi-sing
+partage NomC-masc-sing Verb-IndPré-sing-p1
+partagés Verb-ParPas-masc-plur
+parti NomC-masc-sing AdjQ-masc-sing
+participation NomC-femi-sing
+participer Verb-InfPré
+participé Verb-ParPas-masc-sing
+particulier AdjQ-masc-sing NomC-masc-sing
+particuliers NomC-masc-plur AdjQ-masc-plur
+particulière AdjQ-femi-sing
+particulièrement Adve
+partie NomC-femi-sing
+parties NomC-femi-plur
+partis NomC-masc-plur Verb-ParPas-masc-plur
+partout Adve
+par~~exemple Adve
+par~~rapport~~à Prep
+pas Adve NomC-masc-sing
+passe Verb-IndPré-sing-p3
+passer Verb-InfPré
+passé NomC-masc-sing Verb-ParPas-masc-sing AdjQ-masc-sing
+pas~~du~~tout Adve
+patrimoine NomC-masc-sing
+patrimoniales AdjQ-femi-plur
+pauvres AdjQ-femi-plur NomC-masc-plur AdjQ-masc-plur
+payer Verb-InfPré
+pays NomC-masc-sing NomC-masc-plur
+peine NomC-femi-sing
+peines NomC-femi-plur
+pendant Prep
+pense Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+pensions NomC-femi-plur Verb-IndImp-plur-p1
+perdu Verb-ParPas-masc-sing
+permanent AdjQ-masc-sing
+permet Verb-IndPré-sing-p3
+permettra Verb-IndFut-sing-p3
+permettrait Verb-ConPré-sing-p3
+permettre Verb-InfPré
+permis NomC-masc-sing Verb-ParPas-masc-sing NomC-masc-plur
+personne NomC-femi-sing Pron-pind-masc-sing
+personnel NomC-masc-sing AdjQ-masc-sing
+personnes NomC-femi-plur
+persuadé Verb-ParPas-masc-sing
+pertinentes AdjQ-femi-plur
+petit AdjQ-masc-sing
+petites AdjQ-femi-plur
+peu Adve
+peuple NomC-masc-sing
+peut Verb-IndPré-sing-p3
+peut-être Adve
+peuvent Verb-IndPré-plur-p3
+peux Verb-IndPré-sing-p1
+pied NomC-masc-sing
+piètre AdjQ-femi-sing
+place NomC-femi-sing
+places NomC-femi-plur
+plaintes NomC-femi-plur Verb-ParPas-femi-plur
+plaisir NomC-masc-sing
+plan NomC-masc-sing
+plein AdjQ-masc-sing
+pleinement Adve
+plomb NomC-masc-sing
+pluies NomC-femi-plur
+plus Adve
+plusieurs Dete-dind-masc-plur Pron-pind-plur
+plus~~d' PreN Dete-dprp-masc-sing Dete-dprp-femi-plur Dete-dprp-femi-sing
+plus~~de PreN Dete-dprp-femi-sing Dete-dprp-masc-sing Dete-dprp-femi-plur
+plus~~tard Adve
+plus~~tôt Adve
+plutôt Adve
+plénier AdjQ-masc-sing
+point NomC-masc-sing
+points NomC-masc-plur
+politique NomC-femi-sing AdjQ-femi-sing AdjQ-masc-sing
+politiques AdjQ-masc-plur NomC-femi-plur AdjQ-femi-plur
+population NomC-femi-sing
+populations NomC-femi-plur
+portant Verb-ParPré
+porte Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+porte-parole NomC-masc-sing NomC-masc-plur
+porter Verb-InfPré
+portée NomC-femi-sing Verb-ParPas-femi-sing
+pose Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+poser Verb-InfPré
+position NomC-femi-sing
+possibilité NomC-femi-sing
+possibilités NomC-femi-plur
+possible AdjQ-masc-sing AdjQ-femi-sing
+posé Verb-ParPas-masc-sing
+potentiel NomC-masc-sing
+pour Prep
+pourquoi Pron-idir
+pourra Verb-IndFut-sing-p3
+pourraient Verb-ConPré-plur-p3
+pourrait Verb-ConPré-sing-p3
+pourrions Verb-ConPré-plur-p1
+pourrons Verb-IndFut-plur-p1
+pourront Verb-IndFut-plur-p3
+poursuit Verb-IndPré-sing-p3
+poursuivre Verb-InfPré
+pourtant Adve
+pour~~qu' ConS
+pour~~que ConS
+pouvait Verb-IndImp-sing-p3
+pouvez Verb-IndPré-plur-p2
+pouvoir Verb-InfPré NomC-masc-sing
+pouvons Verb-IndPré-plur-p1
+pratiquement Adve
+premier Ordi-masc-sing
+premiers Ordi-masc-plur
+première Ordi-femi-sing
+premières Ordi-femi-plur
+prend Verb-IndPré-sing-p3
+prendre Verb-InfPré
+prends Verb-IndPré-sing-p1
+presque Adve
+prestations NomC-femi-plur
+preuve NomC-femi-sing
+preuves NomC-femi-plur
+prient Verb-IndPré-plur-p3
+principal AdjQ-masc-sing
+principalement Adve
+principe NomC-masc-sing
+principes NomC-masc-plur
+priorité NomC-femi-sing
+priorités NomC-femi-plur
+pris Verb-ParPas-masc-sing Verb-ParPas-masc-plur
+prise Verb-ParPas-femi-sing NomC-femi-sing
+prises Verb-ParPas-femi-plur
+prison NomC-femi-sing
+privatisation NomC-femi-sing
+privilège NomC-masc-sing
+privé AdjQ-masc-sing Verb-ParPas-masc-sing
+privées AdjQ-femi-plur
+prix NomC-masc-sing NomC-masc-plur
+probablement Adve
+problème NomC-masc-sing
+problèmes NomC-masc-plur
+processus NomC-masc-sing
+prochaine AdjQ-femi-sing
+prochaines AdjQ-femi-plur
+procès NomC-masc-sing
+procéder Verb-InfPré
+procédures NomC-femi-plur
+procédé Verb-ParPas-masc-sing NomC-masc-sing
+producteurs NomC-masc-plur
+produits NomC-masc-plur
+professeurs NomC-masc-plur
+profiter Verb-InfPré
+profits NomC-masc-plur
+programme NomC-masc-sing
+programmes NomC-masc-plur
+progrès NomC-masc-plur NomC-masc-sing
+projet NomC-masc-sing
+projets NomC-masc-plur
+promesse NomC-femi-sing
+promesses NomC-femi-plur
+promis Verb-ParPas-masc-sing
+promotion NomC-femi-sing
+promouvoir Verb-InfPré
+prononcer Verb-InfPré
+proportion NomC-femi-sing
+propos NomC-masc-plur NomC-masc-sing
+propose Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+proposent Verb-IndPré-plur-p3
+proposer Verb-InfPré
+proposition NomC-femi-sing
+propositions NomC-femi-plur
+proposé Verb-ParPas-masc-sing
+propre AdjQ-masc-sing AdjQ-femi-sing
+propres AdjQ-masc-plur AdjQ-femi-plur
+propriété NomC-femi-sing
+prospérité NomC-femi-sing
+protection NomC-femi-sing
+protéger Verb-InfPré
+provenant Verb-ParPré
+province NomC-femi-sing
+provinces NomC-femi-plur
+provincial AdjQ-masc-sing
+provinciale AdjQ-femi-sing
+provinciales AdjQ-femi-plur
+provinciaux AdjQ-masc-plur
+près~~de Prep
+précise AdjQ-femi-sing Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+préciser Verb-InfPré
+précédent AdjQ-masc-sing NomC-masc-sing
+précédents AdjQ-masc-plur NomC-masc-plur
+préoccupation NomC-femi-sing
+préoccupations NomC-femi-plur
+préoccupe Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+présent AdjQ-masc-sing NomC-masc-sing
+présente AdjQ-femi-sing Verb-IndPré-sing-p3
+présenter Verb-InfPré
+présenté Verb-ParPas-masc-sing
+présidence NomC-femi-sing
+président NomC-masc-sing
+prétend Verb-IndPré-sing-p3
+prévoit Verb-IndPré-sing-p3
+prévoyant Verb-ParPré AdjQ-masc-sing
+prévu Verb-ParPas-masc-sing
+prévue Verb-ParPas-femi-sing AdjQ-femi-sing
+prévues Verb-ParPas-femi-plur AdjQ-femi-plur
+prévus Verb-ParPas-masc-plur
+prêts NomC-masc-plur AdjQ-masc-plur
+pu Verb-ParPas-masc-sing
+publiait Verb-IndImp-sing-p3
+public NomC-masc-sing AdjQ-masc-sing
+publics AdjQ-masc-plur
+publique AdjQ-femi-sing
+publiques AdjQ-femi-plur
+publié Verb-ParPas-masc-sing
+puis Adve Verb-IndPré-sing-p1
+puisqu' ConS
+puisque ConS
+puisse Verb-SubPré-sing-p3 Verb-SubPré-sing-p1
+puissent Verb-SubPré-plur-p3
+puissions Verb-SubPré-plur-p1
+purge Verb-IndPré-sing-p3
+père NomC-masc-sing
+période NomC-femi-sing
+pétition NomC-femi-sing
+pétitionnaires NomC-masc-plur
+pétitions NomC-femi-plur
+pétrolière AdjQ-femi-sing
+qu' ConS Pron-RelInt
+qualifié Verb-ParPas-masc-sing AdjQ-masc-sing
+qualité NomC-femi-sing
+quand Pron-idir
+quant Prep
+quant~~à Prep
+quatre Num
+quatrième Ordi-femi-sing Ordi-masc-sing
+que ConS Pron-RelInt
+quel Dete-dind-masc-sing Pron-RelInt-masc-sing
+quelle Dete-dint-femi-sing Pron-RelInt-femi-sing Dete-dind-femi-sing
+quelles Dete-dint-femi-plur Pron-RelInt-femi-plur
+quelque Dete-dind-femi-sing PreN Dete-dind-masc-sing
+quelques Dete-dind-femi-plur Dete-dind-masc-plur
+question NomC-femi-sing NomC-masc-sing
+questions NomC-femi-plur
+qui Pron-RelInt
+quoi Pron-idir
+québécois AdjQ-masc-plur AdjQ-masc-sing
+raison NomC-femi-sing
+raisons NomC-femi-plur
+rapatrier Verb-InfPré
+rapidement Adve
+rappel NomC-masc-sing
+rappeler Verb-InfPré
+rappelle Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+rapport NomC-masc-sing
+rapports NomC-masc-plur
+recevoir Verb-InfPré
+recherche NomC-femi-sing Verb-IndPré-sing-p3
+recherches NomC-femi-plur
+recommandation NomC-femi-sing
+recommandations NomC-femi-plur
+recommande Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+recommandé Verb-ParPas-masc-sing
+reconnaissance NomC-femi-sing
+reconnaître Verb-InfPré
+reconnu Verb-ParPas-masc-sing
+reconnus Verb-ParPas-masc-plur
+recours NomC-masc-sing NomC-masc-plur
+refuse Verb-IndPré-sing-p3
+refusé Verb-ParPas-masc-sing
+regrettable AdjQ-masc-sing AdjQ-femi-sing
+regrette Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+rejeter Verb-InfPré
+rejeté Verb-ParPas-masc-sing
+relations NomC-femi-plur
+relativement Adve
+relever Verb-InfPré
+reliés Verb-ParPas-masc-plur
+remarquer Verb-InfPré
+remercie Verb-IndPré-sing-p1
+remédier Verb-InfPré
+rencontre NomC-femi-sing Verb-IndPré-sing-p3
+rencontré Verb-ParPas-masc-sing
+rendre Verb-InfPré
+rendu Verb-ParPas-masc-sing
+renforcement NomC-masc-sing
+renseignements NomC-masc-plur
+renvoyé Verb-ParPas-masc-sing
+reporter Verb-InfPré
+reprend Verb-IndPré-sing-p3
+reprises NomC-femi-plur
+représentants NomC-masc-plur
+représente Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+requérants NomC-masc-plur
+respect NomC-masc-sing
+respecte Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+respecter Verb-InfPré
+responsabilité NomC-femi-sing
+responsabilités NomC-femi-plur
+responsable AdjQ-masc-sing AdjQ-femi-sing NomC-masc-sing
+responsables AdjQ-masc-plur NomC-masc-plur AdjQ-femi-plur
+ressource NomC-femi-sing
+ressources NomC-femi-plur
+reste Verb-IndPré-sing-p3 NomC-masc-sing
+restent Verb-IndPré-plur-p3
+rester Verb-InfPré
+retirer Verb-InfPré
+retour NomC-masc-sing
+retrait NomC-masc-sing
+retraite NomC-femi-sing
+revenir Verb-InfPré
+revenu NomC-masc-sing
+revenus NomC-masc-plur
+reçu Verb-ParPas-masc-sing
+riches AdjQ-femi-plur NomC-masc-plur AdjQ-masc-plur
+richesse NomC-femi-sing
+rien Pron-pind-masc-sing Adve
+risque NomC-masc-sing Verb-IndPré-sing-p3
+royale AdjQ-femi-sing
+rythme NomC-masc-sing
+règle NomC-femi-sing Verb-IndPré-sing-p3
+règlement NomC-masc-sing
+règlements NomC-masc-plur
+règles NomC-femi-plur
+règne Verb-IndPré-sing-p3 NomC-masc-sing
+réalisation NomC-femi-sing
+réaliser Verb-InfPré
+réalité NomC-femi-sing
+réalités NomC-femi-plur
+récemment Adve
+réduction NomC-femi-sing
+réduire Verb-InfPré
+réduit Verb-ParPas-masc-sing
+réels AdjQ-masc-plur
+réforme NomC-femi-sing
+régime NomC-masc-sing
+région NomC-femi-sing
+régions NomC-femi-plur
+réglementation NomC-femi-sing
+régler Verb-InfPré
+réjouis Verb-IndPré-sing-p1
+répond Verb-IndPré-sing-p3
+réponde Verb-SubPré-sing-p3
+répondre Verb-InfPré
+répondu Verb-ParPas-masc-sing
+réponse NomC-femi-sing
+répète Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+répéter Verb-InfPré
+réseau NomC-masc-sing
+réserve NomC-femi-sing Verb-IndPré-sing-p3
+réserves NomC-femi-plur
+résultat NomC-masc-sing
+résultats NomC-masc-plur
+réunions NomC-femi-plur
+réussi Verb-ParPas-masc-sing
+rôle NomC-masc-sing
+s' Pron-refl-p3 ConS
+sa Dete-dpos-femi-sing
+sais Verb-IndPré-sing-p1
+saisir Verb-InfPré
+saisis Verb-ParPas-masc-plur
+sait Verb-IndPré-sing-p3
+salaire NomC-masc-sing
+sanctions NomC-femi-plur
+sans Prep
+sans~~doute Adve
+santé NomC-femi-sing
+satisfaire Verb-InfPré
+satisfaits AdjQ-masc-plur Verb-ParPas-masc-plur
+sauf Prep
+savent Verb-IndPré-plur-p3
+savez Verb-IndPré-plur-p2
+savoir Verb-InfPré
+savons Verb-IndPré-plur-p1
+schizophrénie NomC-femi-sing
+scolaire AdjQ-masc-sing AdjQ-femi-sing
+se Pron-refl-p3
+secrétaire NomC-masc-sing NomC-femi-sing
+secteur NomC-masc-sing
+secteurs NomC-masc-plur
+sein NomC-masc-sing
+selon Prep
+semaine NomC-femi-sing
+semaines NomC-femi-plur
+semblables AdjQ-masc-plur AdjQ-femi-plur
+semble Verb-IndPré-sing-p3
+sens NomC-masc-sing NomC-masc-plur
+sept Num
+septembre NomC-masc-sing
+sera Verb-IndFut-sing-p3
+seraient Verb-ConPré-plur-p3
+serait Verb-ConPré-sing-p3
+serions Verb-ConPré-plur-p1
+serment NomC-masc-sing
+seront Verb-IndFut-plur-p3
+sert Verb-IndPré-sing-p3
+servi Verb-ParPas-masc-sing
+service NomC-masc-sing
+services NomC-masc-plur
+servir Verb-InfPré
+servira Verb-IndFut-sing-p3
+ses Dete-dpos-masc-plur Dete-dpos-femi-plur
+seul AdjQ-masc-sing
+seule AdjQ-femi-sing NomC-femi-sing
+seulement Adve
+seuls AdjQ-masc-plur
+si ConS Adve
+signale Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+signaler Verb-InfPré
+signalé Verb-ParPas-masc-sing
+signifie Verb-IndPré-sing-p3
+signé Verb-ParPas-masc-sing
+signée Verb-ParPas-femi-sing
+simple AdjQ-masc-sing AdjQ-femi-sing
+simplement Adve
+sincèrement Adve
+sinon ConS
+situation NomC-femi-sing
+six Num
+siège NomC-masc-sing Verb-IndPré-sing-p3
+social AdjQ-masc-sing
+sociale AdjQ-femi-sing
+sociales AdjQ-femi-plur
+sociaux AdjQ-masc-plur
+société NomC-femi-sing
+sociétés NomC-femi-plur
+soient Verb-SubPré-plur-p3
+soin NomC-masc-sing
+soins NomC-masc-plur
+soir NomC-masc-sing
+soit Verb-SubPré-sing-p3 Adve ConC
+solution NomC-femi-sing
+solutions NomC-femi-plur
+somme NomC-femi-sing
+sommes Verb-IndPré-plur-p1 NomC-femi-plur
+son Dete-dpos-masc-sing Dete-dpos-femi-sing
+sont Verb-IndPré-plur-p3
+sorte NomC-femi-sing
+soulever Verb-InfPré
+soulevé Verb-ParPas-masc-sing
+souligner Verb-InfPré
+soulève Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+soumis Verb-ParPas-masc-sing Verb-ParPas-masc-plur
+souplesse NomC-femi-sing
+sources NomC-femi-plur
+sous Prep
+soutien NomC-masc-sing
+souvent Adve
+souveraineté NomC-femi-sing
+spécial AdjQ-masc-sing
+spécialistes NomC-masc-plur
+spéciaux AdjQ-masc-plur
+statut NomC-masc-sing
+stratégie NomC-femi-sing
+structure NomC-femi-sing
+su Verb-ParPas-masc-sing
+subi Verb-ParPas-masc-sing
+subir Verb-InfPré
+subvention NomC-femi-sing
+subventionnées AdjQ-femi-plur AdjQ-femi-sing Verb-ParPas-femi-plur
+subventions NomC-femi-plur
+succès NomC-masc-sing
+sud NomC-masc-sing AdjQ-femi-sing
+suffit Verb-IndPré-sing-p3
+suis Verb-IndPré-sing-p1
+suit Verb-IndPré-sing-p3
+suite NomC-femi-sing
+suivant AdjQ-masc-sing Prep Verb-ParPré
+suivante AdjQ-femi-sing
+suivantes AdjQ-femi-plur
+sujet NomC-masc-sing
+supercherie NomC-femi-sing
+suppléant AdjQ-masc-sing NomC-masc-sing
+supplémentaire AdjQ-femi-sing AdjQ-masc-sing
+supplémentaires AdjQ-femi-plur
+suppose Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+supprimer Verb-InfPré
+suprême AdjQ-femi-sing
+sur Prep
+surtout Adve
+surveillance NomC-femi-sing
+sur~~pied Adve
+système NomC-masc-sing
+séance NomC-femi-sing
+sécurité NomC-femi-sing
+sénateurs NomC-masc-plur
+série NomC-femi-sing
+sérieuses AdjQ-femi-plur
+sérieux AdjQ-masc-sing AdjQ-masc-plur
+sévères AdjQ-femi-plur AdjQ-masc-plur
+sûr AdjQ-masc-sing
+sûrement Adve
+tandis~~que ConS
+tant Adve
+taux NomC-masc-sing NomC-masc-plur
+technologie NomC-femi-sing
+tel AdjQ-masc-sing Pron-pind-masc-sing
+telle AdjQ-femi-sing Pron-pind-femi-sing
+tellement Adve
+tels AdjQ-masc-plur
+temps NomC-masc-sing NomC-masc-plur
+tendance NomC-femi-sing
+tendant Verb-ParPré
+tenir Verb-InfPré
+tentative NomC-femi-sing
+tente Verb-IndPré-sing-p3
+tenu Verb-ParPas-masc-sing AdjQ-masc-sing
+tenue NomC-femi-sing Verb-ParPas-femi-sing
+tenus Verb-ParPas-masc-plur
+terme NomC-masc-sing
+termes NomC-masc-plur
+terminant Verb-ParPré
+terrain NomC-masc-sing
+terrains NomC-masc-plur
+territoires NomC-masc-plur
+tiens Verb-IndPré-sing-p1
+tient Verb-IndPré-sing-p3
+tiers AdjQ-masc-sing NomC-masc-plur NomC-masc-sing
+tirer Verb-InfPré
+titre NomC-masc-sing
+tort NomC-masc-sing
+total NomC-masc-sing AdjQ-masc-sing
+touchant Verb-ParPré Prep
+touche Verb-IndPré-sing-p3 NomC-femi-sing
+toujours Adve
+tous PreD-masc-plur Adve Pron-pind-masc-plur Dete-dind-masc-plur
+tout Adve PreD-masc-sing Dete-dind-masc-sing Pron-pind-masc-sing NomC-masc-sing
+toute PreD-femi-sing Dete-dind-femi-sing
+toutefois Adve
+toutes PreD-femi-plur Dete-dind-femi-plur Pron-pind-femi-plur Adve
+tout~~de~~suite Adve
+tout~~à~~fait Adve
+toxiques AdjQ-masc-plur AdjQ-femi-plur
+traditionnelle AdjQ-femi-sing
+trait NomC-masc-sing
+traitement NomC-masc-sing
+traiter Verb-InfPré
+traité NomC-masc-sing Verb-ParPas-masc-sing
+traités Verb-ParPas-masc-plur NomC-masc-plur
+transport NomC-masc-sing
+travail NomC-masc-sing
+travaillent Verb-IndPré-plur-p3
+travailler Verb-InfPré
+travailleurs NomC-masc-plur
+travaillé Verb-ParPas-masc-sing
+travaux NomC-masc-plur
+tribunal NomC-masc-sing
+tribunaux NomC-masc-plur
+trois Num
+troisième Ordi-femi-sing Ordi-masc-sing
+trop Adve
+trouve Verb-IndPré-sing-p3 Verb-IndPré-sing-p1
+trouvent Verb-IndPré-plur-p3
+trouver Verb-InfPré
+trouvé Verb-ParPas-masc-sing
+très Adve
+type NomC-masc-sing
+tâche NomC-femi-sing Verb-IndPré-sing-p1 Verb-IndPré-sing-p3
+témoignages NomC-masc-plur
+témoins NomC-masc-plur
+un Dete-dind-masc-sing Num Pron-pind-masc-sing
+unanime AdjQ-masc-sing
+une Dete-dind-femi-sing Num Pron-pind-femi-sing
+une~~des Dete-dprp-femi-plur
+uniquement Adve
+universel AdjQ-masc-sing
+université NomC-femi-sing
+universités NomC-femi-plur
+un~~peu Adve
+un~~peu~~plus Adve
+usage NomC-masc-sing
+usine NomC-femi-sing
+utile AdjQ-masc-sing AdjQ-femi-sing
+utilisation NomC-femi-sing
+utiliser Verb-InfPré
+va Verb-IndPré-sing-p3
+vais Verb-IndPré-sing-p1
+valable AdjQ-masc-sing AdjQ-femi-sing
+valeur NomC-femi-sing
+valeurs NomC-femi-plur
+vaste AdjQ-femi-sing AdjQ-masc-sing
+vaut Verb-IndPré-sing-p3
+vendre Verb-InfPré
+venir Verb-InfPré
+verra Verb-IndFut-sing-p3
+vers Prep
+verser Verb-InfPré
+versées Verb-ParPas-femi-plur
+versés Verb-ParPas-masc-plur
+vertu NomC-femi-sing
+vestimentaire AdjQ-femi-sing AdjQ-masc-sing
+veulent Verb-IndPré-plur-p3
+veut Verb-IndPré-sing-p3
+veux Verb-IndPré-sing-p1
+vice-premier~~ministre NomC-masc-sing
+vice-président NomC-masc-sing
+victimes NomC-femi-plur
+vie NomC-femi-sing
+viennent Verb-IndPré-plur-p3
+vient Verb-IndPré-sing-p3
+vigueur NomC-femi-sing
+ville NomC-femi-sing
+villes NomC-femi-plur
+violations NomC-femi-plur
+visant Verb-ParPré
+vise Verb-IndPré-sing-p3
+vivent Verb-IndPré-plur-p3
+vivons Verb-IndPré-plur-p1
+vivre Verb-InfPré
+voici Prep
+voie NomC-femi-sing
+voir Verb-InfPré
+voire Adve
+voix NomC-femi-plur NomC-femi-sing
+vont Verb-IndPré-plur-p3
+vos Dete-dpos-masc-plur Dete-dpos-femi-plur
+votre Dete-dpos-femi-sing Dete-dpos-masc-sing
+voudrais Verb-ConPré-sing-p1
+voudrait Verb-ConPré-sing-p3
+voulaient Verb-IndImp-plur-p3
+voulait Verb-IndImp-sing-p3
+vouloir Verb-InfPré
+voulons Verb-IndPré-plur-p1
+voulu Verb-ParPas-masc-sing
+voulue AdjQ-femi-sing Verb-ParPas-femi-sing
+vous Pron-psuj-plur-p2 Pron-obj Pron-fort Pron-refl-plur-p2
+vrai AdjQ-masc-sing
+vraiment Adve
+vu Verb-ParPas-masc-sing Prep
+vue NomC-femi-sing
+vérifier Verb-InfPré
+véritable AdjQ-masc-sing AdjQ-femi-sing
+vérité NomC-femi-sing
+y Pron-padv
+« Punc-pcql
+» Punc-pcqr
+À Prep
+Éducation NomC-femi-sing
+Étant Verb-ParPré
+État NomC-masc-sing
+États-Unis NomP-wtdt-masc-plur
+à Prep
+à~~ce~~que ConS
+à~~l'occasion~~d' Prep
+à~~l'égard~~de Prep
+à~~laquelle Pron-RelInt-femi-sing
+à~~la~~fois Adve
+à~~mon~~avis Adve
+à~~nouveau Adve
+à~~peine Adve
+à~~peu~~près Adve
+à~~propos~~de Prep
+âge NomC-masc-sing
+âgés AdjQ-masc-plur
+échange NomC-masc-sing
+échelle NomC-femi-sing
+école NomC-femi-sing
+écoles NomC-femi-plur
+économie NomC-femi-sing
+économique AdjQ-femi-sing AdjQ-masc-sing
+économiques AdjQ-femi-plur AdjQ-masc-plur
+écouter Verb-InfPré
+écouté Verb-ParPas-masc-sing
+écrasement NomC-masc-sing
+écrit Verb-ParPas-masc-sing Verb-IndPré-sing-p3
+éditeur NomC-masc-sing
+éducation NomC-femi-sing
+également Adve
+égalité NomC-femi-sing
+égard NomC-masc-sing
+élaboration NomC-femi-sing
+électeurs NomC-masc-plur
+élections NomC-femi-plur
+électorale AdjQ-femi-sing
+élever Verb-InfPré
+élevé AdjQ-masc-sing Verb-ParPas-masc-sing
+élevés AdjQ-masc-plur
+élimination NomC-femi-sing
+éliminer Verb-InfPré
+élément NomC-masc-sing
+éléments NomC-masc-plur
+énergie NomC-femi-sing
+énoncer Verb-InfPré
+épargne-actions NomC-femi-plur
+époque NomC-femi-sing
+équitables AdjQ-masc-plur AdjQ-femi-plur
+équité NomC-femi-sing
+établi Verb-ParPas-masc-sing
+établie Verb-ParPas-femi-sing
+établir Verb-InfPré
+établis Verb-ParPas-masc-plur AdjQ-masc-plur
+établissement NomC-masc-sing
+établissements NomC-masc-plur
+étaient Verb-IndImp-plur-p3 Verb-IndPré-plur-p3
+étais Verb-IndImp-sing-p1
+était Verb-IndImp-sing-p3
+étant Verb-ParPré
+étape NomC-femi-sing
+étapes NomC-femi-plur
+état NomC-masc-sing
+étions Verb-IndImp-plur-p1
+étonnant AdjQ-masc-sing Verb-ParPré
+étranger NomC-masc-sing AdjQ-masc-sing
+étrangère AdjQ-femi-sing
+étrangères AdjQ-femi-plur
+étude NomC-femi-sing
+études NomC-femi-plur
+étudier Verb-InfPré
+étudié Verb-ParPas-masc-sing
+été Verb-ParPas-masc-sing NomC-masc-sing
+évaluation NomC-femi-sing
+évidemment Adve
+évident AdjQ-masc-sing
+évolution NomC-femi-sing
+êtes Verb-IndPré-plur-p2
+être Verb-InfPré NomC-masc-sing

@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+if (@ARGV==0 || $ARGV[0] eq '-') {
+  $f = \*stdin;
+} else {
+  open f, $ARGV[0];
+  $f = \*f;
+}
+
+$line = 0;
+while (<f>) {
+  next if /^\#/;
+  printf "  %-4d%s",$line, $_;
+  $line++;
+}
+
+close f;

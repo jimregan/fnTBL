@@ -1,0 +1,173 @@
+Welcome to the fnTBL toolkit, version 1.2.
+
+Latest version of this toolkit can be downloaded from
+
+  http://nlp.cs.jhu.edu/~rflorian/fntbl/index.html
+
+0. Requirements 
+
+ o To build the sources, you need a C++ compiler that comes with the
+STL library (egcs, gcc >= 2.95.2 -- to see what version of compiler
+you have, use `gcc -v'). It has been tested with the following
+compilers:
+
+   - gcc 2.95.2 under Linux, Solaris and Windows;
+   - gcc 3.0 under Linux;
+   - egcs 2.91.66 under Linux;
+
+ o To use the scripts that come with the distribution you have to
+have Perl installed on your system.
+
+1. Instalation
+
+From sources:
+  The instalation is pretty easy. Change the directory to the source
+directory and run the command 'make all'
+
+  cd $BASE_DIR
+  make all
+
+  Before running the make command, edit the Makefile such that the
+variable CC points to the main gcc/g++ executable (but only if you have
+multiple versions defined; if you have just one, you can run the make
+command directly). When the compilation is complete, you're set!
+
+From binaries:
+  If you chose to use a provided binary (so far, Linux, Solaris and
+Windows distributions have been built), then you should run the
+following commands:
+
+  cd $BASE_DIR
+  make binary
+
+  This should transform the perl scripts such that they can be used directly.
+
+----------------
+
+2. Testing
+
+  To test POS tagging (one of 4 tasks provided so far), change to the
+directory $BASE_DIR/test-case/pos-tagging, and run the following
+command:
+
+ ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params \
+	-r 0.4 -R lexical.rls,context.rls -S 11.part1,11.part2 \
+	-t NN,NNP -T 2,2 -f 5 -v -D my_pos_dir 11
+
+ (omit the -v flag if you don't want to see things flying on the
+screen :) - or you could possibly redirect the stderr to a file, for
+later examination).  When the command finishes (if it finishes
+correctly), you can run the following command:
+
+ ../../exec/pos-apply.prl -D my_pos_dir -v 22
+   
+The results obtained (22.res and the 2 rule files lexical.rls and
+context.rls) should be similar (but not necessarily identical, because
+of the randomness involved in creating the files) to the corresponding
+"official" ones 22.official.res, lexical.official.rls and
+context.official.rls - if they are significantly different, probably
+something went wrong. If the flag -S is used (as in the previous
+command) and the files 11.part1 and 11.part2 are identical to the ones
+in the distribution, then the output rule files should be identical to
+the ones provided (the "official" ones); same with the output file
+(22.res).
+
+
+3. Documentation
+
+In the directory $BASE_DIR/docs there are a bunch of files that
+presumbably document the system. The main file, tbl-toolkit.ps,
+describes the system in general, gives an overview of the parameters,
+and takes a deep look into POS tagging (for now; in the near future it
+will also inspect PP attachment and text chunking; however POS tagging
+is the one with the most options and the most confusing one). Also
+distributed are 3 articles that are the foundation of the toolkit.
+
+ You can access the documentation in HTML format from the main web
+page.
+
+4. Bugs
+
+Of course there are bugs. Here's one: the probability generation
+system is not working properly. We know about it and we are working on
+re-integrating the probabilities back in the system. You have found
+another one? Please report it to rflorian@cs.jhu.edu, describing how
+you got it and, if you can replicate it, describe the sequence of
+steps that resulted in the bug. Also a snippet of the data on which
+the system is failing would be most appreciated; the authors promise
+to discard the data as soon as possible (i.e. the bug is fixed), and
+not to use it in any other way than fixing the bug. Also all the
+configuration files that were used should be included.
+
+6. Licence
+
+Copyright (c) 2001 Johns Hopkins University and Radu Florian and Grace Ngai.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software, fnTBL version 1.0, and associated
+documentation files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
+
+
+Well, this product is free for anyone that wants to use it, for any
+purposes other than war. The only request I have is that if you use
+this toolkit and report the results in a written form, to acknowledge
+the authors and their paper in which it was presented (I'm even
+providing the bibtex entry, and the .bbl entry, heh):
+
+@InProceedings{ngaiflorian01,
+  author =               {Grace Ngai and Radu Florian},
+  title =                {Transformation-Based Learning in the Fast Lane},
+  booktitle =    {Proceedings of North Americal ACL 2001},
+  Month =        {June},
+  pages =        {40-47},
+  year =                 2001
+}
+
+\bibitem{ngaiflorian01}
+Grace Ngai and Radu Florian.
+\newblock Transformation-based learning in the fast lane.
+\newblock In {\em Proceedings of North Americal ACL 2001}, pages 40--47, June
+  2001.
+
+  Also, if you use the multitask capability of the fnTBL toolkit
+(predict multiple labels at once), a citation to:
+
+\bibitem{florian01}
+Radu Florian and Grace Ngai.
+\newblock Multidimensional transformational-based learning.
+\newblock {\em Proceedings of the fifth Conference on Computational Natural
+  Language Learning, CoNLL 2001}, pages 1--8, July 2001.
+
+@Article{florian01,
+  author = {Radu Florian and Grace Ngai},
+  title =  {Multidimensional Transformational-Based Learning},
+  journal = {Proceedings of the fifth Conference on Computational Natural Language Learning, CoNLL 2001},
+  year =                 2001,
+  pages =                {1-8},
+  month =                {July}
+}
+
+  would be greatly appreciated. 
+
+  Enjoy,
+
+  Radu Florian & Grace Ngai
+
+PS The most recent version of this document can be found at:
+
+http://nlp.cs.jhu.edu/~rflorian/fntbl/README

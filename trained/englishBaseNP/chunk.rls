@@ -1,0 +1,2633 @@
+#train_voc_file: /home/rflorian/fnTBL-1.0/trained/englishBaseNP/train.init.voc
+GOOD:7517 BAD:2871 SCORE:4646 RULE: chunk_0=I chunk_1=O pos_0=JJ => chunk=O
+GOOD:3211 BAD:799 SCORE:2412 RULE: chunk_-1=I chunk_0=I pos_0=DT => chunk=B
+GOOD:1785 BAD:20 SCORE:1765 RULE: chunk_-1=I chunk_0=I pos_0=WDT => chunk=B
+GOOD:1314 BAD:32 SCORE:1282 RULE: chunk_0=O word_-1=the => chunk=I
+GOOD:1259 BAD:15 SCORE:1244 RULE: chunk_0=O word_-1=a => chunk=I
+GOOD:1272 BAD:142 SCORE:1130 RULE: chunk_-1=I chunk_0=I pos_0=PRP => chunk=B
+GOOD:943 BAD:11 SCORE:932 RULE: chunk_0=O word_0=& => chunk=I
+GOOD:855 BAD:18 SCORE:837 RULE: chunk_-1=I chunk_0=I pos_0=WP => chunk=B
+GOOD:1564 BAD:740 SCORE:824 RULE: chunk_-1=I chunk_0=O pos_0=CC pos_1=NN => chunk=I
+GOOD:960 BAD:330 SCORE:630 RULE: chunk_-1=I chunk_0=O pos_0=CC pos_1=NNS => chunk=I
+GOOD:1031 BAD:472 SCORE:559 RULE: chunk_-1=O chunk_0=O word_0=about => chunk=I
+GOOD:512 BAD:57 SCORE:455 RULE: chunk_1=I chunk_2=I pos_-1=JJ pos_0=CC => chunk=I
+GOOD:567 BAD:157 SCORE:410 RULE: chunk_1=I chunk_2=I pos_0=RB pos_1=JJ => chunk=I
+GOOD:444 BAD:36 SCORE:408 RULE: chunk_0=O chunk_1=I pos_1=CC => chunk=I
+GOOD:472 BAD:93 SCORE:379 RULE: chunk_-2=I chunk_-1=I pos_-1=NN pos_0=CD => chunk=B
+GOOD:317 BAD:3 SCORE:314 RULE: chunk_0=B pos_-1=PDT => chunk=I
+GOOD:388 BAD:73 SCORE:315 RULE: chunk_1=I chunk_2=I word_-1=more word_0=than => chunk=I
+GOOD:698 BAD:413 SCORE:285 RULE: chunk_0=I chunk_1=O pos_0=JJR => chunk=O
+GOOD:316 BAD:39 SCORE:277 RULE: chunk_0=O chunk_1=I word_0=only => chunk=I
+GOOD:292 BAD:37 SCORE:255 RULE: chunk_-2=I chunk_-1=I word_0=last => chunk=B
+GOOD:269 BAD:25 SCORE:244 RULE: chunk_0=O pos_-1=PRP$ => chunk=I
+GOOD:260 BAD:24 SCORE:236 RULE: chunk_-2=O chunk_-1=I pos_-1=JJ => chunk=I
+GOOD:261 BAD:51 SCORE:210 RULE: chunk_-1=I chunk_0=I word_0=yesterday => chunk=B
+GOOD:252 BAD:55 SCORE:197 RULE: chunk_1=I chunk_2=I pos_0=RBR => chunk=I
+GOOD:202 BAD:12 SCORE:190 RULE: chunk_0=I word_0=due => chunk=O
+GOOD:215 BAD:25 SCORE:190 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=VBN => chunk=I
+GOOD:213 BAD:25 SCORE:188 RULE: chunk_0=I word_-1=which => chunk=B
+GOOD:186 BAD:0 SCORE:186 RULE: chunk_0=O word_-1=an => chunk=I
+GOOD:237 BAD:53 SCORE:184 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=RB => chunk=I
+GOOD:302 BAD:123 SCORE:179 RULE: chunk_1=I chunk_2=O pos_-2=NNP pos_-1=CD => chunk=I
+GOOD:180 BAD:3 SCORE:177 RULE: chunk_0=O word_0=many => chunk=I
+GOOD:225 BAD:52 SCORE:173 RULE: chunk_1=O chunk_2=I word_0=much => chunk=I
+GOOD:195 BAD:31 SCORE:164 RULE: chunk_-2=I chunk_-1=I pos_-1=RB => chunk=I
+GOOD:194 BAD:46 SCORE:148 RULE: chunk_0=I pos_0=IN pos_1=DT => chunk=O
+GOOD:148 BAD:4 SCORE:144 RULE: chunk_0=O word_-1=The => chunk=I
+GOOD:161 BAD:17 SCORE:144 RULE: chunk_-2=I chunk_-1=I pos_-1=JJ pos_1=JJ => chunk=I
+GOOD:150 BAD:10 SCORE:140 RULE: chunk_0=O chunk_1=I pos_-1=JJ pos_0='' => chunk=I
+GOOD:145 BAD:10 SCORE:135 RULE: chunk_0=O chunk_1=I pos_1='' => chunk=I
+GOOD:145 BAD:11 SCORE:134 RULE: chunk_1=I chunk_2=I word_1=least => chunk=I
+GOOD:390 BAD:262 SCORE:128 RULE: chunk_1=I chunk_2=O pos_-1=NNP pos_0=CC => chunk=I
+GOOD:139 BAD:13 SCORE:126 RULE: chunk_1=I chunk_2=O pos_0=RB pos_1=JJ => chunk=I
+GOOD:127 BAD:15 SCORE:112 RULE: chunk_0=I chunk_1=I pos_1=PRP => chunk=O
+GOOD:119 BAD:9 SCORE:110 RULE: chunk_0=I chunk_1=O word_0=about => chunk=O
+GOOD:141 BAD:36 SCORE:105 RULE: chunk_0=O pos_-1=JJ pos_0=VBG => chunk=I
+GOOD:118 BAD:20 SCORE:98 RULE: chunk_0=O chunk_1=I word_0=just => chunk=I
+GOOD:114 BAD:16 SCORE:98 RULE: chunk_0=O pos_-1=POS pos_1=NN => chunk=I
+GOOD:241 BAD:142 SCORE:99 RULE: chunk_0=B chunk_1=O pos_-1=NNP pos_0=POS => chunk=I
+GOOD:131 BAD:35 SCORE:96 RULE: chunk_-2=O chunk_-1=I word_2=& => chunk=I
+GOOD:108 BAD:13 SCORE:95 RULE: chunk_0=B pos_-1=DT pos_0=DT => chunk=I
+GOOD:114 BAD:24 SCORE:90 RULE: chunk_0=O chunk_1=I pos_-1=NN pos_0='' => chunk=I
+GOOD:127 BAD:22 SCORE:105 RULE: chunk_1=I chunk_2=I pos_2='' => chunk=I
+GOOD:92 BAD:3 SCORE:89 RULE: chunk_0=O chunk_1=I pos_-1=JJ pos_0=VBN => chunk=I
+GOOD:113 BAD:25 SCORE:88 RULE: chunk_-2=I chunk_-1=I word_-2=as => chunk=I
+GOOD:154 BAD:70 SCORE:84 RULE: chunk_-2=I chunk_-1=O pos_-1=IN pos_0=JJ => chunk=I
+GOOD:99 BAD:15 SCORE:84 RULE: chunk_-1=I chunk_0=I word_0=today => chunk=B
+GOOD:144 BAD:61 SCORE:83 RULE: chunk_0=O chunk_1=ZZZ word:[-3,-1]=ZZZ => chunk=I
+GOOD:86 BAD:5 SCORE:81 RULE: chunk_0=O chunk_1=I word_0=nearly => chunk=I
+GOOD:119 BAD:34 SCORE:85 RULE: chunk_0=I chunk_1=I pos_-1=NN pos_1=CD => chunk=B
+GOOD:82 BAD:1 SCORE:81 RULE: chunk_0=O word_2=Commission => chunk=I
+GOOD:88 BAD:14 SCORE:74 RULE: chunk_0=I word_0=and word_1=chief => chunk=O
+GOOD:237 BAD:165 SCORE:72 RULE: chunk_0=I chunk_1=O pos_-1=NN pos_0=NNP => chunk=B
+GOOD:77 BAD:8 SCORE:69 RULE: chunk_1=O chunk_2=I word_0=. => chunk=I
+GOOD:70 BAD:1 SCORE:69 RULE: chunk_0=O chunk_1=I pos_-1=JJ pos_0=`` => chunk=I
+GOOD:69 BAD:1 SCORE:68 RULE: chunk_0=I pos_0=IN pos_1=NNP => chunk=O
+GOOD:70 BAD:3 SCORE:67 RULE: chunk_-1=B chunk_0=O pos_-1=CD pos_1=CD => chunk=I
+GOOD:89 BAD:22 SCORE:67 RULE: chunk_0=I pos_-1=WP => chunk=B
+GOOD:68 BAD:2 SCORE:66 RULE: chunk_0=I chunk_1=O word_-1=at word_0=least => chunk=O
+GOOD:87 BAD:22 SCORE:65 RULE: chunk_0=B pos_-1=JJ => chunk=I
+GOOD:67 BAD:3 SCORE:64 RULE: chunk_0=O chunk_1=I word_0=. => chunk=I
+GOOD:131 BAD:68 SCORE:63 RULE: chunk_-2=O chunk_-1=O pos_0=VBN pos_1=NNS => chunk=I
+GOOD:100 BAD:37 SCORE:63 RULE: chunk_-1=I chunk_0=I pos_-1=PRP => chunk=B
+GOOD:65 BAD:4 SCORE:61 RULE: chunk_1=I chunk_2=O word_0=operating => chunk=I
+GOOD:75 BAD:15 SCORE:60 RULE: chunk_1=I chunk_2=I pos_0=JJ pos_1=VBG => chunk=I
+GOOD:91 BAD:32 SCORE:59 RULE: chunk_-2=I chunk_-1=I word_0=next => chunk=B
+GOOD:70 BAD:11 SCORE:59 RULE: chunk_0=I chunk_1=O pos_-1=NNS pos_0=NNP => chunk=B
+GOOD:60 BAD:4 SCORE:56 RULE: chunk_-1=I chunk_0=O word_0=or word_1=more => chunk=I
+GOOD:54 BAD:0 SCORE:54 RULE: chunk_-1=I chunk_0=I pos_0=RBR pos_1=DT => chunk=B
+GOOD:57 BAD:5 SCORE:52 RULE: chunk_0=O pos_-1=IN pos_0=JJR => chunk=I
+GOOD:53 BAD:2 SCORE:51 RULE: chunk_1=O chunk_2=O word_0=. word_1=-RRB- => chunk=I
+GOOD:85 BAD:35 SCORE:50 RULE: chunk_0=O chunk_1=I word_0=even => chunk=I
+GOOD:57 BAD:7 SCORE:50 RULE: chunk_-2=I chunk_-1=I pos_-1=JJ pos_0=JJ => chunk=I
+GOOD:59 BAD:9 SCORE:50 RULE: chunk_-2=I chunk_-1=I word_0=late => chunk=B
+GOOD:52 BAD:3 SCORE:49 RULE: chunk_-2=I chunk_-1=I pos_-1=CC => chunk=I
+GOOD:74 BAD:26 SCORE:48 RULE: chunk_-1=I chunk_0=O word_1=company => chunk=I
+GOOD:73 BAD:22 SCORE:51 RULE: chunk_0=I pos_0=IN pos_1=NN => chunk=O
+GOOD:53 BAD:5 SCORE:48 RULE: chunk_-1=ZZZ chunk_0=O pos_0=RB pos_1=CD => chunk=I
+GOOD:56 BAD:8 SCORE:48 RULE: chunk_-1=I chunk_0=O pos_0=VBN pos_1=NNS => chunk=I
+GOOD:102 BAD:55 SCORE:47 RULE: chunk_1=I chunk_2=O pos_0=CC pos_1=CD => chunk=I
+GOOD:79 BAD:33 SCORE:46 RULE: chunk_-1=I chunk_0=O pos_-1=DT pos_0=JJ => chunk=I
+GOOD:88 BAD:43 SCORE:45 RULE: chunk_1=I chunk_2=O pos_0=-RRB- => chunk=I
+GOOD:53 BAD:9 SCORE:44 RULE: chunk_0=O chunk_1=I pos_-1=NNP pos_0='' => chunk=I
+GOOD:65 BAD:21 SCORE:44 RULE: chunk_0=I pos_-1=NNS pos_0=CD => chunk=B
+GOOD:72 BAD:29 SCORE:43 RULE: chunk_-1=I chunk_0=O pos_-1=JJ pos_1=JJ => chunk=I
+GOOD:45 BAD:2 SCORE:43 RULE: chunk_-1=I chunk_0=I word_0=whose => chunk=B
+GOOD:47 BAD:5 SCORE:42 RULE: chunk_0=I pos_0=IN pos_1=JJ => chunk=O
+GOOD:42 BAD:0 SCORE:42 RULE: chunk_0=I pos_0=IN pos_1=PRP$ => chunk=O
+GOOD:44 BAD:2 SCORE:42 RULE: chunk_0=I chunk_1=O word_-1=at word_0=all => chunk=O
+GOOD:48 BAD:6 SCORE:42 RULE: chunk_0=O chunk_1=I word_0=almost => chunk=I
+GOOD:56 BAD:14 SCORE:42 RULE: chunk_0=O pos_-1=POS pos_0=`` => chunk=I
+GOOD:75 BAD:12 SCORE:63 RULE: chunk_0=I chunk_1=I pos_0=POS => chunk=B
+GOOD:47 BAD:5 SCORE:42 RULE: chunk_-2=I chunk_-1=I pos_-2=DT pos_-1=RBS => chunk=I
+GOOD:93 BAD:24 SCORE:69 RULE: chunk_0=I chunk_1=O pos_0=RBS => chunk=O
+GOOD:42 BAD:1 SCORE:41 RULE: chunk_0=O chunk_1=I pos_-1=CD pos_0=RB => chunk=I
+GOOD:225 BAD:185 SCORE:40 RULE: chunk_1=I chunk_2=I pos_-1=NNS pos_0=CC => chunk=O
+GOOD:40 BAD:0 SCORE:40 RULE: chunk_-2=O chunk_-1=I word_1=% word_2=; => chunk=B
+GOOD:40 BAD:1 SCORE:39 RULE: chunk_0=B pos_-2=IN pos_-1=JJS => chunk=I
+GOOD:35 BAD:0 SCORE:35 RULE: chunk_1=I chunk_2=I pos_-1=IN pos_0=RB => chunk=I
+GOOD:50 BAD:15 SCORE:35 RULE: chunk_1=I chunk_2=I pos_-1=JJR pos_1=CD => chunk=I
+GOOD:37 BAD:3 SCORE:34 RULE: chunk_-1=O chunk_0=I pos_0=. => chunk=O
+GOOD:60 BAD:26 SCORE:34 RULE: chunk_-1=I chunk_0=O pos_0=VBN pos_1=NN => chunk=I
+GOOD:34 BAD:0 SCORE:34 RULE: chunk_0=O chunk_1=I pos_0=JJ pos_1=`` => chunk=I
+GOOD:39 BAD:6 SCORE:33 RULE: chunk_-1=O chunk_0=I word_0=order word_1=to => chunk=O
+GOOD:32 BAD:0 SCORE:32 RULE: chunk_0=O word_0=existing => chunk=I
+GOOD:51 BAD:19 SCORE:32 RULE: chunk_0=O word_0=little => chunk=I
+GOOD:32 BAD:0 SCORE:32 RULE: chunk_0=B word_-1=No. => chunk=I
+GOOD:55 BAD:23 SCORE:32 RULE: chunk_1=I chunk_2=I pos_0=RB pos_1=JJR => chunk=I
+GOOD:31 BAD:0 SCORE:31 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Exchequer => chunk=O
+GOOD:35 BAD:4 SCORE:31 RULE: chunk_0=O chunk_1=I word_0=Even => chunk=I
+GOOD:37 BAD:7 SCORE:30 RULE: chunk_0=I chunk_1=I pos_-1=JJ pos_1=DT => chunk=O
+GOOD:33 BAD:2 SCORE:31 RULE: chunk_0=O chunk_1=I pos_0=JJ pos_1=VBN => chunk=I
+GOOD:30 BAD:0 SCORE:30 RULE: chunk_0=B word_-1=A. => chunk=I
+GOOD:46 BAD:16 SCORE:30 RULE: chunk_1=I chunk_2=I pos_-1=ZZZ pos_0=: => chunk=I
+GOOD:37 BAD:7 SCORE:30 RULE: chunk_-1=O chunk_0=O word_0=as word_1=much => chunk=I
+GOOD:42 BAD:13 SCORE:29 RULE: chunk_0=I chunk_1=I pos_-1=NNS pos_0=JJ => chunk=B
+GOOD:32 BAD:4 SCORE:28 RULE: chunk_0=O word_0=About => chunk=I
+GOOD:33 BAD:5 SCORE:28 RULE: chunk_0=O pos_-1=DT pos_0=JJR => chunk=I
+GOOD:27 BAD:0 SCORE:27 RULE: chunk_0=O word_0=Many => chunk=I
+GOOD:28 BAD:1 SCORE:27 RULE: chunk_0=O word_2=Administration => chunk=I
+GOOD:27 BAD:0 SCORE:27 RULE: chunk_-2=B chunk_-1=I word:[1,3]=chief => chunk=I
+GOOD:28 BAD:1 SCORE:27 RULE: chunk_0=I chunk_1=I pos_-1=NNS pos_1=CD => chunk=B
+GOOD:27 BAD:1 SCORE:26 RULE: chunk_1=I chunk_2=O pos_-1=DT pos_0=VBG => chunk=I
+GOOD:38 BAD:12 SCORE:26 RULE: chunk_-1=O chunk_0=O word_0=how word_1=much => chunk=I
+GOOD:29 BAD:3 SCORE:26 RULE: chunk_-1=I chunk_0=O word_0=or word_1=so => chunk=I
+GOOD:33 BAD:8 SCORE:25 RULE: chunk_0=I word_0=both word_1=the => chunk=O
+GOOD:29 BAD:4 SCORE:25 RULE: chunk_0=B pos_-1=JJR => chunk=I
+GOOD:29 BAD:4 SCORE:25 RULE: chunk_0=O pos_1=JJS pos_2=DT => chunk=I
+GOOD:24 BAD:0 SCORE:24 RULE: chunk_0=O chunk_1=O word_0=net => chunk=I
+GOOD:29 BAD:5 SCORE:24 RULE: chunk_0=O chunk_1=I word_1=than => chunk=I
+GOOD:43 BAD:19 SCORE:24 RULE: chunk_1=I chunk_2=I pos_-1=NN pos_0=RB => chunk=B
+GOOD:24 BAD:1 SCORE:23 RULE: chunk_0=I word_0=payable => chunk=O
+GOOD:28 BAD:5 SCORE:23 RULE: chunk_-1=O chunk_0=I word_0=effective => chunk=O
+GOOD:24 BAD:1 SCORE:23 RULE: chunk_0=O word_0=Much => chunk=I
+GOOD:36 BAD:13 SCORE:23 RULE: chunk_-1=I chunk_0=O pos_0=CC pos_1=NNS => chunk=I
+GOOD:26 BAD:3 SCORE:23 RULE: chunk_-2=I chunk_-1=I word_1=others => chunk=O
+GOOD:23 BAD:1 SCORE:22 RULE: chunk_0=I chunk_1=I word_0=worth => chunk=O
+GOOD:24 BAD:2 SCORE:22 RULE: chunk_0=I word_-1=U.S. word_0=and => chunk=O
+GOOD:23 BAD:1 SCORE:22 RULE: chunk_-2=I chunk_-1=I pos_0=, pos_1=NNP => chunk=O
+GOOD:26 BAD:4 SCORE:22 RULE: chunk_-1=I chunk_0=O word_-1=or => chunk=I
+GOOD:25 BAD:3 SCORE:22 RULE: chunk_0=O chunk_1=I pos_-1=JJR pos_0=CC => chunk=I
+GOOD:22 BAD:0 SCORE:22 RULE: chunk_0=O word_-1=two word_1=three => chunk=I
+GOOD:23 BAD:1 SCORE:22 RULE: chunk_0=I word_-1=way => chunk=B
+GOOD:21 BAD:0 SCORE:21 RULE: chunk_1=I chunk_2=O word_0=to => chunk=O
+GOOD:26 BAD:5 SCORE:21 RULE: chunk_1=O chunk_2=I pos_1=RP => chunk=O
+GOOD:23 BAD:2 SCORE:21 RULE: chunk_0=O chunk_1=I word_0=roughly => chunk=I
+GOOD:28 BAD:7 SCORE:21 RULE: chunk_0=O chunk_1=I word_0=declining => chunk=I
+GOOD:30 BAD:9 SCORE:21 RULE: chunk_0=O word_0=more word_1=. => chunk=I
+GOOD:25 BAD:4 SCORE:21 RULE: chunk_-1=O chunk_0=O word_0=between word_1=$ => chunk=I
+GOOD:21 BAD:0 SCORE:21 RULE: chunk_0=B word_-2=a word_-1=record => chunk=I
+GOOD:22 BAD:1 SCORE:21 RULE: chunk_0=I pos_-1=NNP pos_0=$ => chunk=B
+GOOD:23 BAD:3 SCORE:20 RULE: chunk_0=I chunk_1=I word_1=what => chunk=O
+GOOD:30 BAD:10 SCORE:20 RULE: chunk_0=I chunk_1=I pos_1=PRP => chunk=O
+GOOD:25 BAD:5 SCORE:20 RULE: chunk_-1=O chunk_0=I pos_0=CC pos_1=CD => chunk=O
+GOOD:32 BAD:4 SCORE:28 RULE: chunk_1=I chunk_2=I word_1=and => chunk=I
+GOOD:21 BAD:1 SCORE:20 RULE: chunk_0=O word_0=de => chunk=I
+GOOD:26 BAD:6 SCORE:20 RULE: chunk_0=B word_-1=her => chunk=I
+GOOD:20 BAD:0 SCORE:20 RULE: chunk_0=O word:[1,3]=bank-backed => chunk=I
+GOOD:20 BAD:0 SCORE:20 RULE: chunk_0=O word_0=how word_1=many => chunk=I
+GOOD:26 BAD:6 SCORE:20 RULE: chunk_0=O word_0=more word_1=of => chunk=I
+GOOD:21 BAD:1 SCORE:20 RULE: chunk_1=O chunk_2=ZZZ pos_-1=CD pos_0=NNP => chunk=B
+GOOD:38 BAD:19 SCORE:19 RULE: chunk_0=I chunk_1=I word_1=yesterday => chunk=O
+GOOD:26 BAD:7 SCORE:19 RULE: chunk_0=O chunk_1=I word_0=growing => chunk=I
+GOOD:22 BAD:3 SCORE:19 RULE: chunk_1=I chunk_2=O pos_-1=ZZZ pos_0=VBN => chunk=I
+GOOD:20 BAD:1 SCORE:19 RULE: chunk_0=O word_-1=less word_1=$ => chunk=I
+GOOD:20 BAD:1 SCORE:19 RULE: chunk_-2=I chunk_-1=I pos_-1=NN pos_0=PRP$ => chunk=B
+GOOD:23 BAD:5 SCORE:18 RULE: chunk_0=I pos_0=IN pos_1=NNS => chunk=O
+GOOD:26 BAD:8 SCORE:18 RULE: chunk_0=O chunk_1=I word_0=continuing => chunk=I
+GOOD:20 BAD:2 SCORE:18 RULE: chunk_0=O pos_-1=TO pos_0=VBN => chunk=I
+GOOD:18 BAD:0 SCORE:18 RULE: chunk_0=O chunk_1=I pos_-1=DT pos_0=`` => chunk=I
+GOOD:18 BAD:0 SCORE:18 RULE: chunk_0=O word_0=managing word_1=director => chunk=I
+GOOD:30 BAD:13 SCORE:17 RULE: chunk_1=O chunk_2=I word_0=both => chunk=O
+GOOD:20 BAD:3 SCORE:17 RULE: chunk_0=I pos_-1=VBD pos_1=PRP$ => chunk=O
+GOOD:17 BAD:0 SCORE:17 RULE: chunk_-1=I chunk_0=O word_1=one-year => chunk=I
+GOOD:30 BAD:13 SCORE:17 RULE: chunk_-1=I chunk_0=O pos_0=CC pos_1=NNPS => chunk=I
+GOOD:20 BAD:3 SCORE:17 RULE: chunk_0=O chunk_1=I word_-1=state word_0=and => chunk=I
+GOOD:31 BAD:14 SCORE:17 RULE: chunk_1=I chunk_2=I word_-1=U.S. word_0=and => chunk=I
+GOOD:17 BAD:0 SCORE:17 RULE: chunk_-2=O chunk_-1=I word_-1=Tokyo word_1=, => chunk=B
+GOOD:20 BAD:4 SCORE:16 RULE: chunk_-1=O chunk_0=I word_0=not => chunk=O
+GOOD:26 BAD:10 SCORE:16 RULE: chunk_0=I pos_-1=NN pos_0=JJR => chunk=O
+GOOD:21 BAD:5 SCORE:16 RULE: chunk_0=O chunk_1=I word_0=Not => chunk=I
+GOOD:18 BAD:2 SCORE:16 RULE: chunk_-2=I chunk_-1=I word_1=Mass. => chunk=I
+GOOD:18 BAD:2 SCORE:16 RULE: chunk_0=O word_0=around word_1=$ => chunk=I
+GOOD:39 BAD:23 SCORE:16 RULE: chunk_-2=I chunk_-1=I word_0='' word_1=of => chunk=I
+GOOD:20 BAD:5 SCORE:15 RULE: chunk_0=O word_0=That => chunk=I
+GOOD:22 BAD:7 SCORE:15 RULE: chunk_-1=I chunk_0=O word_-1=`` => chunk=I
+GOOD:17 BAD:2 SCORE:15 RULE: chunk_-2=I chunk_-1=I word_-1=Mass. => chunk=I
+GOOD:15 BAD:0 SCORE:15 RULE: chunk_0=B word_-1=times word_0=the => chunk=I
+GOOD:16 BAD:1 SCORE:15 RULE: chunk_0=O pos_-1=JJS pos_0=CC => chunk=I
+GOOD:27 BAD:12 SCORE:15 RULE: chunk_0=O pos_-1=POS pos_0=VBG => chunk=I
+GOOD:26 BAD:7 SCORE:19 RULE: chunk_1=I chunk_2=I pos_0=POS => chunk=B
+GOOD:15 BAD:1 SCORE:14 RULE: chunk_-1=O chunk_0=I word_0=sure => chunk=O
+GOOD:36 BAD:22 SCORE:14 RULE: chunk_-1=I chunk_0=O word_0=else => chunk=I
+GOOD:20 BAD:6 SCORE:14 RULE: chunk_-1=I chunk_0=O pos_-1=VBN => chunk=I
+GOOD:21 BAD:6 SCORE:15 RULE: chunk_-1=I chunk_0=O word_-1=, => chunk=I
+GOOD:19 BAD:5 SCORE:14 RULE: chunk_1=I chunk_2=I pos_1=-RRB- => chunk=I
+GOOD:37 BAD:16 SCORE:21 RULE: chunk_1=I chunk_2=I pos_2=-RRB- => chunk=I
+GOOD:29 BAD:15 SCORE:14 RULE: chunk_0=O chunk_1=I word_-1=Calif. word_0=, => chunk=I
+GOOD:35 BAD:14 SCORE:21 RULE: chunk_1=I chunk_2=I word_1=Calif. => chunk=I
+GOOD:30 BAD:16 SCORE:14 RULE: chunk_-1=I chunk_0=I word_0=last word_1=year => chunk=B
+GOOD:20 BAD:3 SCORE:17 RULE: chunk_0=B pos_-1=RB => chunk=I
+GOOD:16 BAD:3 SCORE:13 RULE: chunk_0=I word_-1=is word_0=that => chunk=O
+GOOD:14 BAD:1 SCORE:13 RULE: chunk_0=I chunk_1=O pos_-1=JJ pos_0=CC => chunk=O
+GOOD:13 BAD:0 SCORE:13 RULE: chunk_0=I chunk_1=O pos_0=DT pos_1=RBR => chunk=O
+GOOD:16 BAD:3 SCORE:13 RULE: chunk_0=I chunk_1=O word_-1=in word_0=general => chunk=O
+GOOD:16 BAD:3 SCORE:13 RULE: chunk_0=I word_0=Chancellor word_1=of => chunk=O
+GOOD:16 BAD:3 SCORE:13 RULE: chunk_0=I word_-2=did word_-1=n't => chunk=O
+GOOD:15 BAD:2 SCORE:13 RULE: chunk_0=O chunk_1=I word_0=early => chunk=I
+GOOD:15 BAD:2 SCORE:13 RULE: chunk_-2=ZZZ chunk_-1=I word_2=& => chunk=I
+GOOD:14 BAD:1 SCORE:13 RULE: chunk_0=O chunk_1=I pos_-1=TO pos_0=RB => chunk=I
+GOOD:27 BAD:14 SCORE:13 RULE: chunk_-2=O chunk_-1=I pos_-1=CD pos_0=RB => chunk=I
+GOOD:20 BAD:7 SCORE:13 RULE: chunk_1=I chunk_2=I pos_1=NNP pos_2='' => chunk=I
+GOOD:56 BAD:43 SCORE:13 RULE: chunk_1=I chunk_2=I word_-1=up word_0=to => chunk=I
+GOOD:33 BAD:6 SCORE:27 RULE: chunk_0=O chunk_1=I pos_1=TO pos_2=CD => chunk=I
+GOOD:26 BAD:2 SCORE:24 RULE: chunk_0=I pos_0=TO pos_1=DT => chunk=O
+GOOD:16 BAD:3 SCORE:13 RULE: chunk_0=O chunk_1=I word_0=than word_1=half => chunk=I
+GOOD:24 BAD:4 SCORE:20 RULE: chunk_0=O chunk_1=I word_1=than => chunk=I
+GOOD:17 BAD:4 SCORE:13 RULE: chunk_-2=I chunk_-1=I pos_0=EX => chunk=B
+GOOD:20 BAD:7 SCORE:13 RULE: chunk_1=I chunk_2=I pos_-1=NNP pos_0=RB => chunk=B
+GOOD:12 BAD:0 SCORE:12 RULE: chunk_0=I pos_0=VBG pos_1=DT => chunk=O
+GOOD:20 BAD:8 SCORE:12 RULE: chunk_-1=O chunk_0=I pos_-1=WRB pos_1=DT => chunk=O
+GOOD:16 BAD:4 SCORE:12 RULE: chunk_0=I word_-2=of word_-1=State => chunk=O
+GOOD:12 BAD:0 SCORE:12 RULE: chunk_1=I chunk_2=I word_0=Only => chunk=I
+GOOD:13 BAD:1 SCORE:12 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=JJ => chunk=I
+GOOD:14 BAD:2 SCORE:12 RULE: chunk_-1=I chunk_0=O pos_0=`` pos_1=NNS => chunk=I
+GOOD:16 BAD:4 SCORE:12 RULE: chunk_-2=I chunk_-1=I pos_-2=, pos_-1=JJ => chunk=I
+GOOD:18 BAD:6 SCORE:12 RULE: chunk_-2=I chunk_-1=I pos_-2=DT pos_-1=RBR => chunk=I
+GOOD:16 BAD:4 SCORE:12 RULE: chunk_0=O word:[-3,-1]=Ad => chunk=I
+GOOD:25 BAD:13 SCORE:12 RULE: chunk_0=O chunk_1=I word_-1=million word_0=and => chunk=I
+GOOD:13 BAD:1 SCORE:12 RULE: chunk_0=I pos_0=CC pos_1=DT => chunk=O
+GOOD:12 BAD:0 SCORE:12 RULE: chunk_0=O word_-1=House word_1=Senate => chunk=I
+GOOD:26 BAD:14 SCORE:12 RULE: chunk_1=I chunk_2=I word_-2=as word_-1=much => chunk=I
+GOOD:31 BAD:12 SCORE:19 RULE: chunk_0=I chunk_1=O pos_-1=RB pos_0=RB => chunk=O
+GOOD:15 BAD:3 SCORE:12 RULE: chunk_1=I chunk_2=I pos_0=IN pos_1=DT => chunk=O
+GOOD:15 BAD:3 SCORE:12 RULE: chunk_-1=I chunk_0=I pos_-1='' pos_0=WDT => chunk=B
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=I word_0=Though => chunk=O
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=I word_0=n't => chunk=O
+GOOD:14 BAD:3 SCORE:11 RULE: chunk_0=I word_-1=or word_0=even => chunk=O
+GOOD:12 BAD:1 SCORE:11 RULE: chunk_0=I word_-1=not word_0=only => chunk=O
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=B chunk_1=O pos_0=RB => chunk=O
+GOOD:18 BAD:7 SCORE:11 RULE: chunk_0=I word_0=Secretary word_1=of => chunk=O
+GOOD:12 BAD:1 SCORE:11 RULE: chunk_0=I word_0=little word_1=changed => chunk=O
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=O word_0=several => chunk=I
+GOOD:15 BAD:4 SCORE:11 RULE: chunk_1=I chunk_2=O word_0=rising => chunk=I
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=O word_-1=from word_0=now => chunk=I
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=B chunk_1=I pos_-1=DT => chunk=I
+GOOD:15 BAD:4 SCORE:11 RULE: chunk_0=O chunk_1=I pos_1=TO pos_2=$ => chunk=I
+GOOD:12 BAD:0 SCORE:12 RULE: chunk_0=I pos_-1=NNS pos_0=RB => chunk=B
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=O word_0=developing word_1=countries => chunk=I
+GOOD:17 BAD:6 SCORE:11 RULE: chunk_-1=I chunk_0=O word_0=and word_1=financial => chunk=I
+GOOD:12 BAD:1 SCORE:11 RULE: chunk_1=O chunk_2=I word_0=that word_1=of => chunk=I
+GOOD:37 BAD:26 SCORE:11 RULE: chunk_0=O word_-1=% word_1=8 => chunk=I
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_0=I word_-1=Britain => chunk=B
+GOOD:17 BAD:6 SCORE:11 RULE: chunk_-1=B chunk_0=I pos_-1=WDT => chunk=B
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_-2=I chunk_-1=I word_1=, word_2=gold => chunk=B
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=I word_0=Separately => chunk=O
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_-1=O chunk_0=I word_0=to => chunk=O
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_0=I chunk_1=O word_0=usual => chunk=O
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_1=I chunk_2=O word_1=today => chunk=O
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_0=I word_-1=% word_0=and => chunk=O
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=I word_-1=Inc. word_0=and => chunk=O
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_0=I pos_-1=VBZ pos_0=VBN => chunk=O
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=B pos_-1=EX pos_0=POS => chunk=O
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=O word_0=yesterday => chunk=I
+GOOD:18 BAD:7 SCORE:11 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_-1=O chunk_0=O word_0=approximately => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_1=O chunk_2=I word_0=spending => chunk=I
+GOOD:13 BAD:3 SCORE:10 RULE: chunk_1=I chunk_2=O word_0=manufacturing => chunk=I
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_1=I chunk_2=O word_0=leading => chunk=I
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_0=B chunk_1=O word_-1=leader => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_-2=ZZZ chunk_-1=I word_-1=A => chunk=I
+GOOD:14 BAD:3 SCORE:11 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_-1=ZZZ chunk_0=O word_1=issues => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_1=I chunk_2=ZZZ word_1=1989 => chunk=I
+GOOD:14 BAD:4 SCORE:10 RULE: chunk_0=O pos_-1=POS pos_0=JJ => chunk=I
+GOOD:32 BAD:22 SCORE:10 RULE: chunk_1=I chunk_2=O pos_-1=CC pos_0=VBN => chunk=I
+GOOD:23 BAD:10 SCORE:13 RULE: chunk_1=I chunk_2=O pos_1=PRP => chunk=O
+GOOD:35 BAD:23 SCORE:12 RULE: chunk_1=I chunk_2=I pos_-1=JJ pos_0=CC => chunk=I
+GOOD:20 BAD:4 SCORE:16 RULE: chunk_0=I pos_0=CC pos_1=DT => chunk=O
+GOOD:12 BAD:2 SCORE:10 RULE: chunk_1=O chunk_2=I word_0=the => chunk=O
+GOOD:36 BAD:26 SCORE:10 RULE: chunk_1=O chunk_2=I pos_-1=IN pos_1=VBN => chunk=I
+GOOD:35 BAD:2 SCORE:33 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:14 BAD:1 SCORE:13 RULE: chunk_0=I pos_0=VBZ => chunk=O
+GOOD:13 BAD:1 SCORE:12 RULE: chunk_0=I chunk_1=O pos_0=VBG pos_1=VBN => chunk=O
+GOOD:11 BAD:1 SCORE:10 RULE: chunk_-1=O chunk_0=I pos_0=: => chunk=O
+GOOD:18 BAD:8 SCORE:10 RULE: chunk_0=O word_0=more word_1=, => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_-2=I chunk_-1=I word_0=, word_1=October => chunk=I
+GOOD:21 BAD:11 SCORE:10 RULE: chunk_1=O chunk_2=I word_0=then word_1=, => chunk=I
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_1=I chunk_2=O word_0=, word_1=auction => chunk=I
+GOOD:15 BAD:5 SCORE:10 RULE: chunk_-1=I chunk_0=I word_0=tomorrow => chunk=B
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=I chunk_1=I word_-1=time => chunk=B
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=I pos_-1=NNP pos_0=PRP$ => chunk=B
+GOOD:15 BAD:6 SCORE:9 RULE: chunk_0=I chunk_1=I pos_1=WDT => chunk=O
+GOOD:10 BAD:0 SCORE:10 RULE: chunk_0=O word_0=few => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I pos_-1=VBZ pos_0=RBS => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_-1=O chunk_0=I word_-1=most => chunk=O
+GOOD:11 BAD:2 SCORE:9 RULE: chunk_-2=I chunk_-1=O pos_-1=NNP pos_0=NNP => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I pos_0=: pos_1=DT => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_1=O chunk_2=I pos_0=JJ pos_1=VBG => chunk=O
+GOOD:17 BAD:6 SCORE:11 RULE: chunk_1=I chunk_2=O pos_0=RB pos_1=JJ => chunk=I
+GOOD:10 BAD:1 SCORE:9 RULE: chunk_-1=O chunk_0=I pos_-2=RBS pos_-1=JJ => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=lot => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I word_0=and word_1=one => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_1=O chunk_2=O word_0=all word_1=but => chunk=O
+GOOD:10 BAD:1 SCORE:9 RULE: chunk_1=O chunk_2=I word_0=all word_1=over => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=O word_0=Nearly => chunk=I
+GOOD:10 BAD:1 SCORE:9 RULE: chunk_0=O chunk_1=I word_0=virtually => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=O chunk_1=I word_0=Just => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_1=O chunk_2=I word_0=plenty => chunk=I
+GOOD:12 BAD:3 SCORE:9 RULE: chunk_0=O chunk_1=I word_-1=Barney => chunk=I
+GOOD:18 BAD:9 SCORE:9 RULE: chunk_-2=I chunk_-1=I word_1=N.J. => chunk=I
+GOOD:21 BAD:12 SCORE:9 RULE: chunk_-1=I chunk_0=O pos_0=`` pos_1=NN => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=O chunk_1=I word_-1=, word_0=proposed => chunk=I
+GOOD:11 BAD:2 SCORE:9 RULE: chunk_1=I chunk_2=I word_-1=little word_0=as => chunk=I
+GOOD:11 BAD:2 SCORE:9 RULE: chunk_0=O word_0=about word_1=half => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=O word_0='s word_1=most => chunk=I
+GOOD:14 BAD:5 SCORE:9 RULE: chunk_-1=O chunk_0=O word_0=over word_1=$ => chunk=I
+GOOD:13 BAD:4 SCORE:9 RULE: chunk_0=O word_-1=% word_1=20 => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I word_-1=Volume => chunk=B
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I word_-2=; word_-1=transportation => chunk=B
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I word_0=also => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I word_0=in => chunk=O
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_-2=O chunk_-1=I word_0='' => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I chunk_1=O word_0=being => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_1=I chunk_2=I word_0=down => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I word_-1=noted word_0=that => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I word_-1=York word_0=and => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I pos_0=VBP => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I pos_-1=VBP pos_0=VBN => chunk=O
+GOOD:28 BAD:20 SCORE:8 RULE: chunk_-1=O chunk_0=I pos_-1=RB pos_0=VBN => chunk=O
+GOOD:14 BAD:6 SCORE:8 RULE: chunk_0=I pos_0=JJR pos_1=DT => chunk=O
+GOOD:12 BAD:3 SCORE:9 RULE: chunk_-2=I chunk_-1=I pos_-1=CC => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I pos_0=VBG pos_1=PRP$ => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=I chunk_1=O pos_0=DT pos_1=JJR => chunk=O
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_-2=I chunk_-1=I word:[1,3]=Representatives => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_-1=I chunk_0=I word:[-3,-1]=Staff => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_-1=I chunk_0=I word:[1,3]=Disabilities => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_1=I chunk_2=O word_-1=company word_0=and => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=I word_-2=% word_-1=more => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I chunk_1=O pos_0=RBR pos_1=JJ => chunk=O
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=O word_0=Operating => chunk=I
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_0=O word_0=fewer => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=O word_0=Annualized => chunk=I
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=O word_0=par => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=O word_0=banking => chunk=I
+GOOD:11 BAD:3 SCORE:8 RULE: chunk_0=O chunk_1=I word_0=coming => chunk=I
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=O chunk_1=I word_0=remaining => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=O word_-1=$ => chunk=I
+GOOD:12 BAD:4 SCORE:8 RULE: chunk_-1=I chunk_0=O word_-1=how => chunk=I
+GOOD:14 BAD:6 SCORE:8 RULE: chunk_0=O chunk_1=I word_-1=N.J. => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_1=I chunk_2=O pos_0=, pos_1=NNP => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_1=I chunk_2=O pos_0=, pos_1=NNS => chunk=O
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=O chunk_1=I word_-1=consumer => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_-1=I chunk_0=O word_1=Steel => chunk=I
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_1=Ill. => chunk=I
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=O word_-1=savings word_0=and => chunk=I
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_0=O word_-1=10,000 word_0=to => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_1=O chunk_2=I pos_-1=TO pos_0=JJ => chunk=I
+GOOD:11 BAD:3 SCORE:8 RULE: chunk_1=O chunk_2=I pos_-1=NN pos_0=CD => chunk=I
+GOOD:13 BAD:5 SCORE:8 RULE: chunk_1=I chunk_2=O pos_-1=NNS pos_0='' => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=O pos_-2=$ pos_-1=JJ => chunk=I
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_0=O chunk_1=I word_-1=five word_0=to => chunk=I
+GOOD:14 BAD:6 SCORE:8 RULE: chunk_1=O chunk_2=ZZZ word_-1=for word_1=. => chunk=I
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_1=O chunk_2=I word_-1=ZZZ word_1=and => chunk=I
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_0=Tuesday => chunk=B
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_0=O chunk_1=I word_0=as word_1=much => chunk=B
+GOOD:13 BAD:5 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_0=that word_1=, => chunk=B
+GOOD:14 BAD:6 SCORE:8 RULE: chunk_0=I chunk_1=I word_-2=how word_-1=much => chunk=B
+GOOD:21 BAD:13 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_1=years word_2=ago => chunk=B
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_-1=O chunk_0=I word_0=least => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=I chunk_-1=I word_0=vs. => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=I word_-1=Co. word_0=and => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=B chunk_1=O pos_0=JJ => chunk=O
+GOOD:13 BAD:6 SCORE:7 RULE: chunk_-1=O chunk_0=I pos_-1=JJ pos_0=VBG => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=B chunk_1=O pos_-1=PRP pos_0=POS => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=I pos_0=VBN pos_1=DT => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-1=O chunk_0=I pos_0=VBG pos_1=CD => chunk=O
+GOOD:10 BAD:3 SCORE:7 RULE: chunk_1=O chunk_2=I pos_0=RB pos_1=JJ => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=I word_0=no word_1=longer => chunk=O
+GOOD:10 BAD:1 SCORE:9 RULE: chunk_-2=O chunk_-1=I word_-1=no => chunk=I
+GOOD:10 BAD:3 SCORE:7 RULE: chunk_0=I word_0=and word_1=chairman => chunk=O
+GOOD:11 BAD:3 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_-1=chairman word_1=chief => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-1=O chunk_0=I word_1=Chancellor word_2=of => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_0=Average => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_0=O word_0=stock => chunk=I
+GOOD:13 BAD:6 SCORE:7 RULE: chunk_0=O chunk_1=I word_0=falling => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_0=I chunk_1=I pos_-1=NNS pos_1=CD => chunk=O
+GOOD:10 BAD:3 SCORE:7 RULE: chunk_0=O chunk_1=I word_0=twice => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O chunk_1=I word_0=competing => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O chunk_1=I word_0=all => chunk=I
+GOOD:9 BAD:1 SCORE:8 RULE: chunk_-2=I chunk_-1=I pos_0=PRP => chunk=B
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_0=O chunk_1=I word_0=late => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_-1=Chairman => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-1=I chunk_0=O word_-1=new => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_0=O chunk_1=I word_-1=Ill. => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=I pos_0=, pos_1=DT => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=ZZZ chunk_-1=I word_-1=An => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-2=I chunk_-1=I word_-1=, => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=I chunk_-1=I word_1=Ariz. => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=I chunk_-1=I word_-1=Ariz. => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=I chunk_-1=I word_1=Ky. => chunk=I
+GOOD:11 BAD:4 SCORE:7 RULE: chunk_0=O word_-1=Housing word_0=and => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_-1=do word_0=more => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_0=O word_-1=to word_0=between => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_0=O word_-1=at word_0=around => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O pos_0=PRP => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_0=B chunk_1=B pos_0=NNS => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=ZZZ chunk_-1=I pos_-1=VBN => chunk=I
+GOOD:10 BAD:3 SCORE:7 RULE: chunk_-2=I chunk_-1=I pos_-2=-LRB- => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-1=B chunk_0=O pos_-1=POS pos_0=VBN => chunk=I
+GOOD:24 BAD:15 SCORE:9 RULE: chunk_0=B chunk_1=O pos_0=POS => chunk=I
+GOOD:19 BAD:9 SCORE:10 RULE: chunk_0=I pos_0=POS pos_1=RB => chunk=B
+GOOD:11 BAD:0 SCORE:11 RULE: chunk_-2=B chunk_-1=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:15 BAD:2 SCORE:13 RULE: chunk_0=O chunk_1=I pos_-1=POS pos_0=RB => chunk=I
+GOOD:21 BAD:14 SCORE:7 RULE: chunk_0=O chunk_1=I pos_-1=DT pos_0=CC => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_1=I chunk_2=O word_0=but => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_1=O chunk_2=I pos_-1=IN pos_0=RBR => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_0=O chunk_1=I pos_0=JJ pos_1=CC => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=O chunk_-1=I word:[1,3]=depreciation => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-2=I chunk_-1=O word_-1=or word_0=less => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_1=I chunk_2=I word_-1=three word_0=to => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_0=yet word_1=another => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_0=most word_1=of => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_0=O word_0=and word_1=Commerce => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-2=O chunk_-1=O word_0=double word_1=the => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_0=I chunk_1=I word_1=the word_2=company => chunk=O
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_1=O chunk_2=I word_-1=, word_0=more => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-2=O chunk_-1=I word_0=, word_1=Paris => chunk=I
+GOOD:9 BAD:2 SCORE:7 RULE: chunk_1=O chunk_2=I word_0=more word_1=for => chunk=I
+GOOD:7 BAD:0 SCORE:7 RULE: chunk_-1=I chunk_0=O word_-2=, word_-1=more => chunk=I
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_1=I chunk_2=O pos_-1=NNS pos_0=PRP$ => chunk=B
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_0=briefly => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_-1=companies => chunk=O
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-2=I chunk_-1=I word_1=Japan => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_1=I chunk_2=B word_1=Pinkerton => chunk=O
+GOOD:13 BAD:7 SCORE:6 RULE: chunk_0=I chunk_1=I word_-2=Mr. => chunk=O
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=I word_-1=reported word_0=that => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_-1=is word_0=both => chunk=O
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_0=I pos_-1=PRP pos_0=CC => chunk=O
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=I pos_-1=RBR pos_1=DT => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I chunk_1=O pos_0=RBR pos_1=JJ => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_1=I chunk_2=I word_-1=said word_0=that => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_0=that word_1=their => chunk=O
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=I word_0=and word_1=head => chunk=O
+GOOD:9 BAD:3 SCORE:6 RULE: chunk_-2=I chunk_-1=I word_0=plans word_1=to => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_-1=are word_1=the => chunk=O
+GOOD:10 BAD:4 SCORE:6 RULE: chunk_1=O chunk_2=O word_-1=both word_1=and => chunk=O
+GOOD:10 BAD:2 SCORE:8 RULE: chunk_1=O chunk_2=O pos_0=DT pos_1=JJ => chunk=O
+GOOD:8 BAD:1 SCORE:7 RULE: chunk_-2=O chunk_-1=I pos_-1=PRP pos_0=DT => chunk=B
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_0=O word_0=offsetting => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_0=O word_0=mounting => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O word_0=one-third => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O chunk_1=I word_0=Almost => chunk=I
+GOOD:9 BAD:3 SCORE:6 RULE: chunk_0=O chunk_1=I word_0=quite => chunk=I
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=O chunk_1=I word_0=Earlier => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_1=O chunk_2=I word_0=More => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_-2=ZZZ chunk_-1=I word_0=than => chunk=I
+GOOD:16 BAD:10 SCORE:6 RULE: chunk_1=I chunk_2=O word_0=increasing => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=B word_-1=age => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_-2=I chunk_-1=O word_-1=between => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_-2=I chunk_-1=I word_-1=Ky. => chunk=I
+GOOD:12 BAD:6 SCORE:6 RULE: chunk_1=I chunk_2=I word_-1=four => chunk=I
+GOOD:11 BAD:3 SCORE:8 RULE: chunk_0=I pos_-1=CD pos_0=IN => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O word_1=Sachs => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=B word_-1=one word_0=another => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_-1=I chunk_0=O pos_-1=JJ pos_0=JJ => chunk=I
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_-1=I chunk_0=O pos_-1=DT pos_0=-LRB- => chunk=I
+GOOD:11 BAD:5 SCORE:6 RULE: chunk_0=B chunk_1=O pos_-1=WP pos_0=NN => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=B chunk_1=B pos_-1=WDT pos_0=NN => chunk=I
+GOOD:12 BAD:6 SCORE:6 RULE: chunk_-2=I chunk_-1=I pos_0='' pos_1=VBN => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=B pos_-2=CD pos_-1=NNP => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O word:[-3,-1]=oohs => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O word:[-3,-1]=Farmington => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Milan => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O chunk_1=ZZZ word:[-3,-1]=AND => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_1=I chunk_2=O word:[1,3]=thrift => chunk=I
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=B chunk_1=I pos:[-3,-1]=PDT => chunk=I
+GOOD:20 BAD:12 SCORE:8 RULE: chunk_-2=I chunk_-1=I word_-1='s => chunk=O
+GOOD:9 BAD:3 SCORE:6 RULE: chunk_0=O chunk_1=I word_-1=Mich. word_0=, => chunk=I
+GOOD:10 BAD:3 SCORE:7 RULE: chunk_1=I chunk_2=I word_1=Mich. => chunk=I
+GOOD:13 BAD:7 SCORE:6 RULE: chunk_0=O chunk_1=I word_-1=Texas word_0=, => chunk=I
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=O chunk_1=I word_-1=just word_0=about => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-2=O chunk_-1=O word_-1=just word_0=under => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_1=I chunk_2=I word_-1=of word_0=between => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-1=O chunk_0=O word_0=just word_1=under => chunk=I
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-2=I chunk_-1=I word_0=, word_1=Ohio => chunk=I
+GOOD:11 BAD:5 SCORE:6 RULE: chunk_0=O word_-1=% word_1=10 => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O word_-2=football word_-1=player => chunk=I
+GOOD:12 BAD:6 SCORE:6 RULE: chunk_-2=I chunk_-1=I word_0=who => chunk=B
+GOOD:8 BAD:0 SCORE:8 RULE: chunk_0=I chunk_1=I pos_1=WP => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I word_-1=week => chunk=B
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_-1=O chunk_0=I word_-1=that word_1=said => chunk=B
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_0=restructure => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_0=because => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_-1=O chunk_0=I word_0=bidding => chunk=O
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_-1=O chunk_0=B pos:[-3,-1]=NN => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_1=I chunk_2=O word_0=issues => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_-1=it => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I chunk_1=O word_1=loyal => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=I chunk_1=I word_1=there => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_1=Dec. => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_1=I chunk_2=O word_1=Calif. => chunk=O
+GOOD:11 BAD:5 SCORE:6 RULE: chunk_-2=I chunk_-1=I pos_-2=, pos_-1=NNP => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=O word_2=House => chunk=O
+GOOD:13 BAD:4 SCORE:9 RULE: chunk_1=O chunk_2=O word_0=the => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I chunk_1=O word_1=Secretary => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_-1=Corp. word_0=and => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_-1=were word_0=both => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_-1=a word_0=University => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I chunk_1=O word_0=a => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B word_-1=fact word_0=that => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=I pos_-1=NNS pos_0=JJ => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I pos_-1=NNS pos_0=VBN => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=I chunk_1=O pos_-1=, pos_0=RB => chunk=O
+GOOD:9 BAD:3 SCORE:6 RULE: chunk_-1=I chunk_0=O word_-1=as word_0=much => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_0=I chunk_1=O word_0=, => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I chunk_1=I pos_-1=NN pos_0=IN => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=O pos_-1=JJR pos_0=CC => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I pos_0=VBD pos_1=CD => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I pos_0=VBN pos_1=PRP$ => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=O chunk_-1=I word_0=-RRB- => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-1=O chunk_0=I pos_0=JJ pos_1=PRP$ => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=I pos_0=JJ pos_1='' => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=O pos_-1=`` pos_0=RB => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I chunk_1=O word_-1=were word_0=all => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I chunk_1=O word_-1=are word_0=all => chunk=O
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_0=I chunk_1=I word_-1=and word_0=that => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_-1=industry word_0=and => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_0=all word_1=about => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_0=and word_1=Congress => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=I word_0=and word_1=Europe => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I chunk_1=I word_-1=ZZZ word_1=Mr. => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_0=nonrecurring => chunk=I
+GOOD:13 BAD:8 SCORE:5 RULE: chunk_0=O word_0=preferred => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B word_0=500 => chunk=I
+GOOD:11 BAD:6 SCORE:5 RULE: chunk_0=B word_0=1 => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-1=O chunk_0=O word_0=accompanying => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-1=I chunk_0=O word_0=general => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=O chunk_1=I word_0=floating => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_0=emerging => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_0=aging => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_0=O chunk_1=I word_0=next => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=O chunk_-1=O word_0=lending => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_1=I chunk_2=O word_0=renewed => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_1=I chunk_2=O word_0=continued => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=O word_0=working => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=intraday => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=225 => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=O word_-1=near => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B word_-1=Chapter => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B word_-1=evidence => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B word_-1=than => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=O chunk_1=I word_-1=electronics => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_-1=federal => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=ZZZ word_-1=by => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_1=O chunk_2=O word_-1=until => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=I word_-1=spend => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=I word_-1=Federated => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_1=Calif.-based => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=B word_1=13th => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=I word_1=, => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_-1=B chunk_0=O word_2=& => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=O word_-1=- word_0=and => chunk=I
+GOOD:12 BAD:5 SCORE:7 RULE: chunk_1=I chunk_2=I word_1=and => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_0=O word_-1=Trade word_0=and => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I word_-2=of word_-1=Trade => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=little word_0=or => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=to word_0=around => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=B pos_0=NNP pos_1=-LRB- => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_-2=I chunk_-1=I pos_0=-RRB- pos_1=NN => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=I chunk_-1=I pos_0='' pos_1=NN => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=I chunk_-1=O pos_-1='' pos_0=NN => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=I pos_0=JJ pos_1=-RRB- => chunk=I
+GOOD:10 BAD:5 SCORE:5 RULE: chunk_1=O chunk_2=I pos_0=NNP pos_1=CC => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O pos_-1=JJS pos_1=RBS => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I pos_-1='' pos_1=`` => chunk=I
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O chunk_1=I pos_-1=JJ pos_1=CC => chunk=I
+GOOD:7 BAD:1 SCORE:6 RULE: chunk_0=O chunk_1=I pos_-1=`` pos_0=JJ => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-1=I chunk_0=O pos_-2=NNS pos_-1=NNP => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_-1=I chunk_0=O pos_-2=IN pos_-1=RBR => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word:[1,3]=individual-investor => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=brewing => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_-2=O chunk_-1=I word:[1,3]=2009 => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_1=I chunk_2=O word:[1,3]=planner => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=O word:[1,3]=facility => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=O word_-1=for word_0=trading => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_-1=communications word_0=and => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_-1=closely word_0=held => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O chunk_1=I word_1=held => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=O chunk_-1=I word_-1=government word_0=and => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_-1=Defense word_0=and => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_-1=Washington word_0=, => chunk=I
+GOOD:9 BAD:4 SCORE:5 RULE: chunk_-2=I chunk_-1=I pos_-2=, pos_-1=NNP => chunk=I
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_-1=, => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=I word_-1=18 word_0=to => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=I word_-1=times word_0=as => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=O word_0=earlier word_1=this => chunk=I
+GOOD:10 BAD:5 SCORE:5 RULE: chunk_-1=O chunk_0=O word_0=too word_1=much => chunk=I
+GOOD:10 BAD:5 SCORE:5 RULE: chunk_-2=O chunk_-1=I pos_-1=RB pos_1=IN => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=pharmaceutical => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=% word_1=7 => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=% word_1=15 => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_-1=reason => chunk=B
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_0=I chunk_1=I word_-1=effect => chunk=B
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=issues word_0=that => chunk=B
+GOOD:9 BAD:4 SCORE:5 RULE: chunk_0=I pos_-1=NNS pos_0=JJR => chunk=B
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I pos_-1=NNP pos_0=JJR => chunk=B
+GOOD:29 BAD:24 SCORE:5 RULE: chunk_1=I chunk_2=O pos_-1=NNS pos_0=NNP => chunk=B
+GOOD:28 BAD:18 SCORE:10 RULE: chunk_-2=B chunk_-1=I pos_-1=NNP pos_0=CC => chunk=I
+GOOD:21 BAD:5 SCORE:16 RULE: chunk_1=I chunk_2=I pos_-1=NNS pos_0=NNP => chunk=I
+GOOD:11 BAD:2 SCORE:9 RULE: chunk_0=I chunk_1=O pos_0=CC => chunk=O
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-1=I chunk_0=I pos_0=POS pos_1=JJ => chunk=B
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-1=B chunk_0=O pos_0=JJ => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I word_0=age word_1=18 => chunk=B
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-2=I chunk_-1=I word_0=early word_1=next => chunk=B
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=O word_-1=that word_1=say => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_0=owning => chunk=O
+GOOD:9 BAD:4 SCORE:5 RULE: chunk_0=B chunk_1=O word_0='s => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=meaning => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=possibly => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=sort => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=best => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=subject => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=I word_0=own => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=I chunk_1=I word_0=plus => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=I chunk_2=O pos_-1=DT pos_0=JJ => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O word_0=back => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=O chunk_-1=I word_0=la => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=O word_0=a => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=I word_0=Chief => chunk=O
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_1=I chunk_2=I word_0=then => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_0=again => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=I word_-1=worry => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=I word_-1=nothing => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=O word_1=Freedom => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=I word_-2=century => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_-1=no word_0=longer => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_-1=O chunk_0=I pos_0=RP => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=I chunk_1=O pos_0=VBD => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=O word_-1=the word_1=of => chunk=I
+GOOD:10 BAD:6 SCORE:4 RULE: chunk_0=B chunk_1=O pos_-1=NNP pos_0=DT => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=O chunk_-1=I pos_-1=NNS pos_0=IN => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I pos_0=, pos_1=DT => chunk=O
+GOOD:13 BAD:7 SCORE:6 RULE: chunk_1=I chunk_2=I word_1=Texas word_2=, => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=I word_0=In => chunk=O
+GOOD:7 BAD:2 SCORE:5 RULE: chunk_-1=O chunk_0=B chunk_1=I => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=O pos_0=JJ pos_1=DT => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=I chunk_1=O pos_0=VBN pos_1=IN => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=O chunk_-1=I pos_0=. pos_1=ZZZ => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=I pos_0=JJ pos_1=VBG => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=I pos_-2=NNS pos_-1=JJ => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=I word:[1,3]=Sumita => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word:[-3,-1]=hemorrhaging => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O pos_-1=NNP pos_0=NNP => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O word_-1=have word_0=all => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_1=O chunk_2=I word_-1=far word_0=more => chunk=O
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=debt word_0=and => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_0=increasing word_1=sales => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_0=and word_1=advertising => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_0=and word_1=fines => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_0=and word_1=Manufacturers => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_0=that word_1=its => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_0=, word_1=company => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_-1=those word_1=with => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_-2=Japan word_-1=-RRB- => chunk=O
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_-2=O chunk_-1=I word_1=-LRB- word_2=D. => chunk=O
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_0=I chunk_1=O pos_1=NNP pos_2=-LRB- => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=nonperforming => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=subordinated => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=B word_0=2000 => chunk=I
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_-1=O chunk_0=O word_0=other => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=O word_0=filing => chunk=I
+GOOD:13 BAD:9 SCORE:4 RULE: chunk_-1=I chunk_0=O word_0=' => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=imported => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=Rising => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=Late => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=engineered => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=enough => chunk=I
+GOOD:8 BAD:4 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=the => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=I word_0=common => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O word_0=particular => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=O word_0=maturing => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_1=I chunk_2=O word_0=limited => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=Ludcke => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=Song => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=Pan => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=Ways => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=B word_-1=I. => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=Bear => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=B chunk_1=O word_-1=downtown => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=B chunk_1=O word_-1=shuttle => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=ZZZ word_-1=equivalents => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=medium => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=Everything => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_1=Mass.-based => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=I chunk_-1=I word_1=Wash. => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O word_-2=subject => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=six word_0=to => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=engineering word_0=and => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=five word_0=or => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O word_-1=time word_0=around => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=1987 word_0=: => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=10 word_0=or => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=for word_0=about => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=in word_0=there => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=I chunk_-1=I pos_-1=CC => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I pos_1=: => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O pos_-1=DT pos_0=NNS => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=O pos_-1=RBS pos_0=JJ => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=B chunk_-1=I pos_-1=JJ pos_0=, => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O pos_-1=FW pos_0='' => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=I pos_-1=DT pos_0=PRP => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=ZZZ chunk_0=O pos_0=VBN pos_1=NN => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_1=I chunk_2=O pos_0=RB pos_1=JJ => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=I chunk_0=O pos_-1=JJR pos_1=JJR => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I pos_-1=JJR pos_0=TO => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=I chunk_1=O word_-2=a word_-1=year => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=O pos_-1=JJR pos_1=RBR => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=O pos_-1=JJ pos_1=RBR => chunk=I
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_-2=I chunk_-1=O pos_-1=CC pos_1=: => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O pos_-2=PRP$ pos_-1=CD => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=I chunk_-1=I pos_-2=`` pos_-1=JJ => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=ZZZ chunk_0=O pos_1=VBD pos_2=VBN => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word:[-3,-1]=Skadden => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word:[1,3]=door-to-door => chunk=I
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=O word:[1,3]=Enforcement => chunk=I
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Zurich => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=twice word_0=as => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=founder word_0=and => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=State word_0=, => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=tobacco word_0=, => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O chunk_1=I word_-1=two word_0=to => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=O chunk_-1=O word_-1=since word_0=then => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=I chunk_-1=I word_-1=times word_0=estimated => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=big word_0=, => chunk=I
+GOOD:8 BAD:3 SCORE:5 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=JJ => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=B word_1=Pinkerton => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=Lawrence word_0=, => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=50 word_0=to => chunk=I
+GOOD:12 BAD:8 SCORE:4 RULE: chunk_1=I chunk_2=I word_-1=billion word_0=to => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O word_0=both word_1=of => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=there word_1=was => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=well word_1=over => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=-LCB- word_1=U.S. => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=that word_1='s => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=and word_1=Finance => chunk=I
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=O word_0=and word_1=industrial => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=about word_1=two-thirds => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O word_0=, word_1=unit => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0='s word_1=said => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=O chunk_0=O word_0=much word_1=to => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=twice word_1=as => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O word_0=not word_1=all => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=I chunk_-1=O word_0=just word_1=over => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=I chunk_-1=O word_0=more word_1=to => chunk=I
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_-2=I chunk_-1=I word_0=-- word_1=ZZZ => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-2=I chunk_-1=I word_0=to word_1=5 => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=I chunk_2=I word_0=to word_1=85 => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=200 word_1=$ => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=O word_-1=50,000 word_1=less => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-1=I chunk_0=O word_-1=and => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=step word_1=in => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O word_-1=by word_1=, => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=I chunk_-1=O word_-1=in word_1=. => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O word_-1=Series word_1=, => chunk=I
+GOOD:7 BAD:3 SCORE:4 RULE: chunk_0=O word_-2=for word_-1=more => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_1=capita word_2=income => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=B word_1=said word_2=. => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=I word_0=tonight => chunk=B
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=I chunk_0=I word_0=just => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_-1=thing => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=I chunk_0=I word_-1=place => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O word_1=face => chunk=B
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_0=O chunk_1=B pos_0=IN => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_-1=bill word_0=that => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=DT => chunk=B
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=I chunk_1=I pos_0=POS pos_1=NN => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=I pos_-1=NNS pos_1=DT => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=I pos_1=VBZ pos_2=MD => chunk=B
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=O chunk_0=O chunk_1=B => chunk=I
+GOOD:9 BAD:5 SCORE:4 RULE: chunk_-2=I chunk_-1=O word_-1=that word_0=I => chunk=B
+GOOD:12 BAD:5 SCORE:7 RULE: chunk_0=O chunk_1=B pos_0=IN => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O word_0=about word_1=$ => chunk=B
+GOOD:8 BAD:4 SCORE:4 RULE: chunk_-2=O chunk_-1=I word_0=last word_1=month => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I word_-2=this word_-1=year => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_0=encouraging => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_0=intact => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=convinced => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=rebounded => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=formerly => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=away => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_0=off => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=Currently => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_0=outstanding => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=B word_0=up => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_0=own => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_0=vs. => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_0=feeling => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_0=Reps. => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_0=matter => chunk=O
+GOOD:11 BAD:7 SCORE:4 RULE: chunk_0=O chunk_1=I word_0=much => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=I pos_1=WP => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=I chunk_0=I pos_-1=JJ pos_0=PRP => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=better => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=necessary => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=B word_0=-RRB- => chunk=O
+GOOD:6 BAD:0 SCORE:6 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=O word_0=more => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=ZZZ chunk_-1=O word_0=far => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_0=elected => chunk=O
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_0=Act => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=O word_0=kind => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=coming => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=O word_0=etc. => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_0=Freedom => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_1=O chunk_2=O word:[1,3]=Freedom => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_0=never => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=B word_0=Both => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_-1=Hampshire => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I word_-1=computers => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=Commons => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=firms => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_-1=That => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_-1=Reps. => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-2=O chunk_-1=O pos_-1=NNP pos_0=NNP => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word_-1=incest => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word_-1=dollar => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-1=Life => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=I chunk_-1=O word_-1=will => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=B chunk_2=I word_-1=bringing => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_1=around => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_1=Weyerhaeuser => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=I word_1=Taiwan => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word_1=each => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_1=delays => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-2=advancers => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=ZZZ word_-2=the => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I chunk_1=I word_-2=Mr. => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=O word_-2=outnumbered => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=U.K. word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=evidence word_0=that => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=program word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=Francisco word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=Street word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1='re word_0=all => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=Bank word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=but word_0=at => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_0=least => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=up word_0=as => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=billion word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=is word_0=up => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_-1=this word_0=and => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_-1=n't word_0=all => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I word_-1=Europe word_0=and => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I word_-1=by word_0=far => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B pos_0=VBD => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=ZZZ chunk_0=I pos_0=CC => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_0=CC => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_0=VBD => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I chunk_1=B pos_0=RB => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O pos_-2=CD => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_-1=POS pos_0=CC => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_-1=JJR pos_0=IN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O pos_-1=NNS pos_0=. => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O pos_-1=NN pos_0=NN => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_-1=NN pos_0='' => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=TO pos_1=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=TO pos_1=DT => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=, pos_1=VBD => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=IN pos_1=JJR => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_0=VBG pos_1=CD => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I pos_0=RBR pos_1=DT => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=O pos_0=DT pos_1=RBR => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_0='' pos_1=NN => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=free => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=O chunk_2=I pos_0=JJR pos_1=CC => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_-1=FW pos_1=, => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B pos_-2='' pos_-1=PRP => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=B pos_-2=-LRB- pos_-1=`` => chunk=O
+GOOD:8 BAD:2 SCORE:6 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:12 BAD:9 SCORE:3 RULE: chunk_1=O chunk_2=O pos_-2=DT pos_-1=RB => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=Il => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=tasty => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=NH => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=music-entertainment => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=multipled => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=affirming => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[-3,-1]=Crete => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=Vishwanath => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=renunciation => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=state-level => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=earthquake-resistant => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=adapter => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=crow => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word:[1,3]=Children => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=Hoc => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=petrified => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=pyrotechnic => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=Foxmoor => chunk=O
+GOOD:9 BAD:6 SCORE:3 RULE: chunk_0=I word:[1,3]=Buying => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I chunk_1=O pos_-1=POS pos_0=`` => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=B chunk_1=O word_0='s => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word:[1,3]=attendee => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Masterson => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word:[1,3]=veterans => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word:[1,3]=testified => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-1=I chunk_0=I word:[-3,-1]=Good => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_1=O chunk_2=O pos_0=JJ pos_1=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word:[1,3]=unnerving => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word:[1,3]=abundant => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word:[1,3]=flashes => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word:[-3,-1]=power-generation => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_-1=NNS pos_0=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word:[1,3]=1964 => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word:[-3,-1]=Manila => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O word_-1=as word_0=possible => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=B word_-1=in word_0=case => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=B pos_-1=NN => chunk=I
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_-1=president word_0=and => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=O word_-1=systems word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_-1=economy word_0=and => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_-1=so word_0=much => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_-1=report word_0=that => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=both word_1=a => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=much word_1=like => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=other word_1=than => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=I chunk_-1=O word_0=even word_1=a => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_0=amounts word_1=to => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=next word_1=door => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=and word_1=support => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=though word_1=a => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=U.S. word_1=other => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=the word_1=Right => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_0=Right => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_1=O chunk_2=O word_0=the => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_-1=after word_1=with => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_1=Rally word_2='s => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I word_1=a word_2=matter => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_1=by word_2=Moody => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_1=this word_2=time => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_1=this word_2=summer => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=FFr => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=neighboring => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=Roughly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=refunding => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=Few => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=prolonged => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=federally => chunk=I
+GOOD:6 BAD:1 SCORE:5 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=theirs => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=LATE => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=some => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_0=Cleopatra => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_0=David => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=B word_0=A => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=O word_0=practically => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=la => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=financing => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=O word_0=Call => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=nearly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=barely => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=soaring => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_0=VBG pos_1=CD => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=Early => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=almost => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=O word_0=10 => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_0=weakening => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=I chunk_-1=O word_0=exactly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_0=restructuring => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_0=highly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=recording => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=earning => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=publishing => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=advertising => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=Still => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=B chunk_2=I word_0=what => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=B word_0=times => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_1=times => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=as => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=Influenced => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=high-yield => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=facing => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O word_-1=secondary => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=an => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_-1=Section => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_-1=hopes => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B word_-1=late => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=only => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=just => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=highly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=very => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=ZZZ word_-1=FUNDS => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=Alberta => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-1=mainstream => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-1=close => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-1=well => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_-1=retail => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Va.-based => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Nye => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Wedding => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Roebuck => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Peabody => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=resolution => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=textile => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Conn.-based => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=Electronics => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=division => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_1=anxiety => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_1=processing => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-2=the => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_-2=Pinkerton => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_-2=POS pos_-1=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_2=dozen => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=I word_0=of => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_0='' => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=comedy word_0=`` => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=rating word_0=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=Zurich word_0=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=risk word_0='' => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=know word_0=more => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=as word_0=such => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=share word_0='' => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=from word_0=trading => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=sales word_0=or => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=to word_0=changing => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=, word_0=around => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=of word_0=over => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_0=UH => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O pos_-1=JJS pos_0='' => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O pos_-1=POS pos_0=RBS => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O pos_-1=NNP pos_0=POS => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=VBG pos_0=CC => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=ZZZ chunk_-1=I pos_-1=NNP pos_0=DT => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=O pos_0='' pos_1=, => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_0='' pos_1=JJ => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=in => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=O pos_0=JJR pos_1=DT => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=JJR pos_1=CD => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=`` pos_1='' => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_0='' pos_1=NN => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=I chunk_-1=O pos_-1='' pos_0=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O pos_-2=POS pos_-1=RBS => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B pos_-2=VBD pos_-1=WDT => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=B pos_-2=`` pos_-1=PRP => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-2=JJ pos_-1=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=CC => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=B chunk_1=O pos_-2=VB pos_-1=WDT => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=O pos_-2='' pos_-1=CC => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-2=RBR pos_-1=JJ => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=O word_-1=the word_0=more => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=the word_1=more => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I pos_-2=`` pos_-1=CD => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=aw => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Shortage => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Goodbye => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=unlovable => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Buckles => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=canny => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Boheme => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=tastier => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I pos_1=UH => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=six-footer => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=fewest => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=low-tax => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=folded => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Mayan => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=discord => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[-3,-1]=Nov => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=French-made => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=non-life => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=shadier => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=Byzantine => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=potentialities => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=wistful => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=parent-company => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=roofing => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=non-firm => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=CC => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=inchworm => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word:[1,3]=transportable => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-1=RBR pos_0=JJ => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=botched => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=original => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Agreement => chunk=I
+GOOD:9 BAD:6 SCORE:3 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Fees => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word:[1,3]=enclosed => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word:[1,3]=invariably => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=O word:[1,3]=medium-size => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[1,3]=swimming => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Raleigh => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Nevada => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=O word:[1,3]=Rubin => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=O word:[1,3]=drawbacks => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word:[1,3]=photographic => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=O word:[-3,-1]=idealistic => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=O word:[-3,-1]=tricky => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word:[-3,-1]=newer => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O chunk_1=I word:[-3,-1]=Wilmington => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=I word:[-3,-1]=Even => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=O word:[1,3]=unnamed => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=O word:[-3,-1]=reflecting => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word:[-3,-1]=eating => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-1=POS pos_0=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=important word_0=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=O word_-1=in word_0=keeping => chunk=I
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=Health word_0=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Education => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=mining word_0=, => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=construction word_0=and => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=% word_0=or => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=are word_0=about => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_-1=computer word_0=and => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_1=I chunk_2=I word_-1=, word_0=about => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=consulting word_1=firm => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=holding word_1=companies => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=certain word_1=of => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=much word_1=of => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=-RCB- word_1=in => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=so word_1=many => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-1=JJ pos_0=-LRB- => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_0=-RRB- pos_1=JJ => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=and word_1=Amex => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=and word_1=Business => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=and word_1=Exchange => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=, word_1=trucks => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O word_0=, word_1=paper => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=, word_1=1987 => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=-LRB- word_1=Far => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=O chunk_0=O word_0=later word_1=this => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=or word_1=two => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=and word_1=40 => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=to word_1=1\/2 => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_0=, word_1=property => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=so word_1=much => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=and word_1=service => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_1=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_0=between word_1=C$ => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_0=, word_1=office => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_1=Conn. => chunk=I
+GOOD:6 BAD:3 SCORE:3 RULE: chunk_1=I chunk_2=I pos_-2=PRP$ pos_-1=NNP => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=of => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=I pos_-1=POS pos_0=NNP => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=House => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=software => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=O word_0=, word_1=market => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=I word_0=and word_1=management => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_0=, word_1=tobacco => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=1.10 word_1=$ => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=O word_-1=with word_1=, => chunk=I
+GOOD:14 BAD:9 SCORE:5 RULE: chunk_-2=O chunk_-1=I pos_-1=JJ pos_1=JJ => chunk=I
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_-1=I chunk_0=O pos_-2=JJ pos_-1=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_0=before => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_0=VBD => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=the => chunk=I
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=O word_-1=% word_1=6 => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=% word_1=12 => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=as word_1=of => chunk=I
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_0=O word_-1=of word_1=, => chunk=I
+GOOD:10 BAD:7 SCORE:3 RULE: chunk_-2=I chunk_-1=O word_-1=of word_1=. => chunk=I
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_0=I chunk_1=O word_0=late => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I word_-1=of word_1=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=VBG pos_0=CC => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-2=amount word_-1=of => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-2=only word_-1=three => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-2=n't word_-1=produce => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_1=Tenn. word_2=, => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_1=insurance word_2=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_0=Assistant => chunk=B
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=yesterday => chunk=B
+GOOD:6 BAD:2 SCORE:4 RULE: chunk_0=B pos_-1=JJ pos_0=NN => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=B chunk_-1=I word_0=last => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=months => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=things => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=cents => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word_-1=day => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_-1=WSJ => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_1=% => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_1=PWA => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I word_0=PWA => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=strategy word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=something word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_-1=stocks word_0=that => chunk=B
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=PRP => chunk=B
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=O word_-1=company word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=that word_0=HealthVest => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_-1=I chunk_0=I pos_0=WDT => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-1=, pos_1=VBZ => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_-1=CD pos_0=PRP$ => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=I chunk_1=I pos_-1=NN pos_0=IN => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=I pos_-1=NN pos_0=JJR => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=POS pos_1=RBS => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I pos_-2=VB pos_-1=NNS => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I pos_1=VBZ pos_2=VBZ => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=B => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_-1='' word_0=the => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_0=Mr. word_1=Guber => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I word_0=late word_1=yesterday => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=Friday word_1=, => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=most word_1=of => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_0=that word_1=banks => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=NNS => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I word_-1=time word_1=were => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=I word_-2=Sept. word_-1=30 => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=69-26 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=dolce => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=McCain => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=Normally => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=tame => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=vis => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=a => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=Meet => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=abducted => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=satisfies => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=mimics => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=B pos_0=DT => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_0=stem => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=six-cent => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=unfit => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=sometime => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_0=called => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=susceptible => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=told => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=changed => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=sent => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I chunk_1=O word_0=even => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=ultimately => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=currently => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=had => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=are => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=beginning => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=longer => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=now => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=after => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=I word_0=So => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=I word_0=Now => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=winning => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=guilty => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=alone => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=worth => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=worst => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=hearing => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=standing => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=considered => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=than => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=boost => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=riskier => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=catering => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=natural => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=available => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=long => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=male => chunk=O
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=too => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=to => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_0=1964 => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=O word_0=University => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_0=while => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=neck => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=and => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=O chunk_-1=O pos_-2=NN pos_-1=CC => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_0=still => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=fell => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=both => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=thanks => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I word_0=vs. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I word_0=effective => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=either => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_0=just => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=B chunk_2=O word_0=contractor => chunk=O
+GOOD:5 BAD:1 SCORE:4 RULE: chunk_-1=O chunk_0=B pos_-1=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Arabia => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Wyoming => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-1=somebody => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=schedules => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=diseases => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=consultants => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=efficiency => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Sydney => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=We => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-1=Germany => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=Inc. => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=such => chunk=B
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_0=I word_-1=went => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=agreement => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=legislation => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=I word_-1=officials => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=TO => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=prospect => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=belief => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=B word_-1=It => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=cuts => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=rally => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=rates => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=perjury => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=Ciba-Geigy => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=USA => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=Quist => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=expense => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=station => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=operations => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=status => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_-1=assembly => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=assembly => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_-1=everyone => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_-1=en => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_-1=Investigation => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=slightly => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=Va. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=aid => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=McCain => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=Colgate => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_1=Bloomingdale => chunk=O
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_-2=O chunk_-1=I pos_-2=JJ pos_-1=NNP => chunk=I
+GOOD:10 BAD:4 SCORE:6 RULE: chunk_-2=I chunk_-1=I pos_-1=POS => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O word:[1,3]=woman => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=the => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_1=Manila => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=him => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_1=if => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_1=susceptible => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=hundreds => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=odd => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=we => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=which => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=I word_1=demand => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=I word_1=each => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_1=her => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=millions => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=lawmakers => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_1=natural => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=UAL => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=newsprint => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Mich. => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Sony => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Ill. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=first-home => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=tad => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=pop => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-2=franc => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-2=birth => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-2=tailored => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-2=insider => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=I word_-2=doctors => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=O pos_0=POS => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-2=Seven => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-2=greenhouse => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-2=distinct => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=sharp => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-2=Ad => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-2=edged => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=up => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-2=political => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_-2=limits => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=how => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_2=latter => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=I word_2=Michigan => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_2=Day => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_2=Americans => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=The => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=anticipate word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Jose word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Security word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=By word_0=then => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=income word_0=or => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Pacific word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=bottom word_0='' => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=became word_0=apparent => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Friday word_0=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=bought word_0=back => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=projected word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=suggested word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=closed word_0=sharply => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Motors word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=below word_0=reported => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=how word_0=long => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Colorado word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Zealand word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=week word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=sent word_0=back => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=sent word_0=home => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=York word_0=or => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=I word_-1=million word_0=worth => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-1=or word_0=at => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=least => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=is word_0=now => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=those word_0=rich => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=But word_0=then => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=out word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=so word_0=far => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=that word_0='s => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=this word_0=all => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=are word_0=neither => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=a word_0=Board => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=a => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=a word_0=Bank => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=a => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=and word_0=now => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=year word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=said word_0=earlier => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=to word_0=air => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=to word_0=plant => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=by word_0=then => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=In word_0=case => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=them word_0=both => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=B pos_0=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I pos_0=MD => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=ZZZ pos_-2=RB => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=B chunk_-1=I pos_2=POS => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_-1=RB pos_0=FW => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=B chunk_0=I pos_-1=CD pos_0=. => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=I chunk_1=O pos_-1=VBN pos_0=RBR => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O pos_-1=POS pos_0=`` => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=B pos_-1=IN pos_0=VBN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=B pos_-2=IN => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=O pos_-1=-RRB- pos_0=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O pos_-1=, pos_0=RBS => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=likely => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_-1=JJ pos_0=JJR => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_-1=JJ pos_0=RB => chunk=O
+GOOD:7 BAD:5 SCORE:2 RULE: chunk_1=O chunk_2=I pos_-1=NNS pos_0='' => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_0=JJR pos_1=PRP$ => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_0=VBG pos_1=JJR => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_0=VB pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=own => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_0=VBD pos_1=CD => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_0=-LRB- pos_1=DT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=PRP$ pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I pos_0=VBG pos_1=DT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B pos_0=`` pos_1=NNS => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_0=B chunk_1=O word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_2=Make => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_-1=CC pos_1=RP => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I pos_-1=NNP pos_1=PRP$ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Calif. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O pos_-1=CD pos_1=VBN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O pos_-1=RB pos_0=VBN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-2=JJ pos_-1=JJ => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-2=POS pos_-1=NNP => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=I pos_-2=. pos_-1='' => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=I pos_0=NNP pos_1=: => chunk=I
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_-2=I chunk_-1=O pos_-1=NNP pos_0=NNP => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I pos_-2=NN pos_-1=. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_1=PRP pos_2=VBG => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I pos_0=DT pos_1=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O pos_1=DT pos_2=RB => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Rim => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=wryly => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Pet => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=hides => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=navigator => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word:[-3,-1]=deceased => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=JJ pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=grass => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=estimators => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=hard-charging => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_1=CC pos_2=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=12.66 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=VH-1 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Belth => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Lemmon => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-2=JJ pos_-1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=bashing => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Mankiewicz => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=tetanus => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=485 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=anti-war => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=I pos_-2=NN pos_-1=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Booz-Allen => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Jays => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Finney => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=O word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=68-year-old => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=thinning => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[-3,-1]=UH => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_-1=ZZZ pos_1=NNP => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Amcore => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=76.6 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Homeowner => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=AMBASSADOR => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=gall-bladder => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Mittag => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=y'all => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=members => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-2=members => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=re-creating => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=expletive => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=0.50 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=old-name => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Coen => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=haltingly => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Britoil => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=carting => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=DPT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=485 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-1=$ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-1=CD pos_1=IN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=a\/k\/a => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=brightening => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Britton => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=bushy => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=semi-retired => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word:[1,3]=Seven => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=Employers => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word:[1,3]=developing => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Institutes => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=D&B => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Bad => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=prosecutor => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=fluctuations => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Walkin => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Wis => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=jacket => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=treatments => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Allan => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=respectability => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=packaged => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=mound => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=B word:[-3,-1]=charges => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=ZZZ word:[1,3]=Conn. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[1,3]=VH-1 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=Kids => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=JJ pos_1=NNP => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=Mineworkers => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=CD pos_1=NNP => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_1=CD pos_2=NNP => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=Toms => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=groceries => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=transformation => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=O pos_0=JJ pos_1=NN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=JJ pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=whereby => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=yielded => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word:[1,3]=professionalism => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word:[1,3]=pasture => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word:[1,3]=ticketed => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word:[-3,-1]=Ishiguro => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=O word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word:[-3,-1]=drills => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Rim => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Mulvoy => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Pilsudski => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Vyas => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=O pos_-1=VBZ pos_0=RB => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=F18s => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=304 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=999 => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=predictability => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=auto-buying => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=previews => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=$ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=million => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=Estimates => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=Heller => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-2=an => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=nowhere => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=ceilings => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=upscale => chunk=O
+GOOD:6 BAD:4 SCORE:2 RULE: chunk_-2=O chunk_-1=O pos_-1=NN pos_0=NN => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O word_0=control word_1=of => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-2=O chunk_-1=O pos_-2=NN pos_-1=CC => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=arsenals => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=sharply word_0=lower => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=very word_0=much => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=very => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=, word_0=provider => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Calif. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=-- word_0=both => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=and word_0=work => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=at word_0=large => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=at word_0=first => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=know word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=in word_0=trading => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=I word_-1=yesterday word_0=that => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=than word_0=double => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=Arizona word_0=unit => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=Pentagon word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=parts word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=staff word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=pay word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=found word_0=that => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=consultant word_0=and => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=supply word_0=and => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=development word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=activity word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=law word_0=and => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=next word_0=door => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=estate word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=much word_0=as => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=options word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=Congress word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=director word_0=and => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=the word_0=Congress => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=Congress => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word_0=-RRB- => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=Party => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1='s word_0=just => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=matter word_1=what => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=no => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=Journal word_1=`` => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=Journal => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=Street => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=The => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=unchanged word_1=Friday => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=risk word_1=losing => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=head word_1=to => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=to word_0=head => chunk=O
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_0=I word_0=Both word_1=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=or word_1=lack => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=or word_1=other => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=less word_1=fees => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=less word_1=about => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=that word_1=program => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=that word_1=silver => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=that word_1=inflation => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=set word_1=standards => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=Illinois => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=advertisers => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=cuts => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=worker => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=parts => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=men => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=use => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=secretary => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=everyone => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=pay => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=his => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=commissions => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=vice => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=part => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=and word_1=many => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=-RRB- word_1=last => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=, word_1=Johnson => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_0=yield word_1=to => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=dictator word_1=Torrijos => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=dictator => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=times word_1=faster => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_-1=VBZ pos_1=NNS => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=home word_1=to => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=outstanding word_1=. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=or word_1=cash => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=uncertainty => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=California => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=concern => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=half word_1=as => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=all word_1=along => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=JJ pos_1=DT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=all word_1=to => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=that word_1=discrimination => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=as word_1=many => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_0=and word_1=debt => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_0=and word_1=West => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=earnings word_1=return => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=much word_1=Mr. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_-1=: pos_0=RB => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=is word_1=any => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=make word_1=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=driving word_1=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=that word_1=Mr. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=fell word_1=than => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=O word_-1='s word_1=$ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_-1=neither word_1=nor => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1='s word_1=little => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=a word_0=little => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=gainers word_-1=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O pos_-2=CD pos_-1=TO => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=intended word_-1=to => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-2=week word_-1=at => chunk=O
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_1=Wis. => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-2=vice word_-1=chairman => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=are word_-1=being => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-2=of word_-1=England => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=In word_-1=Texas => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-2=Qintex word_-1=Australia => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-2=South word_-1=Africa => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-2=in word_-1=Washington => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-2=lot word_-1=more => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-2=any word_-1=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-2=33 word_-1=% => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=Out word_2=ZZZ => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=O word_1=ZZZ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=ZZZ pos_0=VB => chunk=O
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_0=I word_1=Lloyd word_2='s => chunk=O
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=a => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=whose => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=Italy word_2=. => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=lots word_2=of => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=Mrs. word_2=Thatcher => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=people word_2=or => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=I word_1=if word_2=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=I word_1=of word_2=England => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_1=the word_2=more => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=these word_2=days => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=all word_2=year => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=last word_2=spring => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=I pos_0=RB pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=-LRB- word_2=Japan => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_1=NNP pos_2=-LRB- => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_1=about word_2=$ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=the word_2=Drug => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Growing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=cherished => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=ours => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=jousting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=slumping => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_0=whatsoever => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=sagging => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=unspecified => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=AM => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=gambling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Newly => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=three-fourths => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=revolving => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=regulators => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_0=underlying => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I pos_-1=NNS pos_0=VBG => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=sterling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=AND => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_0=computing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=bottling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=potential => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Posted => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=de => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=genetically => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Other => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Several => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=date => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=Torrijos => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=Jupiter => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=Sprint => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=Jaguar => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=1989 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=humans => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_0=swelling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_0=May => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=performing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=cumulative => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=normal => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=managing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_0=prodding => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_0=revamping => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_0=defeat => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_0=pricing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_0=increases => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=filtering => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=skyrocketing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=Especially => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=reformulated => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=crumbling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=retailing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=integrated => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=bowling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=deteriorating => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=acting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=surging => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=About => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=related => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=even => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=accounting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=packaged => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=slightly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=relatively => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=mainly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=borrowing => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=mostly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=O word_0=advancing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=O word_0=traded => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_1=traded => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=single-A-2 => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=somewhere => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=red => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_0=anywhere => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_0=single-A-3 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=O word_0=exactly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_0=EDT => chunk=I
+GOOD:7 BAD:5 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_0=much => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_-1=NNS pos_0=RB => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=very word_0=much => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=too => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O pos_-1=VBN pos_1=RB => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=as word_0=much => chunk=O
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_0=less => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=be word_-1=much => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=drives => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_0=discounting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=starving => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=racing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=accelerating => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=broadcasting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=flying => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=primarily => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=pending => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=aimed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=voting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_0=Later => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_0=double => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_0=First => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Irises => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Trucking => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=individual-investor => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=com => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Foote => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=1990-2002 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Hanifen => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Wachtell => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=experiencing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Wessels => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Victor => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Sharfman => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Pulp => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=scaling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Wendy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Sotheby => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=LeBaron => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=S.C => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=high-risk => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=immediate => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Zarett => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=karaoke => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=in => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=brick => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Inquiry => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=reduce => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=three-year => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=inflation-adjusted => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:6 BAD:4 SCORE:2 RULE: chunk_0=O word_-1=Prebon => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=totaling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=credit-card => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Judy => chunk=I
+GOOD:6 BAD:4 SCORE:2 RULE: chunk_0=O word_-1=For => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Robert => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=emergency => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=proof => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=No => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=larger => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=glamorous => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=small => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=expensive => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=political => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=single => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=higher => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=smaller => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=large => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=ZZZ word_-1=Ball => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=ZZZ word_-1=Adams => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=ZZZ word_-1=Dempsey => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_-1=accomplish => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=downbeat => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=porcelains => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=N.H. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=1.19 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Butterfinger => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=automobile => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=plus => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Okla. => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=300 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_1=the word_2=network => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=nearly => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=controlling => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Wash. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=4,000 => chunk=I
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=telecommunications => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Amsterdam => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=domestic => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=B chunk_1=I word_-1=half => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=fetch => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=Two => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=Akron => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=Vancouver => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=realists => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=Tenn. => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=Wis. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=aerospace => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=eight => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=earlier => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=greats => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_-1=some => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=O pos_-1=NNS pos_0=DT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=anywhere => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=anywhere => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=dozen => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=carefully => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_0=More => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-2=ZZZ chunk_-1=I pos_0=RB pos_1=VBN => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word:[-3,-1]=MORE => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_0=RB pos_1=VBN => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=takes => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=replace => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=Colo. => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=50,000 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=150 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=financial => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=very => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_0=very => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=corporate => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=dilutive => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=Wagoneer => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=nonstrategic => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=Roll => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=Road => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=syndicates => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=Butterfinger => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=MasterCard => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=mines => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=devils => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=governing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=financial-services => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=option => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=boxy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=spirits => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=couple => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=two-part => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=officer => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=O word_1=way => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=ZZZ chunk_0=O word_1=said => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=O chunk_0=O word_1=systems => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=9\/32 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=Sugar => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=scheduling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=Suburban => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=Heavy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=fabric => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_1=tender => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=transport => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=efficient => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_1=efficient word_2=, => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=aimed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=figure => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=socially => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=vote => chunk=I
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=O chunk_1=I pos_1=CC pos_2=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_1=day => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=Nancy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=2005 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=200,000 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=2004 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_1=household => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_1=partner => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=N.H. => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=Pa. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I word_1=owned => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_1=lists => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=Colo. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=women => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=1993 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=Okla. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=holders => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=soybeans => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=France => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=Fla. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=13.35 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=earliest => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=tool-and-die => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-2=heart => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_-2=Way => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_-2=round => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-2=probably => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-2=scarcely => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-2=As => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-2=between => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ word_-2=returned => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_-2=Bloomingdale => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_2=extensive => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_2=Society => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[-3,-1]=Children => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=O word_2=surveys => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=I word_2=each => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_2=happening => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_2=dozen => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_2=politically => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_2=consolidated => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_2=each => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Deloitte word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Club word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=yards word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=missiles word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=collar word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Lloyd word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=anywhere word_0=from => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-2=from => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=separately word_0=quoted => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=separately => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=revolution word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Poland word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=leg word_0=up => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_-1=advertising word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=advertising word_0=`` => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=experienced word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Since word_0=then => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=legal word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=legal => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=program word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=wage word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=quarter word_0=or => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=firm word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1='' => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=doing word_0=more => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=90,000 word_0=and => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=beef word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=scheduled word_0=overtime => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Street word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=crisis word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Bradley word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=consider word_0=selling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=paying word_0=less => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=sale word_0=or => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=dollar word_0=-LRB- => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=service word_0='' => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1='' pos_0=CC => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=yield word_0=spread => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=yield word_0=between => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=way word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=right word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=State word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=with word_0=under => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=bond word_0=offering => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=North word_0=and => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_-1=time word_0=being => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=or word_0=next => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=have word_0=both => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=effect word_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=But word_0=there => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=But word_0=that => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=one word_0=more => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=that word_0=long => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=15 word_0=more => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=be word_0=no => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=from word_0=elsewhere => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_-1=from word_0=around => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=for word_0=close => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=close => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=for word_0=too => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=too => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=for word_0=over => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=and word_0=continued => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=and word_0=next => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=year word_0='s => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=to word_0=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=in word_0=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=-LRB- word_0=buy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=a.m. word_0=EDT => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=ZZZ pos_-2=LS => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B pos_-1=DT pos_0=JJ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=JJ pos_0=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=IN pos_0=JJ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=O pos_-1=CD pos_0=CC => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=O pos_-1=CC => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=TO pos_0=-LRB- => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=VBD pos_0=NNP => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=RBR => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=IN pos_0=NNP => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=I pos_-1=CD pos_0=VBG => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O pos_-1=CC pos_0=-LRB- => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B pos_-1=CD pos_0=TO => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B pos_-1=CD pos_0=CC => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O pos_0=JJR pos_1=VBG => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O pos_0=JJ pos_1=VB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O pos_0=. pos_1=-LRB- => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B pos_0=NNS pos_1=TO => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O pos_0=-LRB- pos_1=$ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=CD pos_0=JJ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=ZZZ chunk_-1=O pos_0=VBN pos_1=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_0=JJR pos_1=VBP => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_1=I chunk_2=I pos_0=-RRB- pos_1=NNP => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=-LRB- word_1=-RRB- => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B pos_-1=JJS pos_1=VBP => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B pos_-1=NNP pos_1=WRB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=VB pos_1=VB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=-LRB- pos_1=RB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I pos_-1=JJ pos_1=, => chunk=I
+GOOD:7 BAD:5 SCORE:2 RULE: chunk_-2=O chunk_-1=I pos_-1=NNPS pos_1=NNPS => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Americans => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I pos_-1=WP pos_1=MD => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O pos_-2=JJS pos_-1=CD => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I pos_1=JJ pos_2=. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=unheroic => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=C-5B => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Northlich => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Buccaneers => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Metamorphosis => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Valparaiso => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Leaf => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Neck => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=hacks => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Minden => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=probity => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Greensboro => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=unhelpful => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Shreveport => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=spring-brake => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Decatur => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=super-charger => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Sunset => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Automobiles => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=SIDES => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=travelogues => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word:[-3,-1]=hallowed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=bartenders => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=deckhands => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=trazadone => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Masillon => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Bangkok => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=panties => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=nearer => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=overdressed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=good-will => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=delectably => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Melbourne => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Mesirov => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=cash-deferred => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Cima => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Edelmann => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Barcalounger => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=lavender => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=marketability => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Clarksburg => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Spirit => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=fireplaces => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Jeffersons => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=ENG => chunk=I
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=I chunk_0=I pos_-2=, pos_-1='' => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Westerly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Bethesda => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=DC-10 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I pos_-1=VBZ pos_0=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I pos_-1=JJ pos_0=CC => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=tellers => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=factually => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Anniston => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=followership => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=law-governed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=Roxboro => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=take-it-or-leave => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I pos_0=PRP => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=projecting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[-3,-1]=deserts => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word:[-3,-1]=Darin => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word:[-3,-1]=retailer => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Weisfield => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=untouchable => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=adolescents => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=Cosmetic => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=signatures => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=dictating => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=peripheral => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=graphic => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=Asset-Backed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=ungentlemanly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=6,881 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=tastier => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=unforgiving => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=Vote => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=5,000-room => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word:[1,3]=mind-numbing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=days => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=flanker => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=aromas => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=dithering => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=fireplaces => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word:[1,3]=slime => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=vegetarians => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=self-congratulatory => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=down-payment => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=Crusade => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=demagoguery => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word:[1,3]=deserts => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=commercialize => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=impresses => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=gas-gathering => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=wonders => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=invade => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=legitimate => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1='' => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_2='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[-3,-1]=Of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Jasper => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=shoulders => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=detergents => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Acura => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=allergy => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=combines => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=401 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=tractors => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[-3,-1]=Matsushita => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word:[-3,-1]=publishes => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=rubs => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=MAC => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=semi-professional => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=scrupulous => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=spirited => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_1=VBN pos_2=CC => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=vivid => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=deceptive => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=off-again => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=halls => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word:[1,3]=indicator => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Rifkind => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Antarctica => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[1,3]=Harris => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word:[1,3]=rock => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word:[1,3]=cheapest => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=draftsmen => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=P\/E => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=brooch => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-2=kind => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=equivalents => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=nobility => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=governors => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=Hardiman => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=devotes => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=witchcraft => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_0=VBN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[-3,-1]=wrinkle => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=wellrun => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=ain't-it-great-to-be-a-Texan => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=market-driven => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=underemployed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=eclectic => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=low-sulfur => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=unexplained => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=RB pos_1=: => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=subliminal => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word:[1,3]=unsupported => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word:[1,3]=Greene => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=B word:[1,3]=race => chunk=I
+GOOD:7 BAD:4 SCORE:3 RULE: chunk_-2=I chunk_-1=I pos_-1=POS => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=America word_2='s => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=Corp. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=B word_-2=Bloomingdale => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[1,3]=Burnsville => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[1,3]=acre => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[1,3]=knights => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=O word:[1,3]=named => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=I word:[1,3]=urge => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=ZZZ word:[-3,-1]=An => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[-3,-1]=oink => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[-3,-1]=hick => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[-3,-1]=reassume => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word:[-3,-1]=deal-making => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word:[-3,-1]=Taxi => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word:[-3,-1]=Oneida => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=I word:[-3,-1]=less => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=women word_2='s => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O pos_0=RBR pos_1=JJ => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word:[1,3]=Strip => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word:[1,3]=recorder => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=or => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=Greece => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word:[-3,-1]=resounding => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word:[-3,-1]=nonconformists => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word:[-3,-1]=ports => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=Omaha => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=materials word_0=and => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=1970s word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=conservative word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Senate word_0=and => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=defense word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=500 word_0=to => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Treasury word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=newly word_0=created => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=newly => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=Tokyo word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=brokerage word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=friends word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=college word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=is word_0=` => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=But word_0=not => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=that word_0=not => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=n't word_0=as => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=, word_0=probably => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1='s word_0=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=B word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=for word_0=either => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_-1=at word_0=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=bids word_0=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=O word_-1=and => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=I chunk_0=I pos_-2=CC pos_-1=VBZ => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=six word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=state word_0=or => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=peace word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=few word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=, pos_1=DT => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-2=I chunk_-1=I word_-2=if => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=office word_0=and => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=15 word_0=to => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=around word_0=here => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=in word_0=over => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=pilots word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=housing word_0=and => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=analysts word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=times word_0=more => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=to word_0=more => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-2=TO pos_-1=RBR => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=one-third word_0=to => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=, word_0=trading => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=Massachusetts word_0=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=good word_0=, => chunk=I
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=yield word_0=to => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=but word_0=certainly => chunk=I
+GOOD:32 BAD:30 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=million word_0=to => chunk=I
+GOOD:9 BAD:0 SCORE:9 RULE: chunk_0=I pos_0=TO pos_1=DT => chunk=O
+GOOD:5 BAD:0 SCORE:5 RULE: chunk_0=I pos_0=TO pos_1=NNP => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=TO pos_1=# => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=I pos_0=TO pos_1=PRP$ => chunk=O
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=is word_0=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=A word_0=, => chunk=I
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=10 word_0=to => chunk=I
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_1=I chunk_2=I word_-1=, word_0=currently => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_0=currently word_1=about => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Yet word_1=another => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=manufacturing word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=increasing word_1=competitive => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=perhaps word_1=today => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=So word_1=much => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=So word_1=many => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=Most word_1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=offering word_1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=formerly word_1=group => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=here word_1=-- => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=financing word_1=commitments => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=holding word_1=company => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=but word_1=eight => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=over word_1=half => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=selling word_1=pressure => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=or word_1=bank => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=all word_1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=more word_1=will => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=more word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=not word_1=everyone => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=facsimile => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=U.K. => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=Urban => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=Mark => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=technical => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=broadcasting => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=businessmen => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=Postal => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=and word_1=1989 => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_-1=1987 word_1=1988 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=, word_1=convert => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=, word_1=Alabama => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=, word_1=politically => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=, word_1=culture => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0='s word_1=standing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0='s word_1=newly => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_0='' word_1=over => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O word_0='' word_1=may => chunk=I
+GOOD:4 BAD:2 SCORE:2 RULE: chunk_0=I word:[-3,-1]=Famous => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word:[1,3]=chain => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=`` word_1=other => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_0=they word_1=may => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=and word_1=television => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=and word_1=equity => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=and word_1=money => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=, word_1=engineering => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=only word_1=slightly => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=just word_1=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=towel => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=as word_1=good => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=, word_1=offer => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=perhaps word_1=the => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=O word_0=especially word_1=those => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=, word_1=design => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=, word_1=October => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=and word_1=global => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_0=much word_1=about => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_0=less word_1=to => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_0=to word_1=60 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_0=and word_1=Philadelphia => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=I word_0=, word_1=management => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=Spain word_1=Italy => chunk=I
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=I word_0=, word_1=Spain => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=1995 word_1=at => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=paper word_1=British => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=1991 word_1=1992 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=400,000 word_1=$ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=gas word_1=electric => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=times word_1=much => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=O word_0=times word_1=as => chunk=O
+GOOD:4 BAD:0 SCORE:4 RULE: chunk_0=I chunk_1=O pos_0=CD pos_1=NNS => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O pos_1=CC pos_2=CD => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=times => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=as => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_-1=three word_0=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=; word_1=is => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=no word_1=that => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=into word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=buying word_1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=American word_1=New => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=% word_1=100 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=% word_1=80 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=make word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=15 word_1=$ => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=seven word_1=eight => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=for word_1=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=for word_1=by => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=1990 word_1=are => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=at word_1=an => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=station word_1=in => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=magazine word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_-1=that word_1=is => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=, word_1=leading => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=Richmond word_1=Va => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=tens word_1=thousands => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_-1=time word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=and word_1=business => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word_1=leasing => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=of word_1=by => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=question word_1=will => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=idea word_1=is => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=one word_1=four => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=1987 word_1=was => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=share word_1=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=basketball word_-1=player => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=increases word_-1=in => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=lot word_-1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=have word_-1=developed => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O word_0=enhanced => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=VBN pos_0='' => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-2=of word_-1=40 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-2=private word_-1=ruling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-2=No word_-1=wonder => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-2='s word_-1=ruling => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-2=an word_-1=average => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_-2=real word_-1=world => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_-2=out word_-1=of => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I word_-2=1\/4 word_-1=% => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=from => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-2=group word_-1=of => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-2=will word_-1=cost => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B chunk_1=O word_-2=the word_-1=year => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-2=no word_-1=assurance => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=Mad word_2=Rush => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=misleading word_2=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=milk word_2=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=24 word_2=million => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=insurance word_2=company => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=to word_2=disagree => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_1=year word_2=range => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I pos_0=CD pos_1=DT => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=I chunk_2=O pos_1=CD pos_2=CD => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=O chunk_0=I word_-1=$ => chunk=O
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=O chunk_2=O word_0=the => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=O word_1=fuel word_2=costs => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_1=plan word_2=to => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I pos_-1=POS pos_0=RB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_1=telecommunications word_2=and => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=at word_2=107 => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I word_1=30 word_2=% => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=Co. word_2=, => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=tonight => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_0=billions => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=Judges => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=she => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=anybody => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_0=early => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=someone => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=something => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=B word_-1=a => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=Sotheby => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I word_0=late => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=traps => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=parties => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=fees => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Dozen => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=style => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=amount => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=profits => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B pos:[1,3]=NN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=course => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=us => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=them => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=who => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=O chunk_0=I word_-1=most => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B pos_-1=IN => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=doubt => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=O word_-1=there => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=Bloomingdale => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-1=point => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_1=satisfies => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=Blumenfeld => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=Carson => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=S.p => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_1=resurgent => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=Jr => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_2=Ariz => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_2=Mass => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=benefits word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=DT => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=losses word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=returns word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=thing word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=billion word_0=that => chunk=B
+GOOD:4 BAD:1 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=PRP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=one word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_1=NNP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O word_-1=share word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=1986 word_0=Congress => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=income word_0=5 => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Japan word_0=next => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=California word_0=Berkeley => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=another word_0=the => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I chunk_1=I pos_-1=NN pos_1=DT => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=much word_0=they => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B pos_0=RB => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=those word_0=Mr. => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=that word_0=critics => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_1=B chunk_2=O pos_-1=NN pos_0=IN => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=this word_0=a => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=this word_0=the => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=Exchange word_0=Monday => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_0=PDT => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I pos_-1=WDT pos_0=PRP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=O pos_-1=NNP pos_0=CD => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I pos_-1=WDT pos_0=NNP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=RB => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I pos_-1=NNP pos_0=PRP$ => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I pos_-1=JJR pos_0=DT => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=B chunk_-1=I pos_-1=JJ pos_0=DT => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I pos_0=POS pos_1=RB => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_1=VBZ => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O pos_-2=VBP pos_-1=NNPS => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=B chunk_0=I pos_1=POS pos_2=NNP => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=B chunk_1=B word_0='s => chunk=I
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=O chunk_1=I pos_1=TO pos_2=$ => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=B chunk_0=I => chunk=O
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word:[1,3]=accompany => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=excessively => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[1,3]=pushers => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=closet-sized => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=super-expensive => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=zero-inflation => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=I word:[-3,-1]=gaping => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_-1=trading word_0=last => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=O word_-1=market word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=I word_-1=money word_0=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_1=NNP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=that word_0=CBS => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=that word_0=you => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_-1=rules word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=nearly word_1=all => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=several word_1=times => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=most word_1=people => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=Mr. word_1=Phelan => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=Mr. word_1=Lawson => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_0=that word_1=means => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=Tuesday word_1=, => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=a word_1=week => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_0=Oct. word_1=13 => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=O chunk_2=I word_0='s word_1=has => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=I word_-1=Lloyd word_1=said => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_0=B word_1=said word_2=it => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=O chunk_-1=I word_0=that word_1=said => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=million word_1=30 => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=that word_1=acquired => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=that word_1=analysts => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-1=that word_1=pension => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=that word_1=does => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:5 BAD:3 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=that word_1=did => chunk=B
+GOOD:5 BAD:2 SCORE:3 RULE: chunk_0=O chunk_1=B pos_1=PRP => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_0=Ashland => chunk=I
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=O word_-1=that word_1=own => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B word_0=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_-1=Sotheby word_1=, => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=I word_-1=University word_1=, => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_1=I chunk_2=O word_-1=that word_1=year => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=expertise word_-1=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=O chunk_1=B pos_-1=NN pos_0=IN => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=house word_-1=that => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=everyone word_-1=else => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=into word_-1=account => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=this word_-1=case => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=last word_-1=time => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I word_-2=the word_-1=weekend => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_0=I chunk_1=I word_-2=the word_-1=SEC => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=O chunk_2=O word_-2=discipline word_-1=that => chunk=B
+GOOD:3 BAD:0 SCORE:3 RULE: chunk_0=O chunk_1=B pos_-1=NN pos_0=IN => chunk=B
+GOOD:3 BAD:1 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=night word_2=. => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=I chunk_0=I word_1=are word_2=willing => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-2=I chunk_-1=I word_1=and word_2=Monday => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_1=I chunk_2=O word_1=customers word_2=need => chunk=B
+GOOD:2 BAD:0 SCORE:2 RULE: chunk_-1=B chunk_0=I pos_-1=IN pos_0=NNS => chunk=B

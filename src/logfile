@@ -1,0 +1,2 @@
+Sat Sep 14 01:32:56 2002 /home/rflorian/workdir/fnTBL/exec/pos-apply.prl -l french -o test1.out -v FR.sample.TRAIN.1pl
+Saturday, September 14 2002, 01:32:56  /home/rflorian/workdir/fnTBL/bin/fnTBL /tmp/fnTBL909457/FR.sample.TRAIN.1pl.init /home/rflorian/workdir/fnTBL/exec/../trained/frenchPOS/lexical.rls -F /tmp/fnTBL909457/tbl.lexical.train.params0 -o /tmp/fnTBL909457/FR.sample.TRAIN.1pl.lexical -v 

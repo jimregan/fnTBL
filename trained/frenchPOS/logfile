@@ -1,0 +1,4 @@
+Fri Sep 13 19:32:14 2002 /usr/tools/lab/fnTBL-1.1/exec/pos-apply.prl -l french -o lal -v FR.sample.TRAIN.1pl
+Friday, September 13 2002, 19:32:14  /usr/tools/lab/fnTBL-1.1/bin/fnTBL /tmp/fnTBL896769/FR.sample.TRAIN.1pl.init /usr/tools/lab/fnTBL-1.1/exec/../trained/frenchPOS/lexical.rls -F /tmp/fnTBL896769/tbl.lexical.train.params0 -o /tmp/fnTBL896769/FR.sample.TRAIN.1pl.lexical -v 
+Fri Sep 13 19:32:39 2002 /usr/tools/lab/fnTBL-1.1/exec/pos-apply.prl -l french -o lal -v FR.sample.TRAIN.1pl
+Friday, September 13 2002, 19:32:40  /usr/tools/lab/fnTBL-1.1/bin/fnTBL /tmp/fnTBL282688/FR.sample.TRAIN.1pl.init /usr/tools/lab/fnTBL-1.1/exec/../trained/frenchPOS/lexical.rls -F /tmp/fnTBL282688/tbl.lexical.train.params0 -o /tmp/fnTBL282688/FR.sample.TRAIN.1pl.lexical -v 

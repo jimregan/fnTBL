@@ -1,0 +1,1336 @@
+#train_voc_file: /home/fnTBL-1.2/trained/chinesePOS/lexical_train.dat.voc
+GOOD:580 BAD:66 SCORE:514 RULE: pos=NN word::1<>=®<> => pos=CD
+GOOD:147 BAD:19 SCORE:128 RULE: word^^1=ÁË => pos=VV
+GOOD:124 BAD:1 SCORE:123 RULE: word^^-1=¼ÇÕß => pos=NR
+GOOD:86 BAD:0 SCORE:86 RULE: pos=NN word^^1=ÃÀÔª => pos=CD
+GOOD:76 BAD:13 SCORE:63 RULE: pos=NN word::1~~=£~~ => pos=CD
+GOOD:57 BAD:3 SCORE:54 RULE: word::~~2=~~ÈÕ => pos=NT
+GOOD:54 BAD:0 SCORE:54 RULE: word::~~2=~~Äê => pos=NT
+GOOD:45 BAD:1 SCORE:44 RULE: pos=NN word^^1=Ëµ => pos=NR
+GOOD:46 BAD:5 SCORE:41 RULE: pos=NN word^^1=ÖÐ¹ú => pos=VV
+GOOD:37 BAD:3 SCORE:34 RULE: pos=NN word::2~~=Ò»~~ => pos=CD
+GOOD:36 BAD:5 SCORE:31 RULE: word::~~2=~~ÊÐ => pos=NR
+GOOD:28 BAD:0 SCORE:28 RULE: word^^-1=×¤ => pos=NR
+GOOD:29 BAD:2 SCORE:27 RULE: pos=NN word^^-1=Í¬ => pos=NR
+GOOD:31 BAD:6 SCORE:25 RULE: word^^-1=ÐÂ»ªÉç => pos=NR
+GOOD:38 BAD:14 SCORE:24 RULE: word^^1=¹«Ë¾ => pos=NR
+GOOD:23 BAD:0 SCORE:23 RULE: pos=NN word^^1=Ôª => pos=CD
+GOOD:22 BAD:0 SCORE:22 RULE: pos=NN word::~~2=~~¶û => pos=NR
+GOOD:21 BAD:0 SCORE:21 RULE: pos=CD word::2~~=Ë®~~ => pos=NN
+GOOD:24 BAD:4 SCORE:20 RULE: pos=NN word^^1=µØÇø => pos=NR
+GOOD:21 BAD:2 SCORE:19 RULE: pos=NN word::~~2=~~³ö => pos=VV
+GOOD:18 BAD:0 SCORE:18 RULE: pos=CD word::1<>=Â<> => pos=NT
+GOOD:18 BAD:0 SCORE:18 RULE: pos=NN word::++2=++Íò => pos=CD
+GOOD:16 BAD:0 SCORE:16 RULE: pos=NN word::~~2=~~ÓÚ => pos=VV
+GOOD:16 BAD:0 SCORE:16 RULE: pos=NN word^^1=ÖØÒª => pos=AD
+GOOD:15 BAD:0 SCORE:15 RULE: pos=NN word^^-1=»¹ => pos=VV
+GOOD:14 BAD:0 SCORE:14 RULE: pos=NN word^^-1=¿É => pos=VV
+GOOD:14 BAD:0 SCORE:14 RULE: pos=NN word::2--=×î-- => pos=JJ
+GOOD:14 BAD:0 SCORE:14 RULE: pos=NN word::~~2=~~Íò => pos=CD
+GOOD:13 BAD:0 SCORE:13 RULE: pos=NN word^^1=ÉÏº£ => pos=VV
+GOOD:13 BAD:0 SCORE:13 RULE: word::2~~=µÚ~~ => pos=OD
+GOOD:13 BAD:0 SCORE:13 RULE: pos=NN word::~~2=~~ÑÇ => pos=NR
+GOOD:16 BAD:3 SCORE:13 RULE: word^^1=ÈËÔ± => pos=JJ
+GOOD:14 BAD:2 SCORE:12 RULE: pos=NN word::~~2=~~Èë => pos=VV
+GOOD:16 BAD:4 SCORE:12 RULE: pos=NN word^^-1=ÒÑ => pos=VV
+GOOD:13 BAD:1 SCORE:12 RULE: pos=NN word^^-1=ÄÜ => pos=VV
+GOOD:14 BAD:2 SCORE:12 RULE: pos=NN word::~~2=~~Ê¡ => pos=NR
+GOOD:12 BAD:0 SCORE:12 RULE: pos=NN word::2~~=Íõ~~ => pos=NR
+GOOD:15 BAD:3 SCORE:12 RULE: pos=NN word::++2=++ÊÐ => pos=NR
+GOOD:13 BAD:1 SCORE:12 RULE: pos=NN word::2~~=ÎÞ~~ => pos=AD
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NN word::~~2=~~Îª => pos=VV
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NN word^^-1=Òª => pos=VV
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NN word^^-1=²» => pos=VV
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NN word::2~~=Àî~~ => pos=NR
+GOOD:11 BAD:0 SCORE:11 RULE: pos=NN word^^1=´óÊ¹ => pos=NR
+GOOD:11 BAD:0 SCORE:11 RULE: word::2~~=ÕÅ~~ => pos=NR
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word^^1=×Ê½ð => pos=VV
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word^^1=×Å => pos=VV
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word^^1=ÉÌÒµ => pos=VV
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word^^-1=¿ªÊ¼ => pos=VV
+GOOD:10 BAD:0 SCORE:10 RULE: pos=NN word::~~2=~~¿Ë => pos=NR
+GOOD:10 BAD:0 SCORE:10 RULE: word::2~~=×¤~~ => pos=JJ
+GOOD:12 BAD:2 SCORE:10 RULE: pos=NN word::2--=Ïà-- => pos=AD
+GOOD:15 BAD:6 SCORE:9 RULE: pos=NN word::~~2=~~»¯ => pos=VV
+GOOD:13 BAD:4 SCORE:9 RULE: pos=NN word::~~1=~~Ù => pos=VV
+GOOD:11 BAD:2 SCORE:9 RULE: word::++2=++Èë => pos=VV
+GOOD:18 BAD:9 SCORE:9 RULE: pos=NN word^^1=µØ => pos=VA
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::2~~=³Â~~ => pos=NR
+GOOD:13 BAD:4 SCORE:9 RULE: pos=VV word::~~1=~~¨ => pos=NN
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::2--=ÒÔ-- => pos=LC
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::~~2=~~¶à => pos=CD
+GOOD:9 BAD:0 SCORE:9 RULE: word::~~2=~~Ê± => pos=AD
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::~~2=~~Æð => pos=VV
+GOOD:9 BAD:1 SCORE:8 RULE: pos=NN word^^-1=Õþ¸® => pos=VV
+GOOD:25 BAD:17 SCORE:8 RULE: pos=NN word^^-1=ÊÇ => pos=VV
+GOOD:9 BAD:0 SCORE:9 RULE: pos=NN word::~~2=~~È» => pos=AD
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word^^-1=Ê®·Ö => pos=VA
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word^^-1=½ÏÎª => pos=VA
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::++2=++É½ => pos=NR
+GOOD:8 BAD:0 SCORE:8 RULE: word::2~~=É³~~ => pos=NR
+GOOD:8 BAD:0 SCORE:8 RULE: pos=CD word::1<>=î<> => pos=NN
+GOOD:8 BAD:0 SCORE:8 RULE: pos=CD word::1<>=º<> => pos=NN
+GOOD:8 BAD:0 SCORE:8 RULE: word=²ÊÉ« => pos=JJ
+GOOD:8 BAD:0 SCORE:8 RULE: pos=NN word::2~~=ÔØ~~ => pos=JJ
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~2=~~ËÍ => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~2=~~ÔÚ => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~2=~~µ½ => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~2=~~ÉÏ => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word^^1=³ö => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word^^-1=Ó¦ => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word^^-1=Ëù => pos=VV
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::~~2=~~Àû => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::2~~=ÒÁ~~ => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::2~~=ËÕ~~ => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word^^1=»áÌ¸ => pos=NR
+GOOD:16 BAD:9 SCORE:7 RULE: pos=NN word^^1=£© => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: word::2~~=°¢~~ => pos=NR
+GOOD:7 BAD:0 SCORE:7 RULE: word::~~3=~~úÐÔ => pos=JJ
+GOOD:7 BAD:0 SCORE:7 RULE: pos=NN word::2~~=×Å~~ => pos=AD
+GOOD:8 BAD:2 SCORE:6 RULE: pos=NN word::~~2=~~Ãû => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: word::++2=++³ö => pos=VV
+GOOD:6 BAD:0 SCORE:6 RULE: word=ÒÁ => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::2~~=Îâ~~ => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::2~~=ÎÚ~~ => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::2~~=Íò~~ => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::2~~=ºî~~ => pos=NR
+GOOD:7 BAD:1 SCORE:6 RULE: pos=NN word^^1=´ó => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^-1=É½¶« => pos=NR
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NT word::2~~=£Â~~ => pos=NN
+GOOD:6 BAD:0 SCORE:6 RULE: word^^1=Ô¼ => pos=M
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word::~~2=~~ºÍ => pos=JJ
+GOOD:10 BAD:4 SCORE:6 RULE: pos=NN word::~~2=~~ÓÃ => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^1=Ó°Ïì => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^1=Ã³Ò× => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^1=¼Ó¹¤ => pos=JJ
+GOOD:6 BAD:0 SCORE:6 RULE: pos=NN word^^1=¸ö => pos=CD
+GOOD:6 BAD:0 SCORE:6 RULE: word::~~2=~~Ïà => pos=AD
+GOOD:7 BAD:1 SCORE:6 RULE: word::2--=×Ô-- => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: word=Çë => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~2=~~¼õ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~2=~~À´ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~2=~~ÊÜ => pos=VV
+GOOD:6 BAD:1 SCORE:5 RULE: pos=NN word::~~2=~~ºÏ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2~~=ÖÂ~~ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::++2=++¸Î => pos=VV
+GOOD:8 BAD:3 SCORE:5 RULE: pos=NN word^^1=ÓÚ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: word::2~~=Ì×~~ => pos=VV
+GOOD:5 BAD:0 SCORE:5 RULE: word=Ò»Ñù => pos=VA
+GOOD:5 BAD:0 SCORE:5 RULE: word=½ØÖ¹ => pos=P
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::3~~=ÁùÔ~~ => pos=NT
+GOOD:5 BAD:0 SCORE:5 RULE: pos=CD word::1<>=ê<> => pos=NT
+GOOD:5 BAD:0 SCORE:5 RULE: word::~~2=~~Íí => pos=NT
+GOOD:5 BAD:0 SCORE:5 RULE: word=ÐÂËÄ¾ü => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~2=~~»ª => pos=NR
+GOOD:6 BAD:1 SCORE:5 RULE: pos=NN word::~~2=~~ÏØ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::~~2=~~Ë¹ => pos=NR
+GOOD:13 BAD:8 SCORE:5 RULE: pos=NN word::~~2=~~¸Û => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2~~=Öì~~ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2~~=ÂÞ~~ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2~~=Áõ~~ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2~~=¸ñ~~ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^1=Ö®ºó => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=AD word^^-1=¡¢ => pos=NR
+GOOD:6 BAD:1 SCORE:5 RULE: word::2~~=ÑÇ~~ => pos=NR
+GOOD:5 BAD:0 SCORE:5 RULE: pos=CD word::1<>=Ð<> => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: word^^1=Ð­¶¨ => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: word^^1=ÉÏ => pos=NN
+GOOD:5 BAD:0 SCORE:5 RULE: word=ÍâÀ´ => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2--=¿É-- => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^1=ÍûÔ¶¾µ => pos=JJ
+GOOD:6 BAD:1 SCORE:5 RULE: pos=NN word^^1=»ú¹Ø => pos=JJ
+GOOD:5 BAD:0 SCORE:5 RULE: word=ÂÔ => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::3~~=ÓÈÆ~~ => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word::2--=½ô-- => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: pos=NN word^^-1=»á => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: word::~~2=~~Ôç => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: word::2~~=´Ó~~ => pos=AD
+GOOD:5 BAD:0 SCORE:5 RULE: word::--2=--Í¬ => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: word=Ó­½Ó => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: word=Ï×Ñª => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~µÃ => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~È¥ => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~Íù => pos=VV
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NN word::~~2=~~¶¨ => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::++2=++ÐÞ => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::++2=++Ìå => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^1=ÃÀ¹ú => pos=VV
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~Ô½ => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: word^^-1=×î => pos=VA
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::1~~=©~~ => pos=PU
+GOOD:4 BAD:0 SCORE:4 RULE: word=ÓÐÐ© => pos=PN
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~2=~~×Å => pos=P
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~4=~~Ê±°ë => pos=NT
+GOOD:4 BAD:0 SCORE:4 RULE: word=º£Íå => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~Íß => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~½­ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~ÃÀ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::2~~=Ñî~~ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::2~~=ÑÅ~~ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^-1=Ö÷ÈÎ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: word::~~2=~~Î÷ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: word::2~~=Ìï~~ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: word^^-1=²¿³¤ => pos=NR
+GOOD:4 BAD:0 SCORE:4 RULE: word=Ç® => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=¸å => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=²½Öè => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=°Ù»õ => pos=NN
+GOOD:5 BAD:1 SCORE:4 RULE: word::2~~=´ó~~ => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word^^1=½ö => pos=NN
+GOOD:4 BAD:0 SCORE:4 RULE: word=ÕÅ => pos=M
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::++2=++´Î => pos=M
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NN word::2~~=·Ç~~ => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::--2=--¹¤ => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::2--=³£-- => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: pos=AD word::1<>=Ì<> => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word::2--=¶à-- => pos=JJ
+GOOD:4 BAD:0 SCORE:4 RULE: word=ÂÒ => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::3~~=²»¹~~ => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word::~~2=~~×Ô => pos=AD
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NN word::--2=--Ç° => pos=AD
+GOOD:5 BAD:1 SCORE:4 RULE: pos=NN word::++2=++ÓÚ => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=NN word^^-1=²¢ => pos=AD
+GOOD:6 BAD:2 SCORE:4 RULE: word^^1=Ôö³¤ => pos=AD
+GOOD:4 BAD:0 SCORE:4 RULE: pos=AD word::1<>=¸<> => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÖÐ±ê => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÔÆ¼¯ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ñ¹Ëõ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=È±·¦ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=Æ­»ã => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=½ûÖ¹ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word=¸æËß => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~´×÷ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::3~~=Ç¨Ö~~ => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::3~~=»¥²~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::3~~=·îÏ~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~ÁÚ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~Ôö => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~Äî => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~¼± => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~¿ª => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~½ø => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::~~2=~~Á¢ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~´ó => pos=VV
+GOOD:5 BAD:2 SCORE:3 RULE: pos=NN word::~~2=~~ÈÎ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~¶Ï => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::~~2=~~Ã÷ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~ºÃ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Ôñ~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Òò~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Ê©~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=¿¹~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2--=Ô¤-- => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2--=¼Ó-- => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::++2=++Òâ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::++2=++¸´ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::++2=++È¡ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=AD word::~~1=~~ú => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^1=È« => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=Å· => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^1=¡° => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=ÑÏ¸ñ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=ÎÒÃÇ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=Ëü => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^-1=ËûÃÇ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=Ëû => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=È«²¿ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word::3~~=×¤Ô~~ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word::~~2=~~²Ê => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: word::~~2=~~ÊÕ => pos=VV
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=Ò² => pos=VV
+GOOD:4 BAD:1 SCORE:3 RULE: word=Æ½µÈ => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÀàËÆ => pos=VA
+GOOD:6 BAD:3 SCORE:3 RULE: pos=NN word::2~~=²»~~ => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: word::2~~=¼ò~~ => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=¸ü => pos=VA
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÄØ => pos=SP
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VV word::~~2=~~´Ë => pos=PN
+GOOD:3 BAD:0 SCORE:3 RULE: word=½«À´ => pos=NT
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÖÐÐÐ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ó¡Äá => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ðñ·å => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=Íô => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÂíØ¹Õæ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=½ò => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~ÇÏç => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~Å· => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~ÄÏ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~¶« => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~ºÓ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~ÐË => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~2=~~·ò => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Ö£~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Ï£~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Â½~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=¹þ~~ => pos=NR
+GOOD:5 BAD:2 SCORE:3 RULE: pos=NN word::2~~=°²~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::++2=++Ê¡ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=¾ÙÐÐ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^-1=×ÜÀí => pos=NR
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word^^-1=ÈÕ±¾ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word::5~~=£Å£Ö£~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word::2~~=Ë¹~~ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=Íâ³¤ => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ì«ÑôÏµ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word=¸±Íâ³¤ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NR word::~~3=~~Õ¸Û => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NR word::~~2=~~µç => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NR word::~~2=~~²¿ => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=CD word::~~2=~~Ë® => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: pos=CD word::1<>=Ø<> => pos=NN
+GOOD:4 BAD:1 SCORE:3 RULE: pos=CD word::1<>=¼<> => pos=NN
+GOOD:3 BAD:0 SCORE:3 RULE: word::2~~=Ö®~~ => pos=LC
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÓªÒµÐÔ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=Éî¿Ì => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::~~3=~~½ÐÔ => pos=JJ
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::2~~=ÓÐ~~ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Ãâ~~ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word::2--=ÁÙ-- => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word^^-1=¾ÙÐÐ => pos=JJ
+GOOD:3 BAD:0 SCORE:3 RULE: word=£Í => pos=FW
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ë« => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::4~~=Áãµã~~ => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=VV word::~~2=~~°Ù => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=Áù~~ => pos=CD
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::2~~=¶þ~~ => pos=CD
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÇÒ => pos=CC
+GOOD:3 BAD:0 SCORE:3 RULE: word=Ö± => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: word=ÆÄ => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: word=¶à´Î => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: word=²»ÔÙ => pos=AD
+GOOD:4 BAD:1 SCORE:3 RULE: pos=NN word::~~2=~~²½ => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::2~~=¿ç~~ => pos=AD
+GOOD:5 BAD:2 SCORE:3 RULE: pos=NN word::2--=È«-- => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word::++2=++Ìâ => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=³Ð°ü => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: word^^1=Äæ²î => pos=AD
+GOOD:3 BAD:0 SCORE:3 RULE: pos=AD word^^-1=³öÏÖ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Öó => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÖÃ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Õ½Ê¤ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÒÀÍÐ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÐÐ³Ì => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÐÎËÆ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ïà½ü => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÍÆ·­ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ËÍÐÐ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÊÓ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÉÏÕÇ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Çý³µ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ç¨ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÆúÈ¨ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Æð²½ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÆÈÊ¹ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Äâ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÃûÁÐÇ°Ã© => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=Âò => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=½ø×¤ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=½ø¹¥ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=»Ó¸ä => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=¹ÜÏ½ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=·Å¿í => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=µÞÔì => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=µÃÖª => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=ÉÏÑ~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Õ¼ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ê» => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~»µ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~½Ð => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Õý => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~µÖ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ö° => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Æ½ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~È¡ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~½É => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~ÊØ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~´æ => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::~~2=~~Í¼ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=×«~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÊÔ~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=Èë~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÈÎ~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=»¹~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=´ò~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word::2~~=»®~~ => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::--2=--½¨ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VA word::2--=²»-- => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2--=Àû-- => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::2--=¿ª-- => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2--=°ì-- => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::++2=++½Ó => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::++2=++¿î => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=AD word^^1=¡£ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=ÐÎ³É => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=ÎÒ => pos=VV
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word^^-1=ÈË => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=´ó·ù => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~4=~~ÓÚÊÀ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::3~~=ÃæÊ~~ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~2=~~Áô => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~2=~~Óè => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~2=~~Ñ¡ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word::--2=--ÓÐ => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word^^-1=ÕâÀï => pos=VV
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÓÆ¾Ã => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=Òì => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÈÈÁÒ => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ã÷ÖÇ => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=¿ÉÐÐ => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=¾«¸É => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=ºê´ó => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=ºÀ»ª => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=¶ñÁÓ => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=³ç¸ß => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=¼è~~ => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word::2--=·±-- => pos=VA
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ñ½ => pos=SP
+GOOD:2 BAD:0 SCORE:2 RULE: word=COMMA => pos=PU
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::1~~=¡~~ => pos=PU
+GOOD:2 BAD:0 SCORE:2 RULE: word=¸÷×Ô => pos=PN
+GOOD:2 BAD:0 SCORE:2 RULE: word=¶Ô·½ => pos=PN
+GOOD:2 BAD:0 SCORE:2 RULE: word=×Ô´Ó => pos=P
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÖÐÑ® => pos=NT
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÍíÉÏ => pos=NT
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÈýÔÂ·Ý => pos=NT
+GOOD:2 BAD:0 SCORE:2 RULE: pos=VV word::2~~=´º~~ => pos=NT
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2--=Ã÷-- => pos=NT
+GOOD:2 BAD:0 SCORE:2 RULE: word=ãÉÐÐ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÖÜÓÀ¿µ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÆÎÌï => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÂíÈø => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÀÊÎÄ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=¸Ó±± => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=·üÃ÷Ï¼ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=·çÁê¶É => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=·¨¹úÈË => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~4=~~ÂòÌá => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~3=~~ØÖÐ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=ÄÏ°~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~¸Ó => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~ÀÖ => pos=NR
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::~~2=~~ºþ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ïé => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~ÖÒ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Âí => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~ÏÃ => pos=NR
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::~~2=~~µº => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~¾Å => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Á¼ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ì¹ => pos=NR
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::~~2=~~´ï => pos=NR
+GOOD:3 BAD:0 SCORE:3 RULE: pos=NN word^^1=´óÁ¬ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~É­ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=Ì·~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÊÀ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÉÂ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÂÀ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ÁÖ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ºÚ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=ºÎ~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=¶í~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=°Â~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::++2=++¸Ó => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^1=Éè => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word::3~~=ÕÔÆ~~ => pos=NR
+GOOD:3 BAD:1 SCORE:2 RULE: word::2~~=Âó~~ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word^^-1=Äþ²¨ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word^^-1=Ö÷Ï¯ => pos=NR
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ö§³ö => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÕÕÆ¬ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÐÅÈÎ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÏÞ¶È => pos=NN
+GOOD:3 BAD:1 SCORE:2 RULE: word=Ìâ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÊÊÓÃ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÉÏÖÐÓÎ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Æ±¾Ý => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Å®×Ó => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ãæ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=½ø¿Ú¶î => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=½ÚÈÕ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=³¤¹Ù => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=£Î¹É => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NT word::5~~=£Á£Â£~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NR word::~~2=~~Ïß => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=JJ word^^-1=¼° => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word^^-1=¡° => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word::2~~=Èº~~ => pos=NN
+GOOD:2 BAD:0 SCORE:2 RULE: word=Öê => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: word=Æª => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: word=¹«Çê => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word^^-1=Ò» => pos=M
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ç°ºó => pos=LC
+GOOD:2 BAD:0 SCORE:2 RULE: word=×ÛºÏÐÔ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÏÖÐÐ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Îå±Ê => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ë«ÏòÊ½ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÊÐÊô => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ç°ÆÚ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÄÚÁª => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Ã³Ò×ÐÔ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÁôÃÀ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=Á¬Ëø => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÁªÓª => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÀÏÅÆ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=¿Í¹Û => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=¾­³£ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=½»Õ½ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=¼¯³É => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=¸± => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=°®¸Û => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NR word::~~2=~~¼¶ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ç¿ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ð¡ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NR word::2~~=¿ç~~ => pos=JJ
+GOOD:3 BAD:1 SCORE:2 RULE: pos=NN word::2~~=¾«~~ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::--2=--Ì¬ => pos=JJ
+GOOD:4 BAD:2 SCORE:2 RULE: pos=NN word::--2=--µÈ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word::--2=--¶¾ => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=ÁªÃË => pos=JJ
+GOOD:2 BAD:0 SCORE:2 RULE: word=£Á£Á => pos=FW
+GOOD:2 BAD:0 SCORE:2 RULE: word=µÈµÈ => pos=ETC
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÉÙÊý => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word=Áã => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::3~~=Á½³~~ => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ò» => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Îå => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~ÒÚ => pos=CD
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÖîÈç => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word=ÓÀÔ¶ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word=½ö½ö => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word=¹ãÎª => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word=·ñÔò => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~Ã´ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~È· => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::~~2=~~¾Ã => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=CD word::~~2=~~Ö® => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::2~~=Íù~~ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::++2=++°¶ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: pos=NN word::++2=++Ê± => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word::~~3=~~úÁ¿ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word::2~~=ÖÕ~~ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word::2~~=ÖÁ~~ => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word::++2=++¾Ã => pos=AD
+GOOD:2 BAD:0 SCORE:2 RULE: word^^1=ÓÖ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ì³È» => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×é×° => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ÔÁ¦¸üÉú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×Ô¾È => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×Ô´ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×·»Ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ª¹é => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×¥×¡ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=×£ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Öþ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö÷±à => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÖÑø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÍºó => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÆ³É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö±À­ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö¤Êµ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕûÀí => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õð¾ª => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕÐ¹É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õª => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ôú³É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ôö×Ê => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô´Ô´¶øÖÁ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô®Òý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô¤¶© => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÐÒâ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÐÌõ²»ÎÉ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÐ¼øÓÚ´Ë => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÎÐÐ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÎ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÌÈç => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÊÊÛ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÊ¼Ä => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¦Õï => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¦Ñû => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒýÈË×¢Ä¿ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Òý¾± => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒûË® => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒÞÒµ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒÆ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒÅÁôÏÂ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒÁÊ¼ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»Æ¬Éú»ú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»¶Ã => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑöÍû => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÝ±ä => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑØÓÃ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÓÀ¿ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ñ¹ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÞÇÅ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐËÐÞ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÄÁ¬ÐÄ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÂÇ© => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÂ´ºÓä¿ì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ïþ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏìÓ¦ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ïà×² => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏàÍ¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏàÁ¬ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ïà²îÎÞ¼¸ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÈÒ×ºóÄÑ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÂ·Å => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÂµø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ïµ²´ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ï²Ó­ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ï®»÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î÷ÒÆ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞÒâ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞÐ§ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎªÊ± => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î¥Ô¼ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î¢²»×ãµÀ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍòÊÂÈçÒâ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Íê¹¤ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÐ¹Ü => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÏÑÓ => pos=VV
+GOOD:2 BAD:1 SCORE:1 RULE: word=ÍÏÇ· => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÀÉ± => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¹ÏÔ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¸¹ý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¶¹¤ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í³³ï => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¬ÊÒ²Ù¸ê => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¦ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌåÁÂ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ìâ´Ê => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌáÐÑ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ìá³« => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌÔÌ­ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ì½½« => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÅºò => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÄÍ¨°Ë´ï => pos=VV
+GOOD:3 BAD:2 SCORE:1 RULE: word=ÊÕ·Ñ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÓ²ì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÊ·ê => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÂ¹Ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê¾Íþ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê£ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éú²¡ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éî¸Ð => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éê°ì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éè¿¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éè³§ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉÐÓà => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=É±º¦ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=É¥Éú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=É¢²¼ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈçÔ¸ÒÔ³¥ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Èç·¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÚ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÏ¹ºÒ»¿Õ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÈÇéÑóÒç => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÈÆøÌÚÌÚ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=È¼ÉÕ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=È°Ëµ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Çå³ý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇÚÕþ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇÈ¾Ó => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç°ÐÐ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç°Í¾ÎÞÁ¿ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆÌÂ· => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆÆÍÁ¶¯¹¤ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆÆËé => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ½·ÖÇïÉ« => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ²ÏÂ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ«Àë => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ£Èí => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÅãÍ¬ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÅÎ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÅÅ¶Ó => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Å¤¿÷ÎªÓ¯ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÑÒÔÎª¼Ì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÉË° => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ä¬Ä¬ÎÞÎÅ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ãå»³ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÜ²»¿É·Ö => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÈ·¢ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á÷Íö => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á÷º¹ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á÷´« => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁÁ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á¼¶à => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁªÒö => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á¢×ã => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Àû¼º => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀíË³ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀëÐÝ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÕÁî => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=À¹½Ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿î´ý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿×È¸¶«ÄÏ·É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ÉÊ¶ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿´³É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿¯µÇ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾èÆú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾à => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ÙÊÀÖõÄ¿ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾Ù±­ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ÍÐ÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾º => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾«´òÏ¸Ëã => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ªÌì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½øÊ³ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ôÌù => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ôÂàÃÜ¹Ä => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ô¸ú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½èÕ® => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½áÇ× => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ÚÊ¡ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ÒÂ¶ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½»¸¶ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=½»´í => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼ûÃæ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼õÐ¡ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼õ»º => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼æ¹Ë => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼ÜÉè => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¤Àø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ýÑ¹ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ñ½± => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ã¸ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¼²¡ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»·ÈÆ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¶¾Û => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¯½â => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¨µô => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¥»Ý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=º×Á¢¼¦Èº => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÏÓ° => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÏ¶þÎªÒ» => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÄ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=º¬ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹é»¹ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ãÕ÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹áÍ¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Ø±Õ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ÒºÅ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Ä => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹¹½¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹²¼Æ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹©²»Ó¦Çó => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ô¾ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸èËÌ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ãÂÒ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ßËÊ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ß²»¿ÉÅÊ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸Ð => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸É => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸Ä½¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸½´ø => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ÖÉ¢ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·Öµ£ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ÂÐ§ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·Á°­ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·­´¬ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=·£¿î => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ã±Ü => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÔÖÅ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÒÏÖ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÂÈû => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÁÍê => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÁÊé => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÀÁ¢×ÔÖ÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ÷½Ú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÈÖµ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÈºò => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÇ±¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÃÌì¶Àºñ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÀÇ¸ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÀ±ð => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ½ÆÚ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¹¹à => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¹ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ±×÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=´óÊÆËùÇ÷ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=´´²úÖµ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=´«²¥ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=´© => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³é¼ì => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³Ð½¨ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³Í´¦ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³É½» => pos=VV
+GOOD:2 BAD:1 SCORE:1 RULE: word=³É³¤ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³ÆÔÞ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³ÆµÀ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³·»Ø¹ú => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³©Í¨ÎÞ×è => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¤Ãù => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=²ß»® => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»Õñ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»¼ÆÆäÊý => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=²¥ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±ð¾ßÒ»¸ñ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±Ü·ç => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±¨ÓÇ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±¨ÒÔ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±¨Ï² => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=±£¹Ü => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=°çÑÝ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=°¼ÏÝ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=°®»¤ => pos=VV
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ã» => pos=VE
+GOOD:1 BAD:0 SCORE:1 RULE: word=×Ï => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÒÓÚÖ°ÊØ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕýÒå => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕæÊµ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô²Ô² => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÉÖÔ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÀ´¹²»Ðà => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó·Ö× => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Òõ³Á => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»¹á => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ð×¶ñ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÐÖ®ÓÐÐ§ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÎÊ½¶àÑù => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÅÀµ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏàÍ¬ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÁ³¤ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ï²ÈË => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎªÄÑ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍúÊ¢ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¸Ã÷ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¨Ë³ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Êì => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÊÒË => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê§Êµ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉúÃÍ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éîåä => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉîÉî => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=È«ÐÂ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇåöÁ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Çå³þ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç¿ÓÐÁ¦ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ½»º => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÑµÃ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ã÷Îú => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÂÌÓÍÓÍ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á÷Àû => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á®½à => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÛÀÛ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿íÔ£ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿í³¨ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾² => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾°Æø => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=½©»¯ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=½¡ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼Ñ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¤¶¯ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=»Ô»Í => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÏÊÊ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÃÆæ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹â»Ô => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ßÑÅ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=·î¹« => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=·á => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ßÅ­ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ØÊµ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÃµ± => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=´óÓÐ¿ÉÎª => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=´í×Û¸´ÔÓ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=´íÎó => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=´àÈõ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=´Ö => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=³öÃû => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=³äÊµ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=²î => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=²¢ÐÐ²»ã£ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=±ä»ÃÎÞ³£ => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=±ÕÈû => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=±¦¹ó => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=°ëÕæ°ë¼Ù => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=°× => pos=VA
+GOOD:1 BAD:0 SCORE:1 RULE: word=Âð => pos=SP
+GOOD:1 BAD:0 SCORE:1 RULE: word=°É => pos=SP
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õâ¶ù => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê²Ã´ => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Äú => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄãÃÇ => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÇÀï => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÎÊ± => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶à¾Ã => pos=PN
+GOOD:1 BAD:0 SCORE:1 RULE: word=×öÎª => pos=P
+GOOD:2 BAD:1 SCORE:1 RULE: word=Ëæ => pos=P
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈçÍ¬ => pos=P
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á¬Í¬ => pos=P
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾Ý¾Ý => pos=P
+GOOD:1 BAD:0 SCORE:1 RULE: word=°ø => pos=P
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÜÒ» => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»¾Å¾Å°Ë => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎçÒ¹ => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄêÄ© => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=Áãµã => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ñ¶¬ => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶þÊ®ÊÀ¼Í => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶¬¼¾ => pos=NT
+GOOD:1 BAD:0 SCORE:1 RULE: word=ê±º£ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=äîºÓãþ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ý·×¯ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ÔÓÉµ³ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=×Ï¹â¸ó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖéÄÂÀÊÂê => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÜ¹âÕÙ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖØÇì¸® => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÐÒÇ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÐÉ½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÐÄÏÃÀÖÞ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÐ¿ÆÔº => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õã´ó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õ½¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÔøÇì´æ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô¼µ© => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô¥ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓåÖÝ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓáÏþËÉ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÚÓÀ²¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÀµÀ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒæÃñ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»´å => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò¶Í¢·¼ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò®Â³ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÏ¼Ã´È => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÌÌ¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ñ¼Ñ¼ÅÆ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ñ¦ºè => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ðí²ý²Æ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐËÑó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ð»Ï£µÂ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ð­ºÍ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ð¡ÀËµ× => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÃÕÄ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î÷Áê => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÚ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍíÙªÂÞÊÀ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍßÖá => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÁµÇ²ÅÍú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌìÍ¯ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ìì¸èÅÆ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌÆ¼Òè¯ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌÆ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ì«Æ½Ñó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËþÊ²¸É => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ëï£¨°Ù¼ÓÄ¾ÅÔ£©Çï => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËçÖÐ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ëå => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÎÔöÊÙ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê·¿Ë±Ø³É => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê¯Ê¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê¯¼Ò×¯ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éò¾õÈË => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Éî½»Ëù => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉÌ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Èý»· => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Èü¿ËÀÕ±­ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈðÀö => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Èð => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÕ¶úÂü => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=È«³É => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇåÀ³ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇàÆÖ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Çà²Ø => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇÇÖÎ¡¤Î¤²® => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç®¹ÚÁÖ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æó¶ì => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ½Ñô => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Å·ÑôÖÐÊ¯ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Åµ±´¶û½± => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Äþ¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÏÔÁ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÏ·À => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ä«¶û±¾ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Äª¼Ò½Ö => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃýÆôÆ½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ã÷¼Ó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃñÖ÷µÂ¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÏ¼ÓÀ­¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÉ¹Å¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÉ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÂüµÂÀ­ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Âí => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Â³Ì© => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Â¡²ý => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁªÃØÏ£·òÏã¿¨¶û¡¤Ã·Å© => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÖÉ½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÖÇå => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÖ½ð => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÏÒ¶ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=À¼Éú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=À¶µÇ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=À°Êù => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=À­ÃÉ¡¤Âó¸ñÈüÈü½± => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=À¥É½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ÂÎ÷Ò¶ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿µ¼Ñ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ªÂÞ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ÅÕ¯¹µ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ÅÁú½Ö => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾©Öé => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ò°Í²¼Î¤ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ðÇÅ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼ÓÀïÄþ¸ñÀÕÖÝ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼Î¶¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ôÊçÕä => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ÝÖÝ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=»Æ¾Õ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=»´º£ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¢Í·É½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºìÐÂÔÂ»á => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºé½õ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºá±õ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÂµÂÑï => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ú¼Òµ³ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹è¹È => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ãÖé => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ËÓ¢Ææ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Å¼¹×µËù => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Å => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ÄÉ½Õò => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹·²»Àí => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹²ÇàÍÅ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ßµÂÖù => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸µÈ«ÓÐ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ðÉ½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=·îÏÍ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=·¶±¦¿¡ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶þÌ² => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶Ø»Í => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÀÁªÌå => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶´Í· => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶«±±ÑÇË¾ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶¥ÐÂ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶¡Ê¿êÉ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÔÌ©·á => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÂÐÂÉç => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=µÂÊ¿¹Å => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¤Âó => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´÷¹âÇ° => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´óÖÚ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´óÍ¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´óº« => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ó¹«±¨ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ÞÔÂÀç => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=³àË® => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¯·½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¤³Ç => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¤°×É½ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=³£Òå => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=²Ø±± => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=²ÌÎýÃ· => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=²¨Ê¿¶Ù => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=±¶Ë³ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=°Í¿¤ => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=°Í¹ú => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=°°¸Ö => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=£Ð£¦£Ç => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=£Á£Í£Ð => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=TCL => pos=NR
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ù®Ù®Õß => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ê¾® => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ÔÓÉ¸Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=×¼Èë => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕäÖé·Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õ¾Ãû => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õ½Ê¤¹ú => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õ¼ÓÃ => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=ÔÞÉÍ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÔºÄÚ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ôª¼þ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÐÊ¶Ö®Ê¿ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¡ÖÆ°æ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»Ôª»¯ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÇÖÞË¾ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏàÉù => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞ¹¼ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍòË®Ç§É½ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¶×Ê¼Ò => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊâÈÙ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊàÅ¦¸Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÖÊé => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊµÒµ»¯ => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=ÊµÊÂÇóÊÇ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê§Ã÷ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê¡ÊÐ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=È«³¤ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Çø¡± => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Çè°· => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆóÊÐ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æó»®Ìü => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æó => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆÀ¶¨ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ¸ÓÃ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ¶À§ÏØ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÅãÍ¬ÍÅ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÚÂ½Ê¡ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃÅÇ° => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÂóÑ¿ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Âí´ï => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÂÁÒµ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Â½¸Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á¼¸Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ªÖ§ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾«¶È => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=½üÁÚ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=½éÈë => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=½Ó´ýÈÕ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¯ÍÅ»¯ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¯ÊÐ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ðÉ½ºþ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ã => pos=NN
+GOOD:2 BAD:1 SCORE:1 RULE: word=»ººÍ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºôÎü => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÅÕÙ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=º£¸Û => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹¤ÒµÊ¡ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ºÕ®ÂÊ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶þÇÇÓñÀ¼ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÔÁ¢ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶¼ÊÐ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=µç±¨ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=µØ¼¶ÊÐ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ð´Ê => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ß»¯ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=²î±ð»¯ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»Ô¶´¦ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»ÅÂ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»ºÏÀíÐÔ => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=°²È«Çø => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=°²²£ÈË => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=°¢À­²®ÈË => pos=NN
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÜ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô± => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò³ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ð© => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Íß => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ìõ¿î => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê½ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉãÊÏ¶È => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈË·Ý => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ½Ã× => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÅÌ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Þ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ö°Ñ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ü => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ù => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=·ÖÖÓ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ä => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶Ù => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶§ => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=µã => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=´± => pos=M
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö¹ => pos=LC
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶« => pos=LC
+GOOD:1 BAD:0 SCORE:1 RULE: word=²à => pos=LC
+GOOD:1 BAD:0 SCORE:1 RULE: word=ì½ì» => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ÔÁ÷ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=×¨¼Ò¼¶ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö÷¹Û => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÝ¼Ê => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖØÖØ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖØ¸´ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖØµþ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÖÖÖÖ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö¸ÁîÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕýÍ³ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÔçÐ© => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô¤¾¯ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô¤±¸ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓàÏÂ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÅÏ¡ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÃÏÞ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓÀ¾ÃÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¢ÖÆ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»ÅÉ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»Á÷ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÒµÓà => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑøÀÏ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÏ¿¢ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÇ¼¶ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÅÍÐ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ï×Éí => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÏÂÁÐ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞÏß => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞÊý => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÞÇ¦ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î¥ÕÂ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Î¢¹Û => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍâÏò => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÑÑõ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÍÐÊÜ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í»·¢ÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌØÖÖ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌØÐí => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÌØ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÀÄÑ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊäÆø => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê×Òª => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÂÎñÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê®¼Ñ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ê¦·¶ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉñÃØ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉæÌ¨ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈýÏß => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈÆ³Ç => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=È«Ììºò => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=È«¶î => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇÓÅ³ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ¯°× => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Å©·¢ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄêÇá => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=ÄÀÁÚ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ãû¹ó => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÃðÎÃ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÂÃÈÕ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Áô×¤ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁãÏÂ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁãÉ¢ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Áªôæ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=Áª²ú => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀûºÃ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀÛ»ý => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ïËã => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿çÎÄ»¯ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿çº£ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿Æ¼¼ÐÍ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿ÅÁ£×´ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿¹ÎÛ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¿¹ÈÕ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾üÃñ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾ÞÐÍ => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=¾Þ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾­Éç => pos=JJ
+GOOD:2 BAD:1 SCORE:1 RULE: word=½ô => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ð»ÆÉ« => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=½á¶Ô => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ÚË® => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ÒÄ» => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=½¿ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼õÀû => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼áÊµ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼ÓÇâ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼È³É => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¯Óê => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=»úÐµ»¯ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=»î => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=»ÙÃðÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=»Ê¼Ò => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¹Ô­ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºó±¸ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹û¶Ï => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ú¼ÊÐÍ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ö×° => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹º·¿ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹¤×÷ÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ü¸ß => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ö±ð => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸ßÑ¹ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸¾Ó× => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸´ºÏÐÍ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=·Àºµ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÔÄÚ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶ÌÈ± => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶À¼Ò => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=¶¨ÆÚ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=µØÇøÐÔ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¼Á÷ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ²Ë® => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¥Ò» => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ô => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ï±ê => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=³ö¹ú => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=³Ö¹É => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=³±¼® => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¬ÒÚÔª => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=³¤×ã => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»Ðâ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»ÏÞÆÚ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»Æ½µÈ => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=²»¼ä¶Ï => pos=JJ
+GOOD:1 BAD:0 SCORE:1 RULE: word=£É£Ó£Ï => pos=FW
+GOOD:1 BAD:0 SCORE:1 RULE: word=£Ã£Â => pos=FW
+GOOD:3 BAD:2 SCORE:1 RULE: word=È«Ìå => pos=DT
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ä³Ð© => pos=DT
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼ÙÈç => pos=CS
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎåÁù => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉÏÇ§ => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÆßµãÆß => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼¸Ê® => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=°ëÊý => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=30 => pos=CD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ôß => pos=CC
+GOOD:1 BAD:0 SCORE:1 RULE: word=×îÏÈ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=×Ýºá => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=×ªË² => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=×¨Ö° => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=×¨³Ì => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ö»ÊÇ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕýºÃ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕûÌåÉÏ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÕæÇÉ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Õæ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÔÚÒ»Æð => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÔÙËµ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ô­ÔòÉÏ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÓúÀ´Óú => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó»Ô¾ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¦¼±ÐÔ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ó¢ÓÂ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»ÂÉ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ò»¾Ù => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÏÀ÷ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÑÏ¼Ó => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐîÄ± => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐìÐì => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÐ½« => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÐÂ½ü => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÎÈ½¡ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¬µÈ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Í¨Á¦ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÙ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËØ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ËÆµÄ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ë½ÏÂ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ë«Ïò => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊÂÊµÉÏ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÊµÔò => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÉÐÎ´ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÈýÎ»Ò»Ìå => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÇÚ¼ó => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç¡ºÃ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ç¡ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æä´Î => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Æ« => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÄÑÃâ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Ã¤Ä¿ => pos=AD
+GOOD:2 BAD:1 SCORE:1 RULE: word=Â¡ÖØ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÁãÐÇ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=Á½´Î => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ÀúÀ´ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾à½ñ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾¿¾¹ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾¹ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¾¶ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=½üÀ´ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=½ø¶ø => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=½Ô => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=½¥ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼âÉù => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¼±ÇÐ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=»òÕßËµ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=»¹Òª => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=ºÃºÃ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹Ê => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¹ÅÀ´ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸Õ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=¸É´à => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=·Â·ð => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=µ¥µã => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=´ó¶à => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=´Ò´Ò => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=³£ => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=²© => pos=AD
+GOOD:1 BAD:0 SCORE:1 RULE: word=±Ø => pos=AD

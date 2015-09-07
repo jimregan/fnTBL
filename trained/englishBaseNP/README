@@ -1,0 +1,37 @@
+The training was done on the sections 01-21 of the Wall Street Journal
+part of the PennTreebank. Testing on the section 0 of the same corpus
+yielded a fmeasure of 92.61 (precision: 92.34%, recall 92.89%).
+
+We assume that the train and test files are in 1-word-per-line format,
+with blank lines delimiting the sentences (as provided in the
+distribution).
+
+1. Prepare the test data:
+
+perl -ape 'if(/\S/){ $_="@F[0..1] - ".(defined $F[2] ? $F[2] : "-")."\n"}' test.dat |\
+     ../../exec/most_likely_tag.prl -l pos_chunk.lexicon \
+                          -t O,O -p '1=>2' - > test.init
+
+2. Run the baseNP bracketer on the test data:
+
+  ../../bin/fnTBL test.init chunk.rls -F tbl.context.chunk.params \
+                                       -o test.res
+
+3. Compute the resulting fmeasure:
+
+  ../../exec/fmeasure.prl -i 2,3 test.res
+
+Alternatively, use the test.me file:
+
+  test.me <test-file>
+
+The output will be put in the file <test-file>.res
+
+Observation: one may obtain better results if uses the text chunker to
+obtain base noun phrases. See the file ../text-chunking/README for
+details.
+
+Also, this program can be run from another directory than the one
+where the files reside (trained/englishBaseNP). In this case, the
+proper paths to the files need to be specified (the path to
+pos_chunk.lexicon, etc).

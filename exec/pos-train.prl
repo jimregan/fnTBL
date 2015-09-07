@@ -1,0 +1,554 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+
+$bin_dir = "/home/fnTBL-1.2/bin";
+$exec_dir = "/home/fnTBL-1.2/exec";
+
+sub log_me {
+  open f, ">>logfile";
+  use POSIX qw(strftime);
+  $now_string = strftime "%a %b %e %H:%M:%S %Y", localtime;
+  print f $now_string, " $0 @ARGV\n";
+  close f;
+}
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+  if (! defined $opt_d and $?) {
+	print stderr "There was an error in running the command:\n$comm\nExiting the script!\n";
+	exit 1;
+  }
+}
+
+log_me();
+
+getopts("B:r:o:f:vdt:F:R:T:S:O:aCD:c:");
+
+
+@opts = split /,/, $opt_O if defined $opt_O;
+
+sub usage {
+  print stderr 
+    join "",(
+	     "$0 [-F <lexical_train_param_file>,<contextual_train_param_file>] [-B <bigrams_file>] \n",
+	     "\t[-u <vocab_file>] [-r <ratio>] [-o <out_file1>,<out_file2>] [-f <freq_cutoff>] [-t <noun_common>,<noun_proper>]\n",
+	     "\t[-R <lex_rule_file>,<context_rule_file>] [-T <lexical_threshold>,<contextual_threshold>] <train_file>\n",
+	     "where:\n",
+	     " -F <file1>,<file2>           - defines the parameter files for the lexical/contextual tagging\n",
+	     " -B <bigrams_file>            - sets the bigrams file; if undefined, the bigrams are generated from the training file\n",
+	     " -u <vocab_file>              - defines the vocabulary file (for unknown words POS guessing);\n",
+	     "                                if undefined, generated from the training file\n",
+	     " -r <ratio>                   - defines the ratio between the splits of the training data (see documentation)\n",
+	     " -o <out_file1>,<out_file2>   - defines the names of the 2 splits of the training data\n",
+	     "                                (by default <train_file>.part1,<train_file>.part2\n",
+	     " -f <freq_cutoff>             - defines the cutoff for constraint features (put conditions over the threshold)\n",
+	     " -O <opt1>,<opt2>             - will pass the corresp. options to the fnTBL-train program\n",
+	     " -t <noun_common>,<noun_proper>\n",
+	     "                              - defines the POS symbols for the common noun and proper noun; as default\n",
+	     "                                NN is the common noun and NNP is the proper noun\n",
+	     " -S <part1>,<part2>           - uses this particular partition of the data - for testing purposes\n",
+	     " -R <lex_rule_file>,<context_rule_file>\n",
+	     "                              - defines the names for the lexical rules file and the contextual rules file;\n",
+	     "                                by default they are lexical.rls and contextual.rls\n",
+	     " -T <lex_thres>,<cont_thres>  - defines the learning thresholds for the lexical tagging and the contextual tagging\n",
+	     "                                the default is 2\n",
+	     " -a                           - will use all the words during lexical training\n",
+	     " -D <directory>               - the directory where all the files are saved\n",
+	     " -C                           - will use capitalization information, as extracted by the extract_capitalization.prl script\n",
+             " -c <threshold>               - all examples with a occurrence frequency less than <threshold> will be included\n",
+	     "                                in the morphological part of tagging\n",
+	     " <train_file>                 - is the file containing the training data, 2 columns format - just the words\n",
+	     "                                and the truth.\n",
+	     "\n"
+	    );
+}
+
+if (@ARGV == ()) {
+  usage();
+  exit;
+}
+
+if (defined $opt_v) {
+  $stdout = "";
+} else {
+  $stdout = " 2> /dev/null ";
+}
+
+if (! defined $opt_F) {
+  print stderr "Please define the parameter files!\n";
+  usage();
+  exit;
+} else {
+  ($lex_par,$cont_par) = split /,/,$opt_F;
+  if (!-e $lex_par) {
+    die "The lexical parameter file does not exist!!";
+    exit;
+  } 
+  if (! -e $cont_par) {
+    die "The contextual parameter file does not exist !!";
+    exit;
+  }
+}
+
+if (defined $opt_R) {
+  ($lexical_rls_file, $context_rls_file) = split /,/, $opt_R;
+} else {
+  $lexical_rls_file = "lexical.rls";
+  $context_rls_file = "context.rls";
+}
+
+$train_file = $ARGV[0];
+$dir = `dirname $train_file`;
+chomp $dir;
+if ($dir eq '.') {
+  $long_dir = $ENV{PWD};
+} else {
+  $long_dir = $dir;
+}
+
+if (defined $opt_D) {
+  unless ($opt_D =~ /^\//) {
+    $out_dir = "$dir/$opt_D";
+    $long_dir = "$long_dir/$opt_D";
+  } else {
+    $out_dir = $long_dir = $opt_D;
+  }
+  unless (-e $out_dir) {
+    mkdir $out_dir, 0777 || die "Could not create the training directory $dir";
+  }
+  #  system1"cp $bigrams_file $opt_u $out_dir";
+  open f, $lex_par;
+  $tt = `basename $lex_par`;
+  chomp $tt;
+  open g, ">$out_dir/$tt";
+  while (<f>) {
+    if (/MAIN\s*=\s*(\S*?)\s*;/) {
+      $main_dir = $1;
+      print g "MAIN = $long_dir;\n";
+    } elsif (/CONSTRAINTS_FILE/) {
+      print g "#Modification\n";
+      if (/\${MAIN}/) {
+	$main_dir = 1;
+	print g "CONSTRAINTS_FILE = \${MAIN}/constraints.lexical.train.templ;\n";
+      } else {
+	print g "CONSTRAINTS_FILE = $long_dir/constraints.lexical.train.train;\n";
+      }
+      $seen_constraint = 1;
+    } elsif (/FILE_TEMPLATE\s*=\s*(.*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      chomp $tmpfile1;
+      if (defined $opt_C and $tmpfile1 !~ /.capit/) {
+	$tmpfile = "$exec_dir/../test-cases/pos-tagging/file.templ.capit";
+	$tmpfile1 = "file.templ.capit";
+      } 
+      system1 ("cp $tmpfile $out_dir");
+
+      if (defined $main_dir) {
+	print g "FILE_TEMPLATE = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "FILE_TEMPLATE = $long_dir/$tmpfile1;\n";
+      }
+    } elsif (/RULE_TEMPLATES\s*=\s*(.*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      if (defined $opt_C and $_ !~ /capit/) {
+	$res = `grep capit $tmpfile`;
+	$tmpfile = "$exec_dir/../test-cases/pos-tagging/lexical-capit.templ";
+	$tmpfile1 = `basename $tmpfile`;
+	chomp $tmpfile1;
+      } 
+
+      chomp $tmpfile1;
+      system ("cp $tmpfile $out_dir");
+      if (defined $main_dir) {
+	print g "RULE_TEMPLATES = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "RULE_TEMPLATES = $long_dir/$tmpfile1;\n";
+      }
+    } else {
+      print g;
+    }    
+  }
+  close g;
+  $lex_par = "$out_dir/$tt";
+  undef $main_dir;
+
+  $tt = `basename $cont_par`;
+  chomp $tt;
+  open f, $cont_par;
+  open g, ">$out_dir/$tt";
+  while (<f>) {
+    if (/CONSTRAINTS_FILE/) {
+      if (/\${MAIN}/) {
+	print g "CONSTRAINTS_FILE = \${MAIN}/constraints.pos.templ;\n";
+      } else {
+	print g "CONSTRAINTS_FILE = $long_dir/constraints.pos.params;\n";
+      }
+      $seen_constraint = 1;
+    } elsif (/MAIN\s*=\s*(\S*?)\s*;/) {
+      $main_dir = $1;
+      print g "MAIN = $long_dir;\n";
+    } elsif (/FILE_TEMPLATE\s*=\s*(\S*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      chomp $tmpfile1;
+      if (defined $opt_C and $_ !~ /.capit/) {
+	$tmpfile1 = "file.templ.capit";
+      }
+      chomp $tmpfile1;
+      if (defined $main_dir) {
+	print g "FILE_TEMPLATE = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "FILE_TEMPLATE = $long_dir/$tmpfile1;\n";
+      }
+    } elsif (/RULE_TEMPLATES\s*=\s*(\S*?)\s*;/) {
+      $tmpfile = $1;
+      $tmpfile =~ s/\$\{MAIN\}/$main_dir/;
+      $tmpfile1 = `basename $tmpfile`;
+      chomp $tmpfile1;
+      if (defined $opt_C and $_ !~ /capit/) {
+	$res = `grep capit $tmpfile`;
+	unless ($res =~ /\S/m) {
+	  $tmpfile = "$exec_dir/../test-cases/pos-tagging/rule-capit.pos.templ";
+	  $tmpfile1 = "rule-capit.pos.templ";
+	}
+      }
+      chomp $tmpfile1;
+      system ("cp $tmpfile $out_dir");
+      if (defined $main_dir) {
+	print g "RULE_TEMPLATES = \${MAIN}/$tmpfile1;\n"; 
+      } else {
+	print g "RULE_TEMPLATES = $long_dir/$tmpfile1;\n"; 
+      }
+    } else {
+      print g;
+    }
+  }
+  close g;
+  $cont_par = "$out_dir/$tt";
+} else {
+  $out_dir = $dir;
+}
+
+# Check which features correspond to the guesses
+open f, $lex_par;		# Read the parameter file
+while (<f>) {
+  chomp; 
+  @a = split /[ =;]+/;
+  $param{$a[0]} = $a[1];
+
+  if (/FILE_TEMPLATE/) {
+    chomp;
+    s/\s+/ /g;
+    s/^\s*//;
+    @a = split /[ =;]+/;
+    $file = $a[1];
+    if ($file =~ /\$/) {
+      $file =~ s/\$\{(.*?)\}/$param{$1}/eg;
+    }
+    open g, $file || die "Could not open the file $file!";
+    $templ = <g>;
+    chomp $templ;
+    @a = split /\s+/, $templ;
+    $guess_pos = $#a-2;
+    if (defined $opt_v) {
+      print stderr "Chosen $guess_pos as the guess position\n";
+    }
+    close g;
+    last;
+  }
+}
+close f;
+
+unless (defined $opt_t) {
+  open f, $lex_par;
+  my $found_spelling = 0;
+  while (<f>) {
+    if (/SPELLING_OF_NOUNS\s*=\s*(.*?)\s*;\s*$/) {
+      $opt_t = $1;
+      $found_spelling = 1;
+      last;
+    }
+  }
+  unless ($found_spelling) {
+    print ::stderr "Spelling of unknown words was undefined - will use the default NN,NNP\n" if defined $opt_v;
+    $opt_t = "NN,NNP";
+  }
+}
+
+if (defined $opt_T) {
+  @T = split /,/, $opt_T;
+}
+
+if ($dir eq '.') {
+  $dir = $ENV{PWD};
+}
+
+if (defined $opt_S) {
+  ($file1, $file2) = split /,/,$opt_S;
+} else {
+  if (defined $opt_o) {
+    ($file1,$file2) = split /,/,$opt_o;
+  } else {
+    $file1 = $train_file.".part1";
+    $file2 = $train_file.".part2";
+  }
+}
+
+if (defined $opt_v) {
+  $vflag = " -v";
+} else {
+  $vflag = "";
+}
+
+unless (defined $opt_f) {
+  $opt_f = 0;
+}
+
+system1 ("$exec_dir/create_lexical_split.prl -o $file1,$file2 -i $guess_pos -D $out_dir".
+	 (defined $opt_f ? " -f $opt_f" : "").
+	 (defined $opt_r ? " -r $opt_r" : "").
+	 (defined $opt_t ? " -t $opt_t" : "").
+	 (defined $opt_B ? " -B $opt_B" : "").
+	 (defined $opt_u ? " -u $opt_u" : "").
+	 (defined $opt_S ? " -S $opt_S" : "").
+	 (defined $opt_d ? " -d"        : "").
+	 (defined $opt_C ? " -C"        : "").
+	 (defined $opt_a ? " -a"        : "").
+	 (defined $opt_c ? " -c $opt_c" : "").
+	 $vflag.
+	 " $train_file"
+	);
+;
+
+if (defined $opt_D) {
+  $file1 = $out_dir."/".`basename $file1`;
+  $file2 = $out_dir."/".`basename $file2`;
+  map {chomp} ($file1,$file2);
+}
+
+if (defined $opt_B) {
+  $bigram_file = $opt_B;
+} else {
+  $bigram_file = "bigrams.dat";
+}
+
+# open f, ">bigrams.big.template";
+# print f, "word_0 word_1 $dir/unseen_bigrams.dat\n";
+# print f, "word_-1 word_0 $dir/unseen_bigrams.dat\n";
+# close f;
+
+open f, ">$long_dir/bigrams.test.templ";
+print f << "EOF";
+word_0 word_1 $long_dir/$bigram_file
+word_-1 word_0 $long_dir/$bigram_file
+EOF
+;
+close f;
+
+open f, $lex_par;
+open g, ">$lex_par.0";
+$seen_constraint = 0;
+while (<f>) {
+  if (/EMPTY_LINES_ARE_SEPARATORS/) {
+    print g "EMPTY_LINES_ARE_SEPARATORS = 0;\n";
+  } elsif (/CONSTRAINTS_FILE/) {
+    print g "#Modification\n";
+    if (/\${MAIN}/) {
+      print g "CONSTRAINTS_FILE = \${MAIN}/constraints.lexical.train.templ;\n";
+    } else {
+      print g "CONSTRAINTS_FILE = $out_dir/constraints.lexical.train.train;\n";
+    }
+    $seen_constraint = 1;
+  } elsif (/COOCCURRENCE_CONFIGURATION_FILE/) {
+    if (/\${MAIN}/) {
+      print g "COOCCURRENCE_CONFIGURATION_FILE = \${MAIN}/bigrams.big.templ;\n";
+    } else {
+      print g "COOCCURRENCE_CONFIGURATION_FILE = $out_dir/bigrams.big.templ;\n";
+    }
+  } else {
+    print g;
+  }
+}
+
+unless (defined $seen_constraint) {
+  print g "CONSTRAINTS_FILE = $long_dir/constraints.lexical.train.templ;\n";
+}
+close g;
+
+unless (0 and -e "$out_dir/constraints.lexical.train.templ") {
+  print stderr "Creating $out_dir/constraints.lexical.train.templ.\n" if defined $opt_v;
+  open g, "> $out_dir/constraints.lexical.train.templ";
+  print g "#word tpos $out_dir/word_pos.part1.fake.lexicon\n";
+  close g;
+}
+
+unless (0 and -e "$out_dir/bigrams.big.templ") {
+  print stderr "Creating $out_dir/bigrams.big.templ\n" if defined $opt_v;
+  open g, "> $out_dir/bigrams.big.templ";
+  print g "word_0 word_1 $out_dir/unseen_bigrams.dat\n",
+    "word_-1 word_0 $out_dir/unseen_bigrams.dat\n";
+  close g;
+}
+
+system1 ("$bin_dir/fnTBL-train $out_dir/lexical_train.dat $out_dir/$lexical_rls_file -F $lex_par.0".
+	 (defined $opt_T ? " -threshold $T[0]" : "").
+	 (defined $opt_O ? " $opts[0]" : "").
+	 $vflag.
+	 $stdout
+	);
+
+if (defined $opt_C) {
+  $list_command = "$exec_dir/extract_capitalization.prl -o 1 $out_dir/word_pos.part1.lexicon $train_file";
+} else {
+  $list_command = "cat $train_file";
+}
+
+system1 ("$list_command | tee $out_dir/train.capit | $exec_dir/mcreate_lexicon.prl ".(defined $opt_f ? " -n $opt_f" : "").
+	 " -d '0=>$guess_pos' - > " . (defined $opt_f ? "$out_dir/word_pos.$opt_f.lexicon" : "$out_dir/word_pos.lexicon")
+	);
+system1 ("$exec_dir/mcreate_lexicon.prl -d '0=>$guess_pos' $out_dir/train.capit " . 
+	 (defined $opt_f ? "| tee $out_dir/word_pos.lexicon" : "") . 
+	 " | perl -ape '\$_=\"\$F[0] FAKE_CLASS\\n\"' > $out_dir/word_pos.fake.lexicon"
+	);
+
+
+# Avoid running fnTBL on the entire file just for the unknown words
+$capit_option = defined $opt_C ? "| $exec_dir/extract_capitalization.prl -o 1 $out_dir/word_pos.part1.lexicon -" : "";
+if (0) {
+  system1 ("$exec_dir/most_likely_tag.prl -p '0=>$guess_pos' -l $out_dir/word_pos.part1.lexicon ".
+	   "-t $opt_t $out_dir/train.capit > $out_dir/$train_file.init");
+  
+  open f, $lex_par;
+  $seen_constraint = 0;
+  open g, ">$lex_par.1";
+  while (<f>) {
+    if (/EMPTY_LINES_ARE_SEPARATORS/) {
+      print g "EMPTY_LINES_ARE_SEPARATORS = 1;\n";
+    } elsif (/CONSTRAINTS_FILE/) {
+      if (/\${MAIN}/) {
+		print g "CONSTRAINTS_FILE = \${MAIN}/constraints.lexical.train.templ;\n";
+      } else {
+		print g "CONSTRAINTS_FILE = $long_dir/constraints.lexical.train.params;\n";
+      }
+      $seen_constraint = 1;
+    } elsif (/MAIN\s*=/) {
+      print g "MAIN = $long_dir;\n";
+    } elsif (/COOCCURRENCE_CONFIGURATION_FILE/) {
+      print g "COOCCURRENCE_CONFIGURATION_FILE = $out_dir/bigrams.big.templ;\n";
+    } else {
+      print g;
+    }
+  }
+  unless ($seen_constraint) {
+    print g "CONSTRAINTS_FILE = constraints.lexical.train.templ;\n";
+  }
+  close g;
+  
+  system1 ("$bin_dir/fnTBL $out_dir/$train_file.init $out_dir/$lexical_rls_file -F $lex_par.1 ".
+	   "$vflag -o $out_dir/$train_file.lexical $stdout");
+} else {
+  # Select just the "unknown" words from $train_file and run fnTBL just on them, incrementing
+  # the tag vocabulary temporarily
+  open f, "$out_dir/word_pos.part1.lexicon";
+  while (<f>) {
+    chomp;
+    next unless /\S/;
+    @a = split;
+    $seen33{$a[0]} = 1;
+  }
+  open f, "$out_dir/train.capit";
+
+  open g, "| $exec_dir/most_likely_tag.prl -l $out_dir/word_pos.part1.lexicon -p '0=>$guess_pos' - > $out_dir/train_temp.init";
+  while (<f>) {
+    chomp;
+    next unless /\S/;
+    @a = split;
+    unless (defined $seen33{$a[0]}) {
+      #      print g "$_\n";
+      splice @a, $#a, 0, '-';
+      print g "@a\n";
+    }
+  }
+  close g;
+  system1 ("$bin_dir/fnTBL $out_dir/train_temp.init $out_dir/$lexical_rls_file -F $lex_par.0 ".
+	   "$vflag -o $out_dir/$train_file.temp_lexical $stdout"
+	  );
+  system1 ("rm $out_dir/train_temp.init");
+  system1 ("$exec_dir/mcreate_lexicon.prl -d '0=>$guess_pos' $out_dir/$train_file.temp_lexical |".
+	   " cat $out_dir/word_pos.part1.lexicon - > $out_dir/word_pos.temp.lexicon"
+	  );
+  system1 ("$exec_dir/most_likely_tag.prl -l $out_dir/word_pos.temp.lexicon -p '0=>$guess_pos'".
+	   " -i -t $opt_t $out_dir/train.capit > $out_dir/$train_file.lexical"
+	  );
+  #  system1 "rm $out_dir/word_pos.temp.lexicon $out_dir/$train_file.temp_lexical";
+}
+
+open f, $cont_par;
+open g, ">$cont_par.0";
+
+while (<f>) {
+  if (/EMPTY_LINES_ARE_SEPARATORS/) {
+    print g "EMPTY_LINES_ARE_SEPARATORS = 1;\n";
+  } elsif (/CONSTRAINTS_FILE/) {
+    if (/\${MAIN}/) {
+      print g "CONSTRAINTS_FILE = \${MAIN}/constraints.pos.templ;\n";
+    } else {
+      print g "CONSTRAINTS_FILE = $out_dir/constraints.pos.params;\n";
+    }
+    $seen_constraint = 1;
+  } elsif (/MAIN\s*=/) {
+    print g "MAIN = $long_dir;\n";
+  } else {
+    print g;
+  }
+}
+unless ($seen_constraint) {
+  print g "CONSTRAINTS_FILE = constraints.pos.templ;\n";
+}
+close g;
+
+unless (0 and -e "$out_dir/constraints.pos.templ") {
+  print stderr "Creating $out_dir/constraints.pos.templ\n" if defined $opt_v;
+  open g, "> $out_dir/constraints.pos.templ";
+  print g "word tpos " . (defined $opt_f ? "$out_dir/word_pos.$opt_f.lexicon" : "$out_dir/word_pos.lexicon");
+  close g;
+}
+
+
+system1 ("$bin_dir/fnTBL-train $out_dir/$train_file.lexical $out_dir/$context_rls_file -F $cont_par.0".
+	 (defined $opt_T ? " -threshold $T[1]" : "").
+	 (defined $opt_O ? " $opts[1]" : "").
+	 $vflag.
+	 "$stdout"
+	);
+
+# Print the control parameters to a file, such that we can use them easily at test time
+if (defined $opt_D) {
+  open f, ">$out_dir/control_file";
+  if ($lex_par =~ /^\./) {
+	$lex_par =~ s/^\./$ENV{PWD}/;
+  }
+  if ($cont_par =~ /^\./) {
+	$cont_par =~ s/^\./$ENV{PWD}/;
+  }
+  print f join "\n", (
+		      "lexical_param_file $lex_par",
+		      "context_param_file $cont_par",
+		      "lexical_rule_file $lexical_rls_file",
+		      "context_rule_file $context_rls_file",
+		      "opt_f $opt_f",
+		      "opt_B $bigram_file",
+		      (defined $opt_C ? "capitalization yes" : "capitalization no"),
+		      "opt_t $opt_t", # spelling of nouns
+		      ""
+		     );
+  close f;
+}

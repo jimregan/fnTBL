@@ -1,0 +1,2266 @@
+#pattern: 0=>1
+1-grams: -----
+、 PU
+。 PU
+— PU
+—— PU
+——— PU
+… PU
+‘ PU
+’ PU
+“ PU
+” PU
+《 PU
+》 PU
+！ PU
+（ PU
+） PU
+， PU
+－－ PU
+１０ CD
+１２日 NT
+１２月 NT
+１３日 NT
+１９９４年 NT
+１９９５年 NT
+１９９６年 NT
+１９９７年 NT
+１９９８年 NT
+１日 NT
+１月 NT
+２０日 NT
+２３日 NT
+２８日 NT
+２月 NT
+３ CD
+３０日 NT
+３１日 NT
+４月 NT
+５ CD
+５０ CD
+６ CD
+８月 NT
+９ CD
+９月 NT
+： PU
+； PU
+？ PU
+阿根廷 NR
+阿卡耶夫 NR
+哀悼 VA VV NN
+艾滋病 NN
+爱尔兰 NR
+爱沙尼亚 NR
+安玻 NR
+安徽 NR
+安理会 NN NR
+安排 VV NN
+安全 NN AD
+安置 VV NN
+安装 NN VV
+按 P
+按照 P
+岸 NN
+案件 NN
+澳 NR
+澳大利亚 NR
+澳门 NR
+八 CD
+八日 NT
+八十年代 NT
+八五 NT
+八月 NT
+巴格达 NR
+巴勒斯坦 NR
+巴黎 NR
+把 BA
+白皮书 NN
+百 CD
+百分点 NN
+百分之八 CD
+百分之八十 CD
+百分之二点五 CD
+百分之九十 CD
+百分之六 CD
+百分之七十 CD
+百分之三 CD
+百分之三十 CD
+百分之十 CD
+百分之十六 CD
+百分之十五 CD
+百分之十一 CD
+百分之五 CD
+百分之五十 CD
+颁布 VV
+颁发 VV
+版图 NN
+半 CD
+办 VV
+办法 NN
+办公室 NN
+办公厅 NN NR
+办理 VV NN
+办事 NN VV
+办事处 NN
+帮助 VV NN
+包括 VV P AD
+保持 VV
+保护 NN VV
+保税 JJ
+保税区 NN
+保险 NN
+保障 NN VV
+保证 VV NN
+保证金 NN
+报 NN
+报道 VV NN
+报告 NN
+北爱尔兰 NR
+北方 NN
+北海 NR
+北京 NR
+北约 NR
+倍 M
+被 SB LB
+本 DT VV M
+本人 NN
+比 P
+比较 AD
+比例 NN
+比重 NN
+笔 M
+必须 VV
+必要 VA JJ
+边界 NN
+边境 NN
+贬值 VV
+便 AD NN
+变 VV
+变化 NN VV
+遍布 VV
+标志 VV NN
+标准 NN
+表明 VV
+表示 VV NN
+并 CC AD VV
+并且 CC
+玻壳 NN
+拨款 NN VV
+波 NR
+波恩 NR
+波黑 NR
+波罗的海 NR
+博览会 NN
+泊位 NN
+补偿 NN
+不 AD
+不断 AD JJ VA
+不仅 CC AD
+不久 NT AD
+不利 JJ VA
+不少 CD
+不足 NN JJ
+布局 NN
+布朗 NR
+步 M
+步伐 NN
+部 M NN
+部长 NN
+部队 NN
+部分 NN M
+部门 NN
+部署 VV NN
+材料 NN
+才 AD
+财产 NN
+财团 NN
+财务 NN
+财政 NN
+采访 NN VV
+采购 NN
+采取 VV
+采用 VV
+彩电 NN
+彩色 JJ
+菜 NN
+参加 VV
+参与 VV NN
+仓储 NN
+层次 NN
+查处 VV NN
+柴达木 NR
+产 VV NN
+产出 NN VV
+产地 NN
+产量 NN
+产品 NN
+产权 NN
+产生 VV NN
+产业 NN
+产业化 NN
+产值 NN
+场 M NN
+常任 JJ
+常委会 NN NR
+常务 JJ
+长 VA NN VV
+长春 NR
+长江 NR
+长期 AD JJ NN
+厂 NN
+厂房 NN
+超额 AD JJ
+超过 VV AD
+超声 NN
+朝 NR P
+朝鲜 NR
+撤军 NN VV JJ
+撤离 VV NN
+彻底 AD JJ
+陈元 NR
+称 VV
+城市 NN
+城镇 NN
+成 VV
+成本 NN
+成都 NR
+成功 VA NN AD JJ
+成果 NN
+成绩 NN
+成就 NN
+成立 VV NN
+成套 JJ AD
+成为 VV
+成效 NN
+成员 NN
+成员国 NN
+呈 VV
+呈现 VV
+程度 NN
+程控 JJ
+程序 NN
+承包 NN VV
+承担 VV
+承诺 NN VV
+持续 VV AD JJ
+迟浩田 NR
+充分 AD JJ VA
+充满 VV
+冲突 NN
+崇明 NR
+筹备 NN VV
+筹措 VV
+筹建 VV NN
+初 LC NN
+初步 AD JJ
+初级 JJ
+初具规模 VV
+出 VV
+出版 VV NN
+出版社 NN
+出发 VV
+出口 NN VV
+出口额 NN
+出售 VV NN
+出台 VV
+出席 VV
+出现 VV
+除 P
+储量 NN
+处 M VV LC NN
+处理 VV NN
+处于 VV
+传统 NN JJ VA
+创 VV
+创办 VV NN
+创汇 NN VV JJ
+创新 NN
+创造 VV NN
+春节 NN NT
+此 PN DT
+此间 NN
+此外 AD NN
+次 M
+次区域 NN
+从 P AD
+从而 AD MSP
+从事 VV
+从业 JJ
+促进 VV NN
+促进会 NN
+存款 NN
+存在 VV
+磋商 NN
+措施 NN
+达 VV
+达成 VV
+达到 VV
+大 JJ VA AD NN-SHORT
+大坝 NN
+大大 AD
+大幅 AD
+大幅度 AD JJ
+大会 NN
+大会堂 NN
+大家 PN
+大局 NN
+大力 AD JJ
+大连 NR
+大连市 NR
+大量 CD AD JJ
+大陆 NN
+大批 CD AD
+大使 NN
+大型 JJ
+大学 NN
+大宇 NR
+大约 AD
+大中型 JJ
+戴相龙 NR
+带动 VV NN
+带来 VV
+代表 NN VV
+代表处 NN
+代表团 NN
+代理 NN VV JJ
+贷款 NN VV
+待遇 NN
+单位 NN
+但 AD
+但是 AD
+诞生 NN VV
+当 P VV
+当地 NN JJ
+当今 NT
+当局 NN
+当年 NT
+当前 NT
+当选 VV
+党 NN
+党委 NN
+党校 NN
+党支部 NN
+档次 NN
+岛 NN
+到 VV P CC
+道路 NN
+德 NR
+德国 NR
+得 VV DER
+得到 VV
+的 DEC DEG SP DEV
+登记 NN VV
+等 ETC M P
+邓小平 NR
+低 VA JJ
+低于 VV
+抵达 VV
+底 LC
+地 DEV NN
+地产 NN
+地处 VV
+地带 NN
+地方 NN
+地理 NN
+地球 NN NR
+地区 NN
+地位 NN
+第八 OD CD
+第二 OD
+第六 OD
+第三 OD
+第四 OD
+第一 OD
+电 NN
+电厂 NN
+电话 NN
+电力 NN
+电脑 NN
+电器 NN
+电气 NN
+电视 NN
+电子 NN
+调查 NN VV
+调控 NN VV
+调整 NN VV
+丁豪 NR
+东部 NN
+东京 NR
+东盟 NR
+东南亚 NR
+东西部 NN
+东亚 NR
+动工 VV
+都 AD
+独立 JJ AD NN VA VV
+独资 JJ AD
+读者 NN
+度 M
+短期 NN
+段 M NN
+对 P M VA
+对话 NN VV
+对接 NN VV
+对外 JJ
+对于 P
+吨 M
+多 CD VA AD VV NN
+多国 JJ
+多元化 NN VV
+俄 NR
+俄罗斯 NR
+额 NN
+而 CC MSP AD
+而且 CC AD
+儿童 NN
+二 CD OD
+二０００年 NT
+二百亿 CD
+二千 CD
+二千万 CD
+二日 NT
+二十 CD
+二十八日 NT
+二十多 CD
+二十二日 NT
+二十七日 NT
+二十三日 NT
+二十万 CD
+二十一 CD
+二十一日 NT
+二十亿 CD
+二月 NT
+二月份 NT
+发表 VV
+发出 VV
+发达 JJ VA
+发电 NN VV JJ
+发动机 NN
+发挥 VV NN
+发射 VV NN
+发生 VV
+发现 VV NN
+发行 VV NN
+发言人 NN
+发债 NN VV
+发展 NN VV
+发展中 JJ
+法 NR NN
+法规 NN
+法国 NR
+法律 NN
+法人 NN
+法制 NN JJ
+番 M
+繁荣 NN VA
+反对 VV
+反映 VV
+范围 NN
+方 NN
+方案 NN
+方便 VA NN
+方法 NN
+方面 NN
+方式 NN
+方向 NN
+方针 NN
+房 NN
+房地产 NN
+防城港 NR
+防城港市 NR
+防止 VV
+防治 NN VV
+访 VV
+访问 VV NN
+纺织 NN
+纺织品 NN
+放慢 VV NN
+菲律宾 NR
+非 JJ VC
+非常 AD
+非国大 NR
+非正式 JJ
+非洲 NR
+飞船 NN
+飞机 NN
+芬兰 NR
+分 VV AD
+分别 AD
+分布 VV NN
+分裂 VV NN
+分流 NN VV
+分配 NN VV
+分歧 NN
+分析 VV NN
+分行 NN
+分支 NN
+纷纷 AD
+奋斗 VV NN
+份 M
+丰富 VA VV
+封锁 VV NN
+风险 NN
+扶持 VV NN
+幅度 NN
+符合 VV
+服务 NN VV
+服务业 NN
+服装 NN
+福建 NR
+福建省 NR
+福利 NN
+福利院 NN
+福州 NR
+赴 VV
+副部长 NN
+副省长 NN
+副行长 NN
+副主任 NN
+副主席 NN
+副总理 NN
+覆盖率 NN
+负 VV JJ
+负责 VV NN
+负责人 NN
+富士 NR
+富士山 NR
+该 DT VV
+改变 VV NN
+改革 NN VV
+改进 NN VV
+改善 VV NN
+改造 NN VV
+改制 VV NN
+改组 NN VV
+干部 NN
+甘肃 NR
+甘肃省 NR
+感谢 VV NN
+刚刚 AD
+港 NR NN
+港口 NN
+港元 M
+高 JJ VA NN
+高达 VV
+高度 AD JJ NN
+高国珠 NR
+高级 JJ
+高速 JJ AD NN
+高效 JJ VA
+高新 JJ
+高新区 NN
+高兴 VA NN
+高于 VV
+戈拉日代 NR
+格局 NN
+格林柯尔 NR
+个 M DER
+个人 NN
+各 DT AD
+给 P VV
+给予 VV
+根据 P NN
+更 AD
+更加 AD
+工 NN
+工厂 NN
+工程 NN
+工发 JJ
+工商 NN
+工业 NN
+工业部 NN
+工艺 NN
+工作 NN VV
+功能 NN
+供水 NN
+公报 NN
+公布 VV NN
+公共 JJ
+公积金 NN
+公斤 M
+公里 M
+公路 NN
+公署 NN
+公司 NN
+公务员 NN
+公园 NN
+公众 NN
+巩固 VV
+贡献 NN
+共 AD VV
+共和国 NN
+共和军 NR NN
+共识 NN
+共同 AD JJ
+购买 VV
+估计 VV NN
+鼓励 VV NN
+古巴 NR
+骨骼 NN
+股份 NN
+股票 NN
+固定 JJ
+关键 NN JJ VA
+关税 NN
+关系 NN VV
+关心 VV NN
+关于 P
+关注 NN VV
+官方 NN
+官员 NN
+观测 NN VV
+观察 NN VV
+观察员 NN
+管理 NN VV
+管理局 NN
+惯例 NN
+贯彻 VV NN
+广播 NN
+广大 JJ
+广东 NR
+广东省 NR
+广泛 VA AD JJ
+广阔 VA JJ
+广西 NR
+广州 NR
+广州市 NR
+规定 NN VV
+规范 VA VV
+规划 NN VV
+规模 NN
+轨道 NN
+轨道站 NN
+贵州 NR
+国 NN
+国会 NN NR
+国际 NN
+国际性 JJ
+国家 NN
+国家级 JJ
+国民 NN
+国内 NN
+国内外 NN
+国情 NN
+国外 NN
+国务 NN
+国务院 NN NR
+国有 JJ
+过 AS AD VV P
+过程 NN
+过渡 NN VV
+过去 NT VV
+海地 NR
+海关 NN
+海基会 NR
+海口 NR
+海南 NR
+海南省 NR
+海内外 NN
+海外 NN
+海峡 NN
+海协 NR
+韩 NR
+韩国 NR
+含量 NN
+杭州 NR
+航天 JJ NN
+航运 NN
+好 VA JJ VV
+号 M NN
+荷兰 NR
+核 NN
+和 CC P NN
+和平 NN AD VA
+合并 NN VV
+合法 JJ
+合理 VA AD JJ
+合同 NN
+合资 JJ VV AD NN
+合作 NN VV VA
+河 NN
+河南 NR
+河南省 NR
+黑 NR VA
+很 AD
+很大 JJ
+很多 CD
+宏观 JJ AD
+红十字 NR NN
+红十字会 NR NN
+侯家驹 NR
+后 LC DT JJ
+呼伦贝尔盟 NR
+呼吁 VV
+胡锦涛 NR
+湖北 NR
+互利 VV NN VA
+沪 NR
+户 M
+花 NN VV
+华 NR NN
+华侨 NN
+华人 NN
+华盛顿 NR
+划分 NN VV
+化工 NN
+化石 NN
+化学 NN
+话 NN
+淮河 NR
+欢迎 VV NN VA
+环境 NN
+还 AD
+还是 CC AD
+缓解 VV
+患者 NN
+恢复 VV NN
+回答 VV
+回顾 VV
+回归 VV NN
+回国 VV
+回落 NN VV
+回升 VV NN
+会 VV NN
+会长 NN
+会见 VV NN
+会谈 NN VV
+会晤 NN VV
+会议 NN
+会员 NN
+汇率 NN
+活动 NN
+活力 NN
+活跃 VA VV
+伙伴 NN
+获 VV
+获得 VV
+获悉 VV
+获准 VV
+或 CC
+货币 NN
+货币化 VV NN
+货物 NN
+基本 JJ AD
+基本法 NN NR
+基础 NN JJ
+基础性 NN JJ
+基地 NN
+基金 NN
+基金会 NN
+基纳纳 NR
+机场 NN
+机电 NN
+机构 NN
+机关 NN
+机会 NN
+机械 NN
+机遇 NN
+机制 NN
+积极 AD VA JJ
+激光 NN
+吉 NR
+吉尔吉斯 NR
+极 AD
+集体 NN
+集团 NN
+集中 VV AD
+集装箱 NN
+及 CC VV
+及时 AD VA VV
+即 AD
+即将 AD
+级 NN M
+几 CD
+几百 CD
+几乎 AD
+技术 NN
+季度 NN
+济南 NR
+计划 NN VV
+计划署 NN
+计算机 NN
+计委 NN
+记者 NN
+既 CC
+继 P
+继续 VV JJ
+纪念 VV NN
+家 M NN
+家属 NN
+家庭 NN
+家用 JJ NN
+加 NR VV
+加大 VV
+加工 NN VV
+加工业 NN
+加紧 AD
+加快 VV AD NN
+加米奥 NR
+加拿大 NR
+加强 VV NN
+加入 VV
+加速 VV AD
+假 JJ VA
+价格 NN
+价值 NN VV
+架构 NN
+监督 NN VV
+监管 NN
+坚持 VV AD
+间 LC M NN
+兼 CC
+兼并 NN VV
+检查 NN
+柬埔寨 NR
+减少 VV
+件 M
+健康 JJ VA AD NN
+健全 VA VV
+建 VV
+建材 NN
+建厂 VV
+建成 VV NN
+建交 VV NN
+建立 VV NN
+建设 NN VV
+建议 NN VV
+建筑 NN
+建筑业 NN
+将 AD BA
+江苏 NR
+江苏省 NR
+江西 NR
+江西省 NR
+江泽民 NR
+奖 NN
+讲 VV
+讲话 NN VV
+降 VV NN
+降低 VV
+交换 VV NN
+交换机 NN
+交接 NN
+交流 NN VV
+交通 NN
+交往 NN VV
+交易 NN VV
+教育 NN
+轿车 NN
+较 AD P
+较大 JJ
+较好 AD JJ
+较为 AD
+接轨 VV NN
+接近 VV
+接受 VV NN
+阶段 NN
+截止 P
+截至 P
+结构 NN
+结果 NN AD
+结合 VV NN
+结束 VV NN
+解放 NN VV
+解决 VV NN
+解困 NN VV
+戒急用忍 NN
+借鉴 VV
+借用 VV
+介绍 VV NN
+届 M
+届时 AD
+金川 NR
+金额 NN
+金融 NN
+金属 NN
+今 NT
+今后 NT AD
+今年 NT
+今天 NT
+紧密 AD VA
+紧张 VA AD JJ
+仅 AD
+进 VV NN
+进步 NN VA
+进程 NN
+进出口 NN VV
+进出口额 NN
+进口 NN VV
+进入 VV
+进行 VV NN
+进一步 AD JJ
+进展 NN VV
+禁运 NN
+近 AD VV
+近年 NT
+近年来 AD
+近期 NT
+近日 NT AD
+尽管 CS
+尽快 AD
+京 NR
+京九 NR
+精神 NN
+经 P
+经费 NN
+经过 P VV
+经济 NN
+经济带 NN
+经济界 NN
+经贸 NN
+经验 NN
+经营 NN VV
+境内 NN
+境内外 NN
+境外 NN
+竞争 NN
+竞争力 NN
+净 JJ AD
+纠纷 NN
+九 CD
+九江 NR
+九七年 NT
+九日 NT
+九十 CD
+九十年代 NT
+九五 NT
+九月 NT
+就 AD P
+就业 NN VV
+居 VV
+居民 NN
+局长 NN
+局面 NN
+举办 VV
+举行 VV NN
+拒绝 VV
+据 P NR
+据悉 AD
+巨大 VA JJ
+具备 VV
+具体 JJ AD VA
+具有 VV
+捐款 NN VV
+决定 NN VV
+决心 NN VV
+决议 NN
+绝 NN AD
+均 AD
+军队 NN
+军人 NN
+军事 NN JJ AD
+军委 NN
+竣工 VV
+开 VV
+开办 VV
+开辟 VV
+开端 NN
+开发 NN VV
+开发区 NN
+开放 NN VV VA
+开幕 VV
+开幕式 NN
+开设 VV
+开始 VV LC NN
+开通 VV NN
+开拓 VV NN
+开学 JJ NN VV
+开业 VV
+开展 VV NN
+勘探 NN VV
+看 VV
+看到 VV
+看好 VV
+考虑 VV
+颗 M
+科尔 NR
+科技 NN
+科委 NN
+科学 NN AD VA
+科学院 NN
+科研 NN
+可 VV
+可能 VV NN
+可望 AD VV
+可以 VV
+客人 NN
+客商 NN
+空间 NN
+空袭 NN VV
+恐龙 NN
+控股 NN JJ
+控制 VV NN
+口岸 NN
+跨国 JJ AD
+块 M
+快 VA NN
+快速 AD JJ
+框架 NN
+亏损 NN VV
+昆明 NR
+困难 NN VA
+扩大 VV NN
+扩建 NN VV
+拉美 NR
+拉脱维亚 NR
+来 LC VV MSP NN
+来访 VV NN
+来源 NN VV
+来自 VV
+兰州 NR
+劳动 NN VV
+劳务 NN
+老 JJ NR
+老挝 NR
+累计 AD JJ
+类 M
+冷战 NN VV
+离开 VV
+理解 VV NN
+理论 NN
+理事国 NN
+李鹏 NR
+李铁映 NR
+里 LC M
+历史 NN
+利润 NN
+利税 NN
+利益 NN
+利用 VV NN
+例 NN M
+立法 NN JJ
+立法会 NN NR
+立方米 M
+立即 AD
+力度 NN
+力量 NN
+力争 VV
+联邦 NN
+联合 AD JJ NN VV
+联合国 NR
+联盟 NN
+联系 NN VV
+连续 AD JJ
+粮食 NN
+良好 VA JJ NN
+两 CD
+辆 M
+辽宁 NR
+辽宁省 NR
+了 AS SP VV
+了解 NN VV
+列 VV NN
+列为 VV
+零售 NN
+领导 NN VV
+领导人 NN
+领土 NN
+领先 NN VV
+领域 NN
+另 DT AD
+另外 AD JJ
+令 VV
+流动 NN VV
+流通 NN VV
+流域 NN
+六 CD
+六日 NT
+六十万 CD
+龙头 NN
+龙永图 NR
+路 NN M
+鹿永建 NR
+陆上 NN
+陆续 AD JJ
+旅游 NN VV
+履行 VV
+律师 NN
+率先 AD
+绿化 NN
+略 AD
+伦敦 NR
+论证 NN VV
+落户 VV
+落实 VV NN
+码头 NN
+马来西亚 NR
+麦克拉伦 NR
+满意 NN VA
+满足 VV
+茅台酒 NN
+贸 NN
+贸易 NN VV
+贸易额 NN
+没有 VE VV
+每 DT AD
+美 NR NN
+美国 NR
+美元 M NN
+美资 NN
+门 M NN
+米 M
+秘密 JJ AD
+秘书长 NN
+密集型 NN JJ
+密切 AD JJ VA
+缅甸 NR
+面对 VV
+面积 NN
+面临 VV
+面向 VV P
+民兵 NN
+民间 NN
+民生 NN
+民营 JJ
+民用 JJ
+民族 NN
+闽 NR
+闽南 NR
+明年 NT
+明确 AD JJ VA
+明显 AD VA JJ
+名 M JJ NN
+名单 NN
+末 LC
+莫斯科 NR
+墨 NR-SHORT
+墨西哥 NR
+木星 NR
+目标 NN
+目的 NN
+目前 NT
+牧民 NN
+那么 AD
+那些 DT
+南昌 NR
+南非 NR
+南京 NR
+南宁 NR
+南宁市 NR
+难民 NN
+内 LC NN AD
+内地 NN
+内陆 NN
+内容 NN
+能 VV
+能够 VV
+能力 NN
+能源 NN
+尼克松 NR
+逆差 NN VV
+年 M JJ AD NN
+年底 NT
+年度 NN
+年会 NN
+年均 AD JJ
+鸟类 NN
+镍 NN
+宁波 NR
+纽约 NR
+农村 NN
+农民 NN
+农业 NN
+农业部 NR
+努力 AD NN VV VA
+欧 NR
+欧盟 NR
+欧洲 NR
+培训 VV NN
+培育 VV NN
+赔偿 NN VV
+配套 NN VV
+盆地 NN
+蓬勃 AD
+朋友 NN
+碰撞 NN VV
+批 M VV
+批评 VV NN
+批准 VV NN
+片 M
+贫困 NN JJ
+品牌 NN
+品种 NN
+平等 VA AD NN
+平方公里 M
+平方米 M
+平衡 NN VA
+平均 NN AD JJ
+平民 NN
+平稳 JJ AD NN VA
+评估 NN
+评级 NN
+评价 NN VV
+破产 NN VV
+葡 NR
+普遍 AD
+浦东 NR
+期 NN M VV
+期间 NN
+七 CD
+七日 NT
+七十亿 CD
+七五 NT
+七月 NT
+其 PN
+其他 DT
+其它 DT
+其中 NN
+起 LC VV M
+起来 VV
+企业 NN
+启动 VV NN
+气 NN
+气氛 NN
+迄今 AD
+汽车 NN
+洽谈 VV NN
+洽谈会 NN
+千 CD
+千瓦 M
+签定 VV
+签订 VV NN
+签署 VV
+签约 VV NN
+签字 NN VV
+钱其琛 NR
+前 LC DT JJ AD NN
+前景 NN
+前来 VV
+前提 NN
+前往 VV
+潜力 NN
+遣返 NN VV
+谴责 VV
+欠缴 VV
+强 VA JJ NN
+强调 VV AD
+强化 VV
+强劲 JJ VA AD
+强烈 AD VA JJ
+侨胞 NN
+侵权 JJ NN
+亲切 VA JJ
+青海 NR
+清理 VV NN
+情况 NN
+请 VV
+秋季 NT
+趋势 NN
+区 NN
+区位 NN
+区域 NN
+渠道 NN
+取得 VV
+取消 VV
+去年 NT
+权利 NN
+权益 NN
+全 DT VA
+全部 AD DT
+全国 NN JJ
+全会 NN NN-SHORT
+全面 AD JJ
+全民 JJ
+全球 NN
+全球化 NN VV
+全体 DT JJ
+却 AD
+确保 VV
+确定 VV
+确立 VV
+群众 NN
+燃料 NN
+让 VV
+热点 NN
+热情 NN AD
+人 NN
+人才 NN
+人大 NN NN-SHORT NR
+人道主义 NN
+人均 JJ
+人口 NN
+人类 NN
+人们 NN
+人民 NN
+人民币 NN
+人士 NN
+人事 NN
+人数 NN
+人员 NN
+任 VV
+任何 DT JJ
+任务 NN
+认定 VV
+认识 VV NN
+认为 VV
+认真 AD
+仍 AD
+仍然 AD
+日 NR M AD JJ
+日报 NN
+日本 NR
+日前 NT AD
+日益 AD JJ
+融资 NN VV
+容量 NN
+如 AD CS P VV
+如果 CS
+如何 AD VV
+如今 NT AD
+入 VV
+入区 JJ VV
+若干 CD
+塞尔维亚 NR
+塞族 NR
+三 CD OD
+三百 CD
+三角洲 NN
+三千 CD
+三千多 CD
+三日 NT
+三十 CD
+三十多 CD
+三十日 NT
+三十万 CD
+三十一日 NT
+三十亿 CD
+三峡 NR
+三月 NT
+三资 JJ
+沙头角 NR
+山东 NR
+山东省 NR
+山西省 NR
+陕西 NR
+陕西省 NR
+汕头 NR
+汕头市 NR
+商会 NN
+商品 NN
+商谈 NN VV
+商业 NN
+上 LC DT VV AD NN
+上海 NR
+上海市 NR
+上升 VV NN
+上市 VV NN
+上述 JJ
+上午 NT
+尚 AD
+摄 VV
+涉及 VV
+涉外 JJ
+社会 NN
+社会主义 NN
+设 VV
+设备 NN
+设计 NN VV
+设立 VV NN
+设施 NN
+深 NR-SHORT AD JJ VA
+深化 VV
+深入 VA AD NN JJ
+深业 NR
+深圳 NR
+深圳市 NR
+审计 NN VV
+审计法 NN
+审批 NN VV
+甚至 AD
+声明 NN VV
+生产 NN VV
+生活 NN
+生命 NN
+生物 NN
+省 NN
+省级 NN
+失败 VV NN
+施工 NN
+施贵宝 NR
+十 CD
+十八 CD
+十八日 NT
+十多 CD
+十二 CD
+十二日 NT
+十二月 NT
+十分 AD
+十几 CD
+十九日 NT
+十六日 NT
+十七 CD
+十七日 NT
+十日 NT
+十三 CD
+十三日 NT
+十四 CD
+十四日 NT
+十万 CD
+十五 CD
+十五日 NT
+十五万 CD
+十五亿 CD
+十一 CD OD
+十一日 NT
+十一月 NT
+十一月份 NT
+十亿 CD
+十余 CD
+十月 NT
+石 NN
+石化 NN
+石万鹏 NR
+石油 NN
+时 LC NN
+时代 NN
+时候 NN
+时机 NN
+时间 NN
+时期 NN
+食品 NN
+实际 AD JJ NN
+实践 NN
+实力 NN
+实施 VV NN
+实习生 NN
+实现 VV NN
+实行 VV
+实验室 NN
+实业 NN
+使 VV
+使馆 NN
+使用 VV NN
+始终 AD
+始祖鸟 NN
+示范区 NN
+世纪 NN
+世界 NN
+事 NN
+事变 NN
+事故 NN
+事件 NN
+事实 NN
+事务 NN
+事务所 NN
+事业 NN
+逝世 NN VV
+势头 NN
+是 VC
+适当 JJ AD VA
+适度 AD JJ
+适应 VV
+市 NN
+市场 NN
+市长 NN
+市区 NN
+市政局 NN
+试点 NN VV
+试验 NN
+收费 VV NN
+收购 VV NN
+收入 NN
+收支 NN
+手段 NN
+手续 NN
+首 OD NN
+首次 AD JJ
+首都 NN
+首脑 NN
+首席 NN
+首先 AD
+首相 NN
+授权 NN VV
+受 VV P
+受到 VV
+枢纽 NN
+输出 VV NN
+书 NN
+书法 NN
+书记 NN
+属 VV
+数 NN CD
+数百 CD
+数字 NN
+双边 JJ
+双方 PN
+水 NN
+水东 NR
+水利 NN
+水泥 NN
+水平 NN
+水污染 NN
+水运 NN
+税 NN
+税款 NN
+税收 NN
+税务 NN
+顺差 NN VV
+顺利 AD JJ VA
+说 VV
+思想 NN
+私营 JJ
+四 CD
+四川 NR
+四川省 NR
+四十 CD
+四十多 CD
+四月 NT
+宋健 NR
+苏 NR
+苏军 NR NN
+苏联 NR
+素质 NN
+速度 NN
+虽 CS
+虽然 CS
+随着 P
+岁 M
+损失 NN VV
+所 MSP M AD
+所有 DT JJ NN VV
+所有制 NN
+他 PN
+他们 PN
+它 PN
+它们 PN
+她 PN
+台 M NR NN
+台风 NN
+台商 NN
+台湾 NR
+台帐 NN
+台资 NN
+泰 NR
+泰国 NR
+态度 NN
+态势 NN
+谈 VV
+谈到 VV
+谈话 NN
+谈判 NN VV
+探索 VV NN
+探讨 VV
+糖脉康 NN
+糖尿病 NN
+讨论 VV NN
+套 M
+特别 JJ AD
+特别是 AD
+特点 NN
+特区 NN
+特色 NN
+特使 NN
+特殊 JJ VA
+提出 VV
+提高 VV NN
+提供 VV
+体系 NN
+体制 NN
+天 M
+天津 NR
+天津港 NR
+天津市 NR
+天然气 NN
+天文 NN
+天文台 NN
+挑战 NN
+条 M
+条件 NN
+条例 NN
+铁路 NN
+停火 NN VV
+停止 VV
+通道 NN
+通过 P VV NN
+通信 NN
+通讯 NN
+通讯员 NN
+通用 NR JJ NN
+通知 NN VV
+同 P DT CC VA AD JJ VV
+同胞 NN
+同比 NN
+同步 JJ AD VV
+同期 NN NT VV
+同时 NT AD
+同意 VV NN
+同志 NN
+桶 M
+统计 NN VV
+统计局 NN
+统一 NN JJ VV AD VA
+投产 VV NN
+投入 VV NN
+投向 VV NN
+投资 NN VV
+投资额 NN
+投资者 NN
+透露 VV
+突出 VA JJ VV
+突破 VV NN
+图们江 NR
+图书 NN
+土地 NN
+团长 NN
+团结 VV NN VA
+团体 NN
+推出 VV
+推动 VV NN
+推广 VV NN
+推进 VV NN
+推行 VV NN
+退税 NN VV
+吞吐 NN
+吞吐量 NN
+妥善 AD JJ
+拓宽 VV
+拓展 VV NN
+外 NN LC JJ
+外长 NN
+外国 NN
+外汇 NN
+外交 NN
+外交部 NN NR
+外经贸 NN
+外经贸部 NN NR
+外经贸委 NN
+外来 JJ
+外贸 NN
+外企 NN
+外商 NN
+外向型 JJ
+外资 NN
+外资额 NN
+完 VV
+完成 VV NN
+完全 AD JJ
+完善 VV VA NN
+完整 NN VA
+皖南 NR
+万 CD
+王码 NR
+王翔 NR
+网络 NN
+往来 NN
+望远镜 NN
+威尔 NR
+威海 NR
+威海市 NR
+威康 NR
+危机 NN
+韦奇立 NR
+违法 JJ AD
+违反 VV
+唯一 JJ
+为 P VC VV LB
+为了 P
+为期 VV
+为止 LC
+为主 VV
+维持 VV
+维和 JJ
+维护 VV
+委托 NN VV
+委员 NN
+委员会 NN
+未 AD VV
+未来 NT NN
+位 M VV
+位于 VV
+位置 NN
+卫生 NN
+卫生部 NR NN
+卫星 NN
+温州 NR
+温州市 NR
+文部 NR
+文化 NN
+文件 NN
+文明 NN
+文章 NN
+稳步 AD JJ
+稳定 NN VA AD VV JJ
+问 VV NN
+问候 NN
+问题 NN
+我 PN
+我们 PN
+乌拉圭 NR
+乌鲁木齐 NR
+污染 NN VV
+无 VE JJ
+无法 AD
+无氟 JJ
+无锡市 NR
+武汉 NR
+武装 NN VV
+五 CD
+五百 CD
+五千 CD
+五千万 CD
+五十 CD
+五十多 CD
+五十亿 CD
+五亿 CD
+五月 NT
+物价 NN
+物理 NN
+物流 NN
+物质 NN
+物资 NN
+西安 NR
+西班牙 NR
+西北 NN NR
+西部 NN
+西藏 NR
+西方 NN
+西非 NR
+西门子 NR
+西南 NN
+吸纳 VV
+吸收 VV NN
+吸引 VV
+吸引力 NN
+希望 VV NN
+席位 NN
+系列 M NN
+系统 NN JJ
+细胞 NN
+下 LC DT VV
+下半年 NT
+下岗 NN VV
+下降 VV NN
+下午 NT
+厦门 NR
+厦门港 NR
+厦门市 NR
+先 AD
+先后 AD
+先进 JJ VA
+先生 NN
+衔接 NN VV
+显示 VV
+显著 VA JJ AD VV
+现 AD
+现代 JJ NN
+现代化 NN VA
+现汇 NN JJ
+现实 NN JJ VA
+现象 NN
+现有 JJ VV
+现在 NT
+县 NN
+宪章 NN
+限制 VV NN
+相 AD
+相比 VV
+相当 AD JJ VV
+相当于 VV
+相关 JJ VA
+相互 AD PN
+相继 AD
+相似 VA VV
+相信 VV
+香港 NR
+乡 NN
+乡镇 NN
+想 VV
+享受 VV
+项 M NN
+项目 NN
+像 AD P VV
+向 P
+象 P
+销售 NN VV
+销售额 NN
+消除 VV
+消费 NN
+消费品 NN
+消息 NN
+小 JJ VA
+小时 NN
+小组 NN
+效率 NN
+效益 NN
+协调 NN VV VA
+协定 NN
+协会 NN
+协商 NN VV
+协议 NN
+协助 VV NN
+新 JJ VA AD NR
+新华社 NN NR
+新加坡 NR
+新建 VV JJ
+新疆 NR
+新墨西哥州 NR
+新区 NN
+新四军 NR
+新闻 NN
+新西兰 NR
+新兴 JJ
+新型 JJ
+新增 VV NN
+信贷 NN
+信息 NN
+信心 NN
+信用 NN
+兴办 VV
+兴建 VV
+形成 VV NN
+形式 NN
+形势 NN
+行 NN
+行动 NN VV
+行列 NN
+行使 VV
+行为 NN
+行星 NN
+行业 NN
+行政 NN VV
+行政区 NN
+雄厚 VA JJ
+需 VV
+需求 NN
+需求量 NN
+需要 NN VV VA
+许多 CD
+宣布 VV NN
+选择 NN VV
+学会 NN VV
+学习 VV NN
+学校 NN
+学院 NN
+学者 NN
+寻求 VV
+寻找 VV
+迅猛 VA AD
+迅速 AD VA JJ
+压力 NN
+亚太 NR
+亚洲 NR
+严格 AD VA
+严重 VA AD JJ
+研究 NN VV
+研究所 NN
+研讨会 NN
+研制 VV NN
+延长 VV
+沿 P
+沿海 NN
+演讲 NN
+洋浦 NR
+邀请 NN VV
+药 NN
+药品 NN
+药物 NN
+要 VV AD
+要求 VV NN
+也 AD CC
+业务 NN
+叶利钦 NR
+液化 JJ
+一 CD NT-SHORT AD
+一百 CD
+一百多 CD
+一百五十亿 CD
+一百亿 CD
+一般 JJ AD
+一半 CD
+一定 JJ AD
+一九八六年 NT
+一九九０年 NT
+一九九八年 NT
+一九九二年 NT
+一九九六年 NT
+一九九七年 NT
+一九九三年 NT
+一九九四年 NT
+一九九五年 NT
+一九九一年 NT
+一九七八年 NT
+一起 AD VV
+一汽 NR
+一千万 CD
+一切 DT PN
+一日 NT
+一体化 NN VV JJ
+一万 CD
+一些 CD
+一行 NN
+一样 VA
+一亿 CD
+一月 NT
+一直 AD
+一致 AD NN VV JJ VA
+医疗 NN
+医药 NN
+依 P VV
+依法 AD
+依据 P NN
+依然 AD
+依照 P VV
+伊 NR
+伊拉克 NR
+伊朗 NR
+仪器 NN
+仪式 NN
+已 AD
+已经 AD
+乙烯 NN
+以 P MSP NR
+以便 AD MSP
+以后 LC
+以及 CC
+以来 LC
+以前 NT LC
+以色列 NR
+以上 LC
+以往 NT AD
+以下 LC JJ
+艺术 NN
+艺术节 NN
+抑制 VV NN
+亿 CD
+意见 NN
+意味 VV
+意义 NN
+义务 NN AD
+议案 NN
+议会 NN
+议题 NN
+因此 AD
+因素 NN
+因为 P
+银行 NN
+引导 VV
+引进 VV NN
+引起 VV
+引资 NN VV
+印度 NR
+英 NR
+英国 NR
+英语 NN
+应 VV P
+应该 VV
+应用 NN JJ VV
+营业额 NN
+赢得 VV
+盈利 NN VV
+影响 NN VV
+拥有 VV
+用 VV P
+用户 NN
+用于 VV
+优化 VV NN
+优惠 NN VA AD JJ
+优良 JJ VA
+优势 NN
+优先 AD JJ VV
+优质 JJ
+尤为 AD
+由 P NN
+由于 P
+油气 NN
+油田 NN
+游说 NN
+有 VE VV
+有的 PN
+有关 JJ P VV
+有利 VA VV JJ
+有利于 VV
+有力 VA
+有所 VV
+有限 JJ VA
+有效 VA JJ AD
+有些 PN AD DT
+有助于 VV
+友好 JJ VA NN VV
+友谊 NN
+又 AD CC
+于 P
+余额 NN
+逾 VV AD
+予以 VV
+雨花石 NN
+与 CC P
+与会 JJ
+宇宙 NN
+羽绒 NN
+遇到 VV
+预测 VV NN
+预计 VV NN
+预算 NN
+元 M
+原 JJ AD
+原材料 NN
+原来 JJ AD NT
+原料 NN
+原因 NN
+原油 NN
+原则 NN AD
+援助 NN VV
+援助款 NN
+园林 NN
+园区 NN
+愿 VV
+愿望 NN
+愿意 VV
+约 AD
+越来越 AD
+越南 NR
+月 NN AD
+云南 NR
+云南省 NR
+允许 VV
+运河 NN
+运输 NN VV
+运行 NN VV
+运作 NN VV
+灾区 NN
+载货 JJ
+再 AD
+再次 AD
+在 P VV AD
+暂行 JJ
+早 AD VA
+造成 VV
+责任 NN
+则 AD
+增 VV NN
+增长 VV NN
+增长点 NN
+增长率 NN
+增多 VV
+增幅 NN
+增加 VV NN
+增加值 NN
+增进 VV
+增强 VV NN
+曾 AD
+乍得 NR
+债券 NN
+展开 VV NN
+展览 NN
+展示 VV
+展望 VV NN
+占 VV
+战略 NN
+战略性 NN JJ
+战争 NN
+漳州 NR
+障碍 NN
+招待会 NN
+招商 NN VV JJ
+召开 VV
+这 DT PN
+这里 PN
+这些 DT PN
+这样 AD JJ PN
+浙江 NR
+浙江省 NR
+真正 AD JJ
+针对 P JJ
+争取 VV
+整 DT JJ
+整体 NN
+整治 VV NN
+正 AD JJ
+正常 AD JJ NN VA
+正确 AD VA JJ
+正式 AD JJ
+正在 AD P
+政策 NN
+政策性 JJ
+政府 NN
+政治 NN AD
+政治局 NN NR
+证交所 NN
+证明 NN VV
+证券 NN
+支 M
+支持 VV NN
+支付 VV NN
+支柱 NN
+知识 NN
+之 DEG DEC PN
+之后 LC
+之间 LC
+之前 LC
+之外 LC
+之一 NN
+职工 NN
+职务 NN
+直接 JJ AD
+直辖市 NN
+植物 NN
+执行 NN VV
+指标 NN
+指出 VV NN
+指导 VV NN
+指数 NN
+只 AD M
+至 CC P VV AD
+至今 AD VV
+制裁 NN VV
+制成品 NN
+制定 VV NN
+制订 VV
+制度 NN
+制冷剂 NN
+制品 NN
+制药 NN
+制约 VV NN
+制造 NN VV
+制造业 NN
+秩序 NN
+质量 NN
+治理 NN VV
+中 LC NR NN JJ NN-SHORT AS
+中保 NR
+中东 NR
+中方 NN NR
+中共 NR
+中国 NR
+中华 NR JJ
+中间 NN
+中外 NN
+中西部 NN
+中小企业 NN
+中心 NN
+中宣部 NR
+中亚 NR
+中央 NN
+中药 NN
+中资 NN
+终结 NN VV
+种 M NN
+重 JJ VV M VA
+重大 JJ VA
+重点 NN AD JJ
+重庆 NR
+重庆市 NR
+重申 VV
+重视 VV NN
+重要 JJ VA NN
+重组 NN VV
+仲裁 NN VV
+众多 JJ VA
+周年 NN
+珠海 NR
+珠江 NR
+株式会社 NN
+朱秉刚 NR
+朱马古洛夫 NR
+逐步 AD JJ
+主 JJ NN
+主持 VV
+主导 NN JJ VV
+主管 NN VV
+主权 NN
+主任 NN
+主体 NN
+主席 NN
+主要 JJ AD
+主张 VV
+著名 JJ VA
+住房 NN
+注册 NN JJ VV
+注重 VV
+驻 VV
+驻华 JJ
+驻外 JJ
+抓 VV
+专家 NN
+专利 NN
+专门 AD JJ
+专业 NN
+专用 JJ VV
+转变 VV NN
+转达 VV
+转化 NN VV
+转口 JJ VV NN
+转让 NN VV
+转向 VV
+撞击 VV NN
+状况 NN
+状态 NN
+追加 VV NN
+准备 VV NN
+着 AS
+咨询 NN VV
+资 NN
+资本 NN
+资产 NN
+资格 NN
+资金 NN
+资料 NN
+资源 NN
+紫金山 NR
+子公司 NN
+自 P AD
+自己 PN
+自然 NN JJ VA
+自身 PN
+自行 AD
+自由 JJ NN VA AD
+自治 NN VV
+自治区 NN
+自主 AD JJ NN
+宗旨 NN
+综合 JJ VV
+总 JJ
+总部 NN
+总裁 NN
+总额 NN
+总公司 NN
+总会 NN
+总结 VV
+总理 NN
+总量 NN
+总领事 NN
+总署 NN
+总数 NN
+总体 NN JJ
+总统 NN
+总值 NN
+邹家华 NR
+走 VV
+走私 NN VV
+走向 VV
+足 VA NN VV
+祖国 NN
+阻碍 VV
+组成 NN VV
+组建 VV NN
+组织 NN VV
+最 AD NN
+最大 JJ
+最高 JJ
+最好 JJ
+最后 JJ AD NT
+最惠国 NN
+最佳 JJ
+最近 NT
+最新 JJ AD
+最早 AD
+最终 AD
+尊重 VV NN
+昨天 NT
+左右 LC
+做 VV
+做出 VV
+做法 NN
+做好 VV
+作 VV
+作出 VV
+作品 NN
+作为 P VV
+作用 NN
+座 M
+座谈会 NN
+崛起 NN VV
+彗核 NN
+彗星 NN
+珲春 NR
+跻身 VV

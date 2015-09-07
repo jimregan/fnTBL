@@ -1,0 +1,217 @@
+#!/usr/bin/perl
+use Getopt::Std;
+
+sub system1 {
+  local $comm = shift;
+  print stderr "$comm\n" if defined $opt_v;
+  system "$comm" unless defined $opt_d;
+}
+
+sub usage {
+  print stderr "$0 [-B <bigrams_file>] [-u <unigram_file>] [-r <ratio>] [-o <out_file1>,<out_file2>]\n",
+	"\t[-S <file1>,<file2>] [-f <frequency_cutoff>] [-t <noun_common>,<noun_proper>] [-i <guess_index>] <train_file>\n";
+  exit;
+}
+
+$exec_dir = "/home/rflorian/workdir/fnTBL/exec";
+
+$ENV{LANG} = "C";
+
+getopts("r:B:o:f:vdt:S:i:");
+if (defined $opt_p) {
+  $prob = $opt_p
+} else {
+  $prob = 0.5
+}
+
+if (defined $opt_f) {
+  $freq = $opt_f;
+}
+
+if (defined $opt_t) {
+  $optt = "-t $opt_t";
+}
+
+if (defined $opt_B) {
+  $bigram_file = $opt_B;
+}
+
+$guess_pos = 1;
+if (defined $opt_i) {
+  $guess_pos = $opt_i;
+}
+
+$file = `basename $ARGV[0]`;
+$dir = `dirname $ARGV[0]`;
+chomp $dir;
+chomp $file;
+
+if (defined $opt_S) {
+  @o = split /,/,$opt_S;
+} else {
+  if (defined $opt_o) {
+	@o = split /,/,$opt_o;
+  } else {
+	@o = ("$file.part1", "$file.part2");
+  }
+}
+
+unless (defined $opt_S) {
+  print stderr "Creating new files $o[0] and $o[1]\n" if defined $opt_v;
+  open f, $ARGV[0];
+  open g, ">$dir/$o[0]";
+  open h, ">$dir/$o[1]";
+
+  $r = rand>$prob ? \*g : \*h;
+
+  while (<f>) {
+	if (/\S/) {
+	  print $r $_;
+	} else {
+	  print $r $_;
+	  $r = rand() < $prob ? \*g : \*h;
+	}
+  }
+
+  close f;
+  close g;
+  close h;
+}
+
+system1 "cat $dir/$o[0] | cut -f 1 -d ' ' | sort | uniq > /tmp/$file.part1.seen_words";
+system1 "$exec_dir/mcreate_lexicon.prl -d '0=>$guess_pos' $dir/$o[0] > $dir/word_pos.part1.lexicon";
+system1 "perl -ape '\$_=\"\$F[0] ZZZ\\n\"' $dir/word_pos.part1.lexicon > $dir/word_pos.part1.fake.lexicon";
+system1 "cat $dir/$o[1] | cut -f 1 -d ' ' | sort | uniq > /tmp/$file.part2.seen_words";
+
+unless (defined $opt_B) {
+  open f, $ARGV[0];
+  $prv = "";
+  # Read bigram and unigram info.
+  while (<f>) {
+    if (/\S/) {
+      chomp;
+      @a = split /\s+/;
+      if ($prv ne "") {
+	$cnt{$prv}{$a[0]}++;
+	$rcnt{$a[0]}{$prv}++;
+      }
+      $prv = $a[0];
+      $ucnt{$a[0]}++;
+    } else {
+      $prv = "";
+    }
+  }
+
+  @wrds = keys %ucnt;
+  @freq_unigrams = grep {$ucnt{$_}>=$freq} @wrds;
+  1;
+
+  foreach $w (@freq_unigrams) {
+    foreach $w2 (keys %{$cnt{$w}}) {
+      $select{"$w $w2"} = 1;
+    } 
+
+    foreach $w2 (keys %{$rcnt{$w}}) {
+      $select{"$w2 $w"} = 1;
+    }
+  }
+
+  open g, ">$dir/bigrams.dat";
+  foreach $b (sort keys %select) {
+    print g "$b\n";
+  }
+  close g;
+
+#   system1 "cut -f 1,2 -d ' ' $ARGV[0] > /tmp/$file.tmp";
+#   system1 "cut -f 1 -d ' ' $ARGV[0] > /tmp/$file.1.tmp";
+#   system1 "tail +2 /tmp/$file.1.tmp | paste -d ' ' /tmp/$file.1.tmp - | perl -ape '\$_=\"\" if \@F<2' | sort | uniq > /tmp/bigrams";
+#   $freq = 0 unless defined $freq;
+#   system1 "sort /tmp/$file.1.tmp | uniq -c | sort -nr | perl -ape 'exit if \$F[0]<$freq' | perl -ape '\$_=\"\$F[1]\\n\"' | sort | tr -s '\\n'> /tmp/freq_unigrams";
+#   system1 "join /tmp/freq_unigrams /tmp/bigrams > /tmp/bigrams1";
+#   system1 "sort -k 2,2 /tmp/bigrams | join -1 1 -2 2 -t ' ' -o '2.1 2.2' /tmp/freq_unigrams - | cat /tmp/bigrams1 - | sort | uniq > $dir/bigrams.dat";
+  $opt_B = "$dir/bigrams.dat";
+} else {
+  open f, $opt_B;
+  $prv = "";
+  # Read bigram and unigram info.
+  while (<f>) {
+    chomp;
+    next if /^\s*$/;
+    $select{$_} = 1;
+  }
+}
+
+undef %cnt;
+undef %rcnt;
+foreach $s (keys %select) {
+  ($s1,$s2)=split / /, $s;
+  $cnt{$s1}{$s2}++;
+  $rcnt{$s2}{$s1}++;
+}
+
+# Determine which words are "unseen", as determined by the split
+open f, "/tmp/$file.part1.seen_words";
+while (<f>) {
+  next if /^\s*$/;
+  chomp;
+  $seen{$_}=1;
+}
+
+open f, "/tmp/$file.part2.seen_words";
+while (<f>) {
+  next if /^\s*$/;
+  chomp;
+  $unseen{$_} = 1 unless defined $seen{$_};
+}
+
+foreach $uw (keys %unseen) {
+  foreach $w2 (keys %{$cnt{$uw}}) {
+    $ub{"$uw $w2"} = 1;
+  }
+
+  foreach $w2 (keys %{$rcnt{$uw}}) {
+    $ub{"$w2 $uw"} = 1;
+  }
+}
+
+open g, ">unseen_bigrams.dat";
+foreach (sort keys %ub) {
+  print g "$_\n";
+}
+close g;
+
+# system1 "comm -1 -3 /tmp/$file.part1.seen_words /tmp/$file.part2.seen_words > $dir/unseen_words";
+# system1 "join $dir/unseen_words $opt_B > $dir/unseen_bigram1.dat";
+# system1 "sort -k 2,2 $dir/bigrams.dat | join -2 2 -t ' ' -o '2.1 2.2' $dir/unseen_words - | cat $dir/unseen_bigram1.dat - > $dir/unseen_bigrams.dat";
+
+open f, "$dir/$o[1]";
+
+open g, "> tmp.dat";
+while (<f>) {
+  next if /^\s*$/;
+  chomp;
+  @a = split;
+  if ($unseen{$a[0]}) {
+    print g "$a[0] - $a[1]\n";
+  }
+}
+system1 "$exec_dir/most_likely_tag.prl -p '0=>1' -l $dir/word_pos.part1.lexicon $optt tmp.dat | tr -s '\\n' > $dir/lexical_train.dat";
+system1 "rm tmp.dat";
+# system1 "sort $dir/$o[1] | join $dir/unseen_words - | perl -ape '\$_=\"\$F[0] - \$F[1]\\n\"' | $exec_dir/most_likely_tag.prl -p '0=>1' -l $dir/word_pos.part1.lexicon $optt - | tr -s '\\n' > $dir/lexical_train.dat";
+
+unless (defined $opt_u) {
+  open f, " $file";
+  while (<f>) {
+    next unless /\S/;
+    chomp;
+    @a = split /\s+/;
+    $wd{$a[0]} = 1;
+  }
+  open g, ">BIGWORDLIST";
+  foreach (sort keys %wd) {
+    print g "$_\n";
+  }
+  close g;
+#  system1 "cut -f 1 -d \" \" $file | sort -u | perl -pe '\$_=\"\" unless /\\S/' > BIGWORDLIST";
+}
+#system1 "rm /tmp/$file.part1.seen_words /tmp/$file.part2.seen_words /tmp/$file.tmp /tmp/$file.1.tmp /tmp/freq_unigrams /tmp/bigrams1";

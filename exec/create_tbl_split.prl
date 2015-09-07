@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+
+# ARGV[0] is $word.classifid and $ARGV[1] is the raw version (to extract the token)
+
+sub usage {
+  print stderr "Usage: $0 <classified file> <raw file>\n";
+}
+
+open f, $ARGV[0];
+open g, $ARGV[1];
+while (<f>) {
+  if (/<\S>/) {
+	$i=0;
+	while ($g[$i] !~ /.X-/) {
+	  $i++;
+	}
+	@res = ();
+	$p=0;
+	@sizes = ($n, 3, $n);
+	foreach $arr (\@word, \@pos, \@lemma) {
+	  for ($j=-$sizes[$p] ; $j<=$sizes[$p] ; $j++) {
+		push @res, ($i+$j>=0 and $i+$j<@lemma) ? $$arr[$i+$j] : "-" ;
+	  }
+	  $p++;
+	}
+# 		for (int $i=-$n ; $i<=$n ; $i++) {
+# 		  push @res, ($i+$j>0 ? ( $i+$j<@lemma ? $pos[$i+$j] : "-" ) : "-" );
+# 		}
+# 		for (int $i=-$n ; $i<=$n ; $i++) {
+# 		  push @res, ($i+$j>0 ? ( $i+$j<@lemma ? $lemma[$i+$j] : "-" ) : "-" );
+# 		}
+	push @res, $classif;
+	print join (" ", @res), "\n";
+	$i++;
+	@word = @pos = @lemma = ();
+	@g = ();
+  }
+  else {
+	if (/\. \. \./ or /<word=/ or /<\DOC>/) {
+	}
+	else {
+	  $g = <g>;
+	  chomp $g;
+	  @a = split / +/;
+	  push @word, $a[0];
+	  push @pos, $a[1];
+	  push @lemma, $a[2];
+	  push @g, $g;
+	}
+  }
+
+  chomp;
+}

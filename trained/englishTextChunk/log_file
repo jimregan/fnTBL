@@ -1,0 +1,4 @@
+Tuesday, March 05 2002, 17:38:22  ../../bin/fnTBL test.dat.init chunk.rls -F tbl.context.chunk.params -o test.dat.res 
+Monday, October 31 2005, 23:51:52  ../../bin/fnTBL text.pos.in.init chunk.rls -F tbl.context.chunk.params -o text.pos.in.res 
+Monday, October 31 2005, 23:52:28  ../../bin/fnTBL text.pos.in.init chunk.rls -F tbl.context.chunk.params -o text.pos.in.res 
+Monday, October 31 2005, 23:53:44  ../../bin/fnTBL text.pos.in.init chunk.rls -F tbl.context.chunk.params -o text.pos.in.res 

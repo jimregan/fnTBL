@@ -1,0 +1,8 @@
+Thu Jun 27 11:49:52 2002 ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params -R lexical.rls,context.rls -f 10 -r 0.3 -T 2,1 -v train.dat
+Thu Jun 27 11:57:02 2002 ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params -R lexical.rls,context.rls -f 10 -r 0.3 -T 2,1 -v train.dat
+Thu Jun 27 12:06:54 2002 ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params -R lexical.rls,context.rls -f 10 -r 0.3 -T 2,1 -v -t 1N-2C-4ABSOLUTIVE,1N-2P-4ABSOLUTIVE train.dat
+Thu Jun 27 12:10:37 2002 ../../exec/pos-train.prl -F tbl.lexical.train.params,tbl.context.pos.params -R lexical.rls,context.rls -f 10 -r 0.3 -T 2,1 -v -t 1N-2C-4ABSOLUTIVE,1N-2P-4ABSOLUTIVE train.dat
+Thu Jun 27 15:20:38 2002 ../../exec/pos-apply.prl -T . -o test.out test.dat
+Thu Jun 27 15:20:45 2002 ../../exec/pos-apply.prl -T . -o -v test.out test.dat
+Thu Jun 27 15:20:50 2002 ../../exec/pos-apply.prl -T . -o test.out -v test.dat
+Thursday, June 27 2002, 15:20:58  /remote/bigram/usr/home/rflorian/workdir/fnTBL/bin/fnTBL test.dat.init ./lexical.rls -F tbl.lexical.train.params0 -o test.dat.lexical 

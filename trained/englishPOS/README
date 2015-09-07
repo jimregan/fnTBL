@@ -1,0 +1,33 @@
+English POS:
+
+  To POS tag a text file <file> with fnTBL, one should run the
+following command:
+
+../../exec/pos-apply.prl -T <training_directory> \
+			 -o <file.out> -v <file>
+
+        (replace <training_directory>, <file> and <file.out> 
+	 with your file names)
+
+  The file <file> should be in a 1-word-per-line format, with
+sentences separated by one blank line. Additionally, the words could
+have the correct tag attached, in which case the tag will be copied in
+the third field.
+
+  After running the previous command, the text will have 3 columns:
+  1. the word
+  2. the guessed POS
+  3. the true POS (if present in the <file>), or the character -.
+
+  No tokenization or preprocessing is done to the input file - they
+should be done before running the POS tagger.
+
+  The program can be run also from other directory than the one where
+the files are, by using the -T flag. In that case, you will need to
+adjust the path to the pos-apply script. The -T flag should point to
+the directory where the files are stored (the trained/englishPOS
+directory).
+
+  This system has been trained on sections 01-21 of the Wall Street
+Journal section of the Penn Treebank. When tested on section 00 of the
+same corpus, it yielded a POS accuracy of 96.78%.

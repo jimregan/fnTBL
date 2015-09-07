@@ -1,0 +1,8 @@
+lexical_param_file /home/fnTBL-1.2/trained/basquePOS/tbl.lexical.train.params
+context_param_file /home/fnTBL-1.2/trained/basquePOS/tbl.context.pos.params
+lexical_rule_file lex-cap.rls
+context_rule_file con-cap.rls
+opt_f 5
+opt_B bigrams.dat
+capitalization no
+opt_t 1N-2C-4ABSOLUTIVE,1N-2P-4ABSOLUTIVE

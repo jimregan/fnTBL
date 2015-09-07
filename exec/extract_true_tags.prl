@@ -1,0 +1,166 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+getopts("d:");
+
+
+$ind_prog = "/usr/tools/bin/iv_search_regexp";
+$dir = "/data/mt/english/POS/index/wsj-ptb1/";
+
+if (defined $opt_d) {
+  $dir = $opt_d;
+}
+
+open f, $ARGV[0];
+while (<f>) {
+  if (/\S/) {
+	chomp;
+	@a = split / +/;
+	push @words, $a[0];
+	push @tag, $a[1];
+	push @ttag, $a[2];
+# 	push @tchunk, $a[2];
+# 	push @chunk, $a[3];
+  } else {
+	if (@words ne ()) {
+	  map {s/-LRB-/\(/g; s/-RRB-/\)/g; s/-LCB-/\{/g; s/-RCB-/\}/g; s/^-/_dash1_/g; s/&/_et_/g; s/\'/_quote1_/g; s/\./_dot12_/g;} @words;
+
+	  $i=0;
+	  while ($words[$i]=~/_quote1__quote1_/) {
+		$i++;
+	  }
+	  $line = join " ",@words[$i..min($#words,$i+5)];
+	  $line =~ s/\`/\\\`/g;
+# 	  $line =~ s/&/_et_/g;
+	  open g, "$ind_prog $dir -d raw \"$line\" -s '<S>'\@raw |";
+	  $found=0;
+	  while (<g>) {
+		if (/------------/) {
+		  $found=1;
+		  last;
+		}
+	  }
+	  if ($found) {
+		$index = 0;
+		while (<g>) {
+		  chomp;
+		  s/ \[\[//g;
+		  s/ \]\]//g;
+		  @b = split / +/;
+		  while ($b[-1] =~ /HTML/) {
+			pop @b;
+		  }
+		  shift @b;
+		  @c = @b;
+		  #  		  map {s/\/<.*>//} @c;
+		  map {s|/[^/]*/[^/]*$||} @c;
+		  if (@c==@words) {
+			last;
+		  }
+		  $index++;
+		}
+		close g;
+# 		map {s/.*\/([^\/]*)$/$1/} @b;
+#  		chomp $a;
+#  		$a =~ s/ \[\[//g;
+#  		$a =~ s/ \]\]//g;
+#  		@b = split / +/, $a;
+#  		if ($b[-1] eq 'HTML') {
+#  		  pop @b;
+#  		}
+#  		shift @b;
+		
+# 		$a =~ /\[\[ (.*) \]\] (\S*)/g;
+# 		$new_line = $1;
+# 		if (defined $2) {
+# 		  $new_line = "$1 $2";
+# 		}
+# 		@b = split / +/,$new_line;
+		if (scalar @b != @words) {
+		  print stderr "Error: \n[@b]\n  and \n[@words]\n  are not the same!\n";
+# 		  exit(1);
+		}
+		map {s/_et_/&/g; s/_quote1_/\'/g; s/_dot12_/\./g; s/_dash1_/-/g; s|/([^/]*)/([^/]*)\s*$| $1 $2|g} @b;
+		for ($i=0 ; $i<@words ; $i++) {
+# 		  print "$words[$i] $tag[$i] $chunk[$i] $b[$i] $tchunk[$i]\n";
+# 		  @c = split /\s+/, $b[$i];
+ 		  print "$b[$i]\n";
+# 		  print "$c[0] $tag[$i] @c[1..2]\n";
+		}
+		print "\n";
+		@words = @tag = @chunk = @tchunk = ();
+		$line = "";
+	  } 
+	  else {
+		print "Error:\n Sentence \"@words\" does not have a corresponding tagged value\n";
+		@words = @tag = @chunk = @tchunk = ();
+		$line = "";
+	  }
+	}
+  }
+}
+
+if (@words ne ()) {
+	$line = join " ",@words[0..5];
+	$line =~ s/\`/\\\`/g;
+	open g, "$ind_prog $dir -d raw \"$line\" -s '<S>'\@raw |";
+	$found=0;
+	while (<g>) {
+		if (/------------/) {
+			$found=1;
+			last;
+		}
+	}
+	if ($found) {
+		$index = 0;
+		while (<g>) {
+			chomp;
+			s/ \[\[//g;
+			s/ \]\]//g;
+			@b = split / +/;
+			while ($b[-1] =~ /HTML/) {
+				pop @b;
+			}
+			shift @b;
+			@c = @b;
+#  		  map {s/\/<.*>//} @c;
+			map {s/\/[^\/]*//} @c;
+			if (@c==@words) {
+				last;
+			}
+			$index++;
+		}
+		close g;
+		map {s/.*\/([^\/]*)$/$1/} @b;
+#  		chomp $a;
+#  		$a =~ s/ \[\[//g;
+#  		$a =~ s/ \]\]//g;
+#  		@b = split / +/, $a;
+#  		if ($b[-1] eq 'HTML') {
+#  		  pop @b;
+#  		}
+#  		shift @b;
+		
+# 		$a =~ /\[\[ (.*) \]\] (\S*)/g;
+# 		$new_line = $1;
+# 		if (defined $2) {
+# 		  $new_line = "$1 $2";
+# 		}
+# 		@b = split / +/,$new_line;
+		if (scalar @b != @words) {
+			print stderr "Error: \n[@b]\n  and \n[@words]\n  are not the same!\n";
+# 		  exit(1);
+		}
+		for ($i=0 ; $i<@words ; $i++) {
+			print "$words[$i] $tag[$i] $chunk[$i] $b[$i] $tchunk[$i]\n";
+		}
+		print "\n";
+		@words = @tag = @chunk = @tchunk = ();
+		$line = "";
+	}
+}
+
+sub min {
+	local ($a,$b) = @_;
+	return $a<$b ? $a : $b;
+}
